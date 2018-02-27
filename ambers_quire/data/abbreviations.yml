@@ -1,0 +1,97 @@
+entries:
+  - sort_as: abb01
+    short: "AA"
+    full: "*Archäologischer Anzeiger*"
+  - sort_as: abb02
+    short: "ABV"
+    full: "Beazley, J. D. *Attic Black-Figure Vase-Painters.* Oxford, 1956"
+  - sort_as: abb03
+    short: "AJA"
+    full: "*American Journal of Archaeology*"
+  - sort_as: abb04
+    short: "AJP"
+    full: "*American Journal of Philology*"
+  - sort_as: abb05
+    short: "AM"
+    full: "*Mitteilungen des Deutschen Archäologischen Instituts, Athenische Abteilung*"
+  - sort_as: abb06
+    short: "AntK"
+    full: "*Antike Kunst*"
+  - sort_as: abb07
+    short: "AntP"
+    full: "*Antike Plastik*"
+  - sort_as: abb08
+    short: "ArchCl"
+    full: "*Archeologia classica*"
+  - sort_as: abb09
+    short: "BABesch"
+    full: "*Bulletin antieke beschaving*"
+  - sort_as: abb10
+    short: "BAR"
+    full: "*British Archaeological Reports*"
+  - sort_as: abb11
+    short: "BASOR"
+    full: "*Bulletin of the American Schools of Oriental Research*"
+  - sort_as: abb12
+    short: "BCH"
+    full: "*Bulletin de correspondance hellénique*"
+  - sort_as: abb13
+    short: "BdA"
+    full: "*Bollettino d'arte*"
+  - sort_as: abb14
+    short: "BdI"
+    full: "*Bullettino dell'Istituto di corrispondenza archeologica*"
+  - sort_as: abb15
+    short: "BSA"
+    full: "*Annual of the British School at Athens*"
+  - sort_as: abb16
+    short: "CSE"
+    full: "*Corpus Speculorum Etruscorum*"
+  - sort_as: abb17
+    short: "CVA"
+    full: "*Corpus vasorum antiquorum*"
+  - sort_as: abb18
+    short: "ES"
+    full: "Gerhard, E., G. Körte, and A. Klugman. *Etruskische Spiegel.* 5 vols. Berlin, 1843–97"
+  - sort_as: abb19
+    short: "IstMitt"
+    full: "*Mitteilungen des Deutschen Archäologischen Instituts, Istanbuler Abteilung*"
+  - sort_as: abb20
+    short: "Jdi"
+    full: "*Jahrbuch des Deutschen Archäologischen Instituts*"
+  - sort_as: abb21
+    short: "JHS"
+    full: "*Journal of Hellenic Studies*"
+  - sort_as: abb22
+    short: "JRS"
+    full: "*Journal of Roman Studies*"
+  - sort_as: abb23
+    short: "LIMC"
+    full: "*Lexicon iconographicum mythologiae classicae.* Zurich and Munich, 1974–2013"
+  - sort_as: abb24
+    short: "MEFRA"
+    full: "*Mélanges de l’école Française de Rome*"
+  - sort_as: abb25
+    short: "MonAnt"
+    full: "*Monumenti antichi*"
+  - sort_as: abb26
+    short: "MüJb"
+    full: "*Münchner Jahrbuch der bildenden Kunst*"
+  - sort_as: abb27
+    short: "NSc"
+    full: "*Notizie degli scavi di antichità*"
+  - sort_as: abb28
+    short: "RA"
+    full: "*Revue archéologique*"
+  - sort_as: abb29
+    short: "RE<"
+    full: "Pauly-Wissowa. *Real-Encyclopädie der klassischen Altertumswissenschaft.* 1893–2013"
+  - sort_as: abb30
+    short: "RM"
+    full: "*Mitteilungen des Deutschen Archäologischen Instituts, Römische Abteilung*"
+  - sort_as: abb31
+    short: "StEtr"
+    full: "*Studi etruschi*"
+  - sort_as: abb32
+    short: "ThesCRA"
+    full: "*Thesaurus Cultus et Rituum Antiquorum*"
