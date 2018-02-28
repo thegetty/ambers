@@ -83,13 +83,16 @@ Quire doesn't require the following XML tags from catalogue entries:
 <chapter id="">
 <abstract id="">
 <section id="" role="">
-Provenance data i.e.
 <para>Gift of Gordon McLendon</para>``
 
 *Issues:*
+
 *- Other objects are cited in the essay (using accession_number), what to do with these links? In the current catalogue there's an object page that gives you basic info, this is probably sourced by `objs.xml`.*
+
 *- On object metadata, year should be changed to date?*
+
 *- There are no links to the objects in the museum collection catalogue, worth adding?*
+
 *- YAML block for object, use a metadata standard (Dublin Core, etc.)?*
 
 ### Groups
