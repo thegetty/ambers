@@ -84,7 +84,7 @@ entries:
     short: "RA"
     full: "*Revue archéologique*"
   - sort_as: abb29
-    short: "RE<"
+    short: "RE"
     full: "Pauly-Wissowa. *Real-Encyclopädie der klassischen Altertumswissenschaft.* 1893–2013"
   - sort_as: abb30
     short: "RM"

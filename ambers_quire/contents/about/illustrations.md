@@ -2,6 +2,7 @@
 title: Illustration Credits
 type: page
 weight: 603
+slug: rights/illustrations
 ---
 
 Every effort has been made to contact the owners and photographers of objects reproduced here whose names do not appear in the captions or in the illustration credits listed below. Anyone having further information concerning copyright holders is asked to contact Getty Publications so this information can be updated.

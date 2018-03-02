@@ -18,7 +18,7 @@ After the conversion, the contents from each file have been structured according
 
 New files and folders have been renamed to be consistent with current catalogue url paths.
 
-**"About" pages are not xml files** The contents of these pages are contained in html files at srv/www/catalogues.getty.edu/catalogues/amber/templates/
+**"About" pages are not xml files** The contents of these pages are in html files at srv/www/catalogues.getty.edu/catalogues/amber/templates/
 
 amber_about.html
 
@@ -43,11 +43,11 @@ In the intro folder the file `intro.md` is the section head of the introduction.
 *How to cite a footnote from a different page?*
 
 
-### Catalogue entries
+### Catalogue entries (Objects)
 
-Similar to `intro.xml`, all 57 catalogue entries are grouped inside a single file (`cat.xml`). The information contained in `objs.xml` is duplicated from the objects tombstone info in `cat.xml`.
+Similar to `intro.xml`, all 57 catalogue entries are grouped inside a single file (`cat.xml`). The information contained in `objs.xml` is a duplicated of objects tombstone info in `cat.xml`.
 
-Created 57 Markdown files, one for each object inside the `objects` folder. Objects metadata is now contained in the yaml block, the essays have been converted to Markdown, bibliography shortcode used.
+Created 57 Markdown files, one for each object inside the `objects` folder. Objects metadata is now contained in the yaml block, the essays have been converted to Markdown (bibliography shortcode used).
 
 Objects metadata tags included in the YAML block:
 
@@ -79,17 +79,20 @@ Objects metadata tags included in the YAML block:
 
 Quire doesn't require the following XML tags from catalogue entries:
 
-``<part id="">
-<chapter id="">
-<abstract id="">
-<section id="" role="">
-<para>Gift of Gordon McLendon</para>``
+``<part id="">``
+
+``<chapter id="">``
+
+``<abstract id="">``
+
+``<section id="" role="">``
+
 
 *Issues:*
 
-*- Other objects are cited in the essay (using accession_number), what to do with these links? In the current catalogue there's an object page that gives you basic info, this is probably sourced by `objs.xml`.*
+*- Objects are cited in the essay (using a link with the accession_number). In the current catalogue there's an object pop up page that gives you basic info–probably sourced by `objs.xml`.*
 
-*- On object metadata, year should be changed to date?*
+*- On object metadata, year has been changed to date.*
 
 *- There are no links to the objects in the museum collection catalogue, worth adding?*
 
@@ -97,25 +100,25 @@ Quire doesn't require the following XML tags from catalogue entries:
 
 ### Groups
 
-A folder called groups has been created inside the objects folder. Once again a single xml file (`groups.xml`) had all the contents of the groups. 10 group files have been created to reorganize the content.
+A folder called groups has been created inside the objects folder. Once again, a single xml file (`groups.xml`) had all the contents of the groups. 10 group files have been created to reorganize the content.
 
 Each YAML block contains:
 - Title of the group
 - Objects of the group
 - A "Group" type has been created to display the objects in the group
 
-XML data `group id="1"` is not used, instead the file name is a number.
+XML data `group id="1"` is not used, instead the filename is a number.
 
 Some groups have essays formatted in Markdown with links to objects and footnotes, but other groups have no essay.
 
 ### Terms
 
-This file lists terms grouping objects according subjects and themes, offers an alternative navigation to the catalogue groups. These terms are displayed under *related objects* along with the bibliography and footnotes in the bottom page menu in each object page.
+This file lists terms grouping objects according subjects and themes, offers an alternative navigation to the catalogue groups. These terms are displayed with *related objects* along with the bibliography and footnotes at the bottom page menu in each object page.
 
 The word "index" cannot be used to name files due to Hugo incompatibilities, instead the name given to the file containing the terms is `terms.yml`.
 
 For each term, the info available in `index.xml` is: `<index id=" " parent=" " artifacts=" " title=" " order=" "/>`
-Only the values from *title* and *artifacts* have been used in the YAML file.
+From these, only the *title* and *artifacts* are included in the YAML file.
 
 ### Technical essay
 
@@ -124,7 +127,7 @@ Other than the title, subtitle, and page *type*, the YAML block includes the ess
 The essay is formatted in Markdown and uses figures and footnotes shortcodes.
 
 *Issues:*
-*Not sure of the syntax for anchor links to the tables. [Is this a good reference?](https://docs.microsoft.com/en-us/vsts/collaborate/Markdown-guidance#anchor-links)*
+*Not sure about the syntax for anchor links to tables. [Is this a good reference?](https://docs.microsoft.com/en-us/vsts/collaborate/Markdown-guidance#anchor-links)*
 
 ### Figures
 
@@ -141,9 +144,9 @@ Not translated/used XML tags/data:
 `version="1"`
 `order="4"`
 
-*Issues:
-- figures.yaml `alt text` should be added?
-- Not sure what to do with the images of the objects and image tiles*
+*To do's:*
+*- `alt text` to be added later*
+*- Images of the objects and image tiles*
 
 ### References
 
@@ -162,4 +165,4 @@ XML tags converted to YAML:
 - `titleabbrev` to `full:`
 
 *Issues:*
-*At the moment, abbreviations are not included in `references.yml`, how this should be done?*
+*At the moment, abbreviations are not included in `references.yml` and are being kept on a separate YAML file.*
