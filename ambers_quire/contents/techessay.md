@@ -51,15 +51,15 @@ In THM-Py-GC/MS results for Baltic and Dominican amber standards ([figure 2](#te
 
 {{< q-figure id="techfig3" >}}
 
-Tables [1](#techtable1){.essaytable}, [2](#techtable2){.essaytable}, [3](#techtable3){.essaytable}, and [4](#techtable4){.essaytable} list the various classes of compounds identified in the THM-Py-GC/MS analysis results of the amber objects and the reference materials. The identifications were based primarily on the results from mass spectral library searching using the NIST MS Search 2.0 program, and supplemented by published data (Mills et al. 1984). Although the NIST results of the nonspecific compounds listed in [table 5](#techtable5){.essaytable} were inconclusive, the unknown compounds did appear on a rather consistent basis in the objects.
+Tables [1](#Table_1:_Marker_Compounds_from_THM-Py-GC/MS_Analysis_of_Amber), [2](#Table_2:_Diterpenes_Identified_in_Amber_Objects_Using_THM-Py-GC/MS_Analysis), [3](#Table_3:_Fatty_Acids_in_THM-Py-GC/MS_Analysis_of_Lipids), and [4](#Table_4:_Nonspecific_Compounds_Identified_in_THM-Py-GC/MS_Analysis_of_Amber_Objects) list the various classes of compounds identified in the THM-Py-GC/MS analysis results of the amber objects and the reference materials. The identifications were based primarily on the results from mass spectral library searching using the NIST MS Search 2.0 program, and supplemented by published data (Mills et al. 1984). Although the NIST results of the nonspecific compounds listed in [table 5](#Table_5:_Nonspecific_Compounds_Tentatively_Identified_in_THM-Py-GC/MS_Analysis_of_Amber_Objects) were inconclusive, the unknown compounds did appear on a rather consistent basis in the objects.
 
-The THM-Py-GC/MS results for the reference samples appear in [table 6](#techtable6){.essaytable}. In this and all subsequent tables, the test results are expressed in terms of peak-area percentages relative to the total peak area for all of the compounds listed in tables [1](#techtable1){.essaytable}, [2](#techtable2){.essaytable}, [3](#techtable3){.essaytable}, [4](#techtable4){.essaytable}, and [5](#techtable5){.essaytable} (except for methyl fenchyl succinate, methyl bornyl succinate, and dibornyl succinate, which, due to their extremely small peak sizes, did not contribute significantly to the total peak area). [Table 6](#techtable6){.essaytable} shows that the succinate content in the single known sample of Baltic amber was high, whereas almost no succinate was detected in the Dominican ambers, copal resin, sandarac resin, or pine resin. The succinate content in the ambers of unknown origin appeared rather variable, but the presence of the other markers in [table 1](#techtable1){.essaytable} placed them firmly in the Baltic category. The “amber varnish” was found to contain a high concentration of a drying oil with no detectable succinate content. Fortunately, the test results for dried amber oil residue showed no significant amounts of any of the Baltic marker compounds listed in [table 1](#techtable1){.essaytable} except for borneol, indicating that amber oil treatment should not produce a “false positive” identification for Baltic amber.
+The THM-Py-GC/MS results for the reference samples appear in [table 6](#techtable6){.essaytable}. In this and all subsequent tables, the test results are expressed in terms of peak-area percentages relative to the total peak area for all of the compounds listed in tables [1](#Table_1:_Marker_Compounds_from_THM-Py-GC/MS_Analysis_of_Amber), [2](#Table_2:_Diterpenes_Identified_in_Amber_Objects_Using_THM-Py-GC/MS_Analysis), [3](#Table_3:_Fatty_Acids_in_THM-Py-GC/MS_Analysis_of_Lipids), [4](#Table_4:_Nonspecific_Compounds_Identified_in_THM-Py-GC/MS_Analysis_of_Amber_Objects), and [5](#Table_5:_Nonspecific_Compounds_Tentatively_Identified_in_THM-Py-GC/MS_Analysis_of_Amber_Objects) (except for methyl fenchyl succinate, methyl bornyl succinate, and dibornyl succinate, which, due to their extremely small peak sizes, did not contribute significantly to the total peak area). [Table 6](#Table_5:_Nonspecific_Compounds_Tentatively_Identified_in_THM-Py-GC/MS_Analysis_of_Amber_Objects) shows that the succinate content in the single known sample of Baltic amber was high, whereas almost no succinate was detected in the Dominican ambers, copal resin, sandarac resin, or pine resin. The succinate content in the ambers of unknown origin appeared rather variable, but the presence of the other markers in [table 1](#Table_1:_Marker_Compounds_from_THM-Py-GC/MS_Analysis_of_Amber) placed them firmly in the Baltic category. The “amber varnish” was found to contain a high concentration of a drying oil with no detectable succinate content. Fortunately, the test results for dried amber oil residue showed no significant amounts of any of the Baltic marker compounds listed in [table 1](#Table_1:_Marker_Compounds_from_THM-Py-GC/MS_Analysis_of_Amber) except for borneol, indicating that amber oil treatment should not produce a “false positive” identification for Baltic amber.
 
-In the THM-Py-GC/MS results for the core samples from the untreated amber objects ([table 7](#techtable7){.essaytable}), the most striking feature is the remarkably broad range for the succinate content compared to the composition of the standards. In an overlay of FTIR spectra for some of these samples ([figure 4](#techfig4)), the main trend is the shift of the carbonyl peak to lower wavenumber with increasing succinate content, which is characteristic of the conversion of esters to carboxylic acids. These results provide evidence that partial hydrolysis of the succinate esters in the objects has occurred, which is a reaction that would enrich the residual amber in succinic acid.
+In the THM-Py-GC/MS results for the core samples from the untreated amber objects ([table 7](#Table_7:_THM-Py-GC/MS_Results_for_Untreated_Amber_Object_Core_Samples), the most striking feature is the remarkably broad range for the succinate content compared to the composition of the standards. In an overlay of FTIR spectra for some of these samples ([figure 4](#techfig4)), the main trend is the shift of the carbonyl peak to lower wavenumber with increasing succinate content, which is characteristic of the conversion of esters to carboxylic acids. These results provide evidence that partial hydrolysis of the succinate esters in the objects has occurred, which is a reaction that would enrich the residual amber in succinic acid.
 
 {{< q-figure id="techfig4" >}}
 
-One concern in this study was that the composition of the surface crusts of the amber objects might be considerably different from that of the inner cores due to hydrolysis, weathering, handling, and treatment. This is why core samples were removed from the objects by microdrilling. In [figure 5](#techfig5), the THM-Py-GC/MS results for the dark surface and inner core of a large piece of reference amber, it is clear that the surface has become partially depleted in succinate, with little other changes apparent. [Table 8](#techtable8){.essaytable} shows the results for pairs of surface and core samples for the amber objects, and [figure 6](#techfig6) shows a typical chromatographic result ([83.AO.202.1](#cat-83.AO.202.1){.CatalogueObjRef}). The surfaces of these objects have also been depleted in succinate, but the sesquiterpenes and diterpenes also have been radically reduced. These compounds are not chemically bound to the polymeric network of the amber, which would make them more susceptible to leaching during burial.
+One concern in this study was that the composition of the surface crusts of the amber objects might be considerably different from that of the inner cores due to hydrolysis, weathering, handling, and treatment. This is why core samples were removed from the objects by microdrilling. In [figure 5](#techfig5), the THM-Py-GC/MS results for the dark surface and inner core of a large piece of reference amber, it is clear that the surface has become partially depleted in succinate, with little other changes apparent. [Table 8](#Table_8:_THM-Py-GC/MS_Results_for_Amber_Object_Core_&_Surface_Samples) shows the results for pairs of surface and core samples for the amber objects, and [figure 6](#techfig6) shows a typical chromatographic result ([83.AO.202.1](#cat-83.AO.202.1){.CatalogueObjRef}). The surfaces of these objects have also been depleted in succinate, but the sesquiterpenes and diterpenes also have been radically reduced. These compounds are not chemically bound to the polymeric network of the amber, which would make them more susceptible to leaching during burial.
 
 {{< q-figure id="techfig5" >}}
 
@@ -71,7 +71,7 @@ FTIR analysis also reveals important details about the nature of the surface and
 
 {{< q-figure id="techfig8" >}}
 
-[Table 9](#techtable9){.essaytable} lists the THM-Py-GC/MS results for the treated amber objects, and representative chromatograms are shown in [figure 9](#techfig9). Azelaic acid was detected in three of the objects ([77.AO.81.29](#cat-77.AO.81.29){.CatalogueObjRef}, [77.AO.81.5](#cat-77.AO.81.5){.CatalogueObjRef}, and the surface of [77.AO.81.30](#cat-77.AO.81.30){.CatalogueObjRef}; cat. nos. [16](#cat-77.AO.81.29){.CatalogueObjRef}, [23](#cat-77.AO.81.5){.CatalogueObjRef}, and [25](#cat-77.AO.81.30){.CatalogueObjRef}). This is a common marker compound for cross-linked drying oils, and its presence along with palmitic acid and stearic acid indicates that drying oils may have been applied to these objects in an alternative type of conservation treatment. In [77.AO.81.4](#cat-77.AO.81.4){.CatalogueObjRef}, palmitic and stearic acids were detected along with cholesterol, but azelaic acid is absent. This suggests that an animal fat could have been applied to this object as another type of alternative treatment. Three amber objects tested in this study had been previously treated with amber oil: [77.AO.84](#cat-77.AO.84){.CatalogueObjRef}, [77.AO.83](#cat-77.AO.83){.CatalogueObjRef}, and [77.AO.81.7](#cat-77.AO.81.7){.CatalogueObjRef}; catalogue numbers [1](#cat-77.AO.84){.CatalogueObjRef}, [38](#cat-77.AO.83){.CatalogueObjRef}, and [41](#cat-77.AO.81.7){.CatalogueObjRef}. Their extremely high succinate contents suggest that they were highly degraded prior to treatment. In [figure 10](#techfig10), the FTIR spectra for selected treated samples show that treatment with drying oil or amber oil does not interfere with the identification of Baltic amber.
+[Table 9](#Table_9:_THM-Py-GC/MS_Results_for_Treated_Amber_Objects) lists the THM-Py-GC/MS results for the treated amber objects, and representative chromatograms are shown in [figure 9](#techfig9). Azelaic acid was detected in three of the objects ([77.AO.81.29](#cat-77.AO.81.29){.CatalogueObjRef}, [77.AO.81.5](#cat-77.AO.81.5){.CatalogueObjRef}, and the surface of [77.AO.81.30](#cat-77.AO.81.30){.CatalogueObjRef}; cat. nos. [16](#cat-77.AO.81.29){.CatalogueObjRef}, [23](#cat-77.AO.81.5){.CatalogueObjRef}, and [25](#cat-77.AO.81.30){.CatalogueObjRef}). This is a common marker compound for cross-linked drying oils, and its presence along with palmitic acid and stearic acid indicates that drying oils may have been applied to these objects in an alternative type of conservation treatment. In [77.AO.81.4](#cat-77.AO.81.4){.CatalogueObjRef}, palmitic and stearic acids were detected along with cholesterol, but azelaic acid is absent. This suggests that an animal fat could have been applied to this object as another type of alternative treatment. Three amber objects tested in this study had been previously treated with amber oil: [77.AO.84](#cat-77.AO.84){.CatalogueObjRef}, [77.AO.83](#cat-77.AO.83){.CatalogueObjRef}, and [77.AO.81.7](#cat-77.AO.81.7){.CatalogueObjRef}; catalogue numbers [1](#cat-77.AO.84){.CatalogueObjRef}, [38](#cat-77.AO.83){.CatalogueObjRef}, and [41](#cat-77.AO.81.7){.CatalogueObjRef}. Their extremely high succinate contents suggest that they were highly degraded prior to treatment. In [figure 10](#techfig10), the FTIR spectra for selected treated samples show that treatment with drying oil or amber oil does not interfere with the identification of Baltic amber.
 
 {{< q-figure id="techfig9" >}}
 
@@ -80,7 +80,7 @@ FTIR analysis also reveals important details about the nature of the surface and
 ## Conclusions
 This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS can provide rich details concerning the composition of antique amber objects. Fundamentally, the analytical results showed that all of the amber objects in the J. Paul Getty Museum are classified as Baltic amber. Additional information revealed the nature and extent of deterioration, and provided tantalizing hints about the nature of the burial conditions to which some of these objects may have been exposed. Finally, detection of certain marker compounds has shown that a number of amber objects were treated with drying oils and fats and, furthermore, that amber oil treatment does not interfere with the provenancing process.
 
-## Table 1: Marker Compounds from THM-Py-GC/MS Analysis of Amber
+##Table 1: Marker Compounds from THM-Py-GC/MS Analysis of Amber
 
  |  IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  |
  |   -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  |
@@ -98,7 +98,7 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
  |  Cedren-13-ol, 8-                                               |                                    |    18319-35-2   |   C15H24O   |    220  |    26.92 |
  |                                                                  |    Dibornyl succinate             |    N/A         |    C24H38O4  |    390  |    38.64 |
 
-## Table 2: Diterpenes Identified in Amber Objects Using THM-Py-GC/MS Analysis
+##Table 2: Diterpenes Identified in Amber Objects Using THM-Py-GC/MS Analysis
 
  |  IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  |
  |   -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  |
@@ -112,7 +112,7 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
  |  Podocarpa-7,13-dien-15-oic acid, 13-isopropyl-, methyl ester                   |         Methyl abietate                           |   127-25-3     |   C21H32O2   |   316   |   35.84 |
  |  Podocarpa-6,8,11,13-tetraen-15-oic acid, 13-isopropyl-, methyl ester           |         Methyl 6-dehydrodehydroabietate           |   18492-76-7   |   C21H28O2    |  312   |   36.43 |
 
-## Table 3: Fatty Acids in THM-Py-GC/MS Analysis of Lipids
+##Table 3: Fatty Acids in THM-Py-GC/MS Analysis of Lipids
 
  |  IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  |
  |   -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  |
@@ -128,7 +128,7 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
  |  Octadecanoic acid, methyl ester           |  methyl stearate      |  112-61-8     |  C19H38O2    |  298    |  32.13 |
  |  Eicosanoic acid, methyl ester             |  methyl arachidate    |  1120-28-1    |  C21H42O2    |  326    |  35.01 |
 
-## Table 4: Nonspecific Compounds Identified in THM-Py-GC/MS Analysis of Amber Objects
+##Table 4: Nonspecific Compounds Identified in THM-Py-GC/MS Analysis of Amber Objects
 
  |  IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  |
  |   -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  |
@@ -151,7 +151,7 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
  |  1,2,3-Trimethylindene                         |                               |  4773-83-5     |  C12H14     |  158    |  18.68 |
  |  Naphthalene, 1,6,7-trimethyl-                 |                               |  2245-38-7     |  C13H14     |  170    |  22.93 |
 
-## Table 5: Nonspecific Compounds Tentatively Identified in THM-Py-GC/MS Analysis of Amber Objects
+##Table 5: Nonspecific Compounds Tentatively Identified in THM-Py-GC/MS Analysis of Amber Objects
 
  |  IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  |
  |   -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  |
@@ -169,7 +169,7 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
  | Acetic acid, (1,2,3,4,5,6,7,8-octahydro-3,8,8-trimethylnaphth-2-yl)methyl ester                  |      314773-27-8  |   C16H26O2  |   250   |  25.83 |
  | Acetic acid, 3-(6,6-dimethyl-2-methylenecyclohex-3-enylidene)-1-methylbutyl ester                 |     N/A         |    C16H24O2   |  248   |  26.00 |
 
-## Table 6: THM-Py-GC/MS Results for Reference Samples
+##Table 6: THM-Py-GC/MS Results for Reference Samples
 
  | Peak Area Percentages |
  |  Sample	 |  Supplier	 |  GCI Identifier	 |  Succinate	 |  Diterpenes	 |  Fatty Acids  |
@@ -189,7 +189,7 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
  | Amber              |    Kremer             |    NRES0004   |  20                     |   6   |   1 |
  | Amber              |    Kremer             |    NRES0171   |  20                     |   4   |   1 |
 
-## Table 7: THM-Py-GC/MS Results for Untreated Amber Object Core Samples
+##Table 7: THM-Py-GC/MS Results for Untreated Amber Object Core Samples
 
  | Peak Area Percentages |
  |  Accession #  | 	Succinate	 |  Diterpenes	 |  Fatty Acids  |
@@ -217,7 +217,7 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
  | average                                              |   36                  |      9.1  |   0.4 |
  | standard deviation                                   |   12                  |      5.0   |  0.3 |
 
-## Table 8: THM-Py-GC/MS Results for Amber Object Core & Surface Samples
+##Table 8: THM-Py-GC/MS Results for Amber Object Core & Surface Samples
 
  | Sample  | Peak Area Percentages |
  | Accession #	 |  Location	 |  Succinate  | 	Diterpenes	 |  Fatty Acids  |
@@ -235,7 +235,7 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
  |  [83.AO.202.6](#cat-83.AO.202.6){.CatalogueObjRef}   |  core                  |  41   |   8.0   |  0.9 |
  |                                                      |  surface              |   12   |  2.0  |   1.2 |
 
-## Table 9: THM-Py-GC/MS Results for Treated Amber Objects
+##Table 9: THM-Py-GC/MS Results for Treated Amber Objects
  | Peak Area Percentages |
  | Accession #	 | Sample Location	 |  Treatment	 |  Succinate	 |  Diterpenes	 |  Fatty Acids |
  |   -------  |   ------  |   -----   |   -------  |  -------  |  -------  |
