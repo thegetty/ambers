@@ -40,7 +40,6 @@ A single file, `intro.xml`, contained all sections of the introduction.
 The 18 sections are now 18 different Markdown files inside the `intro` folder, files are named as numbers according to the introduction urls. Section essays are formatted in Markdown, titles have been added to the YAML block. Type of page is "essay".
 In the intro folder the file `intro.md` is the section head of the introduction.  
 
-
 ### 2. Catalogue entries (Objects)
 
 Similar to `intro.xml`, all 57 catalogue entries were grouped inside a single file (`cat.xml`). The information contained in `objs.xml` was a duplicated of objects tombstone info in `cat.xml`.
@@ -96,11 +95,6 @@ Quire doesn't require the following XML tags from catalogue entries:
 ``<abstract id="">``
 
 ``<section id="" role="">``
-
-
-*Issues:*
-
-*- Objects are cited in the essay (using a link with the accession_number). In the current catalogue there's an object pop up page that gives you basic info–probably sourced by `objs.xml`.*
 
 ### 3. Groups
 

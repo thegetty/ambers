@@ -254,9 +254,9 @@ This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS c
 
 [^2]: See {{< q-cite "Rice 2006" >}} for a discussion of amber and its terminology.
 
-[^3]: E. Stout, C. Beck, and B. Kosmowska-Ceranowicz, for example, used infrared spectroscopy (IR) to compare and separate gedano-succinite from succinite; see “Gedanite and gedano-succinite,” in {{< q-cite "Anderson and Crelling 1995" "130–48" >}}.
+[^3]: E. Stout, C. Beck, and B. Kosmowska-Ceranowicz, for example, used infrared spectroscopy (IR) to compare and separate gedano-succinite from succinite; see “Gedanite and gedano-succinite,” in {{< q-cite "Anderson and Crelling 1995" >}}, pp. 130–48.
 
-[^4]: See Waddington, J., and J. Fenn, “Preventive conservation of amber: some preliminary investigations,” *Collection Forum* 4, no. 2, (Fall 1988), pp. 25–31 and Shashoua, Y., National Museum of Denmark, 2002, (http://www.natmus.dk/cons/reports/2002/amber/amber.pdf).
+[^4]: See Waddington, J., and J. Fenn, “Preventive conservation of amber: some preliminary investigations,” *Collection Forum* 4, no. 2, (Fall 1988), pp. 25–31 and Shashoua, Y., National Museum of Denmark, 2002, [http://www.natmus.dk/cons/reports/2002/amber/amber.pdf](http://www.natmus.dk/cons/reports/2002/amber/amber.pdf).
 
 [^5]: Pastorelli, G., “Archaeological Baltic amber: Degradation mechanisms and conservation measures,” Ph.D. diss. (University of Bologna, 2009).
 

@@ -20,5 +20,5 @@ Every effort has been made to contact the owners and photographers of objects re
 **Fig. 32** Photo: Nicolo Orsi Battaglini/IKONA
 **Figs. 36, 54** Photograph © 2011 Museum of Fine Arts, Boston
 **Fig. 38** By permission of la Soprintendenza per I Beni Archeologici Etruria Medidionale, Roma/IKONA
-**Fig. 40** From {{< q-cite "Steingräber 2006" "96" >}}
+**Fig. 40** From {{< q-cite "Steingräber 2006" >}}, p. 96
 **Fig. 51** By permission of il Ministero per i Beni e le Attività Culturali-Direzione Regionale per i Beni Culturali e Paesaggistici della Puglia-Soprintendenza per I Beni Archeologici della Puglia
