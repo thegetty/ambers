@@ -1,4 +1,102 @@
 entries:
+  - sort_as: abb01
+    short: "AA"
+    full: "*Archäologischer Anzeiger*"
+  - sort_as: abb02
+    short: "ABV"
+    full: "Beazley, J. D. *Attic Black-Figure Vase-Painters.* Oxford, 1956"
+  - sort_as: abb03
+    short: "AJA"
+    full: "*American Journal of Archaeology*"
+  - sort_as: abb04
+    short: "AJP"
+    full: "*American Journal of Philology*"
+  - sort_as: abb05
+    short: "AM"
+    full: "*Mitteilungen des Deutschen Archäologischen Instituts, Athenische Abteilung*"
+  - sort_as: abb06
+    short: "AntK"
+    full: "*Antike Kunst*"
+  - sort_as: abb07
+    short: "AntP"
+    full: "*Antike Plastik*"
+  - sort_as: abb08
+    short: "ArchCl"
+    full: "*Archeologia classica*"
+  - sort_as: abb09
+    short: "BABesch"
+    full: "*Bulletin antieke beschaving*"
+  - sort_as: abb10
+    short: "BAR"
+    full: "*British Archaeological Reports*"
+  - sort_as: abb11
+    short: "BASOR"
+    full: "*Bulletin of the American Schools of Oriental Research*"
+  - sort_as: abb12
+    short: "BCH"
+    full: "*Bulletin de correspondance hellénique*"
+  - sort_as: abb13
+    short: "BdA"
+    full: "*Bollettino d'arte*"
+  - sort_as: abb14
+    short: "BdI"
+    full: "*Bullettino dell'Istituto di corrispondenza archeologica*"
+  - sort_as: abb15
+    short: "BSA"
+    full: "*Annual of the British School at Athens*"
+  - sort_as: abb16
+    short: "CSE"
+    full: "*Corpus Speculorum Etruscorum*"
+  - sort_as: abb17
+    short: "CVA"
+    full: "*Corpus vasorum antiquorum*"
+  - sort_as: abb18
+    short: "ES"
+    full: "Gerhard, E., G. Körte, and A. Klugman. *Etruskische Spiegel.* 5 vols. Berlin, 1843–97"
+  - sort_as: abb19
+    short: "IstMitt"
+    full: "*Mitteilungen des Deutschen Archäologischen Instituts, Istanbuler Abteilung*"
+  - sort_as: abb20
+    short: "Jdi"
+    full: "*Jahrbuch des Deutschen Archäologischen Instituts*"
+  - sort_as: abb21
+    short: "JHS"
+    full: "*Journal of Hellenic Studies*"
+  - sort_as: abb22
+    short: "JRS"
+    full: "*Journal of Roman Studies*"
+  - sort_as: abb23
+    short: "LIMC"
+    full: "*Lexicon iconographicum mythologiae classicae.* Zurich and Munich, 1974–2013"
+  - sort_as: abb24
+    short: "MEFRA"
+    full: "*Mélanges de l’école Française de Rome*"
+  - sort_as: abb25
+    short: "MonAnt"
+    full: "*Monumenti antichi*"
+  - sort_as: abb26
+    short: "MüJb"
+    full: "*Münchner Jahrbuch der bildenden Kunst*"
+  - sort_as: abb27
+    short: "NSc"
+    full: "*Notizie degli scavi di antichità*"
+  - sort_as: abb28
+    short: "RA"
+    full: "*Revue archéologique*"
+  - sort_as: abb29
+    short: "RE"
+    full: "Pauly-Wissowa. *Real-Encyclopädie der klassischen Altertumswissenschaft.* 1893–2013"
+  - sort_as: abb30
+    short: "RM"
+    full: "*Mitteilungen des Deutschen Archäologischen Instituts, Römische Abteilung*"
+  - sort_as: abb31
+    short: "StEtr"
+    full: "*Studi etruschi*"
+  - sort_as: abb32
+    short: "ThesCRA"
+    full: "*Thesaurus Cultus et Rituum Antiquorum*"
+
+
   - sort_as: big001
     short: "Adam 1984"
     full: "Adam, A.M. *Bronzes étrusques et Italiques.* Paris, 1984."
@@ -50,11 +148,9 @@ entries:
   - sort_as: big017
     short: "Barringer 2001"
     full: "Barringer, J. M. *The Hunt in Ancient Greece.* Baltimore and London, 2001."
-
   - sort_as: big213
     short: "Bartoloni 2000"
     full: "Bartoloni, G., et al., eds. *Principi etruschi tra Mediterraneo ed Europa.* Exh. cat. Bologna, 2000."
-
   - sort_as: big018
     short: "Becatti 1955"
     full: "Becatti, G. *Oreficerie antiche dale Minoiche alle Barbariche.* Rome, 1955."
@@ -217,12 +313,9 @@ entries:
   - sort_as: big071
     short: "Comstock and Vermeule 1971"
     full: "Comstock, M., and C. Vermeule. *Greek, Etruscan, and Roman Bronzes in the Museum of Fine Arts, Boston.* Greenwich, CT, 1971."
-
   - sort_as: big405
     short: "Cristofani 1978"
     full: "Cristofani, M. *L'arte degli Etruschi.* Produzione e consumo (Torino, 1978)."
-
-
   - sort_as: big073
     short: "Cristofani 1996"
     full: "Cristofani, M. *Etruschi e altre genti nell'Italia preromana: Mobilità in età arcaica.* Rome, 1996."
@@ -268,15 +361,12 @@ entries:
   - sort_as: big087
     short: "Due Donne 1993"
     full: "Baldoni, D., ed. *Due Donne dell'Italia antica: Corredi da Spina e Forentum.* Exh. cat. Padua, 1993."
-
   - sort_as: big407
     short: "Eichholz 1962"
     full: "Pliny, *Natural History*, Books 36–37, trans. D. E. Eichholz, Loeb Classical Library 419 (Cambridge, 1962)."
-
   - sort_as: big088
     short: "Emiliozzi 1997"
     full: "Emiliozzi, A., ed. *Carri da guerra e principi etruschi.* Exh. cat. Viterbo, 1997."
-
   - sort_as: big090
     short: "*Eroi e regine* 2001"
     full: "*Eroi e regine: Picene popolo d'Europa.* Exh. cat. Rome, 2001."
@@ -406,8 +496,6 @@ entries:
   - sort_as: big132
     short: "Hus 1961"
     full: "Hus, A. *Recherches sur la statuaire en pierre étrusque archaïque.* Paris, 1961."
-
-
   - sort_as: big135
     short: "Jannot 2005"
     full: "Jannot, J. R. *Religion in Ancient Etruria.* Trans. J. Whitehead. Madison, WI, 2005."
@@ -423,14 +511,12 @@ entries:
   - sort_as: big139
     short: "Jordan et al. 1999"
     full: "Jordan, D. R., H. Montgomery, and E. Thomassen, eds. *The World of Ancient Magic: Papers from the First International Samson Eitrem Seminar at the Norwegian Institute at Athens, 4–8 May 1997.* Bergen, 1999."
-
   - sort_as: big133
     short: "*J. Paul Getty Museum* 2002"
     full: "*The J. Paul Getty Museum, Handbook of the Antiquities Collection.* Los Angeles, 2002."
   - sort_as: big134
     short: "*J. Paul Getty Museum* 2010"
     full: "*The J. Paul Getty Museum, Handbook of the Antiquities Collection.* Los Angeles, 2010."
-
   - sort_as: big140
     short: "Jürgeit 1999"
     full: "Jürgeit, F. *Die etruskischen und italischen Bronzen sowie Gegenstände aus Eisen, Blei und Leder im Badischen Landesmuseum Karlsruhe.* 2 vols. Pisa, 1999."
@@ -557,13 +643,9 @@ entries:
   - sort_as: big180
     short: "Musti et al. 1992"
     full: "Musti, D., et al. *L'oro dei Greci.* Novara, 1992."
-
-
-
   - sort_as: big402
     short: "Nagy 1997"
     full: "Nagy, G. *The Best of the Achaeans: Concepts of the Hero in Archaic Greek Poetry*, rev. ed. (Baltimore, 1997), chap. 12, sect. 13: [http://www.press.jhu.edu/books/nagy/BofA.html](http://www.press.jhu.edu/books/nagy/BofA.html)"
-
   - sort_as: big181
     short: "Nava 1988"
     full: "Nava, M. L. *Le stele della Daunia.* Milan, 1988."
@@ -573,12 +655,9 @@ entries:
   - sort_as: big183
     short: "Negroni Catacchio 1973"
     full: "Negroni Catacchio, N. “Le ambre garganiche nel quadro della problematica dell'ambra protostoria italiana.” In *Civiltà preistoriche e protostoriche della Daunia: Atti del colloquio internazionale di preistoria e protostoria della Daunia, Foggia, Italia, 1973,* pp. 310–19. Florence, 1973."
-
   - sort_as: big404
     short: "Negroni Catacchio 1975"
     full: "Negroni Catacchio, N. “Le ambre garganiche nel quadro della problematica dell'ambra protostoria italiana.” In *Civiltà preistoriche e protostoriche della Daunia: Atti del colloquio internazionale di preistoria e protostoria della Daunia, Foggia, Italia, 1973,* pp. 310–19. Florence, 1973."
-
-
   - sort_as: big184
     short: "Negroni Catacchio 1989"
     full: "Negroni Catacchio, N. “L'ambra: produzione e commerci nell'Italia preromana.” In *Italia, omnium terrarum parens: La civiltà degli Enotri, Chone, Ausoni, Sanniti, Lucani, Brettii, Sicani, Siculi, Elimi,* ed. C. Ampolo et al., pp. 659–96. Milan, 1989."
@@ -666,7 +745,6 @@ entries:
   - sort_as: big212
     short: "Prier 1989"
     full: "Prier, R. A. *Thauma Idesthai: The Phenomenology of Sight and Appearance in Archaic Greek.* Tallahassee, FL, 1989."
-
   - sort_as: big214
     short: "Pugliese Carratelli 1996"
     full: "Pugliese Carratelli, G., ed. *The Western Greeks.* Exh. cat. Venice, 1996. Published in English as *The Greek World: Art and Civilization in Magna Grecia and Sicily.* New York, 1996."
@@ -688,13 +766,9 @@ entries:
   - sort_as: big220
     short: "Ridgway 1977"
     full: "Ridgway, B. S. *The Archaic Style in Greek Sculpture.* Princeton, 1977."
-
-
   - sort_as: big403
     short: "Ridgway 1990"
     full: "Ridgway, B. S. <quote>*Birds, 'Meniskoi,' and Head Attributes in Archaic Greece,*</quote> AJA 44 (1990): 583.–612. Reprinted in B.S. Ridgway, Second Chance: Greek Sculptural Studies Revisited (London, 1994),  p. 483"
-
-
   - sort_as: big221
     short: "Ridgway and Ridgway 1979"
     full: "Ridgway, D., and F. R. Ridgway, eds. *Italy before the Romans: The Iron Age, Orientalising and Etruscan Periods.* New York, 1979."
@@ -704,11 +778,9 @@ entries:
   - sort_as: big223
     short: "Riis 1981"
     full: "Riis, P. J. *Types of Heads: A Revised Chronology of the Archaic and Classical Terracottas of Etruscan Campania and Central Italy.* Copenhagen, 1981."
-
   - sort_as: big409
     short: "Riis 1997"
     full: "Riis, P. J., Vulcientia Vetustiora. *A study of Archaic Vulcian Bronzes.* (The Royal Danish Academy of Sciences and Letters. Historisk-filosofiske Skrifter 19), Copenhagen 1997 (1998)."
-
   - sort_as: big224
     short: "Riis 1998"
     full: "Riis, P. J. *Vulcientia Vetustiora: A Study of Archaic Vulcian Bronzes.* Copenhagen, 1998."
@@ -724,11 +796,9 @@ entries:
   - sort_as: big228
     short: "Rolley 1996"
     full: "Rolley, C. “Sculpture in Magna Grecia.” In Pugliese Carratelli 1996, pp. 369–98."
-
   - sort_as: big401
     short: "Roncalli 1998"
     full: "F. Roncalli, *“Una imagine femminile di culto dalla ‘tomba d’Iside’ di Vulci,”* Annali della fondazione per il Museo *“Claudia Faina”* 5 (1998): 15–39."
-
   - sort_as: big229
     short: "Ross 1998"
     full: "Ross, A. *Amber: The Natural Time Capsule.* London, 1998."
@@ -825,12 +895,9 @@ entries:
   - sort_as: big260
     short: "Turfa 2005"
     full: "Turfa, J. Macintosh. *Catalogue of the Etruscan Gallery of the University of Pennsylvania Museum of Archaeology and Anthropology.* Philadelphia, 2005."
-
-
   - sort_as: big408
     short: "Uberti 1988"
     full: "M. L. Uberti, *“Gli avori e gli ossi”* (pp. 394–403), in Moscati, S., ed. *I Fenici.* Exh. cat. Milan, 1988."
-
   - sort_as: big261
     short: "Valentini 1969"
     full: "Valentini, G. “Il motivo della potnia theron sui vasi di bucchero.” *Studi etruschi* 37 (1969): 413–40."
