@@ -1,4 +1,4 @@
-entries:
+figure_list:
   - id: "intro1"
     src: "intro/fig01.jpg"
     caption: "Head of Medusa, Roman, A.D. 1st–2nd century. Amber, H: 5.8 cm (2 3/10 in.), W: 5.8 cm (2 3/10 in.). Los Angeles, The J. Paul Getty Museum, 71.AO.355."
@@ -184,7 +184,7 @@ entries:
     caption: "Standing Female Figure (Kore) Pendant, Etruscan, 525–500 B.C. Amber, H: 6.7 cm (2 5/8 in.), W: 2 cm (7/10 in.), D: 0.9 cm (3/8 in.). Los Angeles, The J. Paul Getty Museum, 76.AO.77. Gift of Gordon McLendon."
 
   - id: "intro47"
-       src: "intro/fig47.jpg"
+    src: "intro/fig47.jpg"
     caption: "Female Head Pendant, Italic or Campanian, 500–480 B.C. Amber, H: 3 cm (1 1/5 in.), W: 2.6 cm (1 in.), D: 0.4 cm (1/10 in.). Los Angeles, The J. Paul Getty Museum, 83.AO.202.12. Gift of Vasek Polak."
 
   - id: "intro48"
@@ -200,7 +200,7 @@ entries:
     caption: "Votive statue of Hercle, Etruscan, 320–280 B.C. Bronze, H: 24.3 cm (9 5/8 in.). Los Angeles, The J. Paul Getty Museum, 96.AB.36."
 
   - id: "intro51"
-       src: "intro/fig51.jpg"
+    src: "intro/fig51.jpg"
     caption: "a & b. Silver Pin with Amber Satyr Head Pendant, Italic, 5th century B.C. Amber, H: 6.8 cm (2 7/10 in.), W: 4.9 cm (1 9/10 in.), D: 2.2 cm (7/8 in.).Taranto, Museo Archeologico Nazionale, 138144."
 
   - id: "intro52"
