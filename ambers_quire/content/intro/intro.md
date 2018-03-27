@@ -1,6 +1,7 @@
 ---
 title: Introduction
-type: section-head
+type: contents
+class:
 weight: 200
 slug: .
 ---
