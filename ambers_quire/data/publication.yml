@@ -33,8 +33,7 @@ identifier:
 
 publisher:
   - name: J. Paul Getty Museum, Los Angeles Getty Publications
-    location: 1200 Getty Center Drive, Suite 500
-    Los Angeles, California 90049-1682
+    location: 1200 Getty Center Drive, Suite 500, Los Angeles, California 90049-1682
     url: http://www.getty.edu/publications
 
 # ------------------------------------------------------------------------------
@@ -89,7 +88,6 @@ license:
   name: Creative Commons Attribution 4.0 International License
   abbreviation: CC BY
   url: http://creativecommons.org/licenses/by/4.0/
-  icon: cc-by.png
   scope: full # full | text-only | some-exceptions
 
 # ------------------------------------------------------------------------------
@@ -106,7 +104,7 @@ resource_link:
     name: EPUB
     media_type: application/epub+zip
     link_relation: alternate
-    url: 
+    url:
   - type: footer-link
     name: About
     link_relation: about
