@@ -1,7 +1,7 @@
 ---
 title: Illustration Credits
 type: page
-weight: 603
+weight: 1402
 slug: rights/illustrations
 ---
 

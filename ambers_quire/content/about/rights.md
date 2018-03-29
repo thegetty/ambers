@@ -1,7 +1,7 @@
 ---
 title: Copyright
 type: page
-weight: 604
+weight: 1403
 ---
 
 
