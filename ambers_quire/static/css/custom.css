@@ -1,0 +1,30 @@
+#contents .menu-list > ul > li:nth-of-type(3)::before {
+  content: "Catalogue";
+  font-weight: bold;
+  line-height: 3em;
+}
+
+#contents .menu-list > ul > li:nth-of-type(3),
+#contents .menu-list > ul > li:nth-of-type(4) {
+  background-color: #f5f5f5;
+  margin-bottom: 0;
+  border-radius: 2px;
+  padding: .5em 1em;
+}
+
+#contents .menu-list > ul > li:nth-of-type(3) a:hover,
+#contents .menu-list > ul > li:nth-of-type(4) a:hover {
+  background-color: #e0e0e0;
+}
+
+#contents .menu-list > ul > li:nth-of-type(3) ul,
+#contents .menu-list > ul > li:nth-of-type(4) ul {
+  margin-bottom: 0;
+}
+
+#contents .menu-list > ul > li:nth-of-type(3) ul li,
+#contents .menu-list > ul > li:nth-of-type(4) ul li {
+  margin-bottom: 0;
+}
+
+

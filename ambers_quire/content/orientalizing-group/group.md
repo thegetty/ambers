@@ -1,15 +1,10 @@
 ---
 title: Orientalizing Group
-type: group
-group_objects:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-weight: 220
-slug:
+type: contents
+class: grid
+weight: 300
+slug: .
+url: objects/group/1
 ---
 
 The first six objects presented here, *Female Holding a Child (Kourotrophos)*([^77.AO.84](#cat-77.AO.84){.CatalogueObjRef}), *Female Holding a Child (Kourotrophos) with Bird*([^77.AO.85](#cat-77.AO.85){.CatalogueObjRef}), *Addorsed Females* ([^77.AO.81.1](#cat-77.AO.81.1){.CatalogueObjRef}), *Divinity Holding Hares* ([^77.AO.82](#cat-77.AO.82){.CatalogueObjRef}), *Lion with Bird*([^77.AO.81.2](#cat-77.AO.81.2){.CatalogueObjRef}), and *Paired Lions* ([^77.AO.81.3](#cat-77.AO.81.3){.CatalogueObjRef}), are similar in style, technique, state of conservation, and size. Subject also relates them. Because of this, and because the six were part of the same donation, it is posited that they come from the same original context.
