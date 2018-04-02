@@ -1,30 +1,41 @@
-#contents .menu-list > ul > li:nth-of-type(3)::before {
-  content: "Catalogue";
-  font-weight: bold;
-  line-height: 3em;
+.menu-list > ul > li.section-item.grid {
+  padding-left: 1em;
 }
 
-#contents .menu-list > ul > li:nth-of-type(3),
-#contents .menu-list > ul > li:nth-of-type(4) {
+.menu-list > ul > li.section-item.grid + li.page-item {
+  margin-top: .5em;
+}
+
+.menu-list > ul > li.section-item.grid::before {
+  content: "Catalogue";
+  line-height: 3em;
+  font-style: italic;
+}
+
+.menu-list > ul > li.section-item.grid ~ li.section-item.grid::before {
+  content: "";
+}
+
+#contents .menu-list > ul > li.section-item.grid {
   background-color: #f5f5f5;
   margin-bottom: 0;
   border-radius: 2px;
   padding: .5em 1em;
 }
 
-#contents .menu-list > ul > li:nth-of-type(3) a:hover,
-#contents .menu-list > ul > li:nth-of-type(4) a:hover {
+#contents .menu-list > ul > li.section-item.grid a:hover {
   background-color: #e0e0e0;
 }
 
-#contents .menu-list > ul > li:nth-of-type(3) ul,
-#contents .menu-list > ul > li:nth-of-type(4) ul {
+#contents .menu-list > ul > li.section-item.grid ul {
   margin-bottom: 0;
 }
 
-#contents .menu-list > ul > li:nth-of-type(3) ul li,
-#contents .menu-list > ul > li:nth-of-type(4) ul li {
+#contents .menu-list > ul > li.section-item.grid ul li {
   margin-bottom: 0;
 }
 
+#contents .menu-list > ul > li.section-item.grid + li.page-item {
+  margin-top: 1em;
+}
 

@@ -1,7 +1,7 @@
 ---
 title: About this Project
 type: contents
-weight: 600
+weight: 1400
 slug: .
 ---
 
