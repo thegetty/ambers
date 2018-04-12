@@ -252,6 +252,7 @@ ___
   [77.AO.83](#cat-77.AO.83){.CatalogueObjRef}       |    core    |    amber oil - twice      |     38   |   5.6   |  1.9
   [77.AO.84](#cat-77.AO.84){.CatalogueObjRef}       |    core     |   amber oil – three times  |   54   |    2.9  |   0.4
 
+## Notes
 
 [^1]: See Kalsbeek, N., and Botfeldt, K., “Identification of amber and amber imitations by infrared spectroscopy,” *Meddelelser om konservering* no. 1 (2007), pp. 3–11. Imitations have included materials such as Bakelite, nitrocellulose, polystyrene, and plant resins.
 
