@@ -36,13 +36,13 @@ Part of this information is now in `publication.yml`but additional markdown page
 
 ### 1. Introduction
 
-A single file, `intro.xml`, contained all sections of the introduction.
-The 18 sections are now 18 different Markdown files inside the `intro` folder, files are named as numbers according to the introduction urls. Section essays are formatted in Markdown, titles have been added to the YAML block. Type of page is "essay".
+A single file, `intro.xml`, contained all sections of the introduction chapter.
+The 18 sections are now 18 different Markdown files inside the `intro` folder, files are named as numbers according to the introduction urls. Section essays are formatted in Markdown though footnotes are formatted in HTML in order to prevent Hugo from renumbering footnotes. Footnotes numbering is global to all introduction sections. Section titles have been added to the YAML block. Type of page is `essay`.
 In the intro folder the file `intro.md` is the section head of the introduction.  
 
 ### 2. Catalogue entries (Objects)
 
-Similar to `intro.xml`, all 57 catalogue entries were grouped inside a single file (`cat.xml`). The information contained in `objs.xml` was a duplicated of objects tombstone info in `cat.xml`.
+Similar to `intro.xml`, all 57 catalogue entries were grouped in a single file (`cat.xml`). The information contained in `objs.xml` was a duplicated of objects tombstone info in `cat.xml`.
 
 Created 57 Markdown files, one for each object inside the `objects` folder. Objects metadata is now contained in the YAML block, the essays have been converted to Markdown (bibliography shortcode used).
 
@@ -54,37 +54,13 @@ XML tag example: `<title>Catalogue</title> <part id="p01"> <title>Pendant: <emph
 
 YAML block values: `number`, `title` and `subtitle`
 
-- Group title:
+- Group name:
 
 XML tag example: `<title><emphasis role="italic">Orientalizing Group</emphasis></title>`
 
 YAML block value: `group_name`
 
-- Origin (object):
-
-XML tag example: `<para>Etruscan</para>`
-
-YAML block value: `origin`
-
-- Date (object):
-
-XML tag example: `<para>600-550 B.C.</para>`
-
-YAML block value: `date`
-
-- Dimensions(object):
-
-XML tag example: `<para>Height: 130 mm; width: 45 mm; depth: 18 mm</para> <para>Diameter of suspension holes: 2.5 mm</para> <para>Weight: 55.2 g</para>`
-
-YAML block value: `dimensions`
-
-- Accession number (object):
-
-XML tag example: `<para>77.AO.84</para>`
-
-YAML block value: `accession_number`
-
-- A link to the object in the museum collection catalogue is not available in the current version of the catalogue. An identification number, `dor_id`, has been added to the YAML block to facilitate the linking.
+Objects metadata is listed in `objects.yml` and it's retrieved on each page by using the object `id`.
 
 Quire doesn't require the following XML tags from catalogue entries:
 
@@ -98,14 +74,12 @@ Quire doesn't require the following XML tags from catalogue entries:
 
 ### 3. Groups
 
-A folder called groups has been created inside the objects folder. Once again, a single xml file (`groups.xml`) had all the contents. 10 group files have been created to reorganize the content. Some groups have essays formatted in Markdown with links to objects and footnotes, but other groups have no essay.
+Once again, a single xml file (`groups.xml`) had all the contents of the groups. 10 group folders have been created to reorganize the content according to Quire structuring rules. Some groups have essays formatted in Markdown with links to objects and footnotes, but other groups have no essay. A folder has been set up for each group, it contains the objects files for each group and the `group.md` markdown file featuring the essay relative to the group (if that's the case) and the objects.
 
 Each YAML block contains:
 - Title of the group
-- Objects of the group
-- A "group" type has been created to display the objects in the group
-
-XML data `group id="1"` is not used, instead this id number is used as filename.
+- The page `type` used is `contents`, and its `class` is `grid`. This type and class displays all objects contained in the group folder as a grid.
+- Instead of creating an `objects` folder, with `group` folders, and naming each group page with a number, some attributes (`slug` and `url`) have been used to replicate the original url.
 
 ### 4. Terms
 
@@ -158,3 +132,41 @@ XML tags converted to YAML:
 - `biblioentry id` to `sort_as:`
 - `abbrev` to `short:`
 - `titleabbrev` to `full:`
+
+### 8. Objects Metadata
+
+The file `objects.yml` contains the details of all catalogue objects. This YAML file includes:
+
+- Object id
+
+- Accession number:
+
+XML tag example: `<para>77.AO.84</para>`
+
+YAML value: `accession_number`
+
+- Origin:
+
+XML tag example: `<para>Etruscan</para>`
+
+YAML value: `origin`
+
+- Date:
+
+XML tag example: `<para>600-550 B.C.</para>`
+
+YAML value: `year`
+
+- Dimensions:
+
+XML tag example: `<para>Height: 130 mm; width: 45 mm; depth: 18 mm</para> <para>Diameter of suspension holes: 2.5 mm</para> <para>Weight: 55.2 g</para>`
+
+YAML value: `dimensions`
+
+- A link to the object in the museum collection catalogue is not available in the current version of the catalogue. An identification number, `dor_id`, has been added to facilitate the linking with the collection catalogue.
+
+- Provenance:
+
+XML tag example: `<para>Gift of Gordon McLendon</para>`
+
+YAML value: `provenance`
