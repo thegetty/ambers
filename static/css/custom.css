@@ -39,3 +39,8 @@
   margin-top: 1em;
 }
 
+.quire-object__inline-content {
+  margin-top: 0;
+  max-width: 16em;
+}
+
