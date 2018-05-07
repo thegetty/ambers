@@ -79,7 +79,7 @@ Once again, a single xml file (`groups.xml`) had all the contents of the groups.
 Each YAML block contains:
 - Title of the group
 - The page `type` used is `contents`, and its `class` is `grid`. This type and class displays all objects contained in the group folder as a grid.
-- Instead of creating an `objects` folder, with `group` folders, and naming each group page with a number, some attributes (`slug` and `url`) have been used to replicate the original url.
+- Instead of creating an `objects` folder, with `group` folders, and naming each group page with a number, some attributes (`slug` and `url`) have been used to replicate the original url and override the file name.
 
 ### 4. Terms
 
