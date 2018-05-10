@@ -41,7 +41,7 @@ The samples were analyzed on a Nic-plan infrared microscope equipped with a nitr
 ## THM-Pyrolysis-Gas Chromatography/ Mass Spectrometry Procedure
 Samples were tested on an HP 5972 gas chromatograph/mass spectrometer using a CDS Pyroprobe 2000, fitted with a valved interface at 330°C and purged with helium at 25 ml/minute. The split injector was at 340°C (30:1 ratio), and the MS transfer line was set to 300°C. A DB-5MS capillary column (30 M x 0.25 mm x 0.25 µm) was used with helium at 44cm/sec. The GC oven temperature program was 2 minutes at 40°C, then 6°C/minute to 310°C, and 13-minute isothermal. The solvent delay was 2.5 minutes. The mass spectrometer was scanned from m/z 35–700. Samples were placed into quartz tubes fitted with quartz wool, and three microliters of 25% tetramethyl ammonium hydroxide (TMAH) in methanol were introduced for derivatization. After three minutes, the tube was placed into a coiled filament probe, which was inserted into the valved interface. After purging for three seconds before pyrolysis, samples were pyrolyzed using the following temperature program: 200°C for 1 second, then ramped at 10°C/millisecond to 700°C, and held isothermally for 10 seconds.
 
-[Figure 1](#techfig1), an overlay of the FTIR spectra for Baltic amber and an amber object ([76.AO.84](#cat-76.AO.84){.CatalogueObjRef}), reveals characteristic spectral differences that make it possible to positively identify Baltic amber. The infrared spectrum of Baltic amber shows characteristic intense absorption bands at 2926, 2867, and 2849 cm-1 attributed to C-H stretching modes of the CH2 and CH3 groups. A doublet for carbonyl C=O stretching peaks at 1739 and 1714 cm-1 is characteristic of ester and acid groups. Additional bands at 1260 and 1157 cm-1 are assigned to CO-O- modes of the succinate group, whereas the C-H bending modes for the terminal olefins are located at 888 cm-1. Finally, peaks located at 1643 and 888 cm-1 are attributed to the exocyclic methylene group.
+[Figure 1](#techfig1), an overlay of the FTIR spectra for Baltic amber and an amber object ({{< q-object "76.AO.84" >}}), reveals characteristic spectral differences that make it possible to positively identify Baltic amber. The infrared spectrum of Baltic amber shows characteristic intense absorption bands at 2926, 2867, and 2849 cm-1 attributed to C-H stretching modes of the CH2 and CH3 groups. A doublet for carbonyl C=O stretching peaks at 1739 and 1714 cm-1 is characteristic of ester and acid groups. Additional bands at 1260 and 1157 cm-1 are assigned to CO-O- modes of the succinate group, whereas the C-H bending modes for the terminal olefins are located at 888 cm-1. Finally, peaks located at 1643 and 888 cm-1 are attributed to the exocyclic methylene group.
 
 {{< q-figure id="techfig1" >}}
 
@@ -59,19 +59,19 @@ In the THM-Py-GC/MS results for the core samples from the untreated amber object
 
 {{< q-figure id="techfig4" >}}
 
-One concern in this study was that the composition of the surface crusts of the amber objects might be considerably different from that of the inner cores due to hydrolysis, weathering, handling, and treatment. This is why core samples were removed from the objects by microdrilling. In [figure 5](#techfig5), the THM-Py-GC/MS results for the dark surface and inner core of a large piece of reference amber, it is clear that the surface has become partially depleted in succinate, with little other changes apparent. [Table 8](#table-8-thm-py-gc-ms-results-for-amber-object-core-surface-samples) shows the results for pairs of surface and core samples for the amber objects, and [figure 6](#techfig6) shows a typical chromatographic result ([83.AO.202.1](#cat-83.AO.202.1){.CatalogueObjRef}). The surfaces of these objects have also been depleted in succinate, but the sesquiterpenes and diterpenes also have been radically reduced. These compounds are not chemically bound to the polymeric network of the amber, which would make them more susceptible to leaching during burial.
+One concern in this study was that the composition of the surface crusts of the amber objects might be considerably different from that of the inner cores due to hydrolysis, weathering, handling, and treatment. This is why core samples were removed from the objects by microdrilling. In [figure 5](#techfig5), the THM-Py-GC/MS results for the dark surface and inner core of a large piece of reference amber, it is clear that the surface has become partially depleted in succinate, with little other changes apparent. [Table 8](#table-8-thm-py-gc-ms-results-for-amber-object-core-surface-samples) shows the results for pairs of surface and core samples for the amber objects, and [figure 6](#techfig6) shows a typical chromatographic result ({{< q-object "83.AO.202.1" >}}). The surfaces of these objects have also been depleted in succinate, but the sesquiterpenes and diterpenes also have been radically reduced. These compounds are not chemically bound to the polymeric network of the amber, which would make them more susceptible to leaching during burial.
 
 {{< q-figure id="techfig5" >}}
 
 {{< q-figure id="techfig6" >}}
 
-FTIR analysis also reveals important details about the nature of the surface and core compositions. [Figure 7](#techfig7) shows FTIR spectra for surface and core samples from [83.AO.202.1](#cat-83.AO.202.1){.CatalogueObjRef}. The saturated C-H bands at 2927 and 2869 cm-1 in the spectrum of the surface sample are reduced, whereas the C-O stretching modes at 1159 cm-1 in the fingerprint region are more intense. This indicates the surface is more highly oxidized than the core. The other important peak appears at 1574 cm-1, which is due to salts of succinic acid. There is a much higher concentration of succinate salts in the surface sample, which is consistent with exposure to alkaline conditions during some period of time.[^18] This might have occurred during burial, or from harsh cleaning with alkaline chemicals. FTIR spectra of two surface samples and the core from [82.AO.161.7](#cat-82.AO.161.7){.CatalogueObjRef} ([figure 8](#techfig8)) show the increased O-H stretching band in the surface sample, with a shift in the C=O band to lower wavenumbers, indicating the prevalence of carboxylic acids. However, the succinate salt peak at 1574 cm-1 is only a slight shoulder on the carbonyl peak, indicating that this object was not exposed to the same harsh alkaline conditions of [83.AO.202.1](#cat-83.AO.202.1){.CatalogueObjRef}.
+FTIR analysis also reveals important details about the nature of the surface and core compositions. [Figure 7](#techfig7) shows FTIR spectra for surface and core samples from {{< q-object "83.AO.202.1" >}}. The saturated C-H bands at 2927 and 2869 cm-1 in the spectrum of the surface sample are reduced, whereas the C-O stretching modes at 1159 cm-1 in the fingerprint region are more intense. This indicates the surface is more highly oxidized than the core. The other important peak appears at 1574 cm-1, which is due to salts of succinic acid. There is a much higher concentration of succinate salts in the surface sample, which is consistent with exposure to alkaline conditions during some period of time.[^18] This might have occurred during burial, or from harsh cleaning with alkaline chemicals. FTIR spectra of two surface samples and the core from {{< q-object "82.AO.161.7" >}} ([figure 8](#techfig8)) show the increased O-H stretching band in the surface sample, with a shift in the C=O band to lower wavenumbers, indicating the prevalence of carboxylic acids. However, the succinate salt peak at 1574 cm-1 is only a slight shoulder on the carbonyl peak, indicating that this object was not exposed to the same harsh alkaline conditions of {{< q-object "83.AO.202.1" >}}.
 
 {{< q-figure id="techfig7" >}}
 
 {{< q-figure id="techfig8" >}}
 
-[Table 9](#table-9-thm-py-gc-ms-results-for-treated-amber-objects) lists the THM-Py-GC/MS results for the treated amber objects, and representative chromatograms are shown in [figure 9](#techfig9). Azelaic acid was detected in three of the objects ([77.AO.81.29](#cat-77.AO.81.29){.CatalogueObjRef}, [77.AO.81.5](#cat-77.AO.81.5){.CatalogueObjRef}, and the surface of [77.AO.81.30](#cat-77.AO.81.30){.CatalogueObjRef}; cat. nos. [16](#cat-77.AO.81.29){.CatalogueObjRef}, [23](#cat-77.AO.81.5){.CatalogueObjRef}, and [25](#cat-77.AO.81.30){.CatalogueObjRef}). This is a common marker compound for cross-linked drying oils, and its presence along with palmitic acid and stearic acid indicates that drying oils may have been applied to these objects in an alternative type of conservation treatment. In [77.AO.81.4](#cat-77.AO.81.4){.CatalogueObjRef}, palmitic and stearic acids were detected along with cholesterol, but azelaic acid is absent. This suggests that an animal fat could have been applied to this object as another type of alternative treatment. Three amber objects tested in this study had been previously treated with amber oil: [77.AO.84](#cat-77.AO.84){.CatalogueObjRef}, [77.AO.83](#cat-77.AO.83){.CatalogueObjRef}, and [77.AO.81.7](#cat-77.AO.81.7){.CatalogueObjRef}; catalogue numbers [1](#cat-77.AO.84){.CatalogueObjRef}, [38](#cat-77.AO.83){.CatalogueObjRef}, and [41](#cat-77.AO.81.7){.CatalogueObjRef}. Their extremely high succinate contents suggest that they were highly degraded prior to treatment. In [figure 10](#techfig10), the FTIR spectra for selected treated samples show that treatment with drying oil or amber oil does not interfere with the identification of Baltic amber.
+[Table 9](#table-9-thm-py-gc-ms-results-for-treated-amber-objects) lists the THM-Py-GC/MS results for the treated amber objects, and representative chromatograms are shown in [figure 9](#techfig9). Azelaic acid was detected in three of the objects ({{< q-object "77.AO.81.29" >}}, {{< q-object "77.AO.81.5" >}}, and the surface of {{< q-object "77.AO.81.30" >}}; cat. nos. 16, 23, and 25). This is a common marker compound for cross-linked drying oils, and its presence along with palmitic acid and stearic acid indicates that drying oils may have been applied to these objects in an alternative type of conservation treatment. In {{< q-object "77.AO.81.4" >}}, palmitic and stearic acids were detected along with cholesterol, but azelaic acid is absent. This suggests that an animal fat could have been applied to this object as another type of alternative treatment. Three amber objects tested in this study had been previously treated with amber oil: {{< q-object "77.AO.84" >}}, {{< q-object "77.AO.83" >}}, and {{< q-object "77.AO.81.7" >}}; catalogue numbers 1, 38, and 41. Their extremely high succinate contents suggest that they were highly degraded prior to treatment. In [figure 10](#techfig10), the FTIR spectra for selected treated samples show that treatment with drying oil or amber oil does not interfere with the identification of Baltic amber.
 
 {{< q-figure id="techfig9" >}}
 
@@ -196,26 +196,26 @@ ___
    ___
    Accession #  | 	Succinate	 |  Diterpenes	 |  Fatty Acids  
     -------  |   ------  |   -----   |   -------  |
-   [83.AO.202.12](#cat-83.AO.202.12){.CatalogueObjRef}  |   13                   |     1    |   0
-   [82.AO.161.7](#cat-82.AO.161.7){.CatalogueObjRef}    |   20                   |     10   |   0
-  [76.AO.84](#cat-76.AO.84){.CatalogueObjRef}         |    24                   |     5    |   0.4
-  [83.AO.202.4](#cat-83.AO.202.4){.CatalogueObjRef}    |   25                   |     12  |    0.4
-  [76.AO.79](#cat-76.AO.79){.CatalogueObjRef}         |    27                   |     11   |   0
-  [76.AO.79](#cat-76.AO.79){.CatalogueObjRef}         |    28                   |     12   |   0.6
-  [83.AO.202.18](#cat-83.AO.202.18){.CatalogueObjRef}  |   34                   |     7    |   0.7
-  [83.AO.202.1](#cat-83.AO.202.1){.CatalogueObjRef}    |   34                   |     9    |   0.0
+   {{< q-object "83.AO.202.12" >}}  |   13                   |     1    |   0
+   {{< q-object "82.AO.161.7" >}}    |   20                   |     10   |   0
+  {{< q-object "76.AO.84" >}}        |    24                   |     5    |   0.4
+  {{< q-object "83.AO.202.4" >}}    |   25                   |     12  |    0.4
+  {{< q-object "76.AO.79" >}}         |    27                   |     11   |   0
+  {{< q-object "76.AO.79" >}}         |    28                   |     12   |   0.6
+  {{< q-object "83.AO.202.18" >}} |   34                   |     7    |   0.7
+  {{< q-object "83.AO.202.1" >}}    |   34                   |     9    |   0.0
   82.AC.161.285                                       |    35                   |     4    |   0.7
-  [76.AO.80](#cat-76.AO.80){.CatalogueObjRef}          |   36                   |     5    |   0.6
-  [77.AO.81.24](#cat-77.AO.81.24){.CatalogueObjRef}    |   38                   |     22  |    0.5
-  [78.AO.286.2](#cat-78.AO.286.2){.CatalogueObjRef}    |   38                   |     8   |    0.3
-  [82.AO.161.4](#cat-82.AO.161.4){.CatalogueObjRef}    |   39                   |     9   |    1.1
-  [78.AO.286.1](#cat-78.AO.286.1){.CatalogueObjRef}    |   39                   |     16   |   0
-  [83.AO.202.6](#cat-83.AO.202.6){.CatalogueObjRef}    |   41                   |     8   |    0.9
-  [82.AO.161.3](#cat-82.AO.161.3){.CatalogueObjRef}    |   41                  |      9    |   0.6
-  [82.AO.161.1](#cat-82.AO.161.1){.CatalogueObjRef}    |   46                  |      7   |    0.3
-  [77.AO.81.6](#cat-77.AO.81.6){.CatalogueObjRef}      |   47                  |      16   |   0.4
-  [82.AO.161.2](#cat-82.AO.161.2){.CatalogueObjRef}    |   53                  |      4    |   0.3
-  [82.AO.161.6](#cat-82.AO.161.6){.CatalogueObjRef}    |   65                  |      6    |   0.4
+  {{< q-object "76.AO.80" >}}        |   36                   |     5    |   0.6
+  {{< q-object "77.AO.81.24" >}}   |   38                   |     22  |    0.5
+  {{< q-object "78.AO.286.2" >}}   |   38                   |     8   |    0.3
+  {{< q-object "82.AO.161.4" >}}   |   39                   |     9   |    1.1
+  {{< q-object "78.AO.286.1" >}}   |   39                   |     16   |   0
+  {{< q-object "83.AO.202.6" >}}    |   41                   |     8   |    0.9
+  {{< q-object "82.AO.161.3" >}}    |   41                  |      9    |   0.6
+  {{< q-object "82.AO.161.1" >}}  |   46                  |      7   |    0.3
+  {{< q-object "77.AO.81.6" >}}    |   47                  |      16   |   0.4
+  {{< q-object "82.AO.161.2" >}}   |   53                  |      4    |   0.3
+  {{< q-object "82.AO.161.6" >}}   |   65                  |      6    |   0.4
   average                                              |   36                  |      9.1  |   0.4
   standard deviation                                   |   12                  |      5.0   |  0.3
 
@@ -224,17 +224,17 @@ ___
   Sample  | Peak Area Percentages | | | |
     -------  |   ------  |   -----   |   -------  |  -------  |
   **Accession #**	 |  **Location**	 |  **Succinate**  | 	**Diterpenes**	 |  **Fatty Acids**  
-  [82.AO.161.7](#cat-82.AO.161.7){.CatalogueObjRef}  |  core                    |  20   |   9.6  |   0.0
+  {{< q-object "82.AO.161.7" >}}  |  core                    |  20   |   9.6  |   0.0
                                                       |  surface                |   4.2  |  9.1  |   0.8
-  [83.AO.202.4](#cat-83.AO.202.4){.CatalogueObjRef}   | core                   |   25   |   12   |   0.4
+  {{< q-object "83.AO.202.4" >}}  | core                   |   25   |   12   |   0.4
                                                       |  surface               |  16  |    4.6  |   1.6
-  [83.AO.202.5](#cat-83.AO.202.5){.CatalogueObjRef}   |  core                   |   27   |   11  |    0.0
+  {{< q-object "83.AO.202.5" >}}   |  core                   |   27   |   11  |    0.0
                                                       |    surface              |  11   |   1.7  |   1.5
-  [83.AO.202.1](#cat-83.AO.202.1){.CatalogueObjRef}   |  core                   |   34   |   9.1  |   0.0
+  {{< q-object "83.AO.202.1" >}}   |  core                   |   34   |   9.1  |   0.0
                                                       |  surface                |  11    |   2.0  |   1.5
-  [78.AO.286.2](#cat-78.AO.286.2){.CatalogueObjRef}   |  core                   |   38   |   8.1  |   0.3
+  {{< q-object "78.AO.286.2" >}}   |  core                   |   38   |   8.1  |   0.3
                                                       |  surface                |  29   |   4.3  |   0.7
-   [83.AO.202.6](#cat-83.AO.202.6){.CatalogueObjRef}   |  core                  |  41   |   8.0   |  0.9
+   {{< q-object "83.AO.202.6" >}}   |  core                  |  41   |   8.0   |  0.9
                                                        |  surface              |   12   |  2.0  |   1.2
 
 ## Table 9: THM-Py-GC/MS Results for Treated Amber Objects
@@ -242,15 +242,15 @@ ___
 ___
   Accession #	 | Sample Location	 |  Treatment	 |  Succinate	 |  Diterpenes	 |  Fatty Acids
     -------  |   ------  |   -----   |   -------  |  -------  |  -------  |
-  [77.AO.81.29](#cat-77.AO.81.29){.CatalogueObjRef}  |   core     |   drying oil             |     34   |    5.2  |   18
-  [77.AO.81.30](#cat-77.AO.81.30){.CatalogueObjRef}   |  surface  |   drying oil             |     13   |   4.6   |  7.7
-  [77.AO.81.5](#cat-77.AO.81.5){.CatalogueObjRef}    |   core     |   drying oil             |     29   |   6.4   |  6.6
-  [77.AO.81.4](#cat-77.AO.81.4){.CatalogueObjRef}   |    core     |   fatty substance        |     39   |    6.2  |   0.7
+  {{< q-object "77.AO.81.29" >}} |   core     |   drying oil             |     34   |    5.2  |   18
+  {{< q-object "77.AO.81.30" >}}  |  surface  |   drying oil             |     13   |   4.6   |  7.7
+  {{< q-object "77.AO.81.5" >}}    |   core     |   drying oil             |     29   |   6.4   |  6.6
+  {{< q-object "77.AO.81.4" >}}   |    core     |   fatty substance        |     39   |    6.2  |   0.7
                                                      |   surface  |                          |      23   |    2.7  |   8.1
-  [77.AO.81.7](#cat-77.AO.81.7){.CatalogueObjRef}   |    core     |   amber oil - once       |     72   |    5.1   |  0.6
+  {{< q-object "77.AO.81.7" >}}   |    core     |   amber oil - once       |     72   |    5.1   |  0.6
                                                    |    surface  |                          |     44   |     7.6   |  0.4
-  [77.AO.83](#cat-77.AO.83){.CatalogueObjRef}       |    core    |    amber oil - twice      |     38   |   5.6   |  1.9
-  [77.AO.84](#cat-77.AO.84){.CatalogueObjRef}       |    core     |   amber oil – three times  |   54   |    2.9  |   0.4
+  {{< q-object "77.AO.83" >}}       |    core    |    amber oil - twice      |     38   |   5.6   |  1.9
+  {{< q-object "77.AO.84" >}}      |    core     |   amber oil – three times  |   54   |    2.9  |   0.4
 
 ## Notes
 
