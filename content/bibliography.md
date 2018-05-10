@@ -135,6 +135,6 @@ ThesCRA
 
 *Thesaurus Cultus et Rituum Antiquorum*
 
-## Bibliography
+## Frequently Cited Sources
 
 {{< q-bibliography sort="sort_as" >}}
