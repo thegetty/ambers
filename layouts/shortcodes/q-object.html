@@ -12,6 +12,6 @@
       {{ $.Scratch.Set "imageSrc" .src }}
     {{ end }}
     {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") ($.Scratch.Get "imageSrc") -}}
-    <a href="../{{ .id }}/" class="quire-citation quire-object"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}</a><span class="message quire-citation__inline-content quire-object__inline-content is-link"><span class="message-body">Cat. {{- markdownify .id -}}<br /><img src="{{ $imgPath | relURL }}" alt="" /></span></span>
+    <a href="../{{ .id }}/" class="quire-citation quire-object"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}<span class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br />Cat. {{- markdownify .id -}}</span></a>
   {{- end -}}
 {{- end -}}
