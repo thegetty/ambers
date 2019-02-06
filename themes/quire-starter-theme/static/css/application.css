@@ -7723,6 +7723,19 @@ template {
 
 html {
   font-size: 16px; }
+  html p, html div {
+    -webkit-touch-callout: text;
+    /* iOS Safari */
+    -webkit-user-select: text;
+    /* Safari */
+    /* Konqueror HTML */
+    -moz-user-select: text;
+    /* Firefox */
+    -ms-user-select: text;
+    /* Internet Explorer/Edge */
+    user-select: text;
+    /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */ }
   @media screen and (min-width: 500px) {
     html {
       font-size: 16px; } }
@@ -7928,6 +7941,15 @@ html {
         line-height: 1.6em !important; }
       .quire-page__content .container .content .backmatter .media {
         display: flex; }
+    .quire-page__content .container .content #notes {
+      font-family: "IBM Plex Sans Condensed", sans-serif;
+      letter-spacing: 0;
+      font-size: .875em;
+      line-height: 1.28em;
+      text-transform: uppercase;
+      margin-top: 20px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #333333; }
     .quire-page__content .container .content .footnotes {
       font-size: .875em;
       font-family: "Noto Serif", serif; }
@@ -9561,9 +9583,6 @@ div.multimedia {
     font-size: 0.85em;
     font-style: normal;
     font-weight: 700; }
-  .quire-entry .quire-page__content #notes {
-    font-size: 0.65em;
-    text-transform: uppercase; }
 
 .quire-entry .quire-contents-buttons {
   padding-bottom: 3rem; }
