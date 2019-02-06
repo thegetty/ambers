@@ -4,18 +4,22 @@
 */}}
 
 {{ define "main" }}
-
-<div class="quire-page{{ with .Params.class }} quire-page--{{ . }}{{ end }}" id="main" role="main">
+<article class="{{ partial "page-class.html" . }} quire-essay" id="main" role="main">
   {{ partial "page-header.html" . }}
-
+  {{ with .Content }}
   <section class="section quire-page__content" id="content">
     <div class="container">
       <div class="content">
-        {{ .Content }}
+        {{ . }}
       </div>
     </div>
   </section>
-
-</div>
+  {{ end }}
+  <section class="section quire-page__content">
+    <div class="container">
+      {{ partial "footer-buttons.html" . }}
+    </div> 
+  </section>
+</article>
 {{ end }}
 

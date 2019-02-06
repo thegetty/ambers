@@ -4,37 +4,46 @@ available on all pages. For users with Javascript enabled, this menu is hidden
 by default. Users with JS disabled will alwasy see the menu in its expanded state.
 */}}
 
-{{ $contents := dict "contentsScope" .Site.Pages "contentsType" .Site.Params.menuType "contentsLocation" ".Params.menu" "contentsPage" . }}
+{{- $contents := dict "contentsScope" .Site.Pages "contentsType" .Site.Params.menuType "contentsLocation" ".Params.menu" "contentsPage" . }}
 
-<aside class="menu quire-menu" id="site-menu__inner">
+<div  class="quire-menu menu"
+      role="banner"
+      id="site-menu__inner">
+  {{- if isset $.Site.Params "imagedir" }}
+  {{ $.Scratch.Set "imageDir" $.Site.Params.imageDir }}
+  {{ else }}
+  {{ $.Scratch.Set "imageDir" "" }}
+  {{ end -}}
+  {{- $imgDir := $.Scratch.Get "imageDir" -}}
   {{ partial "menu-header.html" . }}
-  <h3 class="visually-hidden">Table of Contents</h3>
-  <div class="menu-list" role="navigation" aria-label="site">
+
+  <nav id="nav" class="quire-menu__list menu-list" role="navigation" aria-label="full">
+    <h3 class="visually-hidden">Table of Contents</h3>
     {{- partial "contents-list.html" $contents -}}
-  </div>
+  </nav>
 
   {{ if isset .Site.Data.publication "resource_link" -}}
     {{ $otherFormats := where .Site.Data.publication.resource_link "type" "other-format" }}
     {{ $relatedResources := where .Site.Data.publication.resource_link "type" "related-resource" }}
-    {{ if gt (len $otherFormats) 0 -}}
-      <div class="quire-menu__formats">
-      <h3 class="menu-label">Other Formats</h3>
-        <div role="complementary" aria-label="downloads">
-          {{- partial "link-list.html" $otherFormats -}}
-        </div>
-      </div>
-    {{ end -}}
     {{ if gt (len $relatedResources) 0 -}}
       <div class="quire-menu__formats">
-      <h3 class="menu-label">Related Resources</h3>
+      <h6>Resources</h6>
         <div role="complementary" aria-label="related resources">
           {{- partial "link-list.html" $relatedResources -}}
         </div>
       </div>
     {{ end -}}
+    {{ if gt (len $otherFormats) 0 -}}
+      <div class="quire-menu__formats">
+      <h6>Other Formats</h6>
+        <div role="complementary" aria-label="downloads">
+          {{- partial "link-list.html" $otherFormats -}}
+        </div>
+      </div>
+    {{ end -}}
   {{ end -}}
 
-  <footer class="content quire-menu__footer is-small" role="contentinfo">
+  <footer class="quire-menu__footer" role="contentinfo">
     {{ partial "copyright.html" . }}
 
     {{ if isset .Site.Data.publication "resource_link" -}}
@@ -45,4 +54,4 @@ by default. Users with JS disabled will alwasy see the menu in its expanded stat
     {{- end -}}
   </footer>
 
-</aside>
+</div>

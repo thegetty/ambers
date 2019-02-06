@@ -4,10 +4,339 @@
 // Component print styles should be defined inside print media queries at the
 // component level. This stylesheet is for overrides and other special-case
 // rules which don't properly fit anywhere else and only show up in print.
+$print-width: 8.5in;
+$print-height: 11in;
+$print-bottom-margin: 0.875in;
+$print-top-margin: 0.75in;
+$print-inner-margin: 1in;
+$print-outer-margin: 0.75in;
+$print-bleed: .125in;
+$text-block-height: calc(#{$print-height} - #{$print-top-margin} - #{$print-bottom-margin});
+$splash-page-width: calc(#{$print-width} + #{$print-bleed} + #{$print-bleed});
+$splash-page-height: calc(#{$print-height} + #{$print-bleed} + #{$print-bleed});
+$print-footer-font: $family-secondary;
+$print-footer-font-size: 8pt;
 
-// Remove elements from print that will never be used:
 @media print {
+  @page {
+    @bottom {}
+  }
+
+  @page {
+    size: $print-width $print-height;
+    prince-bleed: .125in;
+    bleed: .125in;
+    prince-trim: 0.25in;
+    marks: crop;
+    margin-top: $print-top-margin;
+    margin-bottom: $print-bottom-margin;
+
+    @bottom-right-corner {
+      font-family: $print-footer-font;
+      font-size: $print-footer-font-size;
+    }
+
+    @bottom-right {
+      font-family: $print-footer-font;
+      font-size: $print-footer-font-size;
+    }
+
+    @bottom-center {
+      font-family: $print-footer-font;
+      font-size: $print-footer-font-size;
+    }
+
+    @bottom-left {
+      font-family: $print-footer-font;
+      font-size: $print-footer-font-size;
+    }
+
+    @bottom-left-corner {
+      font-family: $print-footer-font;
+      font-size: $print-footer-font-size;
+    }
+  }
+
+  @page:left {
+    margin-left: $print-outer-margin;
+    margin-right: $print-inner-margin;
+
+    @bottom-right {
+      content: string(sectiontitle);
+      text-transform: uppercase;
+      letter-spacing: 1pt;
+      font-size: 7.5pt;
+    }
+
+    @bottom-left-corner {
+      content: counter(page);
+      //border: 1pt solid #ff0000 !important;
+    }
+  }
+
+  @page:left:first {
+    @bottom-right {
+      content: none;
+    }
+  }
+
+  @page:right {
+    margin-left: $print-inner-margin;
+    margin-right: $print-outer-margin;
+
+    @bottom-left {
+      content: string(pagetitle);
+    }
+
+    @bottom-right-corner {
+      content: counter(page);
+      //border: 1pt solid #ff0000 !important;
+    }
+  }
+
+  @page: right:first {
+    @bottom-left {
+      content: none;
+    }
+  }
+
+  @page frontmatter:left {
+    @bottom-left-corner {
+      content: counter(page, lower-roman);
+      //border: 1pt solid #ff0000 !important;
+    }
+  }
+
+  @page frontmatter:right {
+    @bottom-right-corner {
+      content: counter(page, lower-roman);
+      //border: 1pt solid #ff0000 !important;
+    }
+  }
+
+  @page splash {
+    background-color: $accent-color;
+    color: findColorInvert($accent-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    @bottom-left-corner {
+      content: none;
+    }
+
+    @bottom-right-corner {
+      content: none;
+    }
+  }
+
+  @page no-footer {
+    @bottom-right-corner {
+      content: none;
+    }
+
+    @bottom-right {
+      content: none;
+    }
+
+    @bottom-center {
+      content: none;
+    }
+
+    @bottom-left {
+      content: none;
+    }
+
+    @bottom-left-corner {
+      content: none;
+    }
+  }
+
+  @page page-one:first {
+    @bottom-left-corner {
+      content: none;
+    }
+
+    @bottom-left {
+      content: none;
+    }
+  }
+
+  .remove-from-epub {
+    display: none;
+  }
+
+  .quire-current-page__title {
+    string-set: pagetitle content();
+  }
+
+  .quire-section-page__title {
+    string-set: sectiontitle content();
+  }
+
+  .quire-contents-list {
+    .page-item {
+      .title a::after {
+        content: leader(dotted) ' 'target-counter(attr(href, url), page);
+        margin-left: 6pt; // This border is a hack for PrinceXML which doesn't
+        // otherwise recognize the box sizing for some reason
+        border: 1pt solid transparent;
+      }
+
+      &.quire-frontmatter {
+        .title a::after {
+          content: leader(dotted) ' 'target-counter(attr(href, url), page, lower-roman);
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  .quire-page--page-one {
+    page: page-one;
+    counter-reset: page 1;
+    page-break-before: right;
+  }
+
+  .quire-page--frontmatter {
+    page: frontmatter;
+  }
+
+
+.quire-entry__image {
+    // border: 1pt solid #d4d800 !important;
+  .quire-entry__image__group-container {
+    figure {
+      break-after: page;
+      width:100%;
+      text-align: center;
+      // border: 1pt solid #0055ff !important;
+        .quire-figure__media-fallback {
+          .placeholder {
+            width: 500px;
+            height: 250px;
+            i {
+              color: $white;
+              font-size: 100px;
+            }
+          }
+          // border: 1pt solid #2bff00 !important;
+          .quire-figure__wrapper {
+            // border: 1pt solid #ffa600 !important;
+            img {
+              // border: 1pt solid #ff00ff !important;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .quire-cover,
+  .quire-contents {
+    page: no-footer;
+  }
+
+  .quire-page--splash {
+    .quire-page__header {
+
+      .hero-body,
+      .quire-page__content {
+        margin-top: $print-top-margin;
+        margin-left: $print-inner-margin;
+        margin-right: $print-inner-margin;
+        margin-bottom: $print-bottom-margin;
+        .container {
+          .content {
+            background-color: dodgerblue;
+            padding: 0;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      .hero-body {
+        margin-top: 3in;
+      }
+
+      &.quire-page__header--full-height {
+        page: splash;
+        background-color: $accent-color;
+        color: findColorInvert($accent-color);
+        width: $print-width;
+        height: $print-height;
+      }
+    }
+  }
+
+  .quire-page,
+  .hero.quire-page__header,
+  .hero-body {
+    // This border is a hack for PrinceXML which doesn't
+    // otherwise recognize the box sizing for some reason
+    //border: 1pt solid transparent !important;
+  }
+
+  // TEMPORARY
+  // Use to better test and style layout of pages
+  .quire-page {
+    //border: 1pt solid #ff0000 !important;
+    margin: 0 auto;
+  }
+
+  .hero.quire-page__header {
+    //border: 1pt solid #ff00ff !important;
+    margin: 0 auto;
+  }
+
+  .hero-body {
+    //border: 1pt solid #0000ff !important;
+    margin: 0 auto;
+  }
+
+  .section.quire-page__content {
+    //border: 1pt solid #00ff00 !important;
+    margin: 0 auto;
+    .quire-page__abstract {
+      @media print {
+        column-span: all;
+        margin: 0 auto;
+        padding: 0;
+      }
+      .container {
+        @media print {
+          margin: 0 auto;
+          padding: 0;
+        }
+        .content {
+          @media print {
+            margin: 0 auto;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    //border: 1pt solid #ffff00 !important;
+    margin: 0 auto;
+  }
+
+  .content {
+    //border: 1pt solid #00ffff !important;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .is-screen-only {
+    display: none;
+  }
+
   html body {
+
     // Leaflet stuff
     .leaflet-pane,
     .leaflet-map-pane,
@@ -19,11 +348,130 @@
     .button,
     .input,
     .textarea,
-    .select {
+    .select,
+    .visually-hidden,
+    .footnote-return {
       display: none;
     }
   }
 
-  .section { padding: 0; }
-  .container { max-width: 100%; margin: 0; }
+  .menu-list li ul {
+    border-left-width: 0;
+  }
+
+  .section {
+    padding: 0;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0;
+  }
+
+.entry-image-wrap {
+  width: 100%;
+  column-span: all;
+  display: block;
+  break-before: page;
+  margin-bottom: 0.5em;
+}
+
+.bd-structure {
+  padding: 1.5rem;
+}
+
+.title-page {
+  column-span: all;
+  break-after: page;
+  text-align: left;
+
+  span {
+    display: block;
+  }
+
+  .title-tp {
+    font-size: 3em;
+    /** approx 48px **/
+    line-height: 1.04em;
+    /** approx 50px **/
+  }
+
+  .sub-title {
+    font-size: 1.75em;
+    /** approx 28px **/
+    line-height: 1.15em;
+    /** approx 32px **/
+  }
+
+  .contributor {
+    font-size: 1.125em;
+    /** approx 18px **/
+    line-height: 1.22em;
+    /** approx 22px **/
+  }
+
+  .publisher {
+    font-size: 1.125em;
+    /** approx 18px **/
+    line-height: 1.22em;
+    /** approx 22px **/
+  }
+}
+
+.half-title-page {
+  column-span: all;
+
+  text-align: center;
+  break-after: page;
+
+  span {
+    display: block;
+  }
+
+  .title-htp {
+    font-size: 1.75em;
+    /** approx 28px **/
+    line-height: 1.15em;
+    /** approx 32px **/
+  }
+
+  .sub-title {
+    font-size: 1.125em;
+    /** approx 18px **/
+    line-height: 1.22em;
+    /** approx 22px **/
+  }
+}
+
+/** PRINT ELEMENTS **/
+
+.media-caption {
+
+}
+
+.time-length {
+  font-size: .875em;
+  width: 100%;
+}
+
+.fig-print {
+  font-size: .75em;
+  background: $black-semi-transparent;
+  position: absolute;
+  padding: 0 9px 0 3px;
+  left: 0;
+  top: 0;
+  color: $white;
+  display: block;
+}
+
+.quire-figure__media-wrapper--widescreen {
+  padding-bottom: 0;
+  position: inherit;
+}
+
+#content>div.container>div>figure:nth-child(11)>div:nth-child(1) .quire-figure--group-pdf {
+  color: #fff;
+}
+
 }
