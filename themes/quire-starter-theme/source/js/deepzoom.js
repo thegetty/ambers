@@ -70,6 +70,10 @@ class DeepZoom {
     this.map.on('fullscreenchange', () => {
       this.map.invalidateSize()
     })
+
+    $(window).on('resize', (event) => {
+      this.map.invalidateSize()
+    })
   }
 
   showZoom(id) {
@@ -83,6 +87,7 @@ class DeepZoom {
       crs: L.CRS.Simple,
       zoom: this.defaultZoom,
       maxZoom: 4,
+      renderer: L.canvas(),
       fullscreenControl: {
         pseudoFullscreen: false // if true, fullscreen to page width and height
       }

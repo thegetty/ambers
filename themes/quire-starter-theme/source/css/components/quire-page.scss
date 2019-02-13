@@ -65,7 +65,7 @@ html {
 
   h1,
   &__header__title {
-    font-family: $quire-header-font;
+    font-family: $quire-headings-font;
     font-size: 3em;
     font-weight: 700;
     line-height: 1.04em;
@@ -91,14 +91,10 @@ html {
   }
 
   h2 {
-    font-family: $family-secondary;
+    font-family: $quire-headings-font;
     text-transform: uppercase;
     font-size: 1.75em;
     line-height: 1.15em;
-
-    @if $family-secondary==$serif {
-      line-height: 1.2;
-    }
 
     @media print {
       font-weight: 400;
@@ -108,7 +104,7 @@ html {
   h3,
   h4,
   &__header__contributor {
-    font-family: $quire-nav-font;
+    font-family: $quire-navigation-font;
     font-style: italic;
     font-weight: 400;
     font-size: 1.625em;
@@ -133,7 +129,7 @@ html {
 
   h5,
   h6 {
-    font-family: $family-secondary;
+    font-family: $quire-headings-font;
   }
 
   h5 {
@@ -172,6 +168,7 @@ html {
   }
 
   &__content {
+    font-family: $quire-primary-font;
     font-size: 1em;
     line-height: 1.78;
     font-weight: 400;
@@ -180,12 +177,9 @@ html {
     position: relative;
     animation: .5s ease 0s 1 slideFromRight;
     color: background-color-text-classic($content-background-color);
-
-    @if $family-primary !=$serif {
-      font-size: 1em;
-      font-weight: 400;
-      line-height: 1.6;
-    }
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
 
     ul {
       li {
@@ -199,10 +193,6 @@ html {
       font-size: .875em;
     }
 
-    strong {
-      color: background-color-text($content-background-color);
-    }
-
     .container {
       @media screen and (max-width: $tablet) {
         margin-left: 0;
@@ -212,7 +202,7 @@ html {
       .content {
         padding-top: 2.5em !important;
         margin-top: 45px;
-        font-size: 16px;
+        font-size: $quire-base-font-size;
         padding: 40px 2.5em;
         background-color: $content-background-color;
 
@@ -246,19 +236,22 @@ html {
           }
         }
 
-        @if $theme == classic {
-          ul {
-            list-style: none;
-            li {
-              &:before {
+        ul {
+          list-style: none;
+          li {
+            &:before {
+              @if $theme == classic {
                 content: "✦";
-                font-size: 14px;
-                display: inline-block;
-                width: 1em;
-                margin-left: -.75em;
-                box-sizing: border-box;
-                vertical-align: text-top;
+              } @else {
+                content: "◆";
               }
+              font-size: .875rem;
+              display: inline-block;
+              width: 1em;
+              margin-left: -.3em;
+              margin-right: .5em;
+              box-sizing: border-box;
+              vertical-align: text-top;
             }
           }
         }
@@ -283,62 +276,68 @@ html {
         blockquote {
           border-left: none;
           position: relative;
-          p {
+          p, ul, ol, dl,
+          h1, h2, h3, h4, h5, h6 {
             position: relative;
             &:first-child:before {
-              color: darken($content-background-color, 10%);
-              font-size: 4em;
+              @if (lightness($secondary-background-color) > 50) {
+                color: darken($secondary-background-color, 15%);
+              } @else {
+                color: darken($content-background-color, 15%);
+              }
+              font-size: 5em;
               line-height: 0.1em;
               margin-right: 0.25em;
               content: '“';
               position: absolute;
               top: .35em;
-              left: -.65em;
+              left: -.55em;
               @if $theme == classic {
-                color: $black;
+                font-family: $quire-headings-font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 4em;
+                color: background-color-text($content-background-color);
+                top: .45em;
+                left: -.7em;
                 font-size: 3.125em;
               }
             }
-            @if $theme == classic {
-              &:last-child:after {
-                color: $black;
-                font-size: 3.125em;
-                line-height: 0.1em;
-                content: '”';
-                position: relative;
-                display: inline-block;
-                top: .35em;
-                left: .05em;
-                margin-top: -10px;
+          }
+          ul, dl {
+            margin-left: 0;
+          }
+          ol {
+            margin-left: 1em;
+            &:first-child:before {
+              @if $theme == classic {
+                left: -1em;
+              } @else {
+                left: -.75em;
               }
             }
           }
         }
 
         .backmatter {
-          @if $theme == classic {
-            font-family: $noto-sans;
-          } @else {
-            font-family: $noto-serif;
-          }
+          font-family: $quire-footnotes-font;
           font-size: .875em;
           line-height: 1.6em;
 
           h2, h3, h4 {
+            font-family: $quire-headings-font;
             @if $theme == classic {
-              font-family: $times-serif;
               letter-spacing: .5px;
             } @else {
-              font-family: $ibm-sans;
               letter-spacing: 0;
             }
-            color: background-color-text($content-background-color);
+            color: background-color-text-classic($content-background-color);
             font-size: 1em;
             line-height: 1.28em;
             text-transform: uppercase;
             margin-top: 20px;
             padding-bottom: 6px;
-            border-bottom: 1px solid background-color-text($content-background-color);
+            border-bottom: 1px solid background-color-text-classic($content-background-color);
           }
           h3, h4 {
             font-weight: bold;
@@ -357,38 +356,25 @@ html {
             // font-size: 0.875em;
             line-height: 1.6em !important;
           }
+          dl {
+
+          }
 
           .media {
             display: flex;
           }
         }
 
-        #notes {
-          @if $theme == classic {
-            font-family: $times-serif;
-            letter-spacing: .5px;
-          } @else {
-            font-family: $ibm-sans;
-            letter-spacing: 0;
-          }
-          font-size: .875em;
-          line-height: 1.28em;
-          text-transform: uppercase;
-          margin-top: 20px;
-          padding-bottom: 6px;
-          border-bottom: 1px solid background-color-text($content-background-color);
-        }
-
         .footnotes {
           font-size: .875em;
-          @if $theme == modern {
-            font-family: $noto-serif;
-          }
+          font-family: $quire-footnotes-font;
           hr {
             display: none;
           }
+          * {
+            line-height: 1.6em;
+          }
           @if $theme == classic {
-            font-family: $noto-sans;
             ul {
               li {
                 &:before {
@@ -422,10 +408,14 @@ html {
       font-size: 1.25em;
     }
 
+    em {
+      font-style: normal;
+    }
+
     h2 {
       font-weight: 400;
       font-size: 1.625em;
-      font-family: $quire-header-font;
+      font-family: $quire-headings-font;
     }
 
     .container {
@@ -455,13 +445,6 @@ html {
     }
   }
 
-  &__splash {
-    .quire-page__header {
-      &__title, &__subtitle {
-
-      }
-    }
-  }
 }
 
 
@@ -472,7 +455,7 @@ html {
   @media print {
     background-color: transparent;
   }
-  @include foreground-color($quire-page-header-color, background-color-text($content-background-color));
+  color: background-color-text($secondary-background-color);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover;
@@ -491,7 +474,7 @@ html {
     }
   }
 
-  .quire-page--splash & {
+  .quire-splash & {
     * {
       color: findColorInvert($accent-color);
     }
@@ -505,19 +488,7 @@ html {
 
     &.quire-page__header--full-height {
       min-height: calc(60vh - #{$navbar-height});
-
-      .quire-page__header__splash-page-arrow {
-        position: absolute;
-        bottom: 0;
-        width: 6%;
-        left: 47%;
-        right: 47%;
-
-        svg {
-          width: 1rem;
-          fill: findColorInvert($accent-color);
-        }
-      }
+      background-position: center;
     }
   }
 
@@ -532,7 +503,11 @@ html {
       @if $theme == classic {
         font-size: 1.4rem;
         font-weight: normal;
-        background-color: $dark-gray;
+        @if (lightness($secondary-background-color) > 50) {
+          background-color: darken($secondary-background-color, 35%);
+        } @else {
+          background-color: $white;
+        }
         color: $secondary-background-color;
         padding: .35rem .45rem;
         margin: 0 auto 1.7em;
@@ -568,7 +543,7 @@ html {
   }
 }
 
-.quire-page--splash {
+.quire-splash {
   .quire-page__header {
     .hero-body {
       background-color: transparent;
@@ -584,9 +559,9 @@ html {
     .hero-body {
       .quire-page__header {
         &__title, &__subtitle {
-          color: background-color-text($dark) !important;
+          color: background-color-text($off-black) !important;
           .label {
-            color: background-color-text($dark) !important;
+            color: background-color-text($off-black) !important;
           }
         }
       }
@@ -596,6 +571,9 @@ html {
   .quire-page__content {
     .container .content {
       background-color: $secondary-background-color;
+      &.no-image-above {
+        margin-top: 0;
+      }
     }
     p {
       &:first-child {
@@ -613,7 +591,7 @@ html {
 }
 
 @supports (-moz-appearance:none) {
-  .quire-page--splash {
+  .quire-splash {
     .quire-page__content {
       p {
         &:first-child {
@@ -691,12 +669,14 @@ html {
     }
   }
 
+
+
   // Overrides to Bulma's .content styles where needed.
   .content {
 
     a {
       @media print {
-        color: $page-text-color;
+        color: $black;
         border-bottom-width: 0;
       }
       line-height: 1.6;
@@ -715,6 +695,7 @@ html {
 
       &:focus {
         background-color: $quire-hover-color;
+        color: background-color-text($quire-hover-color) !important;
       }
     }
 
@@ -728,18 +709,34 @@ html {
     a.footnote-return {
       border-bottom-width: 0;
       font-weight: bold;
+      font-size: .925rem;
+      line-height: 0;
+      margin-left: .1em;
       &:hover {
         color: link-hover-color($content-background-color) !important;
         border-bottom-width: 0 !important;
       }
     }
 
+    .quire-page__content__references dl {
+      margin-left: 0;
+    }
+
     tbody {
       tr {
         &:hover {
           background-color: $quire-hover-color;
+          color: background-color-text($quire-hover-color) !important;
         }
       }
+    }
+
+    ol, dl {
+      margin-left: 3em;
+    }
+
+    hr {
+      height: 1px;
     }
 
     h1,
@@ -829,7 +826,7 @@ html {
 
     .leaflet-control {
       a {
-        color: $dark;
+        color: $off-black;
       }
     }
 
