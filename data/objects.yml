@@ -3,10 +3,10 @@ object_display_order:
   - origin
   - year
   - dimensions
-  - provenance
 object_list:
   - id: 1
     accession_number: 77.AO.84
+    link: http://www.getty.edu/art/collection/objects/7947
     origin: Etruscan
     year: 600–550 B.C.
     dimensions: "Height: 130 mm; width: 45 mm; depth: 18 mm; Diameter of suspension holes: 2.5 mm; Weight: 55.2 g"
