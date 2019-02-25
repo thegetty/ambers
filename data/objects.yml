@@ -26,7 +26,7 @@ object_list:
       - src: "objects/PL_02.jpg"
   - id: 3
     accession_number: 77.AO.81.1
-    link:http://www.getty.edu/art/collection/objects/7915
+    link: http://www.getty.edu/art/collection/objects/7915
     origin: Etruscan
     year: 600–550 B.C.
     dimensions: "Height: 40 mm; width: 102 mm; depth: 13 mm; Diameter of suspension holes: 2.5 mm; Weight: 39.3 g"
