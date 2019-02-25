@@ -41,7 +41,7 @@ The solar aspects of amber may well have underscored the connection of the penda
 
 [^1]: Recumbent and couchant rams of amber are much rarer than rams’ heads. This author knows of only one complete ram from a controlled excavation dating to the fifth century: a necklace with eighty-four plain beads and a ram pendant from Tomb 21, a collective grave in the cemetery of Valle Oscura (Marianopoli) of circa 530–470 (Marianopoli, Museo Archeologico 925): R. Panvini in {{< q-cite "Pugliese Carratelli 1996" >}}, p. 694, no. 44. Ram pendants are among the earliest subjects for amulets and for ornamentation in the ancient Near East. In Greece, bronze ram pendants are current in the Late Geometric; see {{< q-cite "Langdon 1993" >}}, p. 148; I. Kilian-Dirlmeier, *Anhanger in Griechenland von der mykenischen bis zür spätgeometrischen Zeit* (Munich, 1979), pp. 186–88; and C. Rolley, *Les statuettes de bronze,* vol. 5 of *Fouilles de Delphes* (Paris, 1969), p. 81, no. 120, pl. 21.
 
-[^2]: For Tomb 102 at Braida di Vaglio, see {{< q-cite "Bottini and Setari 2003" >}}. For the Sala Consilina ambers in the Petit Palais, see introduction, n. 218, above.
+[^2]: For Tomb 102 at Braida di Vaglio, see {{< q-cite "Bottini and Setari 2003" >}}. For the Sala Consilina ambers in the Petit Palais, see introduction, [n. 218](/intro/16/#fn:218).
 
 [^3]: C. M. Stibbe ({{< q-cite "Stibbe 2006" >}}), esp. chap. 3) has looked closely at the rams of the handles of bronze vessels. Nevertheless, much remains to be done in the analysis of the animals.
 
