@@ -89,12 +89,12 @@ The solar aspects of amber may well have underscored the connection of the penda
 
 [^25]: {{< q-cite "Andrews 1994" >}}, pp. 15, 30.
 
-[^26]: Ny Carlsberg Glyptotek 3571: Johansen 1994, pp. 86–88, no. 37 (from which this summary is taken).
+[^26]: Ny Carlsberg Glyptotek 3571: {{< q-cite "Johansen 1994" >}}, pp. 86–88, no. 37 (from which this summary is taken).
 
 [^27]: H. Hoffman, *Sotades: Symbols of Immortality on Greek Vases* (Oxford, 1997), p. 12.
 
 [^28]: For the cult of Hermes in Medma, see M. Paoletti, “I cult di Medma,” in *Santuari della Magna Grecia in Calabria*, exh. cat., eds. E. Lattanzi et al. (Naples, 1996), pp. 95–97. For Medma, see {{< q-cite "Paoletti and Settis 1981" >}}. For a recent collation of bibliography on the *kriophoroi* of the region and the subject generally, see M. T. Iannelli in {{< q-cite "*Magna Graecia* 2002" >}}, p. 189, no. 30.
 
-[^29]: Bonner 1950, p. 85.
+[^29]: {{< q-cite "Bonner 1950" >}}, p. 85.
 
 [^30]: Unlike the rich literature on the horse and the lion in ancient art, to my knowledge, there is no corresponding analysis of ram imagery. The topic is a rich one, and the in-depth studies of some classes of material, Greek bronze vessel attachments (e.g., {{< q-cite "Stibbe 2006" >}}) and Greek vase rhyta (Hoffman 1977; see n. 26, above) lead the way. Research should not only reveal something about artistic approaches to the subject and the transmission and modulation of imagery but also some understanding about ram *realia*.
