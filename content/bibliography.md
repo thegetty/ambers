@@ -7,7 +7,7 @@ slug:
 
 ## Abbreviations
 
- | 
+ |
 --- | ---
 AA  | *Archäologischer Anzeiger*
 ABV | Beazley, J. D. *Attic Black-Figure Vase-Painters.* Oxford, 1956
