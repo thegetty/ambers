@@ -1,11 +1,11 @@
 figure_list:
   - id: "intro1"
     src: "intro/fig01.jpg"
-    caption: "Head of Medusa, Roman, A.D. 1st–2nd century. Amber, H: 5.8 cm (2 3/10 in.), W: 5.8 cm (2 3/10 in.). Los Angeles, The J. Paul Getty Museum, 71.AO.355."
+    caption: "Head of Medusa, Roman, A.D. 1st–2nd century. Amber, H: 5.8 cm (2 3/10 in.), W: 5.8 cm (2 3/10 in.). Los Angeles, The J. Paul Getty Museum, [71.AO.355](http://www.getty.edu/art/collection/objects/6808)."
 
   - id: "intro2"
     src: "intro/fig02.jpg"
-    caption: "Ring dedicated to Hera, Greek, ca. 575 B.C. Gilded silver, Diam. (outer): 2.2 cm (7/8 in.), Diam. (inner): 1.8 cm (11/16 in.). Los Angeles, The J. Paul Getty Museum, 85.AM.264."
+    caption: "Ring dedicated to Hera, Greek, ca. 575 B.C. Gilded silver, Diam. (outer): 2.2 cm (7/8 in.), Diam. (inner): 1.8 cm (11/16 in.). Los Angeles, The J. Paul Getty Museum, [85.AM.264](http://www.getty.edu/art/collection/objects/10993)."
 
   - id: "intro3"
     src: "intro/fig03.jpg"
@@ -13,19 +13,19 @@ figure_list:
 
   - id: "intro4"
     src: "intro/fig04.jpg"
-    caption: "Cat. 25. Female Head in Profile Pendant, Italic, 500–480 B.C. Amber, H: 4.4 cm (1 7/10 in.), W: 3.8 cm (1 1/2 in.), D: 1.6 cm (3/5 in). Los Angeles, The J. Paul Getty Museum, 77.AO.81.30. Gift of Gordon McLendon."
+    caption: "[Cat. 25](/objects/25). Female Head in Profile Pendant, Italic, 500–480 B.C. Amber, H: 4.4 cm (1 7/10 in.), W: 3.8 cm (1 1/2 in.), D: 1.6 cm (3/5 in). Los Angeles, The J. Paul Getty Museum, 77.AO.81.30. Gift of Gordon McLendon."
 
   - id: "intro5"
     src: "intro/fig05.jpg"
-    caption: "Addorsed Females Pendant, Etruscan, 600–550 B.C. Amber, H: 4.0 cm (1 3/5 in.), W: 10.2 cm (4 in.), D: 1.3 cm (1/2 in.). Los Angeles, The J. Paul Getty Museum, 77.AO.81.1. Gift of Gordon McLendon."
+    caption: "Addorsed Females Pendant, Etruscan, 600–550 B.C. Amber, H: 4.0 cm (1 3/5 in.), W: 10.2 cm (4 in.), D: 1.3 cm (1/2 in.). Los Angeles, The J. Paul Getty Museum, [77.AO.81.1](http://www.getty.edu/art/collection/objects/7915). Gift of Gordon McLendon."
 
   - id: "intro6"
     src: "intro/fig06.jpg"
-    caption: "Ship with Figures Pendant, Etruscan, 600–575 B.C. Amber, L: 12 cm (4 7/10 in.), W: 3.5 cm (1 3/8 in.), D: 1 cm (3/10 in.). Los Angeles, The J. Paul Getty Museum, 76.AO.76. Gift of Gordon McLendon."
+    caption: "Ship with Figures Pendant, Etruscan, 600–575 B.C. Amber, L: 12 cm (4 7/10 in.), W: 3.5 cm (1 3/8 in.), D: 1 cm (3/10 in.). Los Angeles, The J. Paul Getty Museum, [76.AO.76](http://www.getty.edu/art/collection/objects/7384). Gift of Gordon McLendon."
 
   - id: "intro7"
     src: "intro/fig07.jpg"
-    caption: "Engraved Scarab with Herakles, Etruscan, 400–380 B.C. Banded agate, H: 1.8 cm (3/4 in.), W: 1.4 cm (9/16 in.), D: 0.9 cm (3/8 in.). Los Angeles, The J. Paul Getty Museum, 85.AN.123."
+    caption: "Engraved Scarab with Herakles, Etruscan, 400–380 B.C. Banded agate, H: 1.8 cm (3/4 in.), W: 1.4 cm (9/16 in.), D: 0.9 cm (3/8 in.). Los Angeles, The J. Paul Getty Museum, [85.AN.123](http://www.getty.edu/art/collection/objects/10959)."
 
   - id: "intro8"
     src: "intro/fig08.jpg"
@@ -69,7 +69,7 @@ figure_list:
 
   - id: "intro18"
     src: "intro/fig18.jpg"
-    caption: "Head of a Female Divinity or Sphinx Pendant, Etruscan, 550–525 B.C. Amber, H: 3.2 cm (1 1/4 in.), W: 2.6 cm (1 in.), D (face): 1.2 cm (2/5 in.), D (back): 0.5 cm (1/5 in.), D (joined): 1.7 cm (7/10 in.). Los Angeles, The J. Paul Getty Museum, 76.AO.85.1 and 76.AO.86. Gift of Gordon McLendon."
+    caption: "Head of a Female Divinity or Sphinx Pendant, Etruscan, 550–525 B.C. Amber, H: 3.2 cm (1 1/4 in.), W: 2.6 cm (1 in.), D (face): 1.2 cm (2/5 in.), D (back): 0.5 cm (1/5 in.), D (joined): 1.7 cm (7/10 in.). Los Angeles, The J. Paul Getty Museum, [76.AO.85.1](http://www.getty.edu/art/collection/objects/13318) and [76.AO.86](http://www.getty.edu/art/collection/objects/7394). Gift of Gordon McLendon."
 
   - id: "intro19"
     src: "intro/fig19.jpg"
@@ -177,7 +177,7 @@ figure_list:
 
   - id: "intro45"
     src: "intro/fig45.jpg"
-    caption: "Head of a Female Divinity or Sphinx Pendant, Etruscan, 550–520 B.C. Amber, H: 3.4 cm (1 3/10 in.), W: 2.4 cm (9/10 in.), D: 1.6 cm (3/5 in.). Los Angeles, The J. Paul Getty Museum, 76.AO.79. Gift of Gordon McLendon."
+    caption: "Head of a Female Divinity or Sphinx Pendant, Etruscan, 550–520 B.C. Amber, H: 3.4 cm (1 3/10 in.), W: 2.4 cm (9/10 in.), D: 1.6 cm (3/5 in.). Los Angeles, The J. Paul Getty Museum, [76.AO.79](http://www.getty.edu/art/collection/objects/7387). Gift of Gordon McLendon."
 
   - id: "intro46"
     src: "intro/fig46.jpg"
@@ -217,7 +217,7 @@ figure_list:
 
   - id: "intro55"
     src: "intro/fig55.jpg"
-    caption: "a & b. Lion Pendant, Etruscan or Campanian, 525–480 B.C. Amber, L (as preserved): 10.5 cm (4 1/8 in.), L (estimated original): 11.5 cm (4 1/2 in.), W: 4 cm (1 1/2 in), D (at chest): 1.8 cm (7/10 in.). Los Angeles, The J. Paul Getty Museum, 76.AO.78. Gift of Gordon McLendon. a) front; b) back."
+    caption: "a & b. Lion Pendant, Etruscan or Campanian, 525–480 B.C. Amber, L (as preserved): 10.5 cm (4 1/8 in.), L (estimated original): 11.5 cm (4 1/2 in.), W: 4 cm (1 1/2 in), D (at chest): 1.8 cm (7/10 in.). Los Angeles, The J. Paul Getty Museum, [76.AO.78](http://www.getty.edu/art/collection/objects/7386). Gift of Gordon McLendon. a) front; b) back."
 
   - id: "intro56"
     src: "intro/fig56.jpg"
