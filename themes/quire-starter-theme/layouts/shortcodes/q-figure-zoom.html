@@ -57,6 +57,7 @@ document and render only the values given in the shortcode
     data-type="inline" 
     title='{{ .Get "caption" | markdownify | safeHTML }}'>
     <img
+      id='{{ with .Get "id" }}{{ . | urlize }}{{ end }}'
       class="quire-figure__image" 
       src='{{ with .Get "src"}}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}'
       alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
@@ -97,6 +98,7 @@ document and render only the values given in the shortcode
     data-type='inline' 
     {{ if .Get "caption" }}  title='{{ .Get "caption" | markdownify | safeHTML }}' {{ end }}>
       <img
+      id='{{ with .Get "id" }}{{ . | urlize }}{{ end }}'
       class="quire-figure__image" 
       src='{{ with .Get "src"}}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}'
       alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
@@ -116,7 +118,7 @@ document and render only the values given in the shortcode
     aria-live="polite" 
     role="application" 
     aria-label="Zoomable image" 
-    data-image="{{ with .Get "src"}}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}">
+    src="{{ with .Get "src"}}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}">
     </div>
     <span class="figure-caption visually-hidden">
         {{ if $.Get "caption" }}
@@ -135,6 +137,7 @@ document and render only the values given in the shortcode
     data-type='inline' 
     {{ if .Get "caption" }}  title='{{ .Get "caption" | markdownify | safeHTML }}' {{ end }}>
       <img
+      id='{{ with .Get "id" }}{{ . | urlize }}{{ end }}'
       class="quire-figure__image" 
       src='{{ with .Get "src"}}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}'
       alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
@@ -178,13 +181,14 @@ document and render only the values given in the shortcode
  aria-live="polite" 
  role="application" 
  aria-label="Zoomable image" 
- data-image='{{ with .Get "src"}}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}'>
+ src='{{ with .Get "src"}}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}'>
 </div>
     
 {{ end }}
 
 {{ else }}
 <img
+id='{{ with .Get "id" }}{{ . | urlize }}{{ end }}'
 class="quire-figure__image" 
 src='{{ with .Get "src"}}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}'
 alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
@@ -326,6 +330,7 @@ alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
         data-type="inline"
         {{ if .caption }} title='{{ .caption | markdownify | safeHTML }}' {{ end }}>
         <img
+          id='{{ .id }}'
           class="quire-figure__image" 
           src='{{ printf "%s/%s" ($.Scratch.Get "imageDir") .src | relURL }}' />
 
@@ -363,6 +368,7 @@ alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
     data-type='inline'
     {{ if .caption }} title='{{ .caption | markdownify | safeHTML }}' {{ end }}>
       <img
+      id='{{ .id }}'
       class="quire-figure__image" 
       src='{{ printf "%s/%s" ($.Scratch.Get "imageDir") .src | relURL }}' />
 
@@ -373,14 +379,14 @@ alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
     <figure 
       id="deepzoom-{{ $Id }}"
       {{ if .caption }} title='{{ .caption | markdownify | safeHTML }}' {{ end }}  
-      class="quire-figure leaflet-outer-wrapper mfp-hide">
+      class="quire-figure leaflet-outer-wrapper mfp-hide hi">
         <div 
         id="js-deepzoom-{{ now.UnixNano }}" 
         class="quire-deepzoom inset leaflet-inner-wrapper " 
         aria-live="polite" 
         role="application"
         aria-label="Zoomable image" 
-        data-image="{{ printf "%s/%s" ($.Scratch.Get "imageDir") .src | relURL }}">
+        src="{{ printf "%s/%s" ($.Scratch.Get "imageDir") .src | relURL }}">
         </div>
         <span class="figure-caption visually-hidden">
             {{ if $.Get "caption" }}
@@ -399,6 +405,7 @@ alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
     data-type='inline'
     {{ if .caption }} title='{{ .caption | markdownify | safeHTML }}' {{ end }}>
       <img
+      id='{{ .id }}'
       class="quire-figure__image" 
       src='{{ printf "%s/%s" ($.Scratch.Get "imageDir") .src | relURL }}' />
 
@@ -440,7 +447,7 @@ alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
     aria-live="polite" 
     role="application" 
     aria-label="Zoomable image" 
-    data-image='{{ printf "%s/%s" ($.Scratch.Get "imageDir") .src | relURL }}'>
+    src='{{ printf "%s/%s" ($.Scratch.Get "imageDir") .src | relURL }}'>
   </div>
 
 {{ end }}
@@ -448,6 +455,7 @@ alt='{{ with .Get "alt" }}{{ . }}{{ end }}' />
 {{ else }}
 
 <img
+id='{{ .id }}'
 class="quire-figure__image" 
 src='{{ printf "%s/%s" ($.Scratch.Get "imageDir") .src | relURL }}' />
 

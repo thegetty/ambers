@@ -11,21 +11,18 @@ const imageminJpegtran = require("imagemin-jpegtran");
 const imageminOptipng = require("imagemin-optipng");
 const imageminSvgo = require("imagemin-svgo");
 
+const ASSET_PATH = process.env.ASSET_PATH || '/';
+
 const PATHS = {
   source: path.join(__dirname, '../source'),
   build: path.join(__dirname, '../static')
 };
 
-// the path(s) that should be cleaned
-let pathsToClean = [
-  path.join(__dirname, '../img'), path.join(__dirname, '../fonts')
-]
-
 // the clean options to use
 let cleanOptions = {
-  verbose: false,
-  watch: false,
-  allowExternal: true
+  dry: false,
+  dangerouslyAllowCleanPatternsOutsideProject: true,
+  cleanOnceBeforeBuildPatterns: [path.join(__dirname, '../img'), path.join(__dirname, '../fonts')]
 }
 
 module.exports = {
@@ -35,7 +32,7 @@ module.exports = {
   },
   output: {
     path: PATHS.build,
-    publicPath: "/",
+    publicPath: ASSET_PATH,
     filename: path.join('js', 'application.js')
   },
   module: {
@@ -133,7 +130,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/application.css'
     }),
-    new CleanWebpackPlugin(pathsToClean, cleanOptions),
+    new CleanWebpackPlugin(cleanOptions),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',

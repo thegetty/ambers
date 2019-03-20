@@ -17,7 +17,7 @@ a single image or object needs to be featured prominently.\
 
 {{/* Entry content, including entry image and tombstone data */}}
 <article class="{{ partial "page-class.html" . }} quire-entry" id="main" role="main">
-<div {{ if eq $.Site.Params.entryPageSideBySideLayout true }} {{ if and (ne $.Site.Params.pdf true) (ne $.Site.Params.epub true) }} class="side-by-side" {{ end }} {{ end }} data="{{ $.Site.Params.figureZoom }}">
+<div {{ if or (eq $.Site.Params.entryPageSideBySideLayout true) (in .Page.Params.class "side-by-side") }} {{ if and (ne $.Site.Params.pdf true) (ne $.Site.Params.epub true) }} class="side-by-side" {{ end }} {{ end }} data="{{ $.Site.Params.figureZoom }}">  
   
   {{ if eq .Site.Params.epub true }}
   <header class="quire-entry__header">
@@ -92,42 +92,7 @@ a single image or object needs to be featured prominently.\
   </header>
   {{ end }}
 
-  {{/* Entry tombstone data */}}
-  {{ range .Params.object }}
-    <section class="quire-entry__tombstone">
-      <div class="container">
-        <table class="table is-fullwidth">
-          <tbody>
-          {{ if .id }}
-            {{ $.Scratch.Set "id" .id }}
-            {{ range $.Site.Data.objects.object_display_order }}
-              {{ $.Scratch.Set "key" . }}
-              {{ range where $.Site.Data.objects.object_list "id" "eq" ($.Scratch.Get "id") }}
-                {{ range $key, $value := . }}
-                {{ if and (eq $key ($.Scratch.Get "key")) (ne $value nil) }}
-                  <tr><td>{{ $key | humanize | title }}</td><td>{{ markdownify $value }}</td></tr>
-                {{ end }}
-                {{ end }}
-              {{ end }}
-            {{ end }}
-          {{ else }}
-            {{ range $key, $value :=  . }}
-            <tr><td>{{ $key | humanize | title }}</td><td>{{ markdownify $value }}</td></tr>
-            {{ end }}
-          {{ end }}
-          </tbody>
-        </table>
-        {{ if .id }}
-          {{ range where $.Site.Data.objects.object_list "id" "eq" .id }}
-            {{ if .link }}
-            <a href="{{ .link }}" target="_blank" class="button">{{ $.Site.Params.entryPageObjectLinkText }} {{- template "image-control-icon" (dict "type" "link" "description" "Open in new window" "imageDir" ($.Scratch.Get "imageDir") ) -}}</a>
-            {{ end }}
-          {{ end }}
-        {{ else }}
-        {{ end }}
-      </div>
-    </section>
-  {{ end }}
+  {{ partial "page-tombstone.html" . }}
 
   {{ if .Params.abstract }}
   {{ partial "page-abstract.html" . }}
@@ -313,7 +278,7 @@ a single image or object needs to be featured prominently.\
     role="application"
     aria-label="Zoomable image"
     data-catalogue-entry="true"
-    data-image="{{ $imgPath | relURL }}"
+    src="{{ $imgPath | relURL }}"
   >
   </div>
   <img style="display: none" src="{{ $imgPath | relURL }}" alt="{{ .figure.alt }}" />
@@ -370,8 +335,8 @@ a single image or object needs to be featured prominently.\
   {{ if or .figure.caption .figure.credit }}
       <div class="quire-image-control quire-image-info">
         <span class="quire-image-info__wrap">
-          <span class="quire-image-info__caption">{{ .figure.caption | markdownify }}</span>
-          <span class="quire-image-info__credit">{{ .figure.credit | markdownify }}</span>
+          {{ with .figure.caption }}<span class="quire-image-info__caption">{{ . | markdownify }}</span>{{ end }}
+          {{ with .figure.credit }}<span class="quire-image-info__credit">{{ .| markdownify }}</span>{{ end }}
         </span>
       </div>
   {{ end }}
@@ -379,7 +344,7 @@ a single image or object needs to be featured prominently.\
   <div class="quire-image-counter-download-container">
     {{ if eq .figure.download true }}
     <a href="{{ $imgPath | relURL }}" target="_blank" class="remove-from-epub quire-image-control quire-image-control--download" title="Download image" download>
-      {{- template "image-control-icon" (dict "type" "download" "description" "Download image" "imageDir" .imageDir ) -}}
+      {{- partial "icon.html" (dict "type" "download" "description" "Download image") -}}
     </a>
     {{ end }}
   </div>
@@ -388,16 +353,4 @@ a single image or object needs to be featured prominently.\
 
 </figure>
 
-{{ end }}
-
-{{ define "image-control-icon" }}
-<svg class="remove-from-epub">
-  <switch>
-    <use xlink:href="#{{ .type }}-icon"></use>
-    <foreignObject width="32" height="32">
-        <img class="remove-from-epub" src="{{ absURL .imageDir }}/icons/{{ .type }}.png" alt="" />
-    </foreignObject>
-  </switch>
-</svg>
-<span class="visually-hidden">{{ .description }}</span>
 {{ end }}

@@ -35,16 +35,15 @@ params:
   licenseIcons: true
   pageLabelDivider: ". "
   citationPageLocationDivider: ", "
-  figureLabelLocation: on-top #below | on-top
   displayBiblioShort: true
   imageDir: "img"
   tocType: full
-  menuType: full
+  menuType: short
+  prevPageButtonText: "Back"
+  nextPageButtonText: "Next"
+  entryPageSideBySideLayout: false
   entryPageObjectLinkText: "View in Collection"
-  frontmatterPageStart: 0
-  bodyPageStart: 100
-  backmatterPageStart: 1000
+  figureLabelLocation: below # below | on-top
   figureModal: true
   figureModalIcons: true
   figureZoom: true
-  entryPageSideBySideLayout: true
