@@ -7,7 +7,7 @@ slug: .
 url: objects/group/1
 ---
 
-The first six objects presented here, *Female Holding a Child (Kourotrophos)*({{< q-object "77.AO.84" >}}), *Female Holding a Child (Kourotrophos) with Bird*({{< q-object "77.AO.85" >}}), *Addorsed Females* ({{< q-object "77.AO.81.1" >}}), *Divinity Holding Hares* ({{< q-object "77.AO.82" >}}), *Lion with Bird*({{< q-object "77.AO.81.2" >}}), and *Paired Lions* ({{< q-object "77.AO.81.3" >}}), are similar in style, technique, state of conservation, and size. Subject also relates them. Because of this, and because the six were part of the same donation, it is posited that they come from the same original context.
+The first six objects presented here, *Female Holding a Child (Kourotrophos)* ({{< q-object "77.AO.84" >}}), *Female Holding a Child (Kourotrophos) with Bird* ({{< q-object "77.AO.85" >}}), *Addorsed Females* ({{< q-object "77.AO.81.1" >}}), *Divinity Holding Hares* ({{< q-object "77.AO.82" >}}), *Lion with Bird* ({{< q-object "77.AO.81.2" >}}), and *Paired Lions* ({{< q-object "77.AO.81.3" >}}), are similar in style, technique, state of conservation, and size. Subject also relates them. Because of this, and because the six were part of the same donation, it is posited that they come from the same original context.
 
 As is argued below, the six were produced in northern internal Etruria in the first half (or perhaps in the third quarter) of the sixth century B.C. and have stylistic connections to Greek Arcadian and Ionian small bronzes as well as to contemporary Etruscan votive bronzes, relief work, and bucchero. All can be shown to have specific ties to subjects and styles current in the Near East and Cyprus. The North Syrian and “Phoenician” aspects are salient.
 
@@ -23,7 +23,9 @@ Although the six may have been used during the life of one or more powerful pers
 
 There are only a few documented pre-Roman burials with significant numbers of figured ambers. All the intact, published graves also included numerous other high-status objects, providing not only evidence of the elaborate rituals that accompanied the deceased, but also a glimpse of ideas about the tomb and the afterworld. These comparison burials, which are rich in figured amber, also contain nonfigured amber beads and pendants, plus many other high-value objects, of bronze, precious metals, ivory, or ceramics, among their durable goods. Textiles and other now-perished organic goods that must have accompanied the deceased have left few traces. These six pendants then may be evidence of what must have been an extraordinary burial.
 
+{{< q-class "backmatter" >}}
 ## Notes
+{{< /q-class >}}
 
 [^1]: A. M. Bisi, “Due avori piceni di tradizione vicino-orientale,” *Studi urbinati di storia di filosofia e letteratura Urbino,* ser. B, 3, 55 (1981–82): 79–83; and A. M. Bisi, “Componenti siro-fenicie negli avori piceni,” in *La civiltà nelle Marche: Studi in onore di Giovanni Annibaldi* (Ripatransone, 1992), pp. 128–39, shaped my argument originally. See also {{< q-cite "Warden 1994" >}}; {{< q-cite "Waarsenburg 1995" >}}; and {{< q-cite "Rocco 1999" >}}.
 
