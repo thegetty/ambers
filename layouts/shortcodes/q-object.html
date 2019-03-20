@@ -1,16 +1,15 @@
-{{ if isset $.Site.Params "imagedir" }}
+{{- if isset $.Site.Params "imagedir" -}}
 {{ $.Scratch.Set "imageDir" $.Site.Params.imageDir }}
-{{ else }}
+{{- else -}}
 {{ $.Scratch.Set "imagedir" "" }}
-{{ end }}
+{{- end -}}
 
 {{- $accession := .Get 0 -}}
-
 {{- range $.Site.Data.objects.object_list -}}
   {{- if eq .accession_number $accession -}}
-    {{ range first 1 .figure }}
-      {{ $.Scratch.Set "imageSrc" .src }}
-    {{ end }}
+    {{- range first 1 .figure -}}
+      {{- $.Scratch.Set "imageSrc" .src -}}
+    {{- end -}}
     {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") ($.Scratch.Get "imageSrc") -}}
     <a href="../{{ .id }}/" class="quire-citation quire-object"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}<span class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br />Cat. {{- markdownify .id -}}</span></a>
   {{- end -}}
