@@ -3,17 +3,12 @@
 {{ else }}
 {{ $.Scratch.Set "imageDir" "" }}
 {{ end -}}
-<section class="{{ if or (eq .Title "title page") (eq .Title "half title page") }} is-screen-only {{ end }} quire-page__header hero {{ if in .Params.class "splash" }} quire-page__header--full-height{{ end }}">
+<section class="{{ if or (eq .Title "title page") (eq .Title "half title page") }} is-screen-only {{ end }} quire-page__header hero">
   <div class="hero-body">
     {{/* Page Title */}}
-    {{- $endPunctuation := findRE "[!|?]$" .Title -}}
     <h1 class="quire-page__header__title" id="{{ .Title | urlize }}">
-      {{- with .Params.number }}<span class="label">{{ . }}</span>{{ end -}}
-      {{ .Title | markdownify }}
-      {{- with .Params.subtitle -}}
-      {{ if $endPunctuation }} {{ else }}: {{ end }}
-      <span class="quire-page__header__subtitle">{{ . | markdownify }}</span>
-      {{- end -}}
+      {{- with .Params.label }}<span class="label">{{ . }}<span class="visually-hidden">{{ $.Site.Params.pageLabelDivider }}</span></span>{{ end -}}
+      {{- partial "page-title.html" . | markdownify -}}
     </h1>
     {{/* Contributors, if any */}}
     {{ with .Params.contributor }}
@@ -26,6 +21,6 @@
 
 {{- if .Params.image -}}
 {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") .Params.image -}}
-  <section class="{{ if or (eq .Title "title page") (eq .Title "half title page") }} is-screen-only {{ end }} quire-page__header hero__image {{ if in .Params.class "splash" }} quire-page__header--full-height{{ end }}" style="background-image: url('{{ $imgPath | relURL }}');">
+  <section class="{{ if or (eq .Title "title page") (eq .Title "half title page") }} is-screen-only {{ end }} quire-page__header hero__image" style="background-image: url('{{ $imgPath | relURL }}');">
   </section>
 {{- end -}}

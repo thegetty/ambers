@@ -22,85 +22,13 @@
   border-top: 1px solid $accent-color;
   border-bottom: 1px solid $accent-color;
   padding: 1em 0;
-  margin-top: 0.5em !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-
+  margin-top: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  
   @if $theme == classic {
     border: none;
     padding: 0;
-  }
-
-  .q-figure__wrapper {
-    a {
-      border: none;
-      display: block;
-      position: relative;
-
-      &:hover {
-        background-color: transparent;
-
-        >span.fig {
-          background-color: $accent-color;
-          transition: background-color .25s;
-        }
-
-        >img {
-          -webkit-transition: -webkit-box-shadow .35s;
-          transition: box-shadow .35s;
-          -webkit-box-shadow: 0px 0px 6px 0px $black-semi-transparent;
-          -moz-box-shadow: 0px 0px 6px 0px $black-semi-transparent;
-          box-shadow: 0px 0px 6px 0px $black-semi-transparent;
-        }
-
-        >span.quire-figure__fig {
-          background: $accent-color;
-        }
-      }
-
-      span.fig {
-        font-size: .75em;
-        background: $black-semi-transparent;
-        position: absolute;
-        display: flex;
-        padding: 0;
-        left: 0;
-        top: 0;
-        color: $white;
-        margin: 0 auto;
-        span {
-          font-size: 18px;
-          line-height: 1.5em;
-          padding: 0 .2em;
-        }
-
-        &.no-fullscreen {
-
-          strong {
-            margin-left: 5px;
-            margin-bottom: 3px;
-          }
-        }
-
-        strong {
-          margin-top: 3px;
-          margin-right: 5px;
-        }
-      }
-
-      &-print {
-        color: $white;
-        strong {
-          color: $white;
-          margin-top: 3px;
-          margin-right: 5px;
-        }
-      }
-
-      img {
-        width: 100%;
-      }
-    }
   }
 
   .q-figure__wrapper {
@@ -108,20 +36,31 @@
     display: block;
     position: relative;
 
-    &:hover {
-      background-color: transparent;
+    > a {
+      border: none;
 
-      >span.fig {
-        background-color: $dark-red;
-        transition: background-color .35s;
-      }
+      &:hover {
 
-      >img {
-        -webkit-transition: -webkit-box-shadow .35s;
-        transition: box-shadow .35s;
-        -webkit-box-shadow: 0px 0px 6px 0px $black-semi-transparent;
-        -moz-box-shadow: 0px 0px 6px 0px $black-semi-transparent;
-        box-shadow: 0px 0px 6px 0px $black-semi-transparent;
+        span.fig {
+          background-color: $accent-color;
+          transition: background-color .25s;
+        }
+
+        img {
+          -webkit-transition: -webkit-box-shadow .35s;
+          transition: box-shadow .35s;
+          -webkit-box-shadow: 0px 0px 6px 0px $black-semi-transparent;
+          -moz-box-shadow: 0px 0px 6px 0px $black-semi-transparent;
+          box-shadow: 0px 0px 6px 0px $black-semi-transparent;
+        }
+
+        span.quire-figure__fig {
+          background: $accent-color;
+        }
+
+        span.quire-figure__modal * {
+          color: link-hover-color($content-background-color);
+        }
       }
     }
 
@@ -131,30 +70,36 @@
       background: $black-semi-transparent;
       /** sets transparent background without affecting text color **/
       position: absolute;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      @media print {
+        padding: 2px 3px 2px 6px;
+        .material-icons {
+          display: none;
+        }
+      }
       left: 0;
       top: 0;
+      color: $white;
+      margin: 0 auto;
 
-      &.no-fullscreen {
-
-        strong {
-          color: $white;
-          margin-left: 5px;
-          margin-bottom: 3px;
-        }
+      span {
+        font-size: 1.125rem;
+        line-height: 1.5em;
+        padding: 0 .2em;
       }
 
       strong {
         color: $white;
-        margin-top: 3px;
         margin-right: 5px;
       }
 
-      &-print {
-        color: $white;
+      &.no-fullscreen {
+        padding: .4em .2em;
         strong {
-          color: $white;
-          margin-top: 3px;
-          margin-right: 5px;
+          margin-top: 0;
+          margin-left: 6px;
         }
       }
     }
@@ -168,28 +113,12 @@
   .content & {
     margin-left: 0;
     margin-right: 0;
-
-    @media screen and (min-width: $tablet) {
-      margin-left: 2em;
-      margin-right: 2em;
-    }
   }
 
   &__image {
     .content figure & {
       display: block;
       margin: 0 auto;
-    }
-  }
-
-  &__label {
-    // display: block;
-    // font-size: 1rem;
-    // margin-top: .5rem;
-    color: $red;
-
-    .quire-figure__caption & {
-      // display: block;
     }
   }
 
@@ -200,33 +129,68 @@
     font-style: normal;
     text-align: left;
     color: background-color-text($content-background-color);
-    user-select: text;
-
     @media print {
-      margin-top: 5pt;
-      font-size: 9pt;
+      color: $print-text-color;
     }
+    user-select: text;
   }
 
   &__credit {
 
-    // display: block;
-    // font-size: 1em;
-    // margin-top: .25rem;
-    @media print {
-      font-size: 7.5pt;
-      margin-top: 1.5pt;
-    }
   }
 
   &__modal {
-    color: $accent-color;
+    @if $theme == classic {
+      color: background-color-text-classic($content-background-color);
+    } @else {
+      color: $accent-color;
+    }
+    font-weight: 700;
+    margin-top: 0;
+    height: .875em;
+    float: left;
+    position: relative;
+    top: .125em;
 
     .material-fullscreen,
     .material-slides {
-      top: 8px;
+      top: 1px;
+      width: 20px;
+      left: -4px;
       position: relative;
+      font-weight: 400;
+      float: left;
+      @media print {
+        display: none;
+      }
     }
+  }
+
+  &__label {
+    @if $theme == classic {
+      color: background-color-text-classic($content-background-color);
+    } @else {
+      color: $accent-color;
+    }
+    @media print {
+      color: $print-text-color;
+    }
+    font-weight: 700;
+    margin-right: .5em;
+
+    .material-fullscreen,
+    .material-slides {
+      top: 7px;
+      width: 16px;
+      left: -4px;
+      position: relative;
+      font-weight: 400;
+    }
+
+    .quire-figure__modal & {
+      font-size: .75em;
+    }
+
   }
 
   &__media-wrapper {
@@ -273,7 +237,7 @@
       position: relative;
     }
     h5.header {
-      font-family:  $family-primary;
+      font-family:  $quire-primary-font;
       font-size: 0.85em;
       color: $black;
       font-weight: 400;
@@ -306,7 +270,7 @@
         font-size: 50px;
         color: $white;
         &.audio {
-          // padding-top: 10px;
+
         }
       }
     }
@@ -338,20 +302,34 @@
     @media screen and (min-width: $tablet) {
       width: 50%;
     }
-
+    
     @media print {
-      float: none !important;
-      width: unset !important;
+      width: 2.75in;
     }
   }
 
   &.is-pulled-left {
     margin-left: 0;
-    margin-right: 1em !important;
+    margin-right: 1.25em;
+    @media print {
+      margin-right: 1.75em;
+    }
   }
   &.is-pulled-right {
     margin-right: 0;
-    margin-left: 1em !important;
+    margin-left: 1em;
+    @media print {
+      margin-left: 1.5em;
+    }
+  }
+
+  .content &.is-pulled-left,
+  .content &.is-pulled-right {
+    margin-top: .75em;
+    margin-bottom: 1em;
+    @media screen and (max-width: $tablet) {
+      margin: 0 0 1em 0;
+    }
   }
 
   &--group {
@@ -450,22 +428,18 @@
       margin-right: 0;
     }
 
-    /*
     .soundcloud,
     .youtube,
     .vimeo {
-      flex: 0 0 100%;
+      
     }
-    */
 
     .quire-figure__caption {
-      clear: both;
       width: 100%;
     }
   }
 
   @media print {
-    // width: 96%;
     column-span: none;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
@@ -476,10 +450,6 @@
 
 /** VIDEO/AUDIO FALLBACK ELEMENTS **/
 
-
-/** VIDEO/AUDIO FALLBACK ELEMENTS **/
-
-/** VIDEO/AUDIO FALLBACK ELEMENTS **/
 div.multimedia {
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -521,9 +491,7 @@ div.multimedia {
       color: $black;
       font-weight: 400;
     }
-
   }
-
 
   &-grid {
     overflow-wrap: break-word;
@@ -563,7 +531,6 @@ div.multimedia {
         margin: .5em 0 0 0;
         color: $black;
       }
-
     }
   }
 
@@ -577,7 +544,6 @@ div.multimedia {
     color: $black;
     word-break: break-all;
   }
-
 }
 
 /** VIDEO/AUDIO FALLBACK ELEMENTS **/

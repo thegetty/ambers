@@ -27,43 +27,26 @@
 .quire {
   width: 100%;
 
-  h1, h2, h3, h4, h5, h6 {
-    letter-spacing: -0.025em;
-    color: background-color-text($secondary-background-color);
-  }
-
-  h2 {
-    text-transform: uppercase;
-    font-size: 1.75em;
-    line-height: 1.15em;
-  }
-
-  h3 {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 1.625em;
-  }
-
-  h4 {
-    font-size: 1.375em;
-    line-height: 1.2em;
-  }
-
-  h5 {
-    font-size: 1.125em;
-    line-height: 1.22em;
-  }
-
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
   h6 {
-    text-transform: uppercase;
-    font-size: .875em;
-    font-weight: 700;
-    line-height: 1.28em;
-    padding-bottom: 0.25em;
-    border-bottom: 1px solid $off-black;
+    font-family: $quire-headings-font;
+    @if $quire-headings-font == $ibm-sans {
+      letter-spacing: -0.025em;
+    }
   }
 
   // Styles used whether JS is enabled or not
+  #main {
+    background-color: $secondary-background-color;
+    @media print {
+      background-color: transparent;
+    }
+  }
+  
   &__secondary {
     background-color: $quire-menu-color;
     padding: 1.25em;
@@ -78,17 +61,13 @@
 
   // Styles when JS is not supported; menu at bottom
   &.no-js {
-    // display: flex;
-    // flex-direction: column;
     min-height: 100vh;
 
     .quire__primary {
-      // flex: 1;
-      background: #fff;
+
     }
 
     .quire__secondary {
-      // order: 1;
       width: 100%;
       display: none;
     }
@@ -97,15 +76,9 @@
   // Styles with JS enabled (sliding menu, etc.)
   &:not(.no-js) {
     .quire__primary {
-      background: $secondary-background-color;
       display: flex;
       flex-direction: column;
       height: 100vh;
-      /*
-      top: 0;
-      left: 0;
-      position: absolute;
-      */
       transition-property: transform;
       transition-duration: 0.15s;
       transition-timing-function: linear;
@@ -113,18 +86,17 @@
       z-index: 9999;
 
       #main {
-        background: $secondary-background-color;
         margin-top: $navbar-height;
         color: background-color-text($secondary-background-color);
-      }
-
-      .quire-page {
         flex: 1 1 auto;
         -webkit-overflow-scrolling: touch;
         overflow-y: scroll;
         position: relative;
+        @media print {
+          color: $print-text-color;
+        }
       }
-
+      
       .section {
         padding-left: 0;
         padding-right: 0;
@@ -136,7 +108,6 @@
     }
 
     .quire__secondary {
-      border-right: solid 1px $quire-menu-border-color;
       height: 100%;
       position: fixed;
       top: 0;
@@ -165,7 +136,7 @@
       &.is-expanded {
         overflow-y: scroll;
         transform: translate3d(0, 0 ,0);
-        width: $quire-menu-width;
+        width: calc(#{$quire-menu-width} - 2em);
         // width: calc(100% - 3rem);
         @media screen and (max-width: $quire-menu-width) {
           width: calc(100% - 3rem);
@@ -176,26 +147,19 @@
         }
 
         + .quire__primary {
-          right: $quire-menu-width;
-          width: calc(100% - #{$quire-menu-width});
+          // right: $quire-menu-width;
+          // width: calc(100% - #{$quire-menu-width});
           // transform: translate3d($quire-menu-width, 0, 0);
-          // transform: translate3d(-$quire-menu-width, 0 ,0);
+          transform: translate3d(calc(-#{$quire-menu-width} + 2em), 0 ,0);
           // position: fixed;
           // transform: translate3d(-352px, 0 ,0);
           @media screen and (max-width: $quire-menu-width) {
-            right: $quire-menu-width;
-            width: calc(100vh - #{$quire-menu-width});
-            // transform: translate3d($quire-primary-move, 0 ,0);
+            // right: $quire-menu-width;
+            // width: calc(100vh - #{$quire-menu-width});
+            transform: translate3d(calc(-100% + 3rem), 0 ,0);
             // right: calc(100vw - #{$navbar-height});
             // transform: translate3d(- $quire-menu-width, 0, 0);
             // width: #{$navbar-height};
-          }
-          .quire-navbar {
-            width: calc(100% - #{$quire-menu-width});
-            right: $quire-menu-width;
-          }
-          article {
-
           }
         }
       }

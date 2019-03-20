@@ -72,7 +72,7 @@
 
 {{/* Clear previous usage */}}
 {{/* ---------------------------------------------------------------------- */}}
-{{ if $.Page.Scratch.Get "contributorList"  }}
+{{ if ne ($.Page.Scratch.Get "contributorList") "" }}
 {{ $.Page.Scratch.Delete "contributorlist" }}
 {{ end }}
 
@@ -110,7 +110,7 @@
 
     {{/* Page contributor’s contribution */}}
     {{/* ------------------------------------------------------------------ */}}
-    {{- $pagenumber := .Params.number -}}
+    {{- $pagenumber := .Params.label -}}
     {{- $pagetitle := .Params.title -}}
     {{- $pagesubtitle := .Params.subtitle -}}
     {{- $pagelink := .Permalink -}}
@@ -166,15 +166,16 @@
 
     <div class="media">
 
-    {{- if ne (index . 5) "n/a" -}}
-    <div class="media-left">
-      <img class="image quire-contributor__pic"
-          src='{{ with index . 5 }}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}'
-          alt="Picture of {{ index . 0 }}"/>
-    </div>
-    {{- end -}}
 
     <div class="quire-contributor__details media-content">
+      
+      {{- if ne (index . 5) "n/a" -}}
+      <div class="media-left">
+        <img class="image quire-contributor__pic"
+            src='{{ with index . 5 }}{{ printf "%s/%s" ($.Scratch.Get "imageDir") . | relURL }}{{ end }}'
+            alt="Picture of {{ index . 0 }}"/>
+      </div>
+      {{- end -}}
       <p class="quire-contributor__bio">
         {{ if ne (index . 3) "n/a" }}{{ markdownify (index . 3) }}{{ end }}
       </p>
@@ -184,16 +185,15 @@
       <p>
         <a href="{{ index . 9 }}" class="quire-contributor__page-link">
           {{ if ne (index . 6) "n/a" }}{{ index . 6 }}{{ $.Site.Params.pageLabelDivider }}{{ end }}
-          {{ markdownify (index . 7) }}
-          {{ if ne (index . 8) "n/a" }}{{- $endPunctuation := findRE "[!|?]$" (index . 8) -}}{{ if $endPunctuation }} {{ else }}: {{ end }}{{ markdownify (index . 8) }}{{ end }}
+          {{ markdownify (index . 7) }}{{ if ne (index . 8) "n/a" }}{{- $endPunctuation := findRE "[!|?]$" (index . 7) -}}{{ if $endPunctuation }} {{ else }}: {{ end }}{{ markdownify (index . 8) }}{{ end }}
         </a>
       </p>
+      {{- end -}}
+      {{- end -}}
       {{ if ne (index . 4) "n/a" }}
       <p>
         <a href="{{ index . 4 }}" class="quire-contributor__url">{{ index . 4 }}</a>
       </p>
-      {{- end -}}
-      {{- end -}}
       {{- end -}}
       </div>
     </div>

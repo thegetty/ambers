@@ -21,12 +21,7 @@
 // .quire-menu
 // -----------------------------------------------------------------------------
 .quire-menu {
-
-  @if $theme == classic {
-    font-family: $noto-serif;
-  } @else {
-    font-family: $noto-sans;
-  }
+  font-family: $quire-primary-font;
   line-height: 1.25;
 
   &__header {
@@ -49,26 +44,51 @@
       font-weight: 700;
       line-height: 1.2em;
       color: $white;
+      font-family: $quire-headings-font;
       @if $theme == classic {
-        font-family: $times-serif;
         letter-spacing: 0;
-      } @else {
-        font-family: $noto-sans;
       }
     }
     &__contributors {
       margin: .25em 0 1.5em;
     }
 
-    h1, h2, h3, h4, h5, h6 { color: $white; }
+    h1, h2, h3, h4, h5, h6 { color: $quire-menu-text-color; }
 
+  }
+  
+  // Temporary until the headings/semantics of the menu can be reworked. Style matches backmatter h2 
+  h6 {
+    font-family: $quire-headings-font;
+    @if $theme == classic {
+      letter-spacing: .5px;
+    } @else {
+      letter-spacing: .25px;
+    }
+    color: background-color-text-classic($content-background-color);
+    font-size: .875rem;
+    line-height: 1.28;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid background-color-text-classic($content-background-color);
   }
 
   &__formats {
     margin-top: 2rem;
     h6 {
-      color: $dark-gray;
-      border-color: $dark-gray;
+      @if (lightness($quire-menu-text-color) > 50) {
+        color: darken($quire-menu-text-color, 40%);
+        border-color: darken($quire-menu-text-color, 40%);
+
+        color: lighten($quire-menu-color, 40%);
+        border-color: lighten($quire-menu-color, 40%);
+
+      } @else {
+        color: $off-black;
+        border-color: $off-black;
+      }
     }
     .menu-list {
       margin-top: .75em;
@@ -115,18 +135,18 @@
 
   .page-item, .section-item {
     a {
-      font-family: $family-primary;
+      font-family: $quire-primary-font;
       &.active {
         margin-left: -1.25em;
         border-left: 4px solid $accent-color;
         color: $accent-color !important;
         text-decoration: none;
-        @if $family-primary == $noto-serif {
-          color: $accent-color !important;
-          border-left: 4px solid $accent-color !important;
-        }
+        padding-left: calc(.75em + 4px);
         &:hover {
           border-left-width: 4px;
+        }
+        * {
+          color: $accent-color !important;
         }
       }
     }
@@ -149,15 +169,6 @@
     line-height: 1.5;
   }
 
-  .menu-label {
-    color: $dark-gray;
-    font-size: .9em;
-    font-weight: 600;
-    letter-spacing: 0;
-    padding-bottom: .5em;
-    border-bottom: 1px solid $dark-gray;
-  }
-
   .main {
     padding-top: 1em;
   }
@@ -169,7 +180,7 @@
       margin-bottom: .25em;
     }
     li ul {
-      border-left-width: 0px;
+      border-left-width: 0;
     }
     .section-list {
       .section-list {

@@ -49,9 +49,11 @@ window.toggleMenu = () => {
   if (menuAriaStatus === 'true') {
     // nav.style.top = ``
     // enableScroll(primary);
+    $('.side-by-side > .quire-entry__image-wrap > .quire-entry__image').removeClass('menu_open')
     menu.setAttribute('aria-expanded', 'false');
   } else {
     // disableScroll(primary);
+    $('.side-by-side > .quire-entry__image-wrap > .quire-entry__image').addClass('menu_open')
     menu.setAttribute('aria-expanded', 'true');
   }
 };
@@ -119,10 +121,10 @@ function sliderSetup() {
   });
   let images = [...document.querySelectorAll('.quire-deepzoom-entry')]
     .filter(v => {
-      return v.getAttribute('data-image') !== null ? v : ''
+      return v.getAttribute('src') !== null ? v : ''
     })
     .map(v => {
-      return v.getAttribute('data-image')
+      return v.getAttribute('src')
     })
   preloadImages(images, () => {
     mapSetup('.quire-map-entry');
@@ -185,7 +187,7 @@ window.search = () => {
   }
 
   function clearResults() {
-    resultsContainer.innerbody = '';
+    resultsContainer.innerText = '';
   }
 
   function displayResults(results) {
@@ -247,6 +249,7 @@ function loadSearchData() {
  * to get next adn previous pages
  */
 let navigation;
+
 function navigationSetup() {
   if (!navigation) {
     navigation = new Navigation();
@@ -335,8 +338,38 @@ function quickLinksSetup() {
     return a.hostname === window.location.hostname;
   });
   quicklink({
-    urls: links
+    urls: links,
+    timeout: 4000,
+    ignores: [
+      /tel:/g,
+      /mailto:/g,
+      /#(.+)/,
+      uri => uri.includes('tel:'),
+      uri => uri.includes('mailto:'),
+      uri => uri.includes('#')
+    ]
   })
+}
+
+/**
+ * @description
+ * Set the date for the cite this partial
+ * https://github.com/gettypubs/quire/issues/153
+ * Quire books include a "Cite this Page" feature with page-level citations formatted in both Chicago and MLA style. 
+ * For MLA, the citations need to include a date the page was accessed by the reader. 
+ * 
+ */
+function setDate() {
+  let $date = $('.cite-current-date')
+  let options = {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  };
+  let today = new Date();
+  let formattedDate = today.toLocaleDateString("en-US", options).indexOf('May') !== -1 ? today.toLocaleDateString("en-US", options) : [today.toLocaleDateString("en-US", options).slice(0, 3), '. ', today.toLocaleDateString("en-US", options).slice(4)].join('')
+  $date.empty();
+  $date.text(formattedDate);
 }
 
 
@@ -346,7 +379,8 @@ function quickLinksSetup() {
  * Initialize any jquery plugins or set up page UI elements here.
  */
 function pageSetup() {
-  // quickLinksSetup();
+  setDate();
+  quickLinksSetup();
   activeMenuPage();
   sliderSetup();
   navigationSetup();
