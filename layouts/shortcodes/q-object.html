@@ -1,16 +1,92 @@
+{{/*
+
+  This shortcode is based on the q-cite shortcode and creates a hover-over 
+  tooltip on an accession number. The hover-over displays a small image of the 
+  object as well as the catalogue number, and it links to the relevant 
+  catalogue entry. 
+  
+  q-object "77.AO.85"
+  
+  It will ignore any accession numbers that match that of the object on the 
+  current page (so 77.AO.85 on the page dedicated to 77.AO.85 won’t be a link 
+  or display an image). It also ignores any accession numbers not matching one 
+  in objects.yml, and instead just returns the plain number without link or 
+  other markup.
+  
+  Lastly, this will add the relevant catalogue number after the accession 
+  number, but only on the first use of that number on the page. By default this
+  is included in parentheses, but passing a comma to to the shortcode will have 
+  it be comma separated instead.
+  
+  q-object "77.AO.85" ","
+  
+*/}}
+
+{{- $accession := .Get 0 -}}
+
+{{- /* Image directory */ -}}
+{{- /* ------------------------------------------------------------------ */ -}}
 {{- if isset $.Site.Params "imagedir" -}}
 {{ $.Scratch.Set "imageDir" $.Site.Params.imageDir }}
 {{- else -}}
 {{ $.Scratch.Set "imagedir" "" }}
 {{- end -}}
 
-{{- $accession := .Get 0 -}}
-{{- range $.Site.Data.objects.object_list -}}
-  {{- if eq .accession_number $accession -}}
-    {{- range first 1 .figure -}}
-      {{- $.Scratch.Set "imageSrc" .src -}}
-    {{- end -}}
-    {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") ($.Scratch.Get "imageSrc") -}}
-    <a href="../{{ .id }}/" class="quire-citation quire-object"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}<span class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br />Cat. {{- markdownify .id -}}</span></a>
+{{- /* Get accession number of object on current page */ -}}
+{{- /* ------------------------------------------------------------------ */ -}}
+{{- if .Page.Params.object -}}
+  {{- range .Page.Params.object -}}
+    {{- $.Page.Scratch.Set "id" .id -}}
   {{- end -}}
+{{- else -}}
+  {{- $.Page.Scratch.Set "id" "none" -}}
+{{- end -}}
+
+{{- range $.Site.Data.objects.object_list -}}
+  {{- if eq .id ($.Page.Scratch.Get "id") -}}
+    {{- $.Page.Scratch.Set "pageAccession" .accession_number -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* If shortcode is for object on page, return the number only */ -}}
+{{- /* ------------------------------------------------------------------ */ -}}
+{{- if eq $accession ($.Page.Scratch.Get "pageAccession") -}}
+  {{ $accession }}
+  
+{{- /* Otherwise look for info in objects.yml to build hover-over */ -}}
+{{- /* ------------------------------------------------------------------ */ -}}
+{{- else -}}
+  
+  {{- range $.Site.Data.objects.object_list -}}
+    {{- if eq .accession_number $accession -}}
+      {{- $.Scratch.Set "numberMatch" true -}}
+      {{- range first 1 .figure -}}
+        {{- $.Scratch.Set "imageSrc" .src -}}
+      {{- end -}}
+      {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") ($.Scratch.Get "imageSrc") -}}
+      <a href="/objects/{{ .id }}/" class="quire-citation quire-object"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}<span class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br />Cat. {{ markdownify .id }}</span></a>
+      
+      {{- /* If this is the first instance of this number on this page
+           add the catalouge number in plain text after the link  */ -}}
+      {{- /* ------------------------------------------------------------ */ -}}
+      {{- if in ($.Page.Scratch.Get "objects" ) $accession -}}
+      {{- else -}} 
+      
+          {{- /* If shortcode has a ",", use it to format cat. no. */ -}}
+          {{- /* -------------------------------------------------------- */ -}}
+        {{- $format := $.Get 1 -}}
+        {{- if eq $format "," -}}, <span>cat. no. {{ .id }}</span>
+        {{- else }} <span>(cat. no. {{ .id }})</span>
+        {{- end -}}
+      {{- end -}}
+      {{- $.Page.Scratch.Add "objects" (slice $accession) -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* If there was no match in objects.yml, return the number only */ -}}
+  {{- /* ---------------------------------------------------------------- */ -}}
+  {{- if ne ($.Scratch.Get "numberMatch") true -}}
+    {{ $accession }}
+  {{- end -}}
+
 {{- end -}}
