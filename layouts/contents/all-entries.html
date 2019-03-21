@@ -1,0 +1,34 @@
+{{/*
+  Table of Contents (TOC) page template. Page content from the markdown will
+  appear in the .Content outlet below. The Table of Contents list will appear
+  below that. It is scoped to show the contents of the full site. Pages can be
+  removed from the TOC indivudally by adding "toc: false" to the page yaml.
+*/}}
+
+{{ define "main" }}
+<div class="quire-contents" id="main" role="main">
+  {{ partial "page-header.html" . }}
+  
+
+  <section class="section quire-page__content" id="content">
+    
+    {{- if .Content -}}
+      <div class="container">
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    {{- end -}}
+    
+    <div class="container {{ if in .Params.class "grid" }}is-fullhd{{ end }}">
+      <div class="quire-contents-list {{ if in .Params.class "grid" }} grid{{ else if in .Params.class "abstract" }} abstract{{ else if in .Params.class "brief" }} brief{{ else }} list{{ end }}">
+        <div class="menu-list">
+            {{ $scope := where .Site.Pages "Params.type" "entry" }}
+            {{- partial "contents-list-all-entries.html" (dict "contentsScope" $scope "contentsType" .Site.Params.tocType "pdf" ".Params.pdf" "epub" ".Params.epub" "contentsLocation" ".Params.toc" "contentsPage" . ) -}}
+        </div>
+      </div>
+      {{ partial "footer-buttons.html" . }}
+    </div>
+  </section>
+</div>
+{{ end }}
