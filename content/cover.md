@@ -1,5 +1,5 @@
 ---
-title: Ancient Carved Ambers in the J. Paul Getty Museum
+title: Cover
 weight: 1
 menu: false
 type: cover
