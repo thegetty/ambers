@@ -75,7 +75,7 @@ The solar aspects of amber may well have underscored the connection of the penda
 
 [^17]: In the banqueting scene of the second chamber, the jewelry worn by the female banqueter and many of the vessels of metallic shapes are painted white or yellow-orange.
 
-[^18]: Simon 1973 (see ["Lions' Heads" section](#6.md), n. 22) and E. Simon, “Apollo in Eturia,” *Annali della Fondazione per il Museo “Claudio Faina”* 5 (1998): 119–48.
+[^18]: Simon 1973 (see ["Lions’ Heads" section](#6.md), n. 22) and E. Simon, “Apollo in Eturia,” *Annali della Fondazione per il Museo “Claudio Faina”* 5 (1998): 119–48.
 
 [^19]: For the Delphi coins with paired rams’ heads (or rhyta as first identified by Seltman, supported by Kraay): {{< q-cite "Kraay 1976" >}}, p. 121, with ref. to C. Seltman, *A Book of Greek Coins* (London, 1952), p. 14.
 
