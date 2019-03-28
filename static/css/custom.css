@@ -31,3 +31,80 @@
 #contents .quire-contents-list.list li.section-item:nth-child(n+13) {
   margin-left: 0;
 }
+
+/* Use pre and code to maintain strict LOC Cataloguing in Publication format */
+.cip-data p {
+  margin-bottom: 0 !important;
+}
+.cip-data pre {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.cip-data pre code {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6 !important;
+}
+@media print {
+  .cip-data pre code {
+    font-size: 1rem;
+  }
+}
+
+/* Style copyright for PDF/Print output */
+@media print {
+  #copyright .quire-page.quire-page--frontmatter {
+    page: no-footer;
+  }
+  #copyright .quire-page__header {
+    display: none;
+  }
+  #copyright .quire-page__content {
+    column-count: 2;
+    column-gap: .1875in;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  #copyright .cip-data {
+    column-break-after: always;
+  }
+  #copyright img {
+    height: .25in;
+  }
+  #copyright hr {
+    width: 70%;
+  }
+  #copyright .content ul {
+    margin-left: .5rem;
+  }
+}
+
+@media print {
+  #orientalizing-group-group,
+  #ship-with-figures-group,
+  #korai-group,
+  #pendants-in-the-form-of-the-human-head-group,
+  #animal-group,
+  #lions-heads-group,
+  #boars-group,
+  #rams-heads-group,
+  #other-animal-heads-group,
+  #forgery-group {
+    page: frontmatter;
+  }
+  #orientalizing-group-group .quire-contents-list.grid,
+  #ship-with-figures-group .quire-contents-list.grid,
+  #korai-group .quire-contents-list.grid,
+  #pendants-in-the-form-of-the-human-head-group .quire-contents-list.grid,
+  #animal-group .quire-contents-list.grid,
+  #lions-heads-group .quire-contents-list.grid,
+  #boars-group .quire-contents-list.grid,
+  #rams-heads-group .quire-contents-list.grid,
+  #other-animal-heads-group .quire-contents-list.grid,
+  #forgery-group .quire-contents-list.grid {
+    display: none;
+  }
+}
