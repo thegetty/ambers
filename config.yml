@@ -42,7 +42,7 @@ params:
   menuType: short
   prevPageButtonText: "Back"
   nextPageButtonText: "Next"
-  entryPageSideBySideLayout: false
+  entryPageSideBySideLayout: true
   entryPageObjectLinkText: "View in Collection"
   figureLabelLocation: below # below | on-top
   figureModal: true
