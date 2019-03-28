@@ -1,6 +1,11 @@
+/* Customization for q-object shortcode */
 .quire-object .quire-citation__content {
   margin-top: 0;
   max-width: 16em;
   margin-left: -8em;
 }
 
+/* Fixes margins on HTML footnotes in Introduction section */
+.quire-page__content .content .backmatter ol {
+  margin-left: 2em;
+}
