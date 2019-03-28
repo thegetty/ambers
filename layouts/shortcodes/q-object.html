@@ -64,7 +64,7 @@
         {{- $.Scratch.Set "imageSrc" .src -}}
       {{- end -}}
       {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") ($.Scratch.Get "imageSrc") -}}
-      <a href="/objects/{{ .id }}/" class="quire-citation quire-object"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}<span class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br />Cat. no. {{ markdownify .id }}</span></a>
+      <span class="quire-citation quire-object"><a href="/objects/{{ .id }}/"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}</a><span class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br />Cat. no. {{ markdownify .id }}</span></span>
       
       {{- /* If this is the first instance of this number on this page
            add the catalouge number in plain text after the link  */ -}}
