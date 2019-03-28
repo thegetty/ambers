@@ -1,5 +1,5 @@
 ---
-title: Catalogue Objects
+title: Catalogue
 type: contents
 layout: all-entries
 class: grid

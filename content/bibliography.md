@@ -1,8 +1,7 @@
 ---
 title: Bibliography
 type: page
-weight: 1500
-slug:
+weight: 1402
 ---
 
 ## Abbreviations

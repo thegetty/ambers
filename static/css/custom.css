@@ -9,3 +9,25 @@
 .quire-page__content .content .backmatter ol {
   margin-left: 2em;
 }
+
+/* Indent catalogue subsection in TOC and menu */
+.quire-menu .menu-list ul li:nth-child(n+4) {
+  margin-left: 1.5rem;
+}
+.quire-menu .menu-list ul li:nth-child(n+14) {
+  margin-left: 0;
+}
+.quire-menu li:nth-child(n+4) a.active {
+  margin-left: -2.75em;
+  padding-left: calc(2.25em + 4px);
+}
+.quire-menu li:nth-child(n+14) a.active {
+  margin-left: -1.25em;
+  padding-left: calc(.75em + 4px);
+}
+#contents .quire-contents-list.list li.section-item:nth-child(n+3) {
+  margin-left: 1.5rem;
+}
+#contents .quire-contents-list.list li.section-item:nth-child(n+13) {
+  margin-left: 0;
+}
