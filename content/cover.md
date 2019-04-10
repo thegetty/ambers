@@ -5,6 +5,7 @@ menu: false
 toc: false
 type: cover
 slug: .
+image: cover-background.jpg
 ---
 
 This catalogue presents a group of remarkable amber carvings from the J. Paul Getty Museum’s collection—the second largest body of this material in the United States and one of the most important in the world. The fifty-six Etruscan, Greek, and Italic carved ambers date from around 650 to 300 B.C. 
