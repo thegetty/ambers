@@ -29,7 +29,7 @@ There are demonstrable connections in Greek myth and the material culture of Gre
 
 Although the Getty amber lions’ heads are generally similar in format and function to one another (as well as to amber heads in other collections and to protomes in other media), each is idiosyncratic. The Getty lions’ heads demonstrate both a close relationship to existing types and models and the distinctive hand of individual carvers. {{< q-object "76.AO.80" >}}, {{< q-object "77.AO.81.9" >}}, and {{< q-object "77.AO.81.10" >}} are pendants, bored laterally in the neck area. {{< q-object "76.AO.81" >}} is perforated with a large rostrocaudal through-bore and has a beveled edge. This indicates a usage different from all other amber lions’ heads. {{< q-object "76.AO.81" >}} may have served as a finial, such as a finial bead on a necklace, the likely purpose of one of the amber ram pendants in the Getty collection ({{< q-object "77.AO.81.12" "," >}}). However, the size of the hole and the delicacy of the carving of the lion’s mouth suggest other functions; possibly it served as the added spout of a small vessel. In addition to the pendants, there are two other amber lions’ heads in the Getty collection, the finials of {{< q-object "77.AO.83" >}}, a plaque with a walking boar as its subject.
 
-{{< q-class="backmatter" >}}
+{{< q-class "backmatter" >}}
 ## Notes
 {{< /q-class >}}
 
