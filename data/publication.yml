@@ -43,6 +43,11 @@ publisher:
 # ------------------------------------------------------------------------------
 
 contributor_as_it_appears:
+  
+titlepage_contributor_as_it_appears: |
+  Faya Causey
+  
+  with technical analysis by Jeff Maish, Herant Khanjian, and Michael Schilling
 
 contributor:
   - type: primary
