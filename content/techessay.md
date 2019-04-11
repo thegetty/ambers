@@ -80,179 +80,199 @@ FTIR analysis also reveals important details about the nature of the surface and
 ## Conclusions
 This study has demonstrated that chemical analysis using FTIR and THM-Py-GC/MS can provide rich details concerning the composition of antique amber objects. Fundamentally, the analytical results showed that all of the amber objects in the J. Paul Getty Museum are classified as Baltic amber. Additional information revealed the nature and extent of deterioration, and provided tantalizing hints about the nature of the burial conditions to which some of these objects may have been exposed. Finally, detection of certain marker compounds has shown that a number of amber objects were treated with drying oils and fats and, furthermore, that amber oil treatment does not interfere with the provenancing process.
 
+{{< q-class "tech-table" >}}
 ## Table 1: Marker Compounds from THM-Py-GC/MS Analysis of Amber
 
-   IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
-   ------------- |  ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
-   Bicyclo[2.2.1]heptane, 2,2-dimethyl-3-methylene-          |      Camphene                       |    79-92-5     |    C10H16   |     136   |   8.04
-  Butanedioic acid, dimethyl ester                            |        Succinic acid, dimethyl ester  |    106-65-0  |      C6H10O4  |     146  |    10.27
-   Bicyclo[2.2.1]heptane, 2-methoxy-1,3,3-trimethyl-          |       Methyl fenchyl ether           |    N/A         |    C11H20O  |     168  |    12.35
-   Bicyclo[2.2.1]heptan-2-ol, 1,3,3-trimethyl-                |       Fenchyl alcohol                 |   1632-73-1  |     C10H18O  |     154  |    12.50
-  Bicyclo[2.2.1]heptan-2-one, 1,7,7-trimethyl-, (1S)-          |     L-camphor                       |   464-48-2   |     C10H16O   |    152  |    13.20
-   Bicyclo[2.2.1]heptan-2-methoxy, 1,7,7-trimethyl-, (1S-endo)-  |    Methyl bornyl ether            |    N/A         |    C11H20O  |     168  |    13.48
-  Bicyclo[2.2.1]heptan-2-ol, 1,7,7-trimethyl-, (1S-endo)-      |     L-borneol                       |   464-45-9    |    C10H18O   |    154  |    13.83
-  Naphthalene, 1,2,3,4-tetrahydro-1,8-dimethyl-                 |                                     |    25419-33-4  |    C12H16    |    160  |    17.44
-   Cedren-13-methoxy, 8-                                         |                                     |    N/A         |    C16H26O   |    234  |    24.80
-                                                                 |     Methyl fenchyl succinate        |   N/A         |    C15H24O4  |    268  |    25.16
-                                                                 |     Methyl bornyl succinate        |    N/A         |    C15H24O4  |    268  |    26.54
-   Cedren-13-ol, 8-                                               |                                    |    18319-35-2   |   C15H24O   |    220  |    26.92
-                                                                   |    Dibornyl succinate             |    N/A         |    C24H38O4  |    390  |    38.64
+| IUPAC Name                                                   | Synonym                       | CAS #      | Formula  | MW  | Retention Time, min |
+|--------------------------------------------------------------|-------------------------------|------------|----------|-----|---------------------|
+| Bicyclo[2.2.1]heptane, 2,2-dimethyl-3-methylene-             | Camphene                      | 79-92-5    | C10H16   | 136 | 8.04                |
+| Butanedioic acid, dimethyl ester                             | Succinic acid, dimethyl ester | 106-65-0   | C6H10O4  | 146 | 10.27               |
+| Bicyclo[2.2.1]heptane, 2-methoxy-1,3,3-trimethyl-            | Methyl fenchyl ether          | N/A        | C11H20O  | 168 | 12.35               |
+| Bicyclo[2.2.1]heptan-2-ol, 1,3,3-trimethyl-                  | Fenchyl alcohol               | 1632-73-1  | C10H18O  | 154 | 12.50               |
+| Bicyclo[2.2.1]heptan-2-one, 1,7,7-trimethyl-, (1S)-          | L-camphor                     | 464-48-2   | C10H16O  | 152 | 13.20               |
+| Bicyclo[2.2.1]heptan-2-methoxy, 1,7,7-trimethyl-, (1S-endo)- | Methyl bornyl ether           | N/A        | C11H20O  | 168 | 13.48               |
+| Bicyclo[2.2.1]heptan-2-ol, 1,7,7-trimethyl-, (1S-endo)-      | L-borneol                     | 464-45-9   | C10H18O  | 154 | 13.83               |
+| Naphthalene, 1,2,3,4-tetrahydro-1,8-dimethyl-                |                               | 25419-33-4 | C12H16   | 160 | 17.44               |
+| Cedren-13-methoxy, 8-                                        |                               | N/A        | C16H26O  | 234 | 24.80               |
+|                                                              | Methyl fenchyl succinate      | N/A        | C15H24O4 | 268 | 25.16               |
+|                                                              | Methyl bornyl succinate       | N/A        | C15H24O4 | 268 | 26.54               |
+| Cedren-13-ol, 8-                                             |                               | 18319-35-2 | C15H24O  | 220 | 26.92               |
+|                                                              | Dibornyl succinate            | N/A        | C24H38O4 | 390 | 38.64               |
+{{< /q-class >}}
 
+{{< q-class "tech-table" >}}
 ## Table 2: Diterpenes Identified in Amber Objects Using THM-Py-GC/MS Analysis
 
-   IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
-    -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
-   Podocarp-8-en-15-oic acid, 13alpha-methyl-13-vinyl-, methyl ester             |          Methyl pimara-8,15-dien-18-oate           |   19907-21-2   |   C21H32O2    |  316   |   33.17
-   Podocarpa-8,11,13-trien-15-oic acid, 13-isopropyl-, methyl ester              |          Methyl dehydroabietate                    |   1235-74-1    |   C21H30O2    |  314   |   35.14
-   Methyl 5-(5,5,8a-trimethyl-2-methylenedecahydro-1-naphthalenyl)-3-methylpentanoate  |    Labd-8(20)-en-15-oic acid, methyl ester   |   13008-80-5   |   C21H36O2   |   320   |   33.49
-   Methyl pimar-7-en-18-oate                                                     |                                                    |   72088-13-2   |   C21H34O2   |  318   |   33.80
-   Labda-8(20),12,14-trien-19-oic acid, methyl ester, (Z)-                        |         Methyl cis-Communate                      |   10178-35-5   |   C21H32O2   |   316   |   33.95
-   Podocarp-8(14)-en-15-oic acid, 13á-methyl-13-vinyl-, methyl ester              |         Methyl sandaracopimarate                  |   1686-54-0    |   C21H32O2    |  316   |   33.95
-   Podocarp-7-en-15-oic acid, 13á-methyl-13-vinyl-, methyl ester                  |         Methyl isopimarate                        |   1686-62-0    |   C21H32O2    |  316   |   34.61
-   Podocarpa-7,13-dien-15-oic acid, 13-isopropyl-, methyl ester                   |         Methyl abietate                           |   127-25-3     |   C21H32O2   |   316   |   35.84
-   Podocarpa-6,8,11,13-tetraen-15-oic acid, 13-isopropyl-, methyl ester           |         Methyl 6-dehydrodehydroabietate           |   18492-76-7   |   C21H28O2    |  312   |   36.43
+IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
+-------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
+Podocarp-8-en-15-oic acid, 13alpha-methyl-13-vinyl-, methyl ester             |          Methyl pimara-8,15-dien-18-oate           |   19907-21-2   |   C21H32O2    |  316   |   33.17
+Podocarpa-8,11,13-trien-15-oic acid, 13-isopropyl-, methyl ester              |          Methyl dehydroabietate                    |   1235-74-1    |   C21H30O2    |  314   |   35.14
+Methyl 5-(5,5,8a-trimethyl-2-methylenedecahydro-1-naphthalenyl)-3-methylpentanoate  |    Labd-8(20)-en-15-oic acid, methyl ester   |   13008-80-5   |   C21H36O2   |   320   |   33.49
+Methyl pimar-7-en-18-oate                                                     |                                                    |   72088-13-2   |   C21H34O2   |  318   |   33.80
+Labda-8(20),12,14-trien-19-oic acid, methyl ester, (Z)-                        |         Methyl cis-Communate                      |   10178-35-5   |   C21H32O2   |   316   |   33.95
+Podocarp-8(14)-en-15-oic acid, 13á-methyl-13-vinyl-, methyl ester              |         Methyl sandaracopimarate                  |   1686-54-0    |   C21H32O2    |  316   |   33.95
+Podocarp-7-en-15-oic acid, 13á-methyl-13-vinyl-, methyl ester                  |         Methyl isopimarate                        |   1686-62-0    |   C21H32O2    |  316   |   34.61
+Podocarpa-7,13-dien-15-oic acid, 13-isopropyl-, methyl ester                   |         Methyl abietate                           |   127-25-3     |   C21H32O2   |   316   |   35.84
+Podocarpa-6,8,11,13-tetraen-15-oic acid, 13-isopropyl-, methyl ester           |         Methyl 6-dehydrodehydroabietate           |   18492-76-7   |   C21H28O2    |  312   |   36.43
+{{< /q-class >}}
 
+{{< q-class "tech-table" >}}
 ## Table 3: Fatty Acids in THM-Py-GC/MS Analysis of Lipids
 
-  IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
-    -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
-   Hexanedioic acid, dimethyl ester          |  dimethyl adipate     |  627-93-0     |  C8H14O4     |  174    |  15.47
-   Heptanedioic acid, dimethyl ester         |  dimethyl pimelate    |  1732-08-7    |  C9H16O4     |  188    |  17.78
-   Octanedioic acid, dimethyl ester          |  dimethyl suberate    |  1732-09-8    |  C10H18O4    |  202    |  20.02
-   Dodecanoic acid, methyl ester             |  methyl laurate       |  111-82-0     |  C13H26O2    |  214    |  21.63
-   Nonanedioic acid, dimethyl ester          |  dimethyl azelate     |  1732-10-1    |  C11H20O4    |  216    |  22.10
-   Decanedioic acid, dimethyl ester          |  dimethyl sebacate    |  106-79-6     |  C12H22O4    |  230    |  24.03
-   Tetradecanoic acid, methyl ester          |  methyl myristate     |  124-10-7     |  C15H30O2    |  242    |  25.48
-   Hexadecanoic acid, methyl ester           |  methyl palmitate     |  112-39-0     |  C17H34O2    |  270    |  28.96
-   9-Octadecenoic acid (Z)-, methyl ester    |  methyl oleate        |  112-62-9     |  C19H36O2    |  296    |  31.71
-  Octadecanoic acid, methyl ester           |  methyl stearate      |  112-61-8     |  C19H38O2    |  298    |  32.13
-   Eicosanoic acid, methyl ester             |  methyl arachidate    |  1120-28-1    |  C21H42O2    |  326    |  35.01
+IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
+-------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
+Hexanedioic acid, dimethyl ester          |  dimethyl adipate     |  627-93-0     |  C8H14O4     |  174    |  15.47
+Heptanedioic acid, dimethyl ester         |  dimethyl pimelate    |  1732-08-7    |  C9H16O4     |  188    |  17.78
+Octanedioic acid, dimethyl ester          |  dimethyl suberate    |  1732-09-8    |  C10H18O4    |  202    |  20.02
+Dodecanoic acid, methyl ester             |  methyl laurate       |  111-82-0     |  C13H26O2    |  214    |  21.63
+Nonanedioic acid, dimethyl ester          |  dimethyl azelate     |  1732-10-1    |  C11H20O4    |  216    |  22.10
+Decanedioic acid, dimethyl ester          |  dimethyl sebacate    |  106-79-6     |  C12H22O4    |  230    |  24.03
+Tetradecanoic acid, methyl ester          |  methyl myristate     |  124-10-7     |  C15H30O2    |  242    |  25.48
+Hexadecanoic acid, methyl ester           |  methyl palmitate     |  112-39-0     |  C17H34O2    |  270    |  28.96
+9-Octadecenoic acid (Z)-, methyl ester    |  methyl oleate        |  112-62-9     |  C19H36O2    |  296    |  31.71
+Octadecanoic acid, methyl ester           |  methyl stearate      |  112-61-8     |  C19H38O2    |  298    |  32.13
+Eicosanoic acid, methyl ester             |  methyl arachidate    |  1120-28-1    |  C21H42O2    |  326    |  35.01
+{{< /q-class >}}
 
+{{< q-class "tech-table" >}}
 ## Table 4: Nonspecific Compounds Identified in THM-Py-GC/MS Analysis of Amber Objects
 
-   IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
-    -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
-   Methyl benzene                               |  Toluene                       |  108-88-3      |  C7H8       |  92     |  3.76
-   1,3-Dimethyl-1-cyclohexene                   |                                |  2808-76-6     |  C8H14      |  110    |  4.92
-   Benzene, 1,4-dimethyl-                       |  p-Xylene                      |  106-42-3      |  C8H10      |  106    |  5.99
-   Benzene, 1,3-dimethyl-                       |  m-Xylene                      |  108-38-3      |  C8H10      |  106    |  5.99
-   2-Propenoic acid, 2-methyl-, methyl ester    |  Methyl methacrylate           |  80-62-6       |  C5H8O2     |  100    |  2.87
-   Ethylbenzene                                 |                                |  100-41-4      |  C8H10      |  106    |  5.77
-   Benzene, 1,2-dimethyl-                       |  o-Xylene                     |  95-47-6       |  C8H10      |  106    |  6.53
-   Benzene, 1-ethyl-3-methyl-                   |  Toluene, m-ethyl-             |  620-14-4      |  C9H12      |  120    |  8.33
-  Benzene, 1-ethenyl-2-methyl-                 |  o-Vinyltoluene                |  611-15-4      |  C9H10      |  118    |  9.24
-  Benzenemethanol, 2,5-dimethyl-               |  2,5-Dimethylbenzyl alcohol    |  53957-33-8    |  C9H12O     |  136    |  9.36
-   Benzene, 1,2,4-trimethyl-                    |  Pseudocumene                  |  95-63-6       |  C9H12      |  120    |  9.90
-   3,3,5,5-Tetramethylcyclopentene              |                                |  38667-10-6    |  C9H16      |  124    |  10.89
-   Benzoic acid, methyl ester                  |   Methyl benzoate               |  93-58-3       |  C8H8O2     |  136    |  11.85
-   Naphthalene                                   |                               |  91-20-3       |  C10H8      |  128    |  14.12
-   Naphthalene, 1-methyl-                        |                               |  90-12-0       |  C11H10     |  142    |  16.62
-   Naphthalene, 2-methyl-                        |                               |  91-57-6       |  C11H10     |  142    |  17.11
-   1,2,3-Trimethylindene                         |                               |  4773-83-5     |  C12H14     |  158    |  18.68
-   Naphthalene, 1,6,7-trimethyl-                 |                               |  2245-38-7     |  C13H14     |  170    |  22.93
+IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
+-------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
+Methyl benzene                               |  Toluene                       |  108-88-3      |  C7H8       |  92     |  3.76
+1,3-Dimethyl-1-cyclohexene                   |                                |  2808-76-6     |  C8H14      |  110    |  4.92
+Benzene, 1,4-dimethyl-                       |  p-Xylene                      |  106-42-3      |  C8H10      |  106    |  5.99
+Benzene, 1,3-dimethyl-                       |  m-Xylene                      |  108-38-3      |  C8H10      |  106    |  5.99
+2-Propenoic acid, 2-methyl-, methyl ester    |  Methyl methacrylate           |  80-62-6       |  C5H8O2     |  100    |  2.87
+Ethylbenzene                                 |                                |  100-41-4      |  C8H10      |  106    |  5.77
+Benzene, 1,2-dimethyl-                       |  o-Xylene                     |  95-47-6       |  C8H10      |  106    |  6.53
+Benzene, 1-ethyl-3-methyl-                   |  Toluene, m-ethyl-             |  620-14-4      |  C9H12      |  120    |  8.33
+Benzene, 1-ethenyl-2-methyl-                 |  o-Vinyltoluene                |  611-15-4      |  C9H10      |  118    |  9.24
+Benzenemethanol, 2,5-dimethyl-               |  2,5-Dimethylbenzyl alcohol    |  53957-33-8    |  C9H12O     |  136    |  9.36
+Benzene, 1,2,4-trimethyl-                    |  Pseudocumene                  |  95-63-6       |  C9H12      |  120    |  9.90
+3,3,5,5-Tetramethylcyclopentene              |                                |  38667-10-6    |  C9H16      |  124    |  10.89
+Benzoic acid, methyl ester                  |   Methyl benzoate               |  93-58-3       |  C8H8O2     |  136    |  11.85
+Naphthalene                                   |                               |  91-20-3       |  C10H8      |  128    |  14.12
+Naphthalene, 1-methyl-                        |                               |  90-12-0       |  C11H10     |  142    |  16.62
+Naphthalene, 2-methyl-                        |                               |  91-57-6       |  C11H10     |  142    |  17.11
+1,2,3-Trimethylindene                         |                               |  4773-83-5     |  C12H14     |  158    |  18.68
+Naphthalene, 1,6,7-trimethyl-                 |                               |  2245-38-7     |  C13H14     |  170    |  22.93
+{{< /q-class >}}
 
+{{< q-class "tech-table" >}}
 ## Table 5: Nonspecific Compounds Tentatively Identified in THM-Py-GC/MS Analysis of Amber Objects
 
-   IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
-    -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
-  Methyltricyclo[2.2.1.0(2,6)]heptane                                                              |    4601-85-8     |  C8H12     |   108   |  6.15
-  Cyclopentane, 2-ethylidene-1,1-dimethyl-                                                          |     56324-66-4   |   C9H16    |    124  |   7.84
-  1,3,3-Trimethyl-2-(2-methyl-cyclopropyl)-cyclohexene                                              |     285129-06-8  |   C13H22   |    178  |   16.62
-  2-Buten-1-one, 1-(2,6,6-trimethyl-1-cyclohexen-1-yl)-                                             |     35044-68-9   |   C13H20O  |    192  |   19.73
-  1,5,9,9-Tetramethyl-2-methylene-spiro[3.5]non-5-ene                                               |   N/A          |   C14H22    |   190   |  19.82
-  Bicyclo[4.1.0]heptan-2-ol, 1beta-(3-methyl-1,3-butadienyl)-2alpha, 6beta-dimethyl-3beta-acetoxy-  |   N/A           |  C16H24O3   |  264  |   21.49
-  2-Methyl-4-(2,6,6-trimethylcyclohex-1-enyl)but-2-en-1-ol                                          |     62924-17-8   |   C14H24O  |    208   |  21.70
-  8-Acetyl-5,5-dimethyl-nona-2,3,8-trienoic acid, methyl ester                                      |     68799-74-6   |   C14H20O3  |   236   |  23.09
-  2-Methyl-4-(2,6,6-trimethylcyclohex-1-enyl)but-2-en-1-ol                                          |     62924-17-8   |   C14H24O   |   208   |  23.83
-  7a-Isopropenyl-4,5-dimethyloctahydroindene-4-carboxylic acid                                      |     N/A         |    C15H24O2   |  236  |   24.56
-  2-[5-(2,2-Dimethyl-6-methylene-cyclohexyl)-3-methyl-pent-2-enyl]-[1,4]benzoquinone              |   N/A          |   C21H28O2  |   312   |  25.17
-  Acetic acid, (1,2,3,4,5,6,7,8-octahydro-3,8,8-trimethylnaphth-2-yl)methyl ester                  |      314773-27-8  |   C16H26O2  |   250   |  25.83
-  Acetic acid, 3-(6,6-dimethyl-2-methylenecyclohex-3-enylidene)-1-methylbutyl ester                 |     N/A         |    C16H24O2   |  248   |  26.00
+IUPAC Name       |   Synonym       |   CAS #  |   Formula  |  	MW  |   Retention Time, min  
+-------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
+Methyltricyclo[2.2.1.0(2,6)]heptane                                                              |    4601-85-8     |  C8H12     |   108   |  6.15
+Cyclopentane, 2-ethylidene-1,1-dimethyl-                                                          |     56324-66-4   |   C9H16    |    124  |   7.84
+1,3,3-Trimethyl-2-(2-methyl-cyclopropyl)-cyclohexene                                              |     285129-06-8  |   C13H22   |    178  |   16.62
+2-Buten-1-one, 1-(2,6,6-trimethyl-1-cyclohexen-1-yl)-                                             |     35044-68-9   |   C13H20O  |    192  |   19.73
+1,5,9,9-Tetramethyl-2-methylene-spiro[3.5]non-5-ene                                               |   N/A          |   C14H22    |   190   |  19.82
+Bicyclo[4.1.0]heptan-2-ol, 1beta-(3-methyl-1,3-butadienyl)-2alpha, 6beta-dimethyl-3beta-acetoxy-  |   N/A           |  C16H24O3   |  264  |   21.49
+2-Methyl-4-(2,6,6-trimethylcyclohex-1-enyl)but-2-en-1-ol                                          |     62924-17-8   |   C14H24O  |    208   |  21.70
+8-Acetyl-5,5-dimethyl-nona-2,3,8-trienoic acid, methyl ester                                      |     68799-74-6   |   C14H20O3  |   236   |  23.09
+2-Methyl-4-(2,6,6-trimethylcyclohex-1-enyl)but-2-en-1-ol                                          |     62924-17-8   |   C14H24O   |   208   |  23.83
+7a-Isopropenyl-4,5-dimethyloctahydroindene-4-carboxylic acid                                      |     N/A         |    C15H24O2   |  236  |   24.56
+2-[5-(2,2-Dimethyl-6-methylene-cyclohexyl)-3-methyl-pent-2-enyl]-[1,4]benzoquinone              |   N/A          |   C21H28O2  |   312   |  25.17
+Acetic acid, (1,2,3,4,5,6,7,8-octahydro-3,8,8-trimethylnaphth-2-yl)methyl ester                  |      314773-27-8  |   C16H26O2  |   250   |  25.83
+Acetic acid, 3-(6,6-dimethyl-2-methylenecyclohex-3-enylidene)-1-methylbutyl ester                 |     N/A         |    C16H24O2   |  248   |  26.00
+{{< /q-class >}}
 
+{{< q-class "tech-table" >}}
 ## Table 6: THM-Py-GC/MS Results for Reference Samples
 
 **Peak Area Percentages**
-___
-   Sample	 |  Supplier	 |  GCI Identifier	 |  Succinate	 |  Diterpenes	 |  Fatty Acids  
-   -------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
-   Amber varnish     |     Zecchi           |      VARN0084   |  0                     |    0   |   77
-  Copal resin       |     JPGM              |                |  0                      |   36  |   0
-  Pine resin         |    GCI               |     NRES0244   |  0                      |   74  |   0
-  Sandarac resin     |    Verfmolen 'De Kat'  |   NRES0295  |   0                      |   19  |   0
-  Amber oil          |    JPGM               |               |  1                      |   1   |   3
-  Dominican amber    |    JPGM               |              |   0                      |   14  |   1
-  Amber (Dominican?)  |   JPGM               |    NRES0095   |  2                      |   1   |   0
-  Amber              |    Kremer             |    NRES0005   |  3                      |   2   |   1
-  Yellow amber       |    Verfmolen 'De Kat' |    NRES0296   |  3                      |   2   |   1
-  Amber              |    Zecchi             |               |  10                     |   2   |   2
- Baltic amber       |    JPGM               |               |  12                     |   12  |   0.4
-  Amber              |    Zecchi             |    NRES0305   |  14                     |   4   |   1
- Amber              |    Kremer             |    NRES0004   |  20                     |   6   |   1
- Amber              |    Kremer             |    NRES0171   |  20                     |   4   |   1
 
+Sample	 |  Supplier	 |  GCI Identifier	 |  Succinate	 |  Diterpenes	 |  Fatty Acids  
+-------------  |   ---------------  |   ------  |   ---------  |   ----  |   ---------------------  
+Amber varnish     |     Zecchi           |      VARN0084   |  0                     |    0   |   77
+Copal resin       |     JPGM              |                |  0                      |   36  |   0
+Pine resin         |    GCI               |     NRES0244   |  0                      |   74  |   0
+Sandarac resin     |    Verfmolen 'De Kat'  |   NRES0295  |   0                      |   19  |   0
+Amber oil          |    JPGM               |               |  1                      |   1   |   3
+Dominican amber    |    JPGM               |              |   0                      |   14  |   1
+Amber (Dominican?)  |   JPGM               |    NRES0095   |  2                      |   1   |   0
+Amber              |    Kremer             |    NRES0005   |  3                      |   2   |   1
+Yellow amber       |    Verfmolen 'De Kat' |    NRES0296   |  3                      |   2   |   1
+Amber              |    Zecchi             |               |  10                     |   2   |   2
+Baltic amber       |    JPGM               |               |  12                     |   12  |   0.4
+Amber              |    Zecchi             |    NRES0305   |  14                     |   4   |   1
+Amber              |    Kremer             |    NRES0004   |  20                     |   6   |   1
+Amber              |    Kremer             |    NRES0171   |  20                     |   4   |   1
+{{< /q-class >}}
+
+{{< q-class "tech-table" >}}
 ## Table 7: THM-Py-GC/MS Results for Untreated Amber Object Core Samples
 
-   **Peak Area Percentages**
-   ___
-   Accession #  | 	Succinate	 |  Diterpenes	 |  Fatty Acids  
-    -------  |   ------  |   -----   |   -------  |
-   {{< q-object "83.AO.202.12" >}}  |   13                   |     1    |   0
-   {{< q-object "82.AO.161.7" >}}    |   20                   |     10   |   0
-  {{< q-object "76.AO.84" >}}        |    24                   |     5    |   0.4
-  {{< q-object "83.AO.202.4" >}}    |   25                   |     12  |    0.4
-  {{< q-object "76.AO.79" >}}         |    27                   |     11   |   0
-  {{< q-object "76.AO.79" >}}         |    28                   |     12   |   0.6
-  {{< q-object "83.AO.202.18" >}} |   34                   |     7    |   0.7
-  {{< q-object "83.AO.202.1" >}}    |   34                   |     9    |   0.0
-  82.AC.161.285                                       |    35                   |     4    |   0.7
-  {{< q-object "76.AO.80" >}}        |   36                   |     5    |   0.6
-  {{< q-object "77.AO.81.24" >}}   |   38                   |     22  |    0.5
-  {{< q-object "78.AO.286.2" >}}   |   38                   |     8   |    0.3
-  {{< q-object "82.AO.161.4" >}}   |   39                   |     9   |    1.1
-  {{< q-object "78.AO.286.1" >}}   |   39                   |     16   |   0
-  {{< q-object "83.AO.202.6" >}}    |   41                   |     8   |    0.9
-  {{< q-object "82.AO.161.3" >}}    |   41                  |      9    |   0.6
-  {{< q-object "82.AO.161.1" >}}  |   46                  |      7   |    0.3
-  {{< q-object "77.AO.81.6" >}}    |   47                  |      16   |   0.4
-  {{< q-object "82.AO.161.2" >}}   |   53                  |      4    |   0.3
-  {{< q-object "82.AO.161.6" >}}   |   65                  |      6    |   0.4
-  average                                              |   36                  |      9.1  |   0.4
-  standard deviation                                   |   12                  |      5.0   |  0.3
+**Peak Area Percentages**
 
+Accession #  | 	Succinate	 |  Diterpenes	 |  Fatty Acids  
+-------  |   ------  |   -----   |   -------  |
+{{< q-object "83.AO.202.12" >}}  |   13                   |     1    |   0
+{{< q-object "82.AO.161.7" >}}    |   20                   |     10   |   0
+{{< q-object "76.AO.84" >}}        |    24                   |     5    |   0.4
+{{< q-object "83.AO.202.4" >}}    |   25                   |     12  |    0.4
+{{< q-object "76.AO.79" >}}         |    27                   |     11   |   0
+{{< q-object "76.AO.79" >}}         |    28                   |     12   |   0.6
+{{< q-object "83.AO.202.18" >}} |   34                   |     7    |   0.7
+{{< q-object "83.AO.202.1" >}}    |   34                   |     9    |   0.0
+82.AC.161.285                                       |    35                   |     4    |   0.7
+{{< q-object "76.AO.80" >}}        |   36                   |     5    |   0.6
+{{< q-object "77.AO.81.24" >}}   |   38                   |     22  |    0.5
+{{< q-object "78.AO.286.2" >}}   |   38                   |     8   |    0.3
+{{< q-object "82.AO.161.4" >}}   |   39                   |     9   |    1.1
+{{< q-object "78.AO.286.1" >}}   |   39                   |     16   |   0
+{{< q-object "83.AO.202.6" >}}    |   41                   |     8   |    0.9
+{{< q-object "82.AO.161.3" >}}    |   41                  |      9    |   0.6
+{{< q-object "82.AO.161.1" >}}  |   46                  |      7   |    0.3
+{{< q-object "77.AO.81.6" >}}    |   47                  |      16   |   0.4
+{{< q-object "82.AO.161.2" >}}   |   53                  |      4    |   0.3
+{{< q-object "82.AO.161.6" >}}   |   65                  |      6    |   0.4
+average                                              |   36                  |      9.1  |   0.4
+standard deviation                                   |   12                  |      5.0   |  0.3
+{{< /q-class  >}}
+
+{{< q-class "tech-table" >}}
 ## Table 8: THM-Py-GC/MS Results for Amber Object Core & Surface Samples
 
-  Sample  | Peak Area Percentages | | | |
-    -------  |   ------  |   -----   |   -------  |  -------  |
-  **Accession #**	 |  **Location**	 |  **Succinate**  | 	**Diterpenes**	 |  **Fatty Acids**  
-  {{< q-object "82.AO.161.7" >}}  |  core                    |  20   |   9.6  |   0.0
-                                                      |  surface                |   4.2  |  9.1  |   0.8
-  {{< q-object "83.AO.202.4" >}}  | core                   |   25   |   12   |   0.4
-                                                      |  surface               |  16  |    4.6  |   1.6
-  {{< q-object "83.AO.202.5" >}}   |  core                   |   27   |   11  |    0.0
-                                                      |    surface              |  11   |   1.7  |   1.5
-  {{< q-object "83.AO.202.1" >}}   |  core                   |   34   |   9.1  |   0.0
-                                                      |  surface                |  11    |   2.0  |   1.5
-  {{< q-object "78.AO.286.2" >}}   |  core                   |   38   |   8.1  |   0.3
-                                                      |  surface                |  29   |   4.3  |   0.7
-   {{< q-object "83.AO.202.6" >}}   |  core                  |  41   |   8.0   |  0.9
-                                                       |  surface              |   12   |  2.0  |   1.2
+Sample  | Peak Area Percentages | | | |
+-------  |   ------  |   -----   |   -------  |  -------  |
+**Accession #**	 |  **Location**	 |  **Succinate**  | 	**Diterpenes**	 |  **Fatty Acids**  
+{{< q-object "82.AO.161.7" >}}  |  core                    |  20   |   9.6  |   0.0
+                                                  |  surface                |   4.2  |  9.1  |   0.8
+{{< q-object "83.AO.202.4" >}}  | core                   |   25   |   12   |   0.4
+                                                  |  surface               |  16  |    4.6  |   1.6
+{{< q-object "83.AO.202.5" >}}   |  core                   |   27   |   11  |    0.0
+                                                  |    surface              |  11   |   1.7  |   1.5
+{{< q-object "83.AO.202.1" >}}   |  core                   |   34   |   9.1  |   0.0
+                                                  |  surface                |  11    |   2.0  |   1.5
+{{< q-object "78.AO.286.2" >}}   |  core                   |   38   |   8.1  |   0.3
+                                                  |  surface                |  29   |   4.3  |   0.7
+{{< q-object "83.AO.202.6" >}}   |  core                  |  41   |   8.0   |  0.9
+                                                   |  surface              |   12   |  2.0  |   1.2
+{{< /q-class >}}
 
+{{< q-class "tech-table" >}}
 ## Table 9: THM-Py-GC/MS Results for Treated Amber Objects
 **Peak Area Percentages**
-___
-  Accession #	 | Sample Location	 |  Treatment	 |  Succinate	 |  Diterpenes	 |  Fatty Acids
-    -------  |   ------  |   -----   |   -------  |  -------  |  -------  |
-  {{< q-object "77.AO.81.29" >}} |   core     |   drying oil             |     34   |    5.2  |   18
-  {{< q-object "77.AO.81.30" >}}  |  surface  |   drying oil             |     13   |   4.6   |  7.7
-  {{< q-object "77.AO.81.5" >}}    |   core     |   drying oil             |     29   |   6.4   |  6.6
-  {{< q-object "77.AO.81.4" >}}   |    core     |   fatty substance        |     39   |    6.2  |   0.7
-                                                     |   surface  |                          |      23   |    2.7  |   8.1
-  {{< q-object "77.AO.81.7" >}}   |    core     |   amber oil - once       |     72   |    5.1   |  0.6
-                                                   |    surface  |                          |     44   |     7.6   |  0.4
-  {{< q-object "77.AO.83" >}}       |    core    |    amber oil - twice      |     38   |   5.6   |  1.9
-  {{< q-object "77.AO.84" >}}      |    core     |   amber oil – three times  |   54   |    2.9  |   0.4
 
+Accession #	 | Sample Location	 |  Treatment	 |  Succinate	 |  Diterpenes	 |  Fatty Acids
+  -------  |   ------  |   -----   |   -------  |  -------  |  -------  |
+{{< q-object "77.AO.81.29" >}} |   core     |   drying oil             |     34   |    5.2  |   18
+{{< q-object "77.AO.81.30" >}}  |  surface  |   drying oil             |     13   |   4.6   |  7.7
+{{< q-object "77.AO.81.5" >}}    |   core     |   drying oil             |     29   |   6.4   |  6.6
+{{< q-object "77.AO.81.4" >}}   |    core     |   fatty substance        |     39   |    6.2  |   0.7
+                                                   |   surface  |                          |      23   |    2.7  |   8.1
+{{< q-object "77.AO.81.7" >}}   |    core     |   amber oil - once       |     72   |    5.1   |  0.6
+                                                 |    surface  |                          |     44   |     7.6   |  0.4
+{{< q-object "77.AO.83" >}}       |    core    |    amber oil - twice      |     38   |   5.6   |  1.9
+{{< q-object "77.AO.84" >}}      |    core     |   amber oil – three times  |   54   |    2.9  |   0.4
+{{< /q-class >}}
+
+{{< q-class "backmatter" >}}
 ## Notes
+{{< /q-class >}}
 
 [^1]: See Kalsbeek, N., and Botfeldt, K., “Identification of amber and amber imitations by infrared spectroscopy,” *Meddelelser om konservering* no. 1 (2007), pp. 3–11. Imitations have included materials such as Bakelite, nitrocellulose, polystyrene, and plant resins.
 
