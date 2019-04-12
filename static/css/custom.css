@@ -62,6 +62,22 @@ Spectral Light
 .quire-cover__more .hero-more {
   background: #c77405;
 }
+@media print {
+  .quire-cover__hero .hero-body .container {
+    width: 100%;
+    padding-bottom: 1in;
+  }
+  .quire-cover__hero .title {
+    font-size: 22pt;
+  }
+  .quire-cover__hero .title .title-large {
+    font-size: 60pt;
+  }
+  .title-page .contributor {
+    max-width: 4.75in;
+    float: right;
+  }
+}
 
 /* Customization for q-object shortcode */
 .quire-object .quire-citation__content {
@@ -147,6 +163,10 @@ Spectral Light
   }
 }
 
+.quire-page h2 {
+  text-transform: none;
+}
+
 @media print {
   #orientalizing-group-group,
   #ship-with-figures-group,
@@ -172,4 +192,90 @@ Spectral Light
   #forgery-group .quire-contents-list.grid {
     display: none;
   }
+  #orientalizing-group-group .quire-page__content,
+  #ship-with-figures-group .quire-page__content,
+  #korai-group .quire-page__content,
+  #pendants-in-the-form-of-the-human-head-group .quire-page__content,
+  #animal-group .quire-page__content,
+  #lions-heads-group .quire-page__content,
+  #boars-group .quire-page__content,
+  #rams-heads-group .quire-page__content,
+  #other-animal-heads-group .quire-page__content,
+  #forgery-group .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .quire-page__content__references.backmatter {
+    display: none;
+  }
+  #bibliography .quire-page__content,
+  #acknowledgments .quire-page__content,
+  #authors .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+  }
+  dt {
+    page-break-after: avoid;
+  }
+  dd {
+    page-break-inside: avoid;
+  }
+  
+  .quire-entry__image-wrap {
+    display: none;
+  }
+  .quire-entry__tombstone {
+    -webkit-column-span: none;
+    column-span: none;
+    -webkit-column-count: initial;
+    column-count: initial;
+    margin-left: 0;
+    margin-right: 0;
+    /* max-width: inherit; */
+    margin: 0;
+  }
+  .quire-entry__tombstone .table {
+    width: inherit;
+  }
+  
+  .quire__primary:not(#intro-splash):not(#catalogue-splash) .quire-page h1,
+  .quire__primary:not(#intro-splash):not(#catalogue-splash) .quire-page__header__title {
+    margin-top: .625in;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  .quire-page__header {
+    margin-bottom: .5in;
+  }
+  #intro-splash .quire-page h1,
+  #intro-splash .quire-page__header__title,
+  #catalogue-splash .quire-page h1,
+  #catalogue-splash .quire-page__header__title {
+    margin-top: 2in;
+    color: #fff;
+  }
+  
+  #authors .quire-page__content .container .content hr {
+    display: none;
+  }
+  #authors .quire-contributors-list:first-child {
+    column-break-after: always;
+  }
+  .quire-contributor__bio,
+  .quire-page__content {
+    line-height: 1.5;
+  }
+  
+  #techessay .tech-table {
+    column-span: all;
+  }
+
 }
