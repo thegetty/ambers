@@ -77,6 +77,9 @@ Spectral Light
     max-width: 4.75in;
     float: right;
   }
+  .title-page .contributor p {
+    margin-bottom: 1em;
+  }
 }
 
 /* Customization for q-object shortcode */
@@ -168,18 +171,21 @@ Spectral Light
 }
 
 @media print {
-  #orientalizing-group-group,
-  #ship-with-figures-group,
-  #korai-group,
-  #pendants-in-the-form-of-the-human-head-group,
+  
+  /* Not a real page type, just clears the default so pages are numbered */
+  #orientalizing-group-group .quire-contents,
+  #ship-with-figures-group .quire-contents,
+  #korai-group .quire-contents,
+  #pendants-in-the-form-of-the-human-head-group .quire-contents,
   #animal-group,
-  #lions-heads-group,
-  #boars-group,
-  #rams-heads-group,
-  #other-animal-heads-group,
-  #forgery-group {
-    page: frontmatter;
+  #lions-heads-group .quire-contents,
+  #boars-group .quire-contents,
+  #rams-heads-group .quire-contents,
+  #other-animal-heads-group .quire-contents,
+  #forgery-group .quire-contents {
+    page: group-page;
   }
+  
   #orientalizing-group-group .quire-contents-list.grid,
   #ship-with-figures-group .quire-contents-list.grid,
   #korai-group .quire-contents-list.grid,
@@ -261,6 +267,14 @@ Spectral Light
   #catalogue-splash .quire-page__header__title {
     margin-top: 2in;
     color: #fff;
+  }  
+  @page splash:first {
+    @bottom-left {
+      content: none;
+    }
+    @bottom-right {
+      content: none;
+    }
   }
   
   #authors .quire-page__content .container .content hr {
