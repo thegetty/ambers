@@ -6,6 +6,19 @@
 # publication.
 
 # ------------------------------------------------------------------------------
+# Special values for the Ambers catalogue
+# ------------------------------------------------------------------------------
+
+# Adds HTML to the title for styling it on the cover
+getty_catalogue_title: "Ancient Carved <span class=\"title-large\">Ambers</span> in the J. Paul Getty Museum"
+
+# The title page authors are different than the cover authors
+titlepage_contributor_as_it_appears: |
+  Faya Causey
+  
+  with technical analysis by Jeff Maish, Herant Khanjian, and Michael Schilling
+
+# ------------------------------------------------------------------------------
 # Title & Description
 # ------------------------------------------------------------------------------
 
@@ -13,7 +26,7 @@ title: Ancient Carved Ambers in the J. Paul Getty Museum
 subtitle:
 reading_line:
 short_title: Ancient Carved Ambers
-getty_catalogue_title: "Ancient Carved <span class=\"title-large\">Ambers</span> in the J. Paul Getty Museum"
+
 
 description:
   one_line:
@@ -44,11 +57,6 @@ publisher:
 
 contributor_as_it_appears:
   
-titlepage_contributor_as_it_appears: |
-  Faya Causey
-  
-  with technical analysis by Jeff Maish, Herant Khanjian, and Michael Schilling
-
 contributor:
   - type: primary
     first_name: Faya
