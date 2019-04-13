@@ -305,52 +305,843 @@ figure_list:
     label: "Figure 57"
     caption: "Lion’s Head Spout or Finial, Etruscan, 525–480 B.C. Amber, H: 1.9 cm (3/4 in.), W: 1.7 cm (2/3 in.), D: 2 cm (7/10 in.). Los Angeles, The J. Paul Getty Museum, 76.AO.81. Gift of Gordon McLendon. See [cat. no. 34](/objects/34)."
 
-
   - id: "techfig1"
     src: "techessay/techfig1.jpg"
     caption: "FTIR Results for Baltic Amber and Amber Object 76.AO.84"
-
 
   - id: "techfig2"
     src: "techessay/techfig2.jpg"
     caption: "THM-Py-GC/MS Results for Baltic and Dominican Ambers"
 
-
   - id: "techfig3"
     src: "techessay/techfig3.jpg"
     caption: "THM-Py-GC/MS Results for Core Sample from Amber Object 82.AC.161.285"
-
 
   - id: "techfig4"
     src: "techessay/techfig4.jpg"
     caption: "Variation in FTIR Spectrum with Succinate Content for Amber Objects (Core Samples)"
 
-
   - id: "techfig5"
     src: "techessay/techfig5.jpg"
     caption: "THM-Py-GC/MS Results for Dark Surface and Inner Core of Amber from Verfmolen ‘De Kat’"
-
 
   - id: "techfig6"
     src: "techessay/techfig6.jpg"
     caption: "THM-Py-GC/MS Results for Surface and Inner Core Samples from 83.AO.202.1"
 
-
   - id: "techfig7"
     src: "techessay/techfig7.jpg"
     caption: "FTIR Spectra for Surface and Core Samples from 83.AO.202.1"
-
 
   - id: "techfig8"
     src: "techessay/techfig8.jpg"
     caption: "FTIR Spectra for Surface and Core Samples from 82.AO.161.7"
 
-
   - id: "techfig9"
     src: "techessay/techfig9.jpg"
     caption: "THM-Py-GC/MS Results for Surface Samples from Treated Amber Objects"
 
-
   - id: "techfig10"
     src: "techessay/techfig10.jpg"
     caption: "FTIR Results for Core Samples from Treated Amber Objects"
+
+  - id: "pl01-1"
+    src: objects/gm_00906701.jpg
+    caption: "Female Holding a Child "
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.84"
+    cat_no: 1
+
+  - id: "pl01-2"
+    src: objects/gm_009067F1V1.jpg
+    caption: "Female Holding a Child, back"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.84"
+    cat_no: 1
+
+  - id: "pl01-3"
+    src: objects/gm_009067D1V1.jpg
+    caption: "Female Holding a Child, detail of Female"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.84"
+    cat_no: 1
+
+  - id: "pl01-4"
+    src: objects/gm_009067D2V1.jpg
+    caption: "Female Holding a Child, detail of Child"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.84"
+    cat_no: 1
+
+  - id: "pl02-1"
+    src: objects/gm_00906801.jpg
+    caption: "Female Holding a Child with Bird"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.85"
+    cat_no: 2
+
+  - id: "pl02-2"
+    src: objects/gml_009068F2V1.jpg
+    caption: "Female Holding a Child with Bird, left side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.85"
+    cat_no: 2
+
+  - id: "pl02-3"
+    src: objects/gml_009068F3V1.jpg
+    caption: "Female Holding a Child with Bird, right side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.85"
+    cat_no: 2
+
+  - id: "pl02-4"
+    src: objects/gml_009068F4V1.jpg
+    caption: "Female Holding a Child with Bird, back"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.85"
+    cat_no: 2
+
+  - id: "pl03-1"
+    src: objects/gm_00903501.jpg
+    caption: "Addorsed Females"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.1"
+    cat_no: 3
+
+  - id: "pl04-1"
+    src: objects/gm_00906501.jpg
+    caption: "Divinity Holding Hares"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.82"
+    cat_no: 4
+
+  - id: "pl04-2"
+    src: objects/gm_009065F1V1.jpg
+    caption: "Divinity Holding Hares, back"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.82"
+    cat_no: 4
+
+  - id: "pl04-3"
+    src: objects/gm_009065D1V1.jpg
+    caption: "Divinity Holding Hares, detail of Divinity"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.82"
+    cat_no: 4
+
+  - id: "pl04-4"
+    src: objects/gm_009065D2V1.jpg
+    caption: "Divinity Holding Hares, detail of Hares"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.82"
+    cat_no: 4
+
+  - id: "pl05-1"
+    src: objects/gm_00903601.jpg
+    caption: "Lion with Bird"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.2"
+    cat_no: 5
+
+  - id: "pl05-2"
+    src: objects/gm_009036D1V1.jpg
+    caption: "Lion with Bird, detail"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.2"
+    cat_no: 5
+
+  - id: "pl06-1"
+    src: objects/gm_00903701.jpg
+    caption: "Paired Lions"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.3"
+    cat_no: 6
+
+  - id: "pl06-2"
+    src: objects/gml_009037F3V1.jpg
+    caption: "Paired Lions, top"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.3"
+    cat_no: 6
+
+  - id: "pl07-1"
+    src: objects/gm_00848101.jpg
+    caption: "Ship with Figures"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.76"
+    cat_no: 7
+
+  - id: "pl07-2"
+    src: objects/gm_008481D5V1.jpg
+    caption: "Ship with Figures, top"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.76"
+    cat_no: 7
+
+  - id: "pl07-3"
+    src: objects/gm_008481D1V1.jpg
+    caption: "Ship with Figures, detail of heads, port side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.76"
+    cat_no: 7
+
+  - id: "pl07-4"
+    src: objects/gm_008481D2V1.jpg
+    caption: "Ship with Figures, detail of heads, starboard side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.76"
+    cat_no: 7
+
+  - id: "pl07-5"
+    src: objects/gm_008481D3V1.jpg
+    caption: "Ship with Figures, detail of bearded man, port side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.76"
+    cat_no: 7
+
+  - id: "pl07-6"
+    src: objects/gm_008481D4V1.jpg
+    caption: "Ship with Figures, detail of bearded man, starboard side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.76"
+    cat_no: 7
+
+  - id: "pl08-1"
+    src: objects/gml_008482F1V1.jpg
+    caption: "Standing Female Figure"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.77"
+    cat_no: 8
+
+  - id: "pl08-2"
+    src: objects/gml_008482F3V1.jpg
+    caption: "Standing Female Figure, left side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.77"
+    cat_no: 8
+
+  - id: "pl08-3"
+    src: objects/gml_008482F4V1.jpg
+    caption: "Standing Female Figure, back"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.77"
+    cat_no: 8
+
+  - id: "pl08-4"
+    src: objects/gm_008482D3V1.jpg
+    caption: "Standing Female Figure, detail of head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.77"
+    cat_no: 8
+
+  - id: "pl08-5"
+    src: objects/gm_008482D4V1.jpg
+    caption: "Standing Female Figure, detail of drapery"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.77"
+    cat_no: 8
+
+  - id: "pl09-1"
+    src: objects/gm_02672601.jpg
+    caption: "Head Fragment from a Standing Female Figure"
+    # credit: "The J. Paul Getty Museum"
+    download: true
+    accession_number: "82.AO.161.6"
+    cat_no: 9
+
+  - id: "pl10-1"
+    src: objects/gm_015478F6V1.jpg
+    caption: "Head of a Female Divinity or Sphinx"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.85.1"
+    cat_no: 10
+
+  - id: "pl10-2"
+    src: objects/gm_015478F5V1.jpg
+    caption: "Head of a Female Divinity or Sphinx, right side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.85.1"
+    cat_no: 10
+
+  - id: "pl10-3"
+    src: objects/gm_015478F4V1.jpg
+    caption: "Head of a Female Divinity or Sphinx, left side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.85.1"
+    cat_no: 10
+
+  - id: "pl10-4"
+    src: objects/gm_015478F1V1.jpg
+    caption: "Head of a Female Divinity or Sphinx, back"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.85.1"
+    cat_no: 10
+
+  - id: "pl11-1"
+    src: objects/gm_00848401.jpg
+    caption: "Head of a Female Divinity or Sphinx"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.79"
+    cat_no: 11
+
+  - id: "pl12-1"
+    src: objects/gm_02024901.jpg
+    caption: "Satyr Head in Profile"
+    # credit: "The J. Paul Getty Museum, Gift of Vasek Polak"
+    download: true
+    accession_number: "83.AO.202.1"
+    cat_no: 12
+
+  - id: "pl13-1"
+    src: objects/gm_02672101.jpg
+    caption: "Satyr Head"
+    # credit: "The J. Paul Getty Museum"
+    download: true
+    accession_number: "82.AO.161.1"
+    cat_no: 13
+
+  - id: "pl14-1"
+    src: objects/gm_00903801.jpg
+    caption: "Female Head in Profile"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.4"
+    cat_no: 14
+
+  - id: "pl15-1"
+    src: objects/gm_01547901.jpg
+    caption: "Winged Female Head in Profile"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.85.2"
+    cat_no: 15
+
+  - id: "pl15-2"
+    src: objects/gm_015479D2V1.jpg
+    caption: "Winged Female Head in Profile, detail of Wing"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.85.2"
+    cat_no: 15
+
+  - id: "pl16-1"
+    src: objects/gm_00906301.jpg
+    caption: "Winged Female Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.29"
+    cat_no: 16
+
+  - id: "pl17-1"
+    src: objects/gm_02672301.jpg
+    caption: "Female Head in Profile"
+    # credit: "The J. Paul Getty Museum"
+    download: true
+    accession_number: "82.AO.161.3"
+    cat_no: 17
+
+  - id: "pl18-1"
+    src: objects/gm_02025201.jpg
+    caption: "Female Head"
+    # credit: "The J. Paul Getty Museum, Gift of Vasek Polak"
+    download: true
+    accession_number: "83.AO.202.4"
+    cat_no: 18
+
+  - id: "pl18-2"
+    src: objects/gm_020252F1V1.jpg
+    caption: "Female Head, left side"
+    # credit: "The J. Paul Getty Museum, Gift of Vasek Polak"
+    download: true
+    accession_number: "83.AO.202.4"
+    cat_no: 18
+
+  - id: "pl19-1"
+    src: objects/gm_02025301.jpg
+    caption: "Female Head"
+    # credit: "The J. Paul Getty Museum, Gift of Vasek Polak"
+    download: true
+    accession_number: "83.AO.202.5"
+    cat_no: 19
+
+  - id: "pl20-1"
+    src: objects/gm_02025401.jpg
+    caption: "Female Head in Profile"
+    # credit: "The J. Paul Getty Museum, Gift of Vasek Polak"
+    download: true
+    accession_number: "83.AO.202.6"
+    cat_no: 20
+
+  - id: "pl21-1"
+    src: objects/gm_02026001.jpg
+    caption: "Female Head"
+    # credit: "The J. Paul Getty Museum, Gift of Vasek Polak"
+    download: true
+    accession_number: "83.AO.202.12"
+    cat_no: 21
+
+  - id: "pl22-1"
+    src: objects/gm_02026601.jpg
+    caption: "Female Head"
+    # credit: "The J. Paul Getty Museum, Gift of Vasek Polak"
+    download: true
+    accession_number: "83.AO.202.18"
+    cat_no: 22
+
+  - id: "pl23-1"
+    src: objects/gm_00903901.jpg
+    caption: "Winged Female Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.5"
+    cat_no: 23
+
+  - id: "pl24-1"
+    src: objects/gm_02672701.jpg
+    caption: "Female Head"
+    # credit: "The J. Paul Getty Museum"
+    download: true
+    accession_number: "82.AO.161.7"
+    cat_no: 24
+
+  - id: "pl25-1"
+    src: objects/gm_00906401.jpg
+    caption: "Female Head in Profile"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.30"
+    cat_no: 25
+
+  - id: "pl26-1"
+    src: objects/gm_00905901.jpg
+    caption: "Female Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.25"
+    cat_no: 26
+
+  - id: "pl27-1"
+    src: objects/gm_02672201.jpg
+    caption: "Animal"
+    # credit: "The J. Paul Getty Museum"
+    download: true
+    accession_number: "82.AO.161.2"
+    cat_no: 27
+
+  - id: "pl28-1"
+    src: objects/gm_00943201.jpg
+    caption: "Addorsed Sphinxes"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "78.AO.286.2"
+    cat_no: 28
+
+  - id: "pl29-1"
+    src: objects/gm_009431F4V1.jpg
+    caption: "Hippocamp"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "78.AO.286.1"
+    cat_no: 29
+
+  - id: "pl29-2"
+    src: objects/gm_009431F5V1.jpg
+    caption: "Hippocamp, back"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "78.AO.286.1"
+    cat_no: 29
+
+  - id: "pl29-3"
+    src: objects/gm_009431D1V1.jpg
+    caption: "Hippocamp, detail of head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "78.AO.286.1"
+    cat_no: 29
+
+  - id: "pl30-1"
+    src: objects/gm_017656F6V1.jpg
+    caption: "Cowrie Shell / Hare, view of Hare"
+    # credit: "The J. Paul Getty Museum, Gift of Stanley Silverman"
+    download: true
+    accession_number: "79.AO.75.28"
+    cat_no: 30
+
+  - id: "pl30-2"
+    src: objects/gm_017656F7V1.jpg
+    caption: "Cowrie Shell / Hare, view of Shell"
+    # credit: "The J. Paul Getty Museum, Gift of Stanley Silverman"
+    download: true
+    accession_number: "79.AO.75.28"
+    cat_no: 30
+
+  - id: "pl30-3"
+    src: objects/gm_017656F8V1.jpg
+    caption: "Cowrie Shell / Hare, left side"
+    # credit: "The J. Paul Getty Museum, Gift of Stanley Silverman"
+    download: true
+    accession_number: "79.AO.75.28"
+    cat_no: 30
+
+  - id: "pl30-4"
+    src: objects/gm_017656F5V1.jpg
+    caption: "Cowrie Shell / Hare, right side"
+    # credit: "The J. Paul Getty Museum, Gift of Stanley Silverman"
+    download: true
+    accession_number: "79.AO.75.28"
+    cat_no: 30
+
+  - id: "pl30-5"
+    src: objects/gm_017656D1V1.jpg
+    caption: "Cowrie Shell / Hare, detail of Hare"
+    # credit: "The J. Paul Getty Museum, Gift of Stanley Silverman"
+    download: true
+    accession_number: "79.AO.75.28"
+    cat_no: 30
+
+  - id: "pl31-1"
+    src: objects/gm_00848301.jpg
+    caption: "Lion, top"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.78"
+    cat_no: 31
+
+  - id: "pl31-2"
+    src: objects/gm_008483F1V1.jpg
+    caption: "Lion, underside"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.78"
+    cat_no: 31
+
+  - id: "pl31-3"
+    src: objects/gm_008483D1V1.jpg
+    caption: "Lion, detail of head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.78"
+    cat_no: 31
+
+  - id: "pl31-4"
+    src: objects/gm_008483D2V1.jpg
+    caption: "Lion, detail of tail"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.78"
+    cat_no: 31
+
+  - id: "pl31-5"
+    src: objects/gm_008483D3V1.jpg
+    caption: "Lion, detail of front paws"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.78"
+    cat_no: 31
+
+  - id: "pl31-6"
+    src: objects/gm_008483D4V1.jpg
+    caption: "Lion, detail of back paws"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.78"
+    cat_no: 31
+
+  - id: "pl32-1"
+    src: objects/gm_00904201.jpg
+    caption: "Female Animal (Lioness?)"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.8"
+    cat_no: 32
+
+  - id: "pl32-2"
+    src: objects/gm_009042F6V1.jpg
+    caption: "Female Animal (Lioness?), right side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.8"
+    cat_no: 32
+
+  - id: "pl33-1"
+    src: objects/gm_00848501.jpg
+    caption: "Lion’s Head, right side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.80"
+    cat_no: 33
+
+  - id: "pl33-2"
+    src: objects/gm_008485F1V1.jpg
+    caption: "Lion’s Head, left side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.80"
+    cat_no: 33
+
+  - id: "pl34-1"
+    src: objects/gm_00848601.jpg
+    caption: "Lion’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.81"
+    cat_no: 34
+
+  - id: "pl35-1"
+    src: objects/gm_00904301.jpg
+    caption: "Lion’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.9"
+    cat_no: 35
+
+  - id: "pl36-1"
+    src: objects/gm_00904401.jpg
+    caption: "Lion’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.10"
+    cat_no: 36
+
+  - id: "pl37-1"
+    src: objects/gm_00848901.jpg
+    caption: "Foreparts of a Recumbent Boar"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.84"
+    cat_no: 37
+
+  - id: "pl38-1"
+    src: objects/gm_00906601.jpg
+    caption: "Addorsed Lions’ Heads with Boar in Relief"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.83"
+    cat_no: 38
+
+  - id: "pl38-2"
+    src: objects/gm_009066D1V1.jpg
+    caption: "Addorsed Lions’ Heads with Boar in Relief, detail of left side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.83"
+    cat_no: 38
+
+  - id: "pl38-3"
+    src: objects/gm_009066D2V1.jpg
+    caption: "Addorsed Lions’ Heads with Boar in Relief, detail of right side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.83"
+    cat_no: 38
+
+  - id: "pl39-1"
+    src: objects/gm_00848701.jpg
+    caption: "Ram’s Head, left side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.82"
+    cat_no: 39
+
+  - id: "pl39-2"
+    src: objects/gm_008487F1V1.jpg
+    caption: "Ram’s Head, right side"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.82"
+    cat_no: 39
+
+  - id: "pl39-3"
+    src: objects/gm_008487D1V1.jpg
+    caption: "Ram’s Head, detail of horn"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.82"
+    cat_no: 39
+
+  - id: "pl40-1"
+    src: objects/gm_00848801.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "76.AO.83"
+    cat_no: 40
+
+  - id: "pl41-1"
+    src: objects/gm_00904101.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.7"
+    cat_no: 41
+
+  - id: "pl42-1"
+    src: objects/gm_00904501.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.11"
+    cat_no: 42
+
+  - id: "pl43-1"
+    src: objects/gm_00904701.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.13"
+    cat_no: 43
+
+  - id: "pl44-1"
+    src: objects/gm_00904801.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.14"
+    cat_no: 44
+
+  - id: "pl45-1"
+    src: objects/gm_00904901.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.15"
+    cat_no: 45
+
+  - id: "pl46-1"
+    src: objects/gm_00905001.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.16"
+    cat_no: 46
+
+  - id: "pl47-1"
+    src: objects/gm_00905101.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.17"
+    cat_no: 47
+
+  - id: "pl48-1"
+    src: objects/gm_00905201.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.18"
+    cat_no: 48
+
+  - id: "pl49-1"
+    src: objects/gm_00905301.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.19"
+    cat_no: 49
+
+  - id: "pl50-1"
+    src: objects/gm_00905501.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.21"
+    cat_no: 50
+
+  - id: "pl51-1"
+    src: objects/gm_00905601.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.22"
+    cat_no: 51
+
+  - id: "pl52-1"
+    src: objects/gm_00904601.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.12"
+    cat_no: 52
+
+  - id: "pl53-1"
+    src: objects/gm_02672401.jpg
+    caption: "Ram’s Head"
+    # credit: "The J. Paul Getty Museum"
+    download: true
+    accession_number: "82.AO.161.4"
+    cat_no: 53
+
+  - id: "pl54-1"
+    src: objects/gm_00905401.jpg
+    caption: "Bovine Head"
+    # credit: "The J. Paul Getty Museum"
+    download: true
+    accession_number: "77.AO.81.20"
+    cat_no: 54
+
+  - id: "pl55-1"
+    src: objects/gm_00904001.jpg
+    caption: "Horse’s Head in Profile"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.6"
+    cat_no: 55
+
+  - id: "pl56-1"
+    src: objects/gm_00905801.jpg
+    caption: "Asinine Head in Profile"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.24"
+    cat_no: 56
+
+  - id: "pl56-2"
+    src: objects/gm_009058D2V1.jpg
+    caption: "Asinine Head in Profile, detail of bore hole"
+    # credit: "The J. Paul Getty Museum, Gift of Gordon McLendon"
+    download: true
+    accession_number: "77.AO.81.24"
+    cat_no: 56
+
+  - id: "pl57-1"
+    src: objects/gm_01209501.jpg
+    caption: "Seated Divinity"
+    # credit: "The J. Paul Getty Museum, Gift of Vasek Polak"
+    download: true
+    accession_number: "82.AO.51"
+    cat_no: 57
+    
