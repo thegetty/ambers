@@ -34,6 +34,7 @@ params:
   searchEnabled: true
   licenseIcons: true
   pageLabelDivider: ". "
+  pageLabelPreceedingText: "Cat. no. "
   citationPageLocationDivider: ", "
   contributorByline: name-title # name | name-title | false
   displayBiblioShort: true
