@@ -61,7 +61,13 @@
     {{- if eq .accession_number $accession -}}
       {{- $.Scratch.Set "numberMatch" true -}}
       {{- range first 1 .figure -}}
-        {{- $.Scratch.Set "imageSrc" .src -}}
+        {{- if .src -}}
+          {{- $.Scratch.Set "imageSrc" .src -}}
+        {{- else -}}
+          {{- range where $.Site.Data.figures.figure_list "id" "eq" .id -}}
+            {{- $.Scratch.Set "imageSrc" .src -}}
+          {{- end -}}
+        {{- end -}}
       {{- end -}}
       {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") ($.Scratch.Get "imageSrc") -}}
       <span class="quire-citation quire-object"><a href="/objects/{{ .id }}/"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}</a><span class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br />Cat. no. {{ markdownify .id }}</span></span>
