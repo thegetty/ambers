@@ -116,7 +116,7 @@ a single image or object needs to be featured prominently.\
               {{ range .Params.object }}
                 {{ if .id }}
                   {{ range where $.Site.Data.objects.object_list "id" "eq" .id }}
-                    {{ range .figure }}
+                    {{ range first 1 .figure }}
                       {{ if .id }}
                         {{ range where $.Site.Data.figures.figure_list "id" "eq" .id }}
                           {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") .src -}}

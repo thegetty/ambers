@@ -668,7 +668,7 @@ object_list:
     subject: Ram; Jewelry;
     dor_id: 7926
     figure:
-      - id: pl52-2
+      - id: pl52-1
 
   - id: 53
     accession_number: 82.AO.161.4
