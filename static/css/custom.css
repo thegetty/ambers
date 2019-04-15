@@ -116,6 +116,18 @@ Spectral Light
   margin-left: 0;
 }
 
+
+.quire-contents-list .section-item a::after {
+  content: leader(dotted) ' 'target-counter(attr(href, url), page);
+  margin-left: 6pt;
+  padding-right: 4pt;
+  border: 1pt solid transparent;
+}
+.quire-contents-list .section-item .page-item a::after {
+  padding-right: 0;
+}
+
+
 /* Use pre and code to maintain strict LOC Cataloguing in Publication format */
 .cip-data p {
   margin-bottom: 0 !important;
@@ -251,8 +263,16 @@ Spectral Light
     width: inherit;
   }
   
-  .quire__primary:not(#intro-splash):not(#catalogue-splash) .quire-page h1,
-  .quire__primary:not(#intro-splash):not(#catalogue-splash) .quire-page__header__title {
+  #intro-intro .quire-page__header,
+  #catalogue .quire-page__header {
+    page: splash;
+  }
+  #intro-intro .quire-page__content,
+  #catalogue .quire-page__content {
+    display: none;
+  }  
+  .quire__primary:not(#intro-intro):not(#catalogue) .quire-page h1,
+  .quire__primary:not(#intro-intro):not(#catalogue) .quire-page__header__title {
     margin-top: .625in;
     font-size: 1.75rem;
     line-height: 1.2;
@@ -261,10 +281,10 @@ Spectral Light
   .quire-page__header {
     margin-bottom: .5in;
   }
-  #intro-splash .quire-page h1,
-  #intro-splash .quire-page__header__title,
-  #catalogue-splash .quire-page h1,
-  #catalogue-splash .quire-page__header__title {
+  #intro-intro .quire-page h1,
+  #intro-intro .quire-page__header__title,
+  #catalogue .quire-page h1,
+  #catalogue .quire-page__header__title {
     margin-top: 2in;
     color: #fff;
   }  
