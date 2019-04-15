@@ -16,7 +16,10 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Bird; Amulets; Artemis; Etruscan culture; Funerary use of amber (also Burial); Ionia, Greece (also Ionian, Greek); Kourotrophos;
     figure:
-      - src: "objects/PL_01.jpg"
+      - id: pl01-1
+      - id: pl01-2
+      - id: pl01-3
+      - id: pl01-4
 
   - id: 2
     accession_number: 77.AO.85
@@ -28,7 +31,10 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Bird; Etruscan culture; Fertility; Funerary use of amber (also Burial); Ionia, Greece (also Ionian, Greek); Kourotrophos; Potnia Theron;
     figure:
-      - src: "objects/PL_02.jpg"
+      - id: pl02-1
+      - id: pl02-2
+      - id: pl02-3
+      - id: pl02-4
 
   - id: 3
     accession_number: 77.AO.81.1
@@ -40,7 +46,7 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Egypt; Etruscan culture; Magic;
     figure:
-      - src: "objects/PL_03.jpg"
+      - id: pl03-1
 
   - id: 4
     accession_number: 77.AO.82
@@ -52,7 +58,10 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Hare; Artemis; Childbirth; Egypt; Etruscan culture; Ionia, Greece (also Ionian, Greek); Magic; Potnia Theron;
     figure:
-      - src: "objects/PL_04.jpg"
+      - id: pl04-1
+      - id: pl04-2
+      - id: pl04-3
+      - id: pl04-4
 
   - id: 5
     accession_number: 77.AO.81.2
@@ -64,7 +73,8 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Bird; Lion; Amulets; Etruscan culture;
     figure:
-      - src: "objects/PL_05.jpg"
+      - id: pl05-1
+      - id: pl05-2
 
   - id: 6
     accession_number: 77.AO.81.3
@@ -76,7 +86,8 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Lion; Egypt;
     figure:
-      - src: "objects/PL_06.jpg"
+      - id: pl06-1
+      - id: pl06-2
 
   - id: 7
     accession_number: 76.AO.76
@@ -88,7 +99,12 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Funerary use of amber (also Burial); Jewelry; Magic;
     figure:
-      - src: "objects/PL_07.jpg"
+      - id: pl07-1
+      - id: pl07-2
+      - id: pl07-3
+      - id: pl07-4
+      - id: pl07-5
+      - id: pl07-6
 
   - id: 8
     accession_number: 76.AO.77
@@ -100,7 +116,11 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Artemis; Childbirth; Egypt; Fertility; Ionia, Greece (also Ionian, Greek); Magic;
     figure:
-      - src: "objects/PL_08.jpg"
+      - id: pl08-1
+      - id: pl08-2
+      - id: pl08-3
+      - id: pl08-4
+      - id: pl08-5
 
   - id: 9
     accession_number: 82.AO.161.6
@@ -111,7 +131,7 @@ object_list:
     dor_id: 21766
     subject: Ionia, Greece (also Ionian, Greek);
     figure:
-      - src: "objects/PL_09.jpg"
+      - id: pl09-1
 
   - id: 10
     accession_number: 76.AO.85.1 and 76.AO.86
@@ -125,7 +145,10 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Jewelry; Sphinx; Samos, Greece (also Samian, Greek);
     figure:
-      - src: "objects/PL_10.jpg"
+      - id: pl10-1
+      - id: pl10-2
+      - id: pl10-3
+      - id: pl10-4
 
   - id: 11
     accession_number: 76.AO.79
@@ -137,7 +160,7 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Ionia, Greece (also Ionian, Greek); Jewelry; Sphinx;
     figure:
-      - src: "objects/PL_11.jpg"
+      - id: pl11-1
 
   - id: 12
     accession_number: 83.AO.202.1
@@ -149,7 +172,7 @@ object_list:
     provenance: "Gift of Vasek Polak"
     subject: Dionysos, cult of (also Satyr); Inclusions;
     figure:
-      - src: "objects/PL_12.jpg"
+      - id: pl12-1
 
   - id: 13
     accession_number: 82.AO.161.1
@@ -160,7 +183,7 @@ object_list:
     dor_id: 21761
     subject: Dionysos, cult of (also Satyr); Jewelry;
     figure:
-      - src: "objects/PL_13.jpg"
+      - id: pl13-1
 
   - id: 14
     accession_number: 77.AO.81.4
@@ -173,7 +196,7 @@ object_list:
     dor_id: 7918
     subject: Jewelry;
     figure:
-      - src: "objects/PL_14.jpg"
+      - id: pl14-1
 
   - id: 15
     accession_number: 76.AO.85.2
@@ -185,7 +208,8 @@ object_list:
     subject: Inclusions;
     dor_id: 13319
     figure:
-      - src: "objects/PL_15.jpg"
+      - id: pl15-1
+      - id: pl15-2
 
   - id: 16
     accession_number: 77.AO.81.29
@@ -197,7 +221,7 @@ object_list:
     subject: Etruscan culture;
     dor_id: 7943
     figure:
-      - src: "objects/PL_16.jpg"
+      - id: pl16-1
 
   - id: 17
     accession_number: 82.AO.161.3
@@ -207,7 +231,7 @@ object_list:
     dimensions: "Height: 46 mm; width: 45 mm; depth: 11 mm; Weight: 3 g"
     dor_id: 21763
     figure:
-      - src: "objects/PL_17.jpg"
+      - id: pl17-1
 
   - id: 18
     accession_number: 83.AO.202.4
@@ -219,7 +243,8 @@ object_list:
     subject: Etruscan culture;
     dor_id: 16253
     figure:
-      - src: "objects/PL_18.jpg"
+      - id: pl18-1
+      - id: pl18-2
 
   - id: 19
     accession_number: 83.AO.202.5
@@ -231,7 +256,7 @@ object_list:
     subject: 
     dor_id: 16254
     figure:
-      - src: "objects/PL_19.jpg"
+      - id: pl19-1
 
   - id: 20
     accession_number: 83.AO.202.6
@@ -243,7 +268,7 @@ object_list:
     subject: 
     dor_id: 16255
     figure:
-      - src: "objects/PL_20.jpg"
+      - id: pl20-1
 
   - id: 21
     accession_number: 83.AO.202.12
@@ -256,7 +281,7 @@ object_list:
     dor_id: 16261
     subject: Magic;
     figure:
-      - src: "objects/PL_21.jpg"
+      - id: pl21-1
 
   - id: 22
     accession_number: 83.AO.202.18
@@ -268,7 +293,7 @@ object_list:
     subject: 
     dor_id: 16267
     figure:
-      - src: "objects/PL_22.jpg"
+      - id: pl22-1
 
   - id: 23
     accession_number: 77.AO.81.5
@@ -280,7 +305,7 @@ object_list:
     subject: Magic;
     dor_id: 7919
     figure:
-      - src: "objects/PL_23.jpg"
+      - id: pl23-1
 
   - id: 24
     accession_number: 82.AO.161.7
@@ -290,7 +315,7 @@ object_list:
     dimensions: "Height: 48 mm; width: 28 mm; depth: 12 mm; Weight: 5 g"
     dor_id: 21767
     figure:
-      - src: "objects/PL_24.jpg"
+      - id: pl24-1
 
   - id: 25
     accession_number: 77.AO.81.30
@@ -302,7 +327,7 @@ object_list:
     subject: 
     dor_id: 7944
     figure:
-      - src: "objects/PL_25.jpg"
+      - id: pl25-1
 
   - id: 26
     accession_number: 77.AO.81.25
@@ -314,7 +339,7 @@ object_list:
     subject: Etruscan culture; Ionia, Greece (also Ionian, Greek);
     dor_id: 7939
     figure:
-      - src: "objects/PL_26.jpg"
+      - id: pl26-1
 
   - id: 27
     accession_number: 82.AO.161.2
@@ -325,7 +350,7 @@ object_list:
     dor_id: 21762
     subject: Animals, in amber; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial);
     figure:
-      - src: "objects/PL_27.jpg"
+      - id: pl27-1
 
   - id: 28
     accession_number: 78.AO.286.2
@@ -337,7 +362,7 @@ object_list:
     subject: Egypt; Jewelry; Color; Sphinx;
     dor_id: 8286
     figure:
-      - src: "objects/PL_28.jpg"
+      - id: pl28-1
 
   - id: 29
     accession_number: 78.AO.286.1
@@ -349,7 +374,9 @@ object_list:
     subject: Animals, in amber; Etruscan culture; Inclusions;
     dor_id: 8285
     figure:
-      - src: "objects/PL_29.jpg"
+      - id: pl29-1
+      - id: pl29-2
+      - id: pl29-3
 
   - id: 30
     accession_number: 79.AO.75.28
@@ -361,7 +388,11 @@ object_list:
     subject: Hare; Egypt; Fertility; Color; Transparency;
     dor_id: 15075
     figure:
-      - src: "objects/PL_30.jpg"
+      - id: pl30-1
+      - id: pl30-2
+      - id: pl30-3
+      - id: pl30-4
+      - id: pl30-5
 
   - id: 31
     accession_number: 76.AO.78
@@ -374,7 +405,12 @@ object_list:
     dor_id: 7386
     subject: Transparency;
     figure:
-      - src: "objects/PL_31.jpg"
+      - id: pl31-1
+      - id: pl31-2
+      - id: pl31-3
+      - id: pl31-4
+      - id: pl31-5
+      - id: pl31-6
 
   - id: 32
     accession_number: 77.AO.81.8
@@ -386,7 +422,8 @@ object_list:
     subject: Animals, in amber; Lion; Fertility; Inclusions;
     dor_id: 7922
     figure:
-      - src: "objects/PL_32.jpg"
+      - id: pl32-1
+      - id: pl32-2
 
   - id: 33
     accession_number: 76.AO.80
@@ -398,7 +435,8 @@ object_list:
     subject: Lion; Funerary use of amber (also Burial);
     dor_id: 7388
     figure:
-      - src: "objects/PL_33.jpg"
+      - id: pl33-1
+      - id: pl33-2
 
   - id: 34
     accession_number: 76.AO.81
@@ -410,7 +448,7 @@ object_list:
     subject: Lion;
     dor_id: 7389
     figure:
-      - src: "objects/PL_34.jpg"
+      - id: pl34-1
 
   - id: 35
     accession_number: 77.AO.81.9
@@ -422,7 +460,7 @@ object_list:
     subject: Lion;
     dor_id: 7923
     figure:
-      - src: "objects/PL_35.jpg"
+      - id: pl35-1
 
   - id: 36
     accession_number: 77.AO.81.10
@@ -434,7 +472,7 @@ object_list:
     subject: Lion; Etruscan culture; Jewelry;
     dor_id: 7924
     figure:
-      - src: "objects/PL_36.jpg"
+      - id: pl36-1
 
   - id: 37
     accession_number: 76.AO.84
@@ -446,7 +484,7 @@ object_list:
     subject: Boar; Amulets; Ionia, Greece (also Ionian, Greek);
     dor_id: 7392
     figure:
-      - src: "objects/PL_37.jpg"
+      - id: pl37-1
 
   - id: 38
     accession_number: 77.AO.83
@@ -458,7 +496,9 @@ object_list:
     subject: Boar; Lion; Artemis; Etruscan culture;
     dor_id: 7946
     figure:
-      - src: "objects/PL_38.jpg"
+      - id: pl38-1
+      - id: pl38-2
+      - id: pl38-3
 
   - id: 39
     accession_number: 76.AO.82
@@ -470,7 +510,9 @@ object_list:
     subject: Ram; Ionia, Greece (also Ionian, Greek); Jewelry;
     dor_id: 7390
     figure:
-      - src: "objects/PL_39.jpg"
+      - id: pl39-1
+      - id: pl39-2
+      - id: pl39-3
 
   - id: 40
     accession_number: 76.AO.83
@@ -482,7 +524,7 @@ object_list:
     subject: Ram; Inclusions;
     dor_id: 7391
     figure:
-      - src: "objects/PL_40.jpg"
+      - id: pl40-1
 
   - id: 41
     accession_number: 77.AO.81.7
@@ -494,7 +536,7 @@ object_list:
     subject: Ram;
     dor_id: 7921
     figure:
-      - src: "objects/PL_41.jpg"
+      - id: pl41-1
 
   - id: 42
     accession_number: 77.AO.81.11
@@ -506,7 +548,7 @@ object_list:
     subject: Ram;
     dor_id: 7925
     figure:
-      - src: "objects/PL_42.jpg"
+      - id: pl42-1
 
   - id: 43
     accession_number: 77.AO.81.13
@@ -518,7 +560,7 @@ object_list:
     subject: Ram;
     dor_id: 7927
     figure:
-      - src: "objects/PL_43.jpg"
+      - id: pl43-1
 
   - id: 44
     accession_number: 77.AO.81.14
@@ -530,7 +572,7 @@ object_list:
     subject: Ram;
     dor_id: 7928
     figure:
-      - src: "objects/PL_44.jpg"
+      - id: pl44-1
 
   - id: 45
     accession_number: 77.AO.81.15
@@ -542,7 +584,7 @@ object_list:
     subject: Ram;
     dor_id: 7929
     figure:
-      - src: "objects/PL_45.jpg"
+      - id: pl45-1
 
   - id: 46
     accession_number: 77.AO.81.16
@@ -554,7 +596,7 @@ object_list:
     subject: Ram;
     dor_id: 7930
     figure:
-      - src: "objects/PL_46.jpg"
+      - id: pl46-1
 
   - id: 47
     accession_number: 77.AO.81.17
@@ -566,7 +608,7 @@ object_list:
     subject: Ram;
     dor_id: 7931
     figure:
-      - src: "objects/PL_47.jpg"
+      - id: pl47-1
 
   - id: 48
     accession_number: 77.AO.81.18
@@ -578,7 +620,7 @@ object_list:
     subject: Ram;
     dor_id: 7932
     figure:
-      - src: "objects/PL_48.jpg"
+      - id: pl48-1
 
   - id: 49
     accession_number: 77.AO.81.19
@@ -590,7 +632,7 @@ object_list:
     subject: Ram;
     dor_id: 7933
     figure:
-      - src: "objects/PL_49.jpg"
+      - id: pl49-1
 
   - id: 50
     accession_number: 77.AO.81.21
@@ -602,7 +644,7 @@ object_list:
     subject: Ram;
     dor_id: 7935
     figure:
-      - src: "objects/PL_50.jpg"
+      - id: pl50-1
 
   - id: 51
     accession_number: 77.AO.81.22
@@ -614,7 +656,7 @@ object_list:
     subject: Ram;
     dor_id: 7936
     figure:
-      - src: "objects/PL_51.jpg"
+      - id: pl51-1
 
   - id: 52
     accession_number: 77.AO.81.12
@@ -626,7 +668,7 @@ object_list:
     subject: Ram; Jewelry;
     dor_id: 7926
     figure:
-      - src: "objects/PL_52.jpg"
+      - id: pl52-2
 
   - id: 53
     accession_number: 82.AO.161.4
@@ -638,7 +680,7 @@ object_list:
     subject: Ram; Jewelry;
     dor_id: 21764
     figure:
-      - src: "objects/PL_53.jpg"
+      - id: pl53-1
 
   - id: 54
     accession_number: 77.AO.81.20
@@ -650,7 +692,7 @@ object_list:
     subject: Animals, in amber; Amulets; Egypt;
     dor_id: 7934
     figure:
-      - src: "objects/PL_54.jpg"
+      - id: pl54-1
 
   - id: 55
     accession_number: 77.AO.81.6
@@ -663,7 +705,7 @@ object_list:
     dor_id: 7920
     subject: Magic;
     figure:
-      - src: "objects/PL_55.jpg"
+      - id: pl55-1
 
   - id: 56
     accession_number: 77.AO.81.24
@@ -675,7 +717,8 @@ object_list:
     subject: Animals, in amber; Inclusions;
     dor_id: 7938
     figure:
-      - src: "objects/PL_56.jpg"
+      - id: pl56-1
+      - id: pl56-2
 
   - id: 57
     accession_number: 82.AO.51
@@ -687,4 +730,4 @@ object_list:
     subject: 
     dor_id: 10159
     figure:
-      - src: "objects/PL_57.jpg"
+      - id: pl57-1

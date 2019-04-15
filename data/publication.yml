@@ -6,6 +6,19 @@
 # publication.
 
 # ------------------------------------------------------------------------------
+# Special values for the Ambers catalogue
+# ------------------------------------------------------------------------------
+
+# Adds HTML to the title for styling it on the cover
+getty_catalogue_title: "Ancient Carved <span class=\"title-large\">Ambers</span> in the J. Paul Getty Museum"
+
+# The title page authors are different than the cover authors
+titlepage_contributor_as_it_appears: |
+  Faya Causey
+  
+  with technical analysis by Jeff Maish, Herant Khanjian, and Michael Schilling
+
+# ------------------------------------------------------------------------------
 # Title & Description
 # ------------------------------------------------------------------------------
 
@@ -13,6 +26,7 @@ title: Ancient Carved Ambers in the J. Paul Getty Museum
 subtitle:
 reading_line:
 short_title: Ancient Carved Ambers
+
 
 description:
   one_line:
@@ -32,16 +46,17 @@ identifier:
   isbn: 978-1-60606-051-3
 
 publisher:
-  - name: J. Paul Getty Museum, Los Angeles Getty Publications
-    location: 1200 Getty Center Drive, Suite 500, Los Angeles, California 90049-1682
-    url: http://www.getty.edu/publications
+  - name: J. Paul Getty Museum
+    location: Los Angeles
+    url: http://www.getty.edu
+    logo: logo-getty.png
 
 # ------------------------------------------------------------------------------
 # Contributors
 # ------------------------------------------------------------------------------
 
 contributor_as_it_appears:
-
+  
 contributor:
   - type: primary
     first_name: Faya
@@ -72,23 +87,18 @@ contributor:
     affiliation: Getty Conservation Institute
     bio: "Michael R. Schilling is a senior scientist in charge of the organic materials laboratory of the Getty Conservation Institute, where he has worked since 1983."
     pic:
-  - type: project-team
-    first_name:
-    last_name:
-  - type: project-team
-    full_name:
 
 # ------------------------------------------------------------------------------
 # Copright & License
 # ------------------------------------------------------------------------------
 
-copyright: © 2012 J. Paul Getty Trust
+copyright: © 2012, 2019 J. Paul Getty Trust
 
 license:
   name: Creative Commons Attribution 4.0 International License
   abbreviation: CC BY
   url: http://creativecommons.org/licenses/by/4.0/
-  scope: full # full | text-only | some-exceptions
+  scope: some-exceptions # full | text-only | some-exceptions
 
 # ------------------------------------------------------------------------------
 # Formats, Resources & Links
@@ -123,25 +133,9 @@ resource_link:
 # ------------------------------------------------------------------------------
 
 subject:
-  - type: keyword
-    name: lemons, oranges, marmalade
   - type: bisac
-    name: ART HISTORY / English / Jams
-    identifer: ART0009210
-  - type: getty
-    name: Paul Cézanne
-    identifier: "http://vocab.getty.edu/ulan/500004793"
-  - type: keyword
-    name: still life
-  - type: getty
-    name: Hampshire
-    identifier: "http://vocab.getty.edu/tgn/7008139"
-  - type: getty
-    name: oil pastels
-    identifier: "http://vocab.getty.edu/aat/300230810"
-  - type: getty
-    name: Still Life with Blue Pot
-    identifier: "http://www.getty.edu/cona/CONAFullSubject.aspx?subid=700002042"
+    name: 
+    identifer: 
 
 # ------------------------------------------------------------------------------
 # Revision History
@@ -152,3 +146,9 @@ revision_history:
     summary:
 
 repository_url:
+
+# ------------------------------------------------------------------------------
+# Promo Image
+# ------------------------------------------------------------------------------
+
+promo_image: cover.jpg

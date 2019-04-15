@@ -4,5 +4,5 @@ type: contents
 class: grid
 weight: 1100
 slug: .
-url: objects/group/9
+url: objects/groups/9
 ---

@@ -7,7 +7,7 @@
 # you've copied the default theme and given it a different name make sure to
 # update the value here too.
 
-baseurl: ""
+baseURL: ""
 
 title: "Ancient Carved Ambers in the J. Paul Getty Museum"
 languageCode: "en-us"
@@ -16,7 +16,7 @@ publishDir: site
 
 footnoteReturnLinkContents: "↩"
 metaDataFormat: "yaml"
-googleAnalytics: ""
+GoogleAnalytics: ""
 
 pluralizeListTitles: true
 disableKinds:
@@ -34,14 +34,16 @@ params:
   searchEnabled: true
   licenseIcons: true
   pageLabelDivider: ". "
+  pageLabelPreceedingText: "Cat. no. "
   citationPageLocationDivider: ", "
+  contributorByline: name-title # name | name-title | false
   displayBiblioShort: true
   imageDir: "img"
   tocType: full
   menuType: short
   prevPageButtonText: "Back"
   nextPageButtonText: "Next"
-  entryPageSideBySideLayout: false
+  entryPageSideBySideLayout: true
   entryPageObjectLinkText: "View in Collection"
   figureLabelLocation: below # below | on-top
   figureModal: true

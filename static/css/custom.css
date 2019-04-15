@@ -1,6 +1,295 @@
+/* 
+Spectral
+https://github.com/productiontype/Spectral
+Open Font License 1.1 (https://scripts.sil.org/OFL)
+
+Spectral Light
+*/
+@font-face {
+  font-family: "Spectral";
+  src: url("../fonts/spectral-light.woff2") format("woff2"),
+       url("../fonts/spectral-light.woff") format("woff"),
+       url("../fonts/spectral-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+/* Spectral Semi-Bold 
+*/
+@font-face {
+  font-family: "Spectral";
+  src: url("../fonts/spectral-semibold.woff2") format("woff2"),
+       url("../fonts/spectral-semibold.woff") format("woff"),
+       url("../fonts/spectral-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Cover customization to match previous collection catalogues */
+.hero-body .container.is-fluid {
+  bottom: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 3rem;
+  text-align: center;
+  background: -webkit-linear-gradient(top, transparent, rgba(0,0,0,0.7));
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7));
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+}
+.quire-cover__hero .title {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.3;
+}
+.quire-cover__hero .title .title-large {
+  display: block;
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+.quire-cover__hero .contributor {
+  font-family: 'Noto Sans', sans-serif; 
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .5px;
+  margin-top: 2rem;
+}
+.quire-cover__hero .contributor em {
+  font-style: normal;
+}
+.quire-cover__more .hero-more {
+  background: #c77405;
+}
+@media print {
+  .quire-cover__hero .hero-body .container {
+    width: 100%;
+    padding-bottom: 1in;
+  }
+  .quire-cover__hero .title {
+    font-size: 22pt;
+  }
+  .quire-cover__hero .title .title-large {
+    font-size: 60pt;
+  }
+  .title-page .contributor {
+    max-width: 4.75in;
+    float: right;
+  }
+  .title-page .contributor p {
+    margin-bottom: 1em;
+  }
+}
+
+/* Customization for q-object shortcode */
 .quire-object .quire-citation__content {
   margin-top: 0;
   max-width: 16em;
   margin-left: -8em;
 }
 
+/* Fixes margins on HTML footnotes in Introduction section */
+.quire-page__content .content .backmatter ol {
+  margin-left: 2em;
+}
+
+/* Indent catalogue subsection in TOC and menu */
+.quire-menu .menu-list ul li:nth-child(n+4) {
+  margin-left: 1.5rem;
+}
+.quire-menu .menu-list ul li:nth-child(n+14) {
+  margin-left: 0;
+}
+.quire-menu li:nth-child(n+4) a.active {
+  margin-left: -2.75em;
+  padding-left: calc(2.25em + 4px);
+}
+.quire-menu li:nth-child(n+14) a.active {
+  margin-left: -1.25em;
+  padding-left: calc(.75em + 4px);
+}
+#contents .quire-contents-list.list li.section-item:nth-child(n+3) {
+  margin-left: 1.5rem;
+}
+#contents .quire-contents-list.list li.section-item:nth-child(n+13) {
+  margin-left: 0;
+}
+
+/* Use pre and code to maintain strict LOC Cataloguing in Publication format */
+.cip-data p {
+  margin-bottom: 0 !important;
+}
+.cip-data pre {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.cip-data pre code {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6 !important;
+}
+@media print {
+  .cip-data pre code {
+    font-size: 1rem;
+  }
+}
+
+/* Style copyright for PDF/Print output */
+@media print {
+  #copyright .quire-page.quire-page--frontmatter {
+    page: no-footer;
+  }
+  #copyright .quire-page__header {
+    display: none;
+  }
+  #copyright .quire-page__content {
+    column-count: 2;
+    column-gap: .1875in;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  #copyright .cip-data {
+    column-break-after: always;
+  }
+  #copyright img {
+    height: .25in;
+  }
+  #copyright hr {
+    width: 70%;
+  }
+  #copyright .content ul {
+    margin-left: .5rem;
+  }
+}
+
+.quire-page h2 {
+  text-transform: none;
+}
+
+@media print {
+  
+  /* Not a real page type, just clears the default so pages are numbered */
+  #orientalizing-group-group .quire-contents,
+  #ship-with-figures-group .quire-contents,
+  #korai-group .quire-contents,
+  #pendants-in-the-form-of-the-human-head-group .quire-contents,
+  #animal-group,
+  #lions-heads-group .quire-contents,
+  #boars-group .quire-contents,
+  #rams-heads-group .quire-contents,
+  #other-animal-heads-group .quire-contents,
+  #forgery-group .quire-contents {
+    page: group-page;
+  }
+  
+  #orientalizing-group-group .quire-contents-list.grid,
+  #ship-with-figures-group .quire-contents-list.grid,
+  #korai-group .quire-contents-list.grid,
+  #pendants-in-the-form-of-the-human-head-group .quire-contents-list.grid,
+  #animal-group .quire-contents-list.grid,
+  #lions-heads-group .quire-contents-list.grid,
+  #boars-group .quire-contents-list.grid,
+  #rams-heads-group .quire-contents-list.grid,
+  #other-animal-heads-group .quire-contents-list.grid,
+  #forgery-group .quire-contents-list.grid {
+    display: none;
+  }
+  #orientalizing-group-group .quire-page__content,
+  #ship-with-figures-group .quire-page__content,
+  #korai-group .quire-page__content,
+  #pendants-in-the-form-of-the-human-head-group .quire-page__content,
+  #animal-group .quire-page__content,
+  #lions-heads-group .quire-page__content,
+  #boars-group .quire-page__content,
+  #rams-heads-group .quire-page__content,
+  #other-animal-heads-group .quire-page__content,
+  #forgery-group .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .quire-page__content__references.backmatter {
+    display: none;
+  }
+  #bibliography .quire-page__content,
+  #acknowledgments .quire-page__content,
+  #authors .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+  }
+  dt {
+    page-break-after: avoid;
+  }
+  dd {
+    page-break-inside: avoid;
+  }
+  
+  .quire-entry__image-wrap {
+    display: none;
+  }
+  .quire-entry__tombstone {
+    -webkit-column-span: none;
+    column-span: none;
+    -webkit-column-count: initial;
+    column-count: initial;
+    margin-left: 0;
+    margin-right: 0;
+    /* max-width: inherit; */
+    margin: 0;
+  }
+  .quire-entry__tombstone .table {
+    width: inherit;
+  }
+  
+  .quire__primary:not(#intro-splash):not(#catalogue-splash) .quire-page h1,
+  .quire__primary:not(#intro-splash):not(#catalogue-splash) .quire-page__header__title {
+    margin-top: .625in;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  .quire-page__header {
+    margin-bottom: .5in;
+  }
+  #intro-splash .quire-page h1,
+  #intro-splash .quire-page__header__title,
+  #catalogue-splash .quire-page h1,
+  #catalogue-splash .quire-page__header__title {
+    margin-top: 2in;
+    color: #fff;
+  }  
+  @page splash:first {
+    @bottom-left {
+      content: none;
+    }
+    @bottom-right {
+      content: none;
+    }
+  }
+  
+  #authors .quire-page__content .container .content hr {
+    display: none;
+  }
+  #authors .quire-contributors-list:first-child {
+    column-break-after: always;
+  }
+  .quire-contributor__bio,
+  .quire-page__content {
+    line-height: 1.5;
+  }
+  
+  #techessay .tech-table {
+    column-span: all;
+  }
+
+}
