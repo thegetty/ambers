@@ -2,7 +2,7 @@ figure_list:
   - id: "intro1"
     src: "intro/fig01.jpg"
     label: "Figure 1"
-    caption: "Head of Medusa, Roman, A.D. 1st–2nd century. Amber, H: 5.8 cm (2 3/10 in.), W: 5.8 cm (2 3/10 in.). Los Angeles, The J. Paul Getty Museum, [71.AO.355](http://www.getty.edu/art/collection/objects/6808)."
+    caption: "*Head of Medusa*, Roman, 1st–2nd century A.D. Amber, H: 5.8 cm (2 3/10 in.), W: 5.8 cm (2 3/10 in.). Los Angeles, J. Paul Getty Museum, [71.AO.355](http://www.getty.edu/art/collection/objects/6808)."
 
   - id: "intro2"
     src: "intro/fig02.jpg"
@@ -1144,4 +1144,3 @@ figure_list:
     download: true
     accession_number: "82.AO.51"
     cat_no: 57
-    
