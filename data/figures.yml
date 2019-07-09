@@ -61,8 +61,8 @@ figure_list:
   - id: "intro12"
     src: "intro/fig12.jpg"
     label: "Figure 12"
-    caption: "Baltic amber. L: 2.2 cm (7/8 in.). Private collection."
-    credit: "Photograph © Lee B. Ewing"
+    caption: "Baltic amber, L: 2.2 cm (7/8 in.). Private collection."
+    credit: "Photograph © Lee B. Ewing."
 
   - id: "intro13"
     src: "intro/fig13.jpg"
