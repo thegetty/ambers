@@ -7,13 +7,13 @@ figure_list:
   - id: "intro2"
     src: "intro/fig02.jpg"
     label: "Figure 2"
-    caption: "Ring dedicated to Hera, Greek, ca. 575 B.C. Gilded silver, Diam. (outer): 2.2 cm (7/8 in.), Diam. (inner): 1.8 cm (11/16 in.). Los Angeles, The J. Paul Getty Museum, [85.AM.264](http://www.getty.edu/art/collection/objects/10993)."
+    caption: "Ring dedicated to Hera, Greek, ca. 575 B.C. Gilded silver, Diam. (outer): 2.2 cm (7/8 in.), Diam. (inner): 1.8 cm (11/16 in.). Los Angeles, J. Paul Getty Museum, [85.AM.264](http://www.getty.edu/art/collection/objects/10993)."
 
   - id: "intro3"
     src: "intro/fig03.jpg"
     label: "Figure 3"
-    caption: "Amber necklaces and gold ornaments from the young girl’s Tomb 102, Braida di Serra di Vaglio, Italy, ca. 500 B.C. The sphinx pendant, the largest amber pendant, is H: 4.6 cm (1 3/4 in.), L: 8.3 cm (3 1/4 in.), W: 1.5 cm (5/8 in.). Approximate total length of strings of amber: 240 cm (94 1/2 in.). Potenza, Museo Archeologico Nazionale “Dinu Adamesteanu.”"
-    credit: "By permission of il Ministero dei Beni e delle Attività Culturali. Direzione Regionale per I Beni Culturali e Paesaggistici della Basilicata-Soprintendenza per I Beni Archeologici della Basilicata/IKONA"
+    caption: "Amber necklaces and gold ornaments from the young girl’s Tomb 102, Braida di Serra di Vaglio, Italy, ca. 500 B.C. The sphinx pendant, the largest amber pendant, has H: 4.6 cm (1 3/4 in.), L: 8.3 cm (3 1/4 in.), W: 1.5 cm (5/8 in.). Approximate total length of strings of amber: 240 cm (94 1/2 in.). Potenza, Museo Archeologico Nazionale “Dinu Adamesteanu.”"
+    credit: "By permission of il Ministero dei Beni e delle Attività Culturali—Direzione Regionale per i Beni Culturali e Paesaggistici della Basilicata—Soprintendenza per i Beni Archeologici della Basilicata/IKONA."
 
   - id: "intro4"
     src: "intro/fig04.jpg"
