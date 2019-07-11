@@ -6,11 +6,11 @@ pdf: false
 epub: false
 ---
 
-This catalogue presents a group of remarkable amber carvings from the J. Paul Getty Museum’s collection—the second largest body of this material in the United States and one of the most important in the world. The fifty-six Etruscan, Greek, and Italic carved ambers date from around 650 to 300 B.C. 
+This catalogue presents a group of remarkable amber carvings from the J. Paul Getty Museum’s collection—the second largest body of this material in the United States and one of the most important in the world. The fifty-six Etruscan, Greek, and Italic carved ambers date from around 650 to 300 B.C.
 
-Offering a full description of each piece, including typology, style, chronology, provenance, condition, and iconography, the catalogue is preceded by a general introduction to ancient amber. Through exquisite visual examples and vivid excerpts from classical texts, this book examines the myths and legends woven around amber—its employment in magic and medicine, its transport and carving, and its incorporation into jewelry, amulets, and other objects of prestige. 
+Offering a full description of each piece, including typology, style, chronology, provenance, condition, and iconography, the catalogue is preceded by a general introduction to ancient amber. Through exquisite visual examples and vivid excerpts from classical texts, this book examines the myths and legends woven around amber—its employment in magic and medicine, its transport and carving, and its incorporation into jewelry, amulets, and other objects of prestige.
 
-This open-access catalogue is available for free online and in multiple formats for download, including PDF, MOBI/Kindle, and EPUB. A paperback reference edition is also available for purchase. 
+This open-access catalogue is available for free online and in multiple formats for download, including PDF, MOBI/Kindle, and EPUB. A paperback reference edition is also available for purchase.
 
 {{< q-class "backmatter" >}}
 
@@ -33,11 +33,11 @@ http://getty.edu/publications/ambers
 Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at https://github.com/thegetty/ambers, where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
 
 ### January 10, 2012
-  
+
   - First edition
 
 ### August 26, 2019
-  
+
   - Minor text corrections
   - Object provenance added
   - Migration of digital edition to new platform
@@ -86,6 +86,7 @@ Zoe Goldman, *Project Editor*<br />
 Greg Albers, *Digital Manager*<br />
 Maribel Hidalgo Urbaneja, *Digital Assistant*<br />
 Suzanne Watson, *Production*<br />
+Claire L. Lyons, *Curatorial Liaison*<br />
 
 {{< q-class "cip-data" >}}
 Library of Congress Cataloging-in-Publication Data TK
@@ -100,7 +101,7 @@ Library of Congress Cataloging-in-Publication Data TK
 
 Front cover: *Pendant: Divinity Holding Hares* (detail, cat. no. 4).
 
-Every effort has been made to contact the owners and photographers of objects reproduced here whose names do not appear in the captions. Anyone having further information concerning copyright holders is asked to contact Getty Publications so this information can be included in future printings. 
+Every effort has been made to contact the owners and photographers of objects reproduced here whose names do not appear in the captions. Anyone having further information concerning copyright holders is asked to contact Getty Publications so this information can be included in future printings.
 
 ---
 
