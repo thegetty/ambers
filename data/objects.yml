@@ -24,12 +24,12 @@ object_list:
   - id: 2
     accession_number: 77.AO.85
     link: http://www.getty.edu/art/collection/objects/7948
-    origin: Etruscan
+    origin: *Etruscan*
     year: 600–550 B.C.
     dimensions: "Height: 83 mm; width: 50 mm; depth: 50 mm; Diameter of suspension holes: 2 mm; Weight: 48 g"
     dor_id: 7948
     provenance: "Gift of Gordon McLendon"
-    subject: Bird; Etruscan culture; Fertility; Funerary use of amber (also Burial); Ionia, Greece (also Ionian, Greek); Kourotrophos; *Potnia Theron*;
+    subject: Bird; Etruscan culture; Fertility; Funerary use of amber (also Burial); Ionia, Greece (also Ionian, Greek); Kourotrophos; *Potnia Theron*
     figure:
       - id: pl02-1
       - id: pl02-2
