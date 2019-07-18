@@ -71,7 +71,7 @@ object_list:
     dimensions: "Height: 42 mm; width: 60 mm; depth: 15 mm; Weight: 25.2 g"
     dor_id: 7916
     provenance: "Gift of Gordon McLendon"
-    subject: Bird; Lion; Amulets; Etruscan culture;
+    subject: Amulets; Bird; Etruscan culture; Lion
     figure:
       - id: pl05-1
       - id: pl05-2
