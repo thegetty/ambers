@@ -1,4 +1,4 @@
-<sub>---
+---
 title: Technical Essay
 subtitle: Analysis of Selected Ambers from the Collections of the J. Paul Getty Museum
 short_title:
