@@ -348,7 +348,7 @@ object_list:
     year: 700–600 B.C.
     dimensions: "Diameter: 44–50 mm; depth: 16 mm; Weight: 6 g"
     dor_id: 21762
-    subject: Animals, in amber; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial);
+    subject: Animals, in amber; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial)
     figure:
       - id: pl27-1
 
@@ -359,7 +359,7 @@ object_list:
     year: 625–600 B.C.
     dimensions: "Height: 29 mm; width: 62 mm; depth: 15 mm; Weight: 16.7 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Egypt; Jewelry; Color; Sphinx;
+    subject: Color; Egypt; Jewelry; Sphinx
     dor_id: 8286
     figure:
       - id: pl28-1
@@ -371,7 +371,7 @@ object_list:
     year: 575–550 B.C.
     dimensions: "Height (i.e., length along major axis): 70 mm; width: 43 mm; depth: 27 mm; Weight: 39.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Etruscan culture; Inclusions;
+    subject: Animals, in amber; Etruscan culture; Inclusions
     dor_id: 8285
     figure:
       - id: pl29-1
@@ -385,7 +385,7 @@ object_list:
     year: 600–500 B.C.
     dimensions: "Height: 37 mm; width: 26 mm; depth: 14 mm; Weight: 3 g"
     provenance: "Gift of Stanley Silverman"
-    subject: Hare; Egypt; Fertility; Color; Transparency;
+    subject: Color; Hare; Egypt; Fertility; Transparency
     dor_id: 15075
     figure:
       - id: pl30-1
@@ -401,7 +401,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Length: 105 mm (as preserved; estimated original length 115 mm); width: 40 mm; depth: 18 mm (at chest); Weight: 35.5 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion; Egypt; Ionia, Greece (also Ionian, Greek);
+    subject: Lion; Egypt; Ionia, Greece (also Ionian, Greek)
     dor_id: 7386
     subject: Transparency;
     figure:
@@ -419,7 +419,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Length: 55 mm; width: 23 mm; height: 23 mm; Weight: 7.2 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Lion; Fertility; Inclusions;
+    subject: Animals, in amber; Fertility; Inclusions; Lion
     dor_id: 7922
     figure:
       - id: pl32-1
@@ -432,7 +432,7 @@ object_list:
     year: 550–500 B.C.
     dimensions: "Height: 28 mm; width: 22 mm; depth: 38 mm; Weight: 13.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion; Funerary use of amber (also Burial);
+    subject: Funerary use of amber (also Burial); Lion
     dor_id: 7388
     figure:
       - id: pl33-1
@@ -445,7 +445,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Height: 19.5 mm; width: 17 mm; depth: 20 mm; Diameter of through-bore: 6.5 mm; Weight: 3.1 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion;
+    subject: Lion
     dor_id: 7389
     figure:
       - id: pl34-1
@@ -457,7 +457,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Height: 9 mm; width: 17 mm; depth: 9 mm; Weight: 1.3 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion;
+    subject: Lion
     dor_id: 7923
     figure:
       - id: pl35-1
@@ -469,7 +469,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 15 mm; width: 16 mm; depth: 26 mm; Diameter of suspension hole: 2 mm; Weight: 3.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion; Etruscan culture; Jewelry;
+    subject: Etruscan culture; Jewelry; Lion 
     dor_id: 7924
     figure:
       - id: pl36-1
