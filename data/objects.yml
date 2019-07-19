@@ -138,12 +138,12 @@ object_list:
     link:
     origin: Etruscan
     year: 550–525 B.C.
-    dimensions: "32 mm; width: 26 mm; depth: (face) 12 mm; (back) 5 mm; (joined) 17 mm; Weight: 9 g"
+    dimensions: "Height: 32 mm; width: 26 mm; depth: (face) 12 mm, (back) 5 mm, (joined) 17 mm; weight: 9 g"
     dor_id:
      - 13318
      - 7394
     provenance: "Gift of Gordon McLendon"
-    subject: Jewelry; Sphinx; Samos, Greece (also Samian, Greek);
+    subject: Jewelry; Samos, Greece (also Samian, Greek); Sphinx
     figure:
       - id: pl10-1
       - id: pl10-2
@@ -158,7 +158,7 @@ object_list:
     dimensions: "Height: 34.5 mm; width: 24 mm; depth: 16 mm; Weight: 7.7 g"
     dor_id: 7387
     provenance: "Gift of Gordon McLendon"
-    subject: Ionia, Greece (also Ionian, Greek); Jewelry; Sphinx;
+    subject: Ionia, Greece (also Ionian, Greek); Jewelry; Sphinx
     figure:
       - id: pl11-1
 
@@ -167,10 +167,10 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/16250
     origin: Etruscan
     year: 525–480 B.C.
-    dimensions: "Height: 65 mm; width: 68 mm; depth: 35 mm; Weight: 53.4 g"
+    dimensions: "Height: 65 mm; width: 68 mm; depth: 35 mm; weight: 53.4 g"
     dor_id: 16250
     provenance: "Gift of Vasek Polak"
-    subject: Dionysos, cult of (also Satyr); Inclusions;
+    subject: Dionysos, cult of (also Satyr); Inclusions
     figure:
       - id: pl12-1
 
@@ -179,9 +179,9 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/21761
     origin: Etruscan
     year: 525–480 B.C.
-    dimensions: "Height: 53 mm; width: 48 mm; depth: 16 mm; Weight: 11 g"
+    dimensions: "Height: 53 mm; width: 48 mm; depth: 16 mm; weight: 11 g"
     dor_id: 21761
-    subject: Dionysos, cult of (also Satyr); Jewelry;
+    subject: Dionysos, cult of (also Satyr); Jewelry
     figure:
       - id: pl13-1
 
@@ -194,7 +194,7 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Childbirth; Etruscan culture;
     dor_id: 7918
-    subject: Jewelry;
+    subject: Jewelry
     figure:
       - id: pl14-1
 
@@ -205,7 +205,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Height: 79 mm; width: 49 mm; depth: 25 mm; Weight: 51.3 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Inclusions;
+    subject: Inclusions
     dor_id: 13319
     figure:
       - id: pl15-1
@@ -218,7 +218,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Height: 40 mm; width: 20 mm; depth: 18 mm; Diameter of suspension hole: 6 mm; Weight: 8.7 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Etruscan culture;
+    subject: Etruscan culture
     dor_id: 7943
     figure:
       - id: pl16-1
@@ -240,7 +240,7 @@ object_list:
     year: 425–400 B.C.
     dimensions: "Height: 40 mm; width: 23 mm; depth: 16 mm; Diameter of suspension hole: 2 mm; Weight: 4 g"
     provenance: "Gift of Vasek Polak"
-    subject: Etruscan culture;
+    subject: Etruscan culture
     dor_id: 16253
     figure:
       - id: pl18-1
@@ -253,7 +253,7 @@ object_list:
     year: 425–400 B.C.
     dimensions: "Height: 29 mm; width: 38 mm; depth: 14 mm; Diameter of suspension hole: 2 mm; Weight: 10.5 g"
     provenance: "Gift of Vasek Polak"
-    subject: 
+    subject:
     dor_id: 16254
     figure:
       - id: pl19-1
@@ -265,7 +265,7 @@ object_list:
     year: 425–400 B.C.
     dimensions: "Height: 51 mm; width: 51 mm; depth: 15.5 mm; Weight: 23.3 g"
     provenance: "Gift of Vasek Polak"
-    subject: 
+    subject:
     dor_id: 16255
     figure:
       - id: pl20-1
@@ -279,7 +279,7 @@ object_list:
     provenance: "Gift of Vasek Polak"
     subject: Etruscan culture; Inclusions;
     dor_id: 16261
-    subject: Magic;
+    subject: Magic
     figure:
       - id: pl21-1
 
@@ -290,7 +290,7 @@ object_list:
     year: 480–450 B.C.
     dimensions: "Height: 30 mm; width: 21 mm; depth: 9 mm; Weight: 4.3 g"
     provenance: "Gift of Vasek Polak"
-    subject: 
+    subject:
     dor_id: 16267
     figure:
       - id: pl22-1
@@ -302,7 +302,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 42 mm; width: 23.5 mm; depth: 32 mm; Diameter of suspension hole: 2 mm; Weight: 11.9 g"
     provenance: "Gift of Vasek Polak"
-    subject: Magic;
+    subject: Magic
     dor_id: 7919
     figure:
       - id: pl23-1
@@ -324,7 +324,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 44 mm; width: 38 mm; depth: 16 mm; Diameter of suspension holes: 3.5 mm and 4 mm; Weight: 15.1 g"
     provenance: "Gift of Gordon McLendon"
-    subject: 
+    subject:
     dor_id: 7944
     figure:
       - id: pl25-1
@@ -336,7 +336,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 42 mm; width (across face): 24 mm; depth: 29 mm; Diameter of suspension hole: 3.5 mm; Weight: 14.9 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Etruscan culture; Ionia, Greece (also Ionian, Greek);
+    subject: Etruscan culture; Ionia, Greece (also Ionian, Greek)
     dor_id: 7939
     figure:
       - id: pl26-1
@@ -727,7 +727,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Height: 280 mm; width of base: 135 mm; Weight: 434 g"
     provenance: "Gift of Vasek Polak"
-    subject: 
+    subject:
     dor_id: 10159
     figure:
       - id: pl57-1
