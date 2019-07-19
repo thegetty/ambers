@@ -469,7 +469,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 15 mm; width: 16 mm; depth: 26 mm; Diameter of suspension hole: 2 mm; Weight: 3.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Etruscan culture; Jewelry; Lion 
+    subject: Etruscan culture; Jewelry; Lion
     dor_id: 7924
     figure:
       - id: pl36-1
@@ -481,7 +481,7 @@ object_list:
     year: "525–480 B.C."
     dimensions: "Length (rostrocaudal): 50 mm; depth: 13 mm; height: 24.5 mm; Weight: 9.3 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Boar; Amulets; Ionia, Greece (also Ionian, Greek);
+    subject: Amulets; Boar; Ionia, Greece (also Ionian, Greek)
     dor_id: 7392
     figure:
       - id: pl37-1
@@ -493,7 +493,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 36 mm; width: 82 mm; depth: 12 mm; Length of boar: 46 mm; Height of left lion's head: 23 mm; Height of right lion's head: 26 mm; Weight: 19 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Boar; Lion; Artemis; Etruscan culture;
+    subject: Artemis; Boar; Etruscan culture; Lion
     dor_id: 7946
     figure:
       - id: pl38-1
