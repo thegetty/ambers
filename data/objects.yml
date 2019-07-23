@@ -401,9 +401,8 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Length: 105 mm (as preserved; estimated original length 115 mm); width: 40 mm; depth: 18 mm (at chest); Weight: 35.5 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion; Egypt; Ionia, Greece (also Ionian, Greek)
+    subject:  Egypt; Ionia, Greece (also Ionian, Greek); Lion; Transparency
     dor_id: 7386
-    subject: Transparency;
     figure:
       - id: pl31-1
       - id: pl31-2
