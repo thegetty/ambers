@@ -722,8 +722,7 @@ object_list:
   - id: 57
     accession_number: 82.AO.51
     link: http://www.getty.edu/art/collection/objects/10159
-    origin: Modern
-    year: 500–400 B.C.
+    year: Modern
     dimensions: "Height: 280 mm; width of base: 135 mm; Weight: 434 g"
     provenance: "Gift of Vasek Polak"
     subject:
