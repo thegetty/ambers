@@ -53,7 +53,7 @@ The solar aspects of amber may well have underscored the connection of the penda
 
 [^5]: For the necklace from Roccanova (Taranto, Museo Archeologico Nazionale 6452–59, 6461–63), {{< q-cite "Guzzo 1993" >}}, p. 230, VC6. For the Syracusan tetradrachm (a comparison first made by {{< q-cite "Higgins 1980" >}}, p. 128), see, for example, E. Boehringer, *Die Münzen von Syrakus* (Berlin, 1929), no. 423.
 
-[^6]: The now-lost tomb contents of a sporadic find from the Cumaean necropolis were recorded in 1913 by E. Gabrici, “Cuma,” [[MonAnt]] 22 (1913): col. 91, fig. 37. At the Paestum necropolis two rams’ heads were found in the early-fourth-century Tomb 19 (Museo Archeologico Nazionale 24904: {{< q-cite "Pontrandolfo Greco 1977" >}}, p. 51–52, figs. 18, 1, and 22, 6), three dating to the beginning of the second quarter of the fourth century come from Tomb 22 (21330: ibid., p. 36, figs. 2, 4 and 2, 8) and three from the early third quarter of the fourth century were found in Tomb 20 (24962: ibid., p. 37, figs. 3, 2 and 3, 6).
+[^6]: The now-lost tomb contents of a sporadic find from the Cumaean necropolis were recorded in 1913 by E. Gabrici, “Cuma,” [[MonAnt]] 22 (1913): col. 91, fig. 37. At the Paestum necropolis, two rams’ heads were found in the early-fourth-century Tomb 19 (Museo Archeologico Nazionale 24904: {{< q-cite "Pontrandolfo Greco 1977" >}}, p. 51–52, figs. 18, 1, and 22, 6), three dating to the beginning of the second quarter of the fourth century come from Tomb 22 (21330: ibid., p. 36, figs. 2, 4 and 2, 8) and three from the early third quarter of the fourth century were found in Tomb 20 (24962: ibid., p. 37, figs. 3, 2 and 3, 6).
 
 [^7]: Paris, Louvre: [[BCH]] 3 (1879): pls. 4–5; and {{< q-cite "Higgins 1980" >}}, p. 115.
 
@@ -77,11 +77,11 @@ The solar aspects of amber may well have underscored the connection of the penda
 
 [^17]: In the banqueting scene of the second chamber, the jewelry worn by the female banqueter and many of the vessels of metallic shapes are painted white or yellow-orange.
 
-[^18]: Simon 1973 (see ["Lions’ Heads" introduction](#6.md), n. 22); and E. Simon, “Apollo in Eturia,” *Annali della Fondazione per il Museo “Claudio Faina”* 5 (1998): 119–48.
+[^18]: Simon 1973 (see "Lions’ Heads" introduction, [n. 22](/objects/groups/6/#fn:22)); and E. Simon, “Apollo in Eturia,” *Annali della Fondazione per il Museo “Claudio Faina”* 5 (1998): 119–48.
 
 [^19]: For the Delphi coins with paired rams’ heads (or rhyta, as first identified by C. Seltman, supported by C.M. Kraay), see {{< q-cite "Kraay 1976" >}}, p. 121, with reference to C. Seltman, *A Book of Greek Coins* (London, 1952), p. 14.
 
-[^20]: See “Lions’ Heads” introduction, n. 22.
+[^20]: See “Lions’ Heads” introduction, [n. 22](/objects/groups/6/#fn:22).
 
 [^21]: {{< q-cite "Steingräber 2006" >}}, p. 95.
 
@@ -101,4 +101,4 @@ The solar aspects of amber may well have underscored the connection of the penda
 
 [^29]: {{< q-cite "Bonner 1950" >}}, p. 85.
 
-[^30]: Unlike the rich literature on the horse and the lion in ancient art, to my knowledge there is no corresponding analysis of ram imagery. The topic is a rich one, and the in-depth studies of some classes of material, Greek bronze vessel attachments (e.g., {{< q-cite "Stibbe 2006" >}}) and Greek vase rhyta (Hoffman 1997, in n. 27, above), lead the way. Research should reveal not only something about artistic approaches to the subject and the transmission and modulation of imagery but also some understanding about ram *realia*.
+[^30]: Unlike the rich literature on the horse and the lion in ancient art, to my knowledge there is no corresponding analysis of ram imagery. The topic is a rich one, and the in-depth studies of some classes of material, Greek bronze vessel attachments (e.g., {{< q-cite "Stibbe 2006" >}}) and Greek vase rhyta (Hoffman 1997, in [n. 27](/objects/groups/8/#fn:27), above), lead the way. Research should reveal not only something about artistic approaches to the subject and the transmission and modulation of imagery but also some understanding about ram *realia*.
