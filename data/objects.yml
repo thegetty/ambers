@@ -41,7 +41,7 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/7915
     origin: Etruscan
     year: 600–550 B.C.
-    dimensions: "Height: 40 mm; width: 102 mm; depth: 13 mm; Diameter of suspension holes: 2.5 mm; Weight: 39.3 g"
+    dimensions: "Height: 100.4 mm; width: 39.9 mm; depth: 13 mm; Diameter of suspension holes: 2.5 mm; Weight: 39.3 g"
     dor_id: 7915
     provenance: "Gift of Gordon McLendon"
     subject: Egypt; Etruscan culture; Magic;
@@ -154,7 +154,7 @@ object_list:
     accession_number: 76.AO.79
     link: http://www.getty.edu/art/collection/objects/7387
     origin: Etruscan
-    year: 550–520 B.C.
+    year: 550–525 B.C.
     dimensions: "Height: 34.5 mm; width: 24 mm; depth: 16 mm; Weight: 7.7 g"
     dor_id: 7387
     provenance: "Gift of Gordon McLendon"
@@ -348,7 +348,7 @@ object_list:
     year: 700–600 B.C.
     dimensions: "Diameter: 44–50 mm; depth: 16 mm; Weight: 6 g"
     dor_id: 21762
-    subject: Animals, in amber; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial);
+    subject: Animals; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial);
     figure:
       - id: pl27-1
 
@@ -356,7 +356,7 @@ object_list:
     accession_number: 78.AO.286.2
     link: http://www.getty.edu/art/collection/objects/8286
     origin: Campanian
-    year: 625–600 B.C.
+    year: 575–550 B.C.
     dimensions: "Height: 29 mm; width: 62 mm; depth: 15 mm; Weight: 16.7 g"
     provenance: "Gift of Gordon McLendon"
     subject: Egypt; Jewelry; Color; Sphinx;
@@ -371,7 +371,7 @@ object_list:
     year: 575–550 B.C.
     dimensions: "Height (i.e., length along major axis): 70 mm; width: 43 mm; depth: 27 mm; Weight: 39.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Etruscan culture; Inclusions;
+    subject: Animals; Etruscan culture; Inclusions;
     dor_id: 8285
     figure:
       - id: pl29-1
@@ -419,7 +419,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Length: 55 mm; width: 23 mm; height: 23 mm; Weight: 7.2 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Lion; Fertility; Inclusions;
+    subject: Animals; Lion; Fertility; Inclusions;
     dor_id: 7922
     figure:
       - id: pl32-1
@@ -519,7 +519,7 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/7391
     origin: Etruscan
     year: 525–480 B.C.
-    dimensions: "Length: 28 mm; width: 19.5 mm; depth: 15.5 mm; Weight: 4.0 g"
+    dimensions: "Length: 24 mm; width: 19.5 mm; depth: 15.5 mm; Weight: 4.0 g"
     provenance: "Gift of Gordon McLendon"
     subject: Ram; Inclusions;
     dor_id: 7391
@@ -689,7 +689,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Height: 35 mm; width: 24 mm; depth: 13 mm; Weight: 5.8 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Amulets; Egypt;
+    subject: Animals; Amulets; Egypt;
     dor_id: 7934
     figure:
       - id: pl54-1
@@ -701,7 +701,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Height: 37 mm; width: 36 mm; depth: 18.5 mm; Weight: 10.8 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Amulets; Dionysos, cult of (also Satyr); Etruscan culture; Inclusions;
+    subject: Animals; Amulets; Dionysos, cult of (also Satyr); Etruscan culture; Inclusions;
     dor_id: 7920
     subject: Magic;
     figure:
@@ -714,7 +714,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Height: 48 mm; width: 59 mm; depth: 19 mm; Weight: 16.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Inclusions;
+    subject: Animals; Inclusions;
     dor_id: 7938
     figure:
       - id: pl56-1
@@ -723,8 +723,7 @@ object_list:
   - id: 57
     accession_number: 82.AO.51
     link: http://www.getty.edu/art/collection/objects/10159
-    origin: Modern
-    year: 500–400 B.C.
+    year: Modern
     dimensions: "Height: 280 mm; width of base: 135 mm; Weight: 434 g"
     provenance: "Gift of Vasek Polak"
     subject:
