@@ -29,7 +29,7 @@ object_list:
     dimensions: "Height: 83 mm; width: 50 mm; depth: 50 mm; Diameter of suspension holes: 2 mm; Weight: 48 g"
     dor_id: 7948
     provenance: "Gift of Gordon McLendon"
-    subject: Bird; Etruscan culture; Fertility; Funerary use of amber (also Burial); Ionia, Greece (also Ionian, Greek); Kourotrophos; Potnia Theron;
+    subject: Bird; Etruscan culture; Fertility; Funerary use of amber (also Burial); Ionia, Greece (also Ionian, Greek); Kourotrophos; *Potnia Theron*
     figure:
       - id: pl02-1
       - id: pl02-2
@@ -41,10 +41,10 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/7915
     origin: Etruscan
     year: 600–550 B.C.
-    dimensions: "Height: 40 mm; width: 102 mm; depth: 13 mm; Diameter of suspension holes: 2.5 mm; Weight: 39.3 g"
+    dimensions: "Height: 102 mm; width: 40 mm; depth: 13 mm; Diameter of suspension holes: 2.5 mm; Weight: 39.3 g"
     dor_id: 7915
     provenance: "Gift of Gordon McLendon"
-    subject: Egypt; Etruscan culture; Magic;
+    subject: Egypt; Etruscan culture; Magic
     figure:
       - id: pl03-1
 
@@ -56,7 +56,7 @@ object_list:
     dimensions: "Height: 97 mm; width: 64 mm; depth: 24 mm; Diameter of suspension holes: 2.5 mm; Weight: 76 g"
     dor_id: 7945
     provenance: "Gift of Gordon McLendon"
-    subject: Hare; Artemis; Childbirth; Egypt; Etruscan culture; Ionia, Greece (also Ionian, Greek); Magic; Potnia Theron;
+    subject: Artemis; Childbirth; Egypt; Etruscan culture; Hare; Ionia, Greece (also Ionian, Greek); Magic; *Potnia Theron*
     figure:
       - id: pl04-1
       - id: pl04-2
@@ -71,7 +71,7 @@ object_list:
     dimensions: "Height: 42 mm; width: 60 mm; depth: 15 mm; Weight: 25.2 g"
     dor_id: 7916
     provenance: "Gift of Gordon McLendon"
-    subject: Bird; Lion; Amulets; Etruscan culture;
+    subject: Amulets; Bird; Etruscan culture; Lion
     figure:
       - id: pl05-1
       - id: pl05-2
