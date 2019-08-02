@@ -106,7 +106,7 @@ The dual natures of deities like Herakles and Dionysos or Artemis and Apollo are
 
 [^18]: For Olympia Br 10881 (Athens, National Archaeological Museum 6201), see W. Gauer, “Gerät- und Gefässefüsse mit Löwenpranken und figürlichem Schmuck aus Olympia,” [[AM]] 99 (1984): 38–40.
 
-[^19]: Among the plaquette-ornaments (garment decorations; closures?) is a group of eight silver-gilt objects from Bologna (Aureli necropolis, Tomb 11) dating to the last quarter of the seventh century B.C. (Bologna, Museo Civico Archeologico 25681–88): {{< q-cite "Bartoloni 2000" >}}, pp. 362–63, no. 517. Is the severe and unsmiling figure *Potnia Theron?*
+[^19]: Among the plaquette-ornaments (garment decorations; closures?) is a group of eight silver-gilt objects from Bologna (Aureli necropolis, Tomb 11) dating to the last quarter of the seventh century B.C. (Bologna, Museo Civico Archeologico 25681–88): {{< q-cite "Bartoloni et al. 2000" >}}, pp. 362–63, no. 517. Is the severe and unsmiling figure *Potnia Theron*?
 
 [^20]: For early electrum coinage with faces and heads, see, for example, {{< q-cite "Kraay 1976" >}}; and R. W. Wallace, “The Origin of Electrum Coinage,” [[AJA]] 91 (1987): 385–97.
 
