@@ -16,7 +16,7 @@ getty_catalogue_title: "Ancient Carved <span class=\"title-large\">Ambers</span>
 titlepage_contributor_as_it_appears: |
   Faya Causey
 
-  with technical analysis by Jeff Maish, Herant Khanjian, and Michael Schilling
+  With technical analysis by Jeff Maish, Herant Khanjian, and Michael Schilling
 
 # ------------------------------------------------------------------------------
 # Title & Description
@@ -46,7 +46,7 @@ identifier:
   isbn: 978-1-60606-051-3
 
 publisher:
-  - name: J. Paul Getty Museum
+  - name: The J. Paul Getty Museum
     location: Los Angeles
     url: http://www.getty.edu
     logo: logo-getty.png

@@ -86,6 +86,7 @@ Zoe Goldman, *Project Editor*<br />
 Greg Albers, *Digital Manager*<br />
 Maribel Hidalgo Urbaneja, *Digital Assistant*<br />
 Suzanne Watson, *Production*<br />
+Claire L. Lyons, *Curatorial Liaison*<br />
 
 {{< q-class "cip-data" >}}
 Library of Congress Cataloging-in-Publication Data TK
