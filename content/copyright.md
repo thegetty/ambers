@@ -8,7 +8,7 @@ toc: false
 ---
 
 {{< q-class "backmatter" >}}
-This catalogue was first published in 2012 at http://museumcatalogues.getty.edu/amber. The present online version was migrated in 2019 to http://www.getty.edu/publications/ambers; it features zoomable high-resolution photography; free PDF, EPUB, and MOBI downloads; and JPG downloads of the catalogue images. 
+This catalogue was first published in 2012 at http://museumcatalogues.getty.edu/amber. The present online version was migrated in 2019 to http://www.getty.edu/publications/ambers; it features zoomable high-resolution photography; free PDF, EPUB, and MOBI downloads; and JPG downloads of the catalogue images.
 
 © 2019 J. Paul Getty Trust
 
@@ -55,6 +55,6 @@ Library of Congress Cataloging-in-Publication Data TK
 
 Front cover: *Pendant: Divinity Holding Hares* (detail, cat. no. 4).
 
-Every effort has been made to contact the owners and photographers of objects reproduced here whose names do not appear in the captions. Anyone having further information concerning copyright holders is asked to contact Getty Publications so this information can be included in future printings. 
+Every effort has been made to contact the owners and photographers of objects reproduced here whose names do not appear in the captions. Anyone having further information concerning copyright holders is asked to contact Getty Publications so this information can be included in future printings.
 
 {{< /q-class >}}

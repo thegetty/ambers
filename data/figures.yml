@@ -307,43 +307,53 @@ figure_list:
 
   - id: "techfig1"
     src: "techessay/techfig1.jpg"
-    caption: "FTIR Results for Baltic Amber and Amber Object 76.AO.84"
+    label: "Figure 1"
+    caption: "FTIR results for Baltic amber and amber object 76.AO.84 ([cat. no. 37](/objects/37))."
 
   - id: "techfig2"
     src: "techessay/techfig2.jpg"
-    caption: "THM-Py-GC/MS Results for Baltic and Dominican Ambers"
+    label: "Figure 2"
+    caption: "THM-Py-GC/MS results for Baltic and Dominican ambers."
 
   - id: "techfig3"
     src: "techessay/techfig3.jpg"
-    caption: "THM-Py-GC/MS Results for Core Sample from Amber Object 82.AC.161.285"
+    label: "Figure 3"
+    caption: "THM-Py-GC/MS results for core sample from amber object 82.AC.161.285."
 
   - id: "techfig4"
     src: "techessay/techfig4.jpg"
-    caption: "Variation in FTIR Spectrum with Succinate Content for Amber Objects (Core Samples)"
+    label: "Figure 4"
+    caption: "Variation in FTIR spectrum with succinate content for amber objects (core samples)."
 
   - id: "techfig5"
     src: "techessay/techfig5.jpg"
-    caption: "THM-Py-GC/MS Results for Dark Surface and Inner Core of Amber from Verfmolen ‘De Kat’"
+    label: "Figure 5"
+    caption: "THM-Py-GC/MS results for dark surface and inner core of amber from Verfmolen ‘De Kat.’"
 
   - id: "techfig6"
     src: "techessay/techfig6.jpg"
-    caption: "THM-Py-GC/MS Results for Surface and Inner Core Samples from 83.AO.202.1"
+    label: "Figure 6"
+    caption: "THM-Py-GC/MS results for surface and inner core samples from 83.AO.202.1 ([cat. no. 12](/objects/12))."
 
   - id: "techfig7"
     src: "techessay/techfig7.jpg"
-    caption: "FTIR Spectra for Surface and Core Samples from 83.AO.202.1"
+    label: "Figure 7"
+    caption: "FTIR spectra for surface and core samples from 83.AO.202.1 ([cat. no. 12](/objects/12))."
 
   - id: "techfig8"
     src: "techessay/techfig8.jpg"
-    caption: "FTIR Spectra for Surface and Core Samples from 82.AO.161.7"
+    label: "Figure 8"
+    caption: "FTIR spectra for surface and core samples from 82.AO.161.7 ([cat. no. 24](/objects/24))."
 
   - id: "techfig9"
     src: "techessay/techfig9.jpg"
-    caption: "THM-Py-GC/MS Results for Surface Samples from Treated Amber Objects"
+    label: "Figure 9"
+    caption: "THM-Py-GC/MS results for surface samples from treated amber objects."
 
   - id: "techfig10"
     src: "techessay/techfig10.jpg"
-    caption: "FTIR Results for Core Samples from Treated Amber Objects"
+    label: "Figure 10"
+    caption: "FTIR results for core samples from treated amber objects."
 
   - id: "pl01-1"
     src: objects/gm_00906701.jpg
