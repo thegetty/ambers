@@ -29,7 +29,7 @@ object_list:
     dimensions: "Height: 83 mm; width: 50 mm; depth: 50 mm; Diameter of suspension holes: 2 mm; Weight: 48 g"
     dor_id: 7948
     provenance: "Gift of Gordon McLendon"
-    subject: Bird; Etruscan culture; Fertility; Funerary use of amber (also Burial); Ionia, Greece (also Ionian, Greek); Kourotrophos; Potnia Theron;
+    subject: Bird; Etruscan culture; Fertility; Funerary use of amber (also Burial); Ionia, Greece (also Ionian, Greek); Kourotrophos; *Potnia Theron*
     figure:
       - id: pl02-1
       - id: pl02-2
@@ -41,10 +41,10 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/7915
     origin: Etruscan
     year: 600–550 B.C.
-    dimensions: "Height: 40 mm; width: 102 mm; depth: 13 mm; Diameter of suspension holes: 2.5 mm; Weight: 39.3 g"
+    dimensions: "Height: 102 mm; width: 40 mm; depth: 13 mm; Diameter of suspension holes: 2.5 mm; Weight: 39.3 g"
     dor_id: 7915
     provenance: "Gift of Gordon McLendon"
-    subject: Egypt; Etruscan culture; Magic;
+    subject: Egypt; Etruscan culture; Magic
     figure:
       - id: pl03-1
 
@@ -56,7 +56,7 @@ object_list:
     dimensions: "Height: 97 mm; width: 64 mm; depth: 24 mm; Diameter of suspension holes: 2.5 mm; Weight: 76 g"
     dor_id: 7945
     provenance: "Gift of Gordon McLendon"
-    subject: Hare; Artemis; Childbirth; Egypt; Etruscan culture; Ionia, Greece (also Ionian, Greek); Magic; Potnia Theron;
+    subject: Artemis; Childbirth; Egypt; Etruscan culture; Hare; Ionia, Greece (also Ionian, Greek); Magic; *Potnia Theron*
     figure:
       - id: pl04-1
       - id: pl04-2
@@ -71,7 +71,7 @@ object_list:
     dimensions: "Height: 42 mm; width: 60 mm; depth: 15 mm; Weight: 25.2 g"
     dor_id: 7916
     provenance: "Gift of Gordon McLendon"
-    subject: Bird; Lion; Amulets; Etruscan culture;
+    subject: Amulets; Bird; Etruscan culture; Lion
     figure:
       - id: pl05-1
       - id: pl05-2
@@ -138,12 +138,12 @@ object_list:
     link:
     origin: Etruscan
     year: 550–525 B.C.
-    dimensions: "32 mm; width: 26 mm; depth: (face) 12 mm; (back) 5 mm; (joined) 17 mm; Weight: 9 g"
+    dimensions: "Height: 32 mm; width: 26 mm; depth: (face) 12 mm, (back) 5 mm, (joined) 17 mm; weight: 9 g"
     dor_id:
      - 13318
      - 7394
     provenance: "Gift of Gordon McLendon"
-    subject: Jewelry; Sphinx; Samos, Greece (also Samian, Greek);
+    subject: Jewelry; Samos, Greece (also Samian, Greek); Sphinx
     figure:
       - id: pl10-1
       - id: pl10-2
@@ -158,7 +158,7 @@ object_list:
     dimensions: "Height: 34.5 mm; width: 24 mm; depth: 16 mm; Weight: 7.7 g"
     dor_id: 7387
     provenance: "Gift of Gordon McLendon"
-    subject: Ionia, Greece (also Ionian, Greek); Jewelry; Sphinx;
+    subject: Ionia, Greece (also Ionian, Greek); Jewelry; Sphinx
     figure:
       - id: pl11-1
 
@@ -167,10 +167,10 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/16250
     origin: Etruscan
     year: 525–480 B.C.
-    dimensions: "Height: 65 mm; width: 68 mm; depth: 35 mm; Weight: 53.4 g"
+    dimensions: "Height: 65 mm; width: 68 mm; depth: 35 mm; weight: 53.4 g"
     dor_id: 16250
     provenance: "Gift of Vasek Polak"
-    subject: Dionysos, cult of (also Satyr); Inclusions;
+    subject: Dionysos, cult of (also Satyr); Inclusions
     figure:
       - id: pl12-1
 
@@ -179,9 +179,9 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/21761
     origin: Etruscan
     year: 525–480 B.C.
-    dimensions: "Height: 53 mm; width: 48 mm; depth: 16 mm; Weight: 11 g"
+    dimensions: "Height: 53 mm; width: 48 mm; depth: 16 mm; weight: 11 g"
     dor_id: 21761
-    subject: Dionysos, cult of (also Satyr); Jewelry;
+    subject: Dionysos, cult of (also Satyr); Jewelry
     figure:
       - id: pl13-1
 
@@ -194,7 +194,7 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Childbirth; Etruscan culture;
     dor_id: 7918
-    subject: Jewelry;
+    subject: Jewelry
     figure:
       - id: pl14-1
 
@@ -205,7 +205,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Height: 79 mm; width: 49 mm; depth: 25 mm; Weight: 51.3 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Inclusions;
+    subject: Inclusions
     dor_id: 13319
     figure:
       - id: pl15-1
@@ -218,7 +218,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Height: 40 mm; width: 20 mm; depth: 18 mm; Diameter of suspension hole: 6 mm; Weight: 8.7 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Etruscan culture;
+    subject: Etruscan culture
     dor_id: 7943
     figure:
       - id: pl16-1
@@ -240,7 +240,7 @@ object_list:
     year: 425–400 B.C.
     dimensions: "Height: 40 mm; width: 23 mm; depth: 16 mm; Diameter of suspension hole: 2 mm; Weight: 4 g"
     provenance: "Gift of Vasek Polak"
-    subject: Etruscan culture;
+    subject: Etruscan culture
     dor_id: 16253
     figure:
       - id: pl18-1
@@ -279,7 +279,7 @@ object_list:
     provenance: "Gift of Vasek Polak"
     subject: Etruscan culture; Inclusions;
     dor_id: 16261
-    subject: Magic;
+    subject: Magic
     figure:
       - id: pl21-1
 
@@ -302,7 +302,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 42 mm; width: 23.5 mm; depth: 32 mm; Diameter of suspension hole: 2 mm; Weight: 11.9 g"
     provenance: "Gift of Vasek Polak"
-    subject: Magic;
+    subject: Magic
     dor_id: 7919
     figure:
       - id: pl23-1
@@ -336,7 +336,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 42 mm; width (across face): 24 mm; depth: 29 mm; Diameter of suspension hole: 3.5 mm; Weight: 14.9 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Etruscan culture; Ionia, Greece (also Ionian, Greek);
+    subject: Etruscan culture; Ionia, Greece (also Ionian, Greek)
     dor_id: 7939
     figure:
       - id: pl26-1
@@ -348,7 +348,7 @@ object_list:
     year: 700–600 B.C.
     dimensions: "Diameter: 44–50 mm; depth: 16 mm; Weight: 6 g"
     dor_id: 21762
-    subject: Animals, in amber; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial);
+    subject: Animals, in amber; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial)
     figure:
       - id: pl27-1
 
@@ -359,7 +359,7 @@ object_list:
     year: 625–600 B.C.
     dimensions: "Height: 29 mm; width: 62 mm; depth: 15 mm; Weight: 16.7 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Egypt; Jewelry; Color; Sphinx;
+    subject: Color; Egypt; Jewelry; Sphinx
     dor_id: 8286
     figure:
       - id: pl28-1
@@ -371,7 +371,7 @@ object_list:
     year: 575–550 B.C.
     dimensions: "Height (i.e., length along major axis): 70 mm; width: 43 mm; depth: 27 mm; Weight: 39.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Etruscan culture; Inclusions;
+    subject: Animals, in amber; Etruscan culture; Inclusions
     dor_id: 8285
     figure:
       - id: pl29-1
@@ -385,7 +385,7 @@ object_list:
     year: 600–500 B.C.
     dimensions: "Height: 37 mm; width: 26 mm; depth: 14 mm; Weight: 3 g"
     provenance: "Gift of Stanley Silverman"
-    subject: Hare; Egypt; Fertility; Color; Transparency;
+    subject: Color; Egypt; Hare; Fertility; Transparency
     dor_id: 15075
     figure:
       - id: pl30-1
@@ -401,9 +401,8 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Length: 105 mm (as preserved; estimated original length 115 mm); width: 40 mm; depth: 18 mm (at chest); Weight: 35.5 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion; Egypt; Ionia, Greece (also Ionian, Greek);
+    subject:  Egypt; Ionia, Greece (also Ionian, Greek); Lion; Transparency
     dor_id: 7386
-    subject: Transparency;
     figure:
       - id: pl31-1
       - id: pl31-2
@@ -419,7 +418,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Length: 55 mm; width: 23 mm; height: 23 mm; Weight: 7.2 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Lion; Fertility; Inclusions;
+    subject: Animals, in amber; Fertility; Inclusions; Lion
     dor_id: 7922
     figure:
       - id: pl32-1
@@ -432,7 +431,7 @@ object_list:
     year: 550–500 B.C.
     dimensions: "Height: 28 mm; width: 22 mm; depth: 38 mm; Weight: 13.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion; Funerary use of amber (also Burial);
+    subject: Funerary use of amber (also Burial); Lion
     dor_id: 7388
     figure:
       - id: pl33-1
@@ -445,7 +444,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Height: 19.5 mm; width: 17 mm; depth: 20 mm; Diameter of through-bore: 6.5 mm; Weight: 3.1 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion;
+    subject: Lion
     dor_id: 7389
     figure:
       - id: pl34-1
@@ -457,7 +456,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Height: 9 mm; width: 17 mm; depth: 9 mm; Weight: 1.3 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion;
+    subject: Lion
     dor_id: 7923
     figure:
       - id: pl35-1
@@ -469,7 +468,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 15 mm; width: 16 mm; depth: 26 mm; Diameter of suspension hole: 2 mm; Weight: 3.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Lion; Etruscan culture; Jewelry;
+    subject: Etruscan culture; Jewelry; Lion
     dor_id: 7924
     figure:
       - id: pl36-1
@@ -481,7 +480,7 @@ object_list:
     year: "525–480 B.C."
     dimensions: "Length (rostrocaudal): 50 mm; depth: 13 mm; height: 24.5 mm; Weight: 9.3 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Boar; Amulets; Ionia, Greece (also Ionian, Greek);
+    subject: Amulets; Boar; Ionia, Greece (also Ionian, Greek)
     dor_id: 7392
     figure:
       - id: pl37-1
@@ -493,7 +492,7 @@ object_list:
     year: 500–480 B.C.
     dimensions: "Height: 36 mm; width: 82 mm; depth: 12 mm; Length of boar: 46 mm; Height of left lion's head: 23 mm; Height of right lion's head: 26 mm; Weight: 19 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Boar; Lion; Artemis; Etruscan culture;
+    subject: Artemis; Boar; Etruscan culture; Lion
     dor_id: 7946
     figure:
       - id: pl38-1
@@ -507,7 +506,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Length: 36 mm; width: 20 mm; depth: 18 mm; Weight: 9 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram; Ionia, Greece (also Ionian, Greek); Jewelry;
+    subject: Ionia, Greece (also Ionian, Greek); Jewelry; Ram
     dor_id: 7390
     figure:
       - id: pl39-1
@@ -521,7 +520,7 @@ object_list:
     year: 525–480 B.C.
     dimensions: "Length: 28 mm; width: 19.5 mm; depth: 15.5 mm; Weight: 4.0 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram; Inclusions;
+    subject: Inclusions; Ram
     dor_id: 7391
     figure:
       - id: pl40-1
@@ -531,9 +530,9 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/7921
     origin: Etruscan
     year: 525–480 B.C.
-    dimensions: "Length: 24 mm; width: 40 mm; depth: 22 mm; Weight: 10.8 g"
+    dimensions: "Length: 40 mm; width: 24 mm; depth: 22 mm; Weight: 10.8 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7921
     figure:
       - id: pl41-1
@@ -545,7 +544,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 21 mm; width: 18 mm; depth: 15 mm; Weight: 33.3 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7925
     figure:
       - id: pl42-1
@@ -557,7 +556,7 @@ object_list:
     year: 500–450 B.C.
     dimensions: "Length: 32.5 mm; width: 19 mm; depth: 15 mm; Weight: 5.3 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7927
     figure:
       - id: pl43-1
@@ -569,7 +568,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 30 mm; width: 20 mm; depth: 19 mm; Weight: 6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7928
     figure:
       - id: pl44-1
@@ -581,7 +580,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 36 mm; width: 19 mm; depth: 15 mm; Weight: 5.8 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7929
     figure:
       - id: pl45-1
@@ -593,7 +592,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 32 mm; width: 16 mm; depth: 13 mm; Weight: 3.5 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7930
     figure:
       - id: pl46-1
@@ -605,7 +604,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 30.5 mm; width: 18.5 mm; depth: 13 mm; Weight: 3.9 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7931
     figure:
       - id: pl47-1
@@ -617,7 +616,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 28 mm; width: 20.5 mm; depth: 15 mm; Weight: 4.4 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7932
     figure:
       - id: pl48-1
@@ -629,7 +628,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 27.5 mm; width: 20.5 mm; depth: 12.5 mm; Weight: 3.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7933
     figure:
       - id: pl49-1
@@ -641,7 +640,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 25.5 mm; width: 14 mm; depth: 17 mm; Weight: 3.0 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7935
     figure:
       - id: pl50-1
@@ -653,7 +652,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 23 mm; width: 16 mm; depth: 12 mm; Weight: 2.2 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram;
+    subject: Ram
     dor_id: 7936
     figure:
       - id: pl51-1
@@ -665,7 +664,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 41 mm; width: 27 mm; depth: 29 mm;  Weight: 11.1 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram; Jewelry;
+    subject: Jewelry; Ram
     dor_id: 7926
     figure:
       - id: pl52-1
@@ -677,7 +676,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Length: 26 mm; width: 17 mm; depth: 13 mm; Weight: 1.5 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Ram; Jewelry;
+    subject: Jewelry; Ram
     dor_id: 21764
     figure:
       - id: pl53-1
@@ -687,9 +686,9 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/7934
     origin: Italic
     year: 500–400 B.C.
-    dimensions: "Height: 35 mm; width: 24 mm; depth: 13 mm; Weight: 5.8 g"
+    dimensions: "Length: 35 mm; width: 24 mm; depth: 13 mm; Weight: 5.8 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Amulets; Egypt;
+    subject: Amulets; Animals, in amber; Egypt
     dor_id: 7934
     figure:
       - id: pl54-1
@@ -703,7 +702,7 @@ object_list:
     provenance: "Gift of Gordon McLendon"
     subject: Animals, in amber; Amulets; Dionysos, cult of (also Satyr); Etruscan culture; Inclusions;
     dor_id: 7920
-    subject: Magic;
+    subject: Magic
     figure:
       - id: pl55-1
 
@@ -714,7 +713,7 @@ object_list:
     year: 500–400 B.C.
     dimensions: "Height: 48 mm; width: 59 mm; depth: 19 mm; Weight: 16.6 g"
     provenance: "Gift of Gordon McLendon"
-    subject: Animals, in amber; Inclusions;
+    subject: Animals, in amber; Inclusions
     dor_id: 7938
     figure:
       - id: pl56-1
@@ -723,8 +722,7 @@ object_list:
   - id: 57
     accession_number: 82.AO.51
     link: http://www.getty.edu/art/collection/objects/10159
-    origin: Modern
-    year: 500–400 B.C.
+    year: Modern
     dimensions: "Height: 280 mm; width of base: 135 mm; Weight: 434 g"
     provenance: "Gift of Vasek Polak"
     subject:

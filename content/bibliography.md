@@ -25,7 +25,7 @@ LIMC | *Lexicon iconographicum mythologiae classicae*. Zurich and Munich, 1974�
 MonAnt | *Monumenti antichi*
 NSc | *Notizie degli scavi di antichità*
 RA | *Revue archéologique*
-RE | Pauly-Wissowa. *Real-Encyclopädie der klassischen Altertumswissenschaft*. 1893–2013
+RE | Pauly-Wissowa. *Real-Encyclopädie der klassischen Altertumswissenschaft*. Stuttgart, 1893–2013
 RM | *Mitteilungen des Deutschen Archäologischen Instituts, Römische Abteilung*
 StEtr | *Studi etruschi*
 
