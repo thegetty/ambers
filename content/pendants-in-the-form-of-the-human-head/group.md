@@ -96,7 +96,7 @@ The dual natures of deities like Herakles and Dionysos or Artemis and Apollo are
 
 [^13]: The youthful face is in a private collection in Basel. In the Metropolitan Museum of Art are the helmeted male pendant, 1992.11.14b, and the female bird-hatted divinity(?), 1992.11.14a (both are Purchase, Renée E. and Robert A. Belfer, Patti Cadby Birch and The Joseph Rosen Foundation Inc. Gifts, and Harris Brisbane Dick Fund, 1992).
 
-[^14]: For the armlets in Florence (Museo Archeologico Nazionale 92600–01), see {{< q-cite "Cristofani and Martelli 1983" >}}, pp. 137, 280, no. 96; for the complex electrum temple ornament, with rosettes, poppy flowers, a nude, necklaced female, a lion’s face, and two frontal heads, in Paris (Louvre S 1208), {{< q-cite "Musti et al. 1992" >}}, p. 121, no. 80, with bibl.
+[^14]: For the armlets in Florence (Museo Archeologico Nazionale 92600–92601), see {{< q-cite "Cristofani and Martelli 1983" >}}, pp. 137, 280, no. 96; for the complex electrum temple ornament, with rosettes, poppy flowers, a nude, necklaced female, a lion’s face, and two frontal heads, in Paris (Louvre S 1208), {{< q-cite "Musti et al. 1992" >}}, p. 121, no. 80, with bibl.
 
 [^15]: See {{< q-cite "Laffineur 1978" >}}. For the plaquettes from Cameiros, Rhodes, in the British Museum (Jew. 1103-6, 1108), see {{< q-cite "Marshall 1911" >}}, pp. 85–87, pl. XI.
 
