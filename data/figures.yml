@@ -318,7 +318,7 @@ figure_list:
   - id: "techfig3"
     src: "techessay/techfig3.jpg"
     label: "Figure 3"
-    caption: "THM-Py-GC/MS results for core sample from amber object 82.AC.161.285."
+    caption: "THM-Py-GC/MS results for core sample from amber object [82.AO.161.285](http://www.getty.edu/art/collection/objects/22044/)."
 
   - id: "techfig4"
     src: "techessay/techfig4.jpg"
