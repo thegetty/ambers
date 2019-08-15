@@ -5,11 +5,7 @@
 {{- if eq .site.Params.pdf true }}
 <div class="fullPageBreak"></div>
 <div class="half-title-page">
-  {{ if .site.Data.publication.short_title }}
-  <span class="title-htp">
-    {{ .site.Data.publication.short_title }}
-  </span>
-  {{ else if .site.Data.publication.title }}
+  {{ if .site.Data.publication.title }}
   <span class="title-htp">
     {{ .site.Data.publication.title }}
   </span>
@@ -20,12 +16,12 @@
   {{ if .site.Data.publication.title }}
   <span class="title-tp">
     {{ .site.Data.publication.title }}
-  </span></br>
+  </span><br />
   {{ end }}
   {{ if .site.Data.publication.subtitle }}
   <span class="sub-title">
     {{ .site.Data.publication.subtitle }}
-  </span></br>
+  </span><br />
   {{ end }}
   <span class="contributor">
     {{ if .site.Data.publication.contributor_as_it_appears }}
@@ -33,12 +29,11 @@
     {{ else }}
       {{ partial "contributor-list.html" (dict "range" .site.Data.publication.contributor "contributorType" "primary" "listType" "string" "Site" .site) }}
     {{ end }}
-  </span></br>
+  </span><br />
   <span class="publisher">
     {{ range .site.Data.publication.publisher }}
     {{ if .name }}{{ .name }}{{ end }}{{ if and (.name) (.location) }}, {{ end }}{{ if .location }}{{ .location }}{{ end }}
     {{ end }}
   </span>
 </div>
-<div class="fullPageBreak"></div>
 {{ end -}}
