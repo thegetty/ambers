@@ -9765,6 +9765,9 @@ div.multimedia {
     color: inherit;
     cursor: pointer;
     border-bottom: 1px dotted #000000; }
+    @media print {
+      .quire-citation__button {
+        border-bottom-width: 0px; } }
     .quire-citation__button.material-icons {
       font-family: "Material Icons";
       font-weight: 600;

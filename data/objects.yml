@@ -135,7 +135,7 @@ object_list:
 
   - id: 10
     accession_number: 76.AO.85.1 and 76.AO.86
-    link:
+    link: http://www.getty.edu/art/collection/objects/13318/
     origin: Etruscan
     year: 550–525 B.C.
     dimensions: "Height: 32 mm; width: 26 mm; depth: (face) 12 mm, (back) 5 mm, (joined) 17 mm; weight: 9 g"

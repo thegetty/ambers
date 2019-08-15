@@ -39,7 +39,7 @@ Almost all of the small-scale individual rams’ heads have been found in graves
 
 The solar aspects of amber may well have underscored the connection of the pendant subjects with regeneration, with the Egyptian *ba*, with solar divinities, with heroes (Odysseus, Phrixos, or Jason), or with a magical figure such as Medea. The Aydın (Tralles) pendant suggests the place of the ram in the universe of a powerful female nature divinity. Of the Olympian gods, if Apollo (the solar divinity) were brought to mind (and to work) by the ram’s head, then perhaps there was an association with his son Phaethon and the Heliades—whose shining tears shed in mourning for their brother Phaethon were hardened by the sun and turned into amber. If Hermes was evoked, it might allude to not only his legendary magical act at Tanagra, but also his role—and the ram’s—as *psychopompos*. As this survey reflects, the subject of ram imagery in ancient art deserves continued study.[^30]
 
-{{< q-class="backmatter" >}}
+{{< q-class "backmatter" >}}
 ## Notes
 {{< /q-class >}}
 

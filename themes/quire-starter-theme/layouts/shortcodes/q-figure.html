@@ -188,7 +188,7 @@ we start with media figures
   <figure   
   id="deepzoom-{{ $Id }}" 
   {{ if .Get "caption" }}  
-  title='{{ .Get "caption" | markdownify | safeHTML }}' {{ end }} 
+  title='{{ .Get "caption" | markdownify | safeHTML }} {{ .Get "credit" | markdownify | safeHTML }}' {{ end }} 
   class="quire-figure leaflet-outer-wrapper mfp-hide Get">
     <div 
     id="js-deepzoom-{{ now.UnixNano }}"
@@ -214,7 +214,7 @@ we start with media figures
     href="#deepzoom-{{ $Id }}" 
     class='inline popup'
     data-type='inline' 
-    {{ if .Get "caption" }}  title='{{ .Get "caption" | markdownify | safeHTML }}' {{ end }}>
+    {{ if .Get "caption" }}  title='{{ .Get "caption" | markdownify | safeHTML }} {{ .Get "credit" | markdownify | safeHTML }}' {{ end }}>
   {{ end }}
 
       <img
