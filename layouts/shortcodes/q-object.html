@@ -27,9 +27,9 @@
 {{- /* Image directory */ -}}
 {{- /* ------------------------------------------------------------------ */ -}}
 {{- if isset $.Site.Params "imagedir" -}}
-{{ $.Scratch.Set "imageDir" $.Site.Params.imageDir }}
+  {{- $.Scratch.Set "imageDir" $.Site.Params.imageDir -}}
 {{- else -}}
-{{ $.Scratch.Set "imagedir" "" }}
+  {{- $.Scratch.Set "imagedir" "" -}}
 {{- end -}}
 
 {{- /* Get accession number of object on current page */ -}}
@@ -51,7 +51,7 @@
 {{- /* If shortcode is for object on page, return the number only */ -}}
 {{- /* ------------------------------------------------------------------ */ -}}
 {{- if eq $accession ($.Page.Scratch.Get "pageAccession") -}}
-  {{ $accession }}
+  {{- $accession -}}
   
 {{- /* Otherwise look for info in objects.yml to build hover-over */ -}}
 {{- /* ------------------------------------------------------------------ */ -}}
@@ -70,8 +70,8 @@
         {{- end -}}
       {{- end -}}
       {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") ($.Scratch.Get "imageSrc") -}}    
-      {{ $id := string .id }}  
-      <span class="quire-citation quire-object"><a href="{{ printf "/%s/%s/" "objects" $id | relURL }}"><span class="visually-hidden">Citation: </span>{{- markdownify $accession -}}</a><span class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br />Cat. no. {{ markdownify .id }}</span></span>
+      {{- $id := string .id -}}  
+      <span class="quire-citation quire-object expandable"><span class="quire-citation__button" role="button" tabindex="0" aria-expanded="false">{{- markdownify $accession -}}</span><span hidden class="quire-citation__content"><img src="{{ $imgPath | relURL }}" alt="" /><br /><a href="{{ printf "/%s/%s/" "objects" $id | relURL }}">Cat. no. {{ markdownify .id }}</a></span></span>
       
       {{- /* If this is the first instance of this number on this page
            add the catalouge number in plain text after the link  */ -}}

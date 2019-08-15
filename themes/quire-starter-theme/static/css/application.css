@@ -9756,7 +9756,7 @@ div.multimedia {
 .quire-citation {
   position: relative;
   text-indent: 0; }
-  .quire-citation button {
+  .quire-citation__button {
     border: none;
     padding: 0;
     font-size: 1em;
@@ -9765,18 +9765,18 @@ div.multimedia {
     color: inherit;
     cursor: pointer;
     border-bottom: 1px dotted #000000; }
-    .quire-citation button.material-icons {
+    .quire-citation__button.material-icons {
       font-family: "Material Icons";
       font-weight: 600;
       margin-left: .125em;
       color: #a6a6a6;
       border-bottom-width: 0; }
-    .quire-citation button:hover {
+    .quire-citation__button:hover {
       color: #c77405 !important;
       border-bottom: 1px solid #c77405; }
-    .quire-citation button.material-icons:hover {
+    .quire-citation__button.material-icons:hover {
       border-bottom-width: 0; }
-    .quire-citation button:focus {
+    .quire-citation__button:focus {
       background-color: #F9F9A3; }
   .quire-citation .quire-citation__content {
     font-size: 0.875em;

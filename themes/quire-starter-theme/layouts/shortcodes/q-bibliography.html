@@ -28,14 +28,14 @@
   {{- if eq .Site.Params.displayBiblioShort true -}}
   <dl>
   {{ range sort .Site.Data.references.entries ($.Get "sort") -}}
-      <dt>{{ .short | markdownify }}</dt>
-      <dd id="{{ .short | urlize }}">{{ .full | markdownify }}</dd>
+      <dt>{{ .id | markdownify }}</dt>
+      <dd id="{{ .id | urlize }}">{{ .full | markdownify }}</dd>
   {{- end }}
   </dl>
   {{- else -}}
   <ul>
   {{ range sort .Site.Data.references.entries ($.Get "sort") -}}
-      <li id="{{ .short | urlize }}">{{ .full | markdownify }}</li>
+      <li id="{{ .id | urlize }}">{{ .full | markdownify }}</li>
   {{ end -}}
   </ul>
   {{- end -}}
@@ -46,14 +46,14 @@
   {{- if eq .Site.Params.displayBiblioShort true -}}
   <dl>
   {{ range .Site.Data.references.entries -}}
-      <dt>{{ .short | markdownify }}</dt>
-      <dd id="{{ .short | urlize }}">{{ .full | markdownify }}</dd>
+      <dt>{{ .id | markdownify }}</dt>
+      <dd id="{{ .id | urlize }}">{{ .full | markdownify }}</dd>
   {{- end }}
   </dl>
   {{- else -}}
   <ul>
   {{ range .Site.Data.references.entries }}
-      <li id="{{ .short | urlize }}">{{ .full | markdownify }}</li>
+      <li id="{{ .id | urlize }}">{{ .full | markdownify }}</li>
   {{- end }}
   </ul>
   {{- end -}}

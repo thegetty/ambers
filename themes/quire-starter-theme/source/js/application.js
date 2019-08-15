@@ -448,7 +448,7 @@ function toggleCite() {
       } else {
         this.setAttribute("aria-expanded", "false");
       }
-      var content = this.parentNode.querySelector("span");
+      var content = this.parentNode.querySelector(".quire-citation__content");
       if (content) {
         content.getAttribute("hidden");
         if (typeof content.getAttribute("hidden") === "string") {
@@ -468,7 +468,7 @@ function toggleCite() {
       // do nothing
     } else {
       // find all Buttons/Cites
-      let citeButtons = document.querySelectorAll(".quire-citation button");
+      let citeButtons = document.querySelectorAll(".quire-citation__button");
       let citesContents = document.querySelectorAll(".quire-citation__content");
       // hide all buttons
       for (let i = 0; i < citesContents.length; i++) {
