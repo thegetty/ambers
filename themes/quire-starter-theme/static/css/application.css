@@ -1,5 +1,5 @@
 .leaflet-control-fullscreen a {
-  background: #fff url(/img/fullscreen.png) no-repeat 0 0;
+  background: #fff url(http://localhost:1313/img/fullscreen.png) no-repeat 0 0;
   background-size: 26px 52px; }
 
 .leaflet-touch .leaflet-control-fullscreen a {
@@ -30,90 +30,90 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .leaflet-control-fullscreen a {
-    background-image: url(/img/fullscreen@2x.png); } }
+    background-image: url(http://localhost:1313/img/fullscreen@2x.png); } }
 
 @charset "UTF-8";
 @font-face {
   font-family: "IBM Plex Sans Condensed";
-  src: url(/fonts/ibmplexsanscondensed-regular.eot);
-  src: url(/fonts/ibmplexsanscondensed-regular.eot?#iefix) format("embedded-opentype"), url(/fonts/ibmplexsanscondensed-regular.woff2) format("woff2"), url(/fonts/ibmplexsanscondensed-regular.woff) format("woff"), url(/fonts/ibmplexsanscondensed-regular.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/ibmplexsanscondensed-regular.eot);
+  src: url(http://localhost:1313/fonts/ibmplexsanscondensed-regular.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/ibmplexsanscondensed-regular.woff2) format("woff2"), url(http://localhost:1313/fonts/ibmplexsanscondensed-regular.woff) format("woff"), url(http://localhost:1313/fonts/ibmplexsanscondensed-regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "IBM Plex Sans Condensed";
-  src: url(/fonts/ibmplexsanscondensed-italic.eot);
-  src: url(/fonts/ibmplexsanscondensed-italic.eot?#iefix) format("embedded-opentype"), url(/fonts/ibmplexsanscondensed-italic.woff2) format("woff2"), url(/fonts/ibmplexsanscondensed-italic.woff) format("woff"), url(/fonts/ibmplexsanscondensed-italic.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/ibmplexsanscondensed-italic.eot);
+  src: url(http://localhost:1313/fonts/ibmplexsanscondensed-italic.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/ibmplexsanscondensed-italic.woff2) format("woff2"), url(http://localhost:1313/fonts/ibmplexsanscondensed-italic.woff) format("woff"), url(http://localhost:1313/fonts/ibmplexsanscondensed-italic.ttf) format("truetype");
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: "IBM Plex Sans Condensed";
-  src: url(/fonts/ibmplexsanscondensed-bold.eot);
-  src: url(/fonts/ibmplexsanscondensed-bold.eot?#iefix) format("embedded-opentype"), url(/fonts/ibmplexsanscondensed-bold.woff2) format("woff2"), url(/fonts/ibmplexsanscondensed-bold.woff) format("woff"), url(/fonts/ibmplexsanscondensed-bold.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/ibmplexsanscondensed-bold.eot);
+  src: url(http://localhost:1313/fonts/ibmplexsanscondensed-bold.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/ibmplexsanscondensed-bold.woff2) format("woff2"), url(http://localhost:1313/fonts/ibmplexsanscondensed-bold.woff) format("woff"), url(http://localhost:1313/fonts/ibmplexsanscondensed-bold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "IBM Plex Sans Condensed";
-  src: url(/fonts/ibmplexsanscondensed-bolditalic.eot);
-  src: url(/fonts/ibmplexsanscondensed-bolditalic.eot?#iefix) format("embedded-opentype"), url(/fonts/ibmplexsanscondensed-bolditalic.woff2) format("woff2"), url(/fonts/ibmplexsanscondensed-bolditalic.woff) format("woff"), url(/fonts/ibmplexsanscondensed-bolditalic.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/ibmplexsanscondensed-bolditalic.eot);
+  src: url(http://localhost:1313/fonts/ibmplexsanscondensed-bolditalic.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/ibmplexsanscondensed-bolditalic.woff2) format("woff2"), url(http://localhost:1313/fonts/ibmplexsanscondensed-bolditalic.woff) format("woff"), url(http://localhost:1313/fonts/ibmplexsanscondensed-bolditalic.ttf) format("truetype");
   font-weight: 700;
   font-style: italic; }
 
 @font-face {
   font-family: "Noto Serif";
-  src: url(/fonts/notoserif-regular.eot);
-  src: url(/fonts/notoserif-regular.eot?#iefix) format("embedded-opentype"), url(/fonts/notoserif-regular.woff2) format("woff2"), url(/fonts/notoserif-regular.woff) format("woff"), url(/fonts/notoserif-regular.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/notoserif-regular.eot);
+  src: url(http://localhost:1313/fonts/notoserif-regular.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/notoserif-regular.woff2) format("woff2"), url(http://localhost:1313/fonts/notoserif-regular.woff) format("woff"), url(http://localhost:1313/fonts/notoserif-regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Noto Serif";
-  src: url(/fonts/notoserif-italic.eot);
-  src: url(/fonts/notoserif-italic.eot?#iefix) format("embedded-opentype"), url(/fonts/notoserif-italic.woff2) format("woff2"), url(/fonts/notoserif-italic.woff) format("woff"), url(/fonts/notoserif-italic.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/notoserif-italic.eot);
+  src: url(http://localhost:1313/fonts/notoserif-italic.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/notoserif-italic.woff2) format("woff2"), url(http://localhost:1313/fonts/notoserif-italic.woff) format("woff"), url(http://localhost:1313/fonts/notoserif-italic.ttf) format("truetype");
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: "Noto Serif";
-  src: url(/fonts/notoserif-bold.eot);
-  src: url(/fonts/notoserif-bold.eot?#iefix) format("embedded-opentype"), url(/fonts/notoserif-bold.woff2) format("woff2"), url(/fonts/notoserif-bold.woff) format("woff"), url(/fonts/notoserif-bold.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/notoserif-bold.eot);
+  src: url(http://localhost:1313/fonts/notoserif-bold.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/notoserif-bold.woff2) format("woff2"), url(http://localhost:1313/fonts/notoserif-bold.woff) format("woff"), url(http://localhost:1313/fonts/notoserif-bold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "Noto Serif";
-  src: url(/fonts/notoserif-bolditalic.eot);
-  src: url(/fonts/notoserif-bolditalic.eot?#iefix) format("embedded-opentype"), url(/fonts/notoserif-bolditalic.woff2) format("woff2"), url(/fonts/notoserif-bolditalic.woff) format("woff"), url(/fonts/notoserif-bolditalic.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/notoserif-bolditalic.eot);
+  src: url(http://localhost:1313/fonts/notoserif-bolditalic.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/notoserif-bolditalic.woff2) format("woff2"), url(http://localhost:1313/fonts/notoserif-bolditalic.woff) format("woff"), url(http://localhost:1313/fonts/notoserif-bolditalic.ttf) format("truetype");
   font-weight: 700;
   font-style: italic; }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url(/fonts/notosans-regular.eot);
-  src: url(/fonts/notosans-regular.eot?#iefix) format("embedded-opentype"), url(/fonts/notosans-regular.woff2) format("woff2"), url(/fonts/notosans-regular.woff) format("woff"), url(/fonts/notosans-regular.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/notosans-regular.eot);
+  src: url(http://localhost:1313/fonts/notosans-regular.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/notosans-regular.woff2) format("woff2"), url(http://localhost:1313/fonts/notosans-regular.woff) format("woff"), url(http://localhost:1313/fonts/notosans-regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url(/fonts/notosans-italic.eot);
-  src: url(/fonts/notosans-italic.eot?#iefix) format("embedded-opentype"), url(/fonts/notosans-italic.woff2) format("woff2"), url(/fonts/notosans-italic.woff) format("woff"), url(/fonts/notosans-italic.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/notosans-italic.eot);
+  src: url(http://localhost:1313/fonts/notosans-italic.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/notosans-italic.woff2) format("woff2"), url(http://localhost:1313/fonts/notosans-italic.woff) format("woff"), url(http://localhost:1313/fonts/notosans-italic.ttf) format("truetype");
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url(/fonts/notosans-bold.eot);
-  src: url(/fonts/notosans-bold.eot?#iefix) format("embedded-opentype"), url(/fonts/notosans-bold.woff2) format("woff2"), url(/fonts/notosans-bold.woff) format("woff"), url(/fonts/notosans-bold.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/notosans-bold.eot);
+  src: url(http://localhost:1313/fonts/notosans-bold.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/notosans-bold.woff2) format("woff2"), url(http://localhost:1313/fonts/notosans-bold.woff) format("woff"), url(http://localhost:1313/fonts/notosans-bold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url(/fonts/notosans-bolditalic.eot);
-  src: url(/fonts/notosans-bolditalic.eot?#iefix) format("embedded-opentype"), url(/fonts/notosans-bolditalic.woff2) format("woff2"), url(/fonts/notosans-bolditalic.woff) format("woff"), url(/fonts/notosans-bolditalic.ttf) format("truetype");
+  src: url(http://localhost:1313/fonts/notosans-bolditalic.eot);
+  src: url(http://localhost:1313/fonts/notosans-bolditalic.eot?#iefix) format("embedded-opentype"), url(http://localhost:1313/fonts/notosans-bolditalic.woff2) format("woff2"), url(http://localhost:1313/fonts/notosans-bolditalic.woff) format("woff"), url(http://localhost:1313/fonts/notosans-bolditalic.ttf) format("truetype");
   font-weight: 700;
   font-style: italic; }
 
@@ -124,9 +124,9 @@
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/MaterialIcons-Regular.eot);
+  src: url(http://localhost:1313/fonts/MaterialIcons-Regular.eot);
   /* For IE6-8 */
-  src: local("Material Icons"), local("MaterialIcons-Regular"), url(/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(/fonts/MaterialIcons-Regular.woff) format("woff"), url(/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(http://localhost:1313/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(http://localhost:1313/fonts/MaterialIcons-Regular.woff) format("woff"), url(http://localhost:1313/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
 
 .material-icons {
   font-family: "Material Icons";
@@ -9939,6 +9939,8 @@ div.multimedia {
   font-family: "Noto Serif", serif; }
   .quire-deepzoom .leaflet-table table {
     table-layout: auto; }
+    .quire-deepzoom .leaflet-table table caption {
+      font-size: 1.5rem; }
     .quire-deepzoom .leaflet-table table tr,
     .quire-deepzoom .leaflet-table table td,
     .quire-deepzoom .leaflet-table table th {
@@ -10861,12 +10863,12 @@ svg.leaflet-image-layer.leaflet-interactive path {
   border-radius: 5px; }
 
 .leaflet-control-layers-toggle {
-  background-image: url(/img/layers.png);
+  background-image: url(http://localhost:1313/img/layers.png);
   width: 36px;
   height: 36px; }
 
 .leaflet-retina .leaflet-control-layers-toggle {
-  background-image: url(/img/layers-2x.png);
+  background-image: url(http://localhost:1313/img/layers-2x.png);
   background-size: 26px 26px; }
 
 .leaflet-touch .leaflet-control-layers-toggle {
@@ -10906,7 +10908,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 /* Default icon URLs */
 .leaflet-default-icon-path {
-  background-image: url(/img/marker-icon.png); }
+  background-image: url(http://localhost:1313/img/marker-icon.png); }
 
 /* attribution and scale controls */
 .leaflet-container .leaflet-control-attribution {

@@ -155,6 +155,20 @@ blockquote sup.footnote-ref {
   }
 }
 
+/* Improve table styling */
+table caption {
+  font-size: 1rem;
+  margin: 1rem;
+}
+.quire-page__content .container .content table tbody td {
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+#techessay .quire-page__content .container .content .tech-table {
+  margin-bottom: 4em;
+  column-span: all;
+}
+
 /* LOC Cataloguing in Publication format */
 .quire-page__content .container .content .cip-data p {
   display: none;
@@ -336,10 +350,6 @@ blockquote sup.footnote-ref {
   .quire-contributor__bio,
   .quire-page__content {
     line-height: 1.5;
-  }
-  
-  #techessay .tech-table {
-    column-span: all;
   }
   
   /* Eliminates blank page in PDF that was created because of extra padding */

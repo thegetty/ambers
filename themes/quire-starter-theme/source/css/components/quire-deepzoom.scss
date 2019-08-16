@@ -20,6 +20,9 @@ $fullscreen-button-img: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAA
     font-family: $quire-primary-font;
     table {
       table-layout: auto;
+      caption {
+        font-size: 1.5rem;
+      }
       tr,
       td,
       th {
