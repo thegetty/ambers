@@ -277,19 +277,10 @@ blockquote sup.footnote-ref {
   .quire-entry__image-wrap {
     display: none;
   }
-  .quire-entry__tombstone {
-    -webkit-column-span: none;
-    column-span: none;
-    -webkit-column-count: initial;
-    column-count: initial;
-    margin-left: 0;
-    margin-right: 0;
-    /* max-width: inherit; */
-    margin: 0;
-  }
-  .quire-entry__tombstone .table {
-    width: inherit;
-  }
+  
+  .quire-entry table.table tr td:first-child {
+    font-weight: 700;
+  } 
   
   #intro-intro .quire-page__header,
   #catalogue .quire-page__header {
