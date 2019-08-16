@@ -132,6 +132,30 @@ blockquote sup.footnote-ref {
   font-style: normal;
 }
 
+/* Make proper fraction typography within figure captions */
+.content figcaption sup,
+.content figcaption sub {
+  font-size: 60%;
+  position: relative;
+}
+.content figcaption sup {
+  margin-right: .2em;
+}
+.content figcaption sub {
+  bottom: .25em;
+  margin-left: .1em;
+}
+@media print {
+  .content figcaption sup {
+    top: .25em;
+    margin-left: .15em;
+  }
+  .content figcaption sub {
+    bottom: .15em;
+    margin-left: .15em;
+  }
+}
+
 /* Use pre and code to maintain strict LOC Cataloguing in Publication format */
 .cip-data p {
   margin-bottom: 0 !important;
