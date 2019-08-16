@@ -330,5 +330,10 @@ blockquote sup.footnote-ref {
   #techessay .tech-table {
     column-span: all;
   }
+  
+  /* Eliminates blank page in PDF that was created because of extra padding */
+  #rams-heads-52 .quire-entry .quire-page__content {
+    padding-bottom: 0 !important;
+  }
 
 }
