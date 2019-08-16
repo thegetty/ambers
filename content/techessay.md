@@ -280,7 +280,7 @@ Accession #	 | Sample Location	 |  Treatment	 |  Succinate	 |  Diterpenes	 |  Fa
 
 [^3]: E. Stout, C. Beck, and B. Kosmowska-Ceranowicz, for example, used infrared spectroscopy (IR) to compare and separate gedano-succinite from succinite: see “Gedanite and Gedano-Succinite,” in {{< q-cite "Anderson and Crelling 1995" >}}, pp. 130–48.
 
-[^4]: See J. Waddington and J. Fenn “Preventive Conservation of amber: Some Preliminary Investigations,” *Collection Forum* 4, no. 2, (Fall 1988): 25–31 and; Y. Shashoua National Museum of Denmark, 2002, **http://www.natmus.dk/cons/reports/2002/amber/amber.pdf**.
+[^4]: See J. Waddington and J. Fenn “Preventive Conservation of amber: Some Preliminary Investigations,” *Collection Forum* 4, no. 2, (Fall 1988): 25–31 and; Y. Shashoua National Museum of Denmark, 2002, http:&#47;&#47;www.natmus.dk/cons/reports/2002/amber/amber.pdf.
 
 [^5]: G. Pastorelli “Archaeological Baltic Amber: Degradation Mechanisms and Conservation Measures,” Ph.D. diss. (University of Bologna, 2009).
 
