@@ -1,6 +1,5 @@
 ---
-title: Pendants in the Form of the Human Head
-short_title: Human Heads
+title: Human Heads
 type: contents
 class: grid
 weight: 600

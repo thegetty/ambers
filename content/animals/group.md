@@ -1,5 +1,5 @@
 ---
-title: Animal
+title: Animals
 type: contents
 class: grid
 weight: 700
