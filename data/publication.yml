@@ -109,12 +109,17 @@ resource_link:
     name: PDF
     media_type: application/pdf
     link_relation: alternate
-    url:
+    url: downloads/output.pdf
   - type: other-format
     name: EPUB
     media_type: application/epub+zip
     link_relation: alternate
-    url:
+    url: downloads/output.epub
+  - type: other-format
+    name: MOBI
+    media_type: application/mobi
+    link_relation: alternate
+    url: downloads/output.mobi
   - type: footer-link
     name: About
     link_relation: about
