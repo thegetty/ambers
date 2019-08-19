@@ -228,6 +228,14 @@ table caption {
   text-transform: none;
 }
 
+/* Remove decorative quote before blockquote */
+.quire-page__content .container .content blockquote p:first-child::before, .quire-page__content .container .content blockquote ul:first-child::before, .quire-page__content .container .content blockquote ol:first-child::before, .quire-page__content .container .content blockquote dl:first-child::before, .quire-page__content .container .content blockquote h1:first-child::before, .quire-page__content .container .content blockquote h2:first-child::before, .quire-page__content .container .content blockquote h3:first-child::before, .quire-page__content .container .content blockquote h4:first-child::before, .quire-page__content .container .content blockquote h5:first-child::before, .quire-page__content .container .content blockquote h6:first-child::before {
+  display: none;
+}
+.quire-page__content .content blockquote {
+  margin-left: 1em;
+}
+
 @media print {
   
   p,
@@ -241,8 +249,8 @@ table caption {
   #orientalizing-group-group .quire-contents,
   #ship-with-figures-group .quire-contents,
   #korai-group .quire-contents,
-  #pendants-in-the-form-of-the-human-head-group .quire-contents,
-  #animal-group,
+  #human-heads-group .quire-contents,
+  #animals-group .quire-contents,
   #lions-heads-group .quire-contents,
   #boars-group .quire-contents,
   #rams-heads-group .quire-contents,
@@ -254,8 +262,8 @@ table caption {
   #orientalizing-group-group .quire-contents-list.grid,
   #ship-with-figures-group .quire-contents-list.grid,
   #korai-group .quire-contents-list.grid,
-  #pendants-in-the-form-of-the-human-head-group .quire-contents-list.grid,
-  #animal-group .quire-contents-list.grid,
+  #human-heads-group .quire-contents-list.grid,
+  #animals-group .quire-contents-list.grid,
   #lions-heads-group .quire-contents-list.grid,
   #boars-group .quire-contents-list.grid,
   #rams-heads-group .quire-contents-list.grid,
@@ -266,8 +274,8 @@ table caption {
   #orientalizing-group-group .quire-page__content,
   #ship-with-figures-group .quire-page__content,
   #korai-group .quire-page__content,
-  #pendants-in-the-form-of-the-human-head-group .quire-page__content,
-  #animal-group .quire-page__content,
+  #human-heads-group .quire-page__content,
+  #animals-group .quire-page__content,
   #lions-heads-group .quire-page__content,
   #boars-group .quire-page__content,
   #rams-heads-group .quire-page__content,
