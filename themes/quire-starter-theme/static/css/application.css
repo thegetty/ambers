@@ -9492,7 +9492,7 @@ div.multimedia {
         padding: 6px 10px;
         background: rgba(0, 0, 0, 0.5);
         font-family: Times, serif;
-        font-size: 0.75rem;
+        font-size: 0.875rem;
         font-weight: bold; }
       @media print {
         .quire-entry__image .quire-image-control.quire-image-info__caption {
