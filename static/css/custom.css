@@ -193,6 +193,36 @@ table caption {
   }
 }
 
+/* Customize footers on technical essay */
+@media print {
+  #techessay .quire-essay {
+    page: techessay;
+  }
+  
+  .pdf-page-title {
+    string-set: pagetitle content();
+  }
+  .pdf-page-subtitle {
+    string-set: pagesubtitle content();
+  }
+  
+  @page techessay:left {
+    @bottom-right {
+      content: string(pagetitle);
+      text-transform: uppercase;
+      letter-spacing: 1pt;
+      font-size: 7.5pt;
+    }
+  }
+
+  @page techessay:right {
+    @bottom-left {
+      content: string(pagesubtitle);
+    }
+  }
+  
+}
+
 /* Style copyright for PDF/Print output */
 @media print {
   #copyright .quire-page.quire-page--frontmatter {
