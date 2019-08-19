@@ -193,6 +193,17 @@ table caption {
   }
 }
 
+/* Color text links to distinguish from pop-ups, 
+   use WCAG 2.0 contrasting color */
+.quire-page__content .content a {
+    color: #AB6203;
+    border-bottom-color: #AB6203;
+}
+.quire-page__content .content sup a,
+.quire-page__content .content a.footnote-return {
+  color: #000;
+}
+
 /* Customize footers on technical essay */
 @media print {
   #techessay .quire-essay {
