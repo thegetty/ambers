@@ -20,6 +20,9 @@
       {{ with .Params.label }}{{ . }}{{ $.Site.Params.pageLabelDivider }}{{ end }}{{ if .Params.short_title }}{{ .Params.short_title | markdownify }}{{ else }}{{ .Title | markdownify | truncate 35 }}{{ end }}
     {{- end -}}
   </span>
+  <span class="pdf-page-subtitle">
+    {{- if .Params.short_subtitle }}{{ .Params.short_subtitle }}{{ else if  .Params.subtitle }}{{ .Params.subtitle }}{{ end -}}
+  </span>
   <span class="pdf-page-section">{{ if ne ($.Scratch.Get "sectionTitle") "" }}{{ $.Scratch.Get "sectionTitle" }}{{ else }}{{ .Section | humanize }}{{ end }}</span>
 </div>
 {{- $.Scratch.Delete "sectionTitle" -}}

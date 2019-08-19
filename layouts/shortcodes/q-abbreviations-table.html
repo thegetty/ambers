@@ -1,0 +1,7 @@
+<table>
+  <tbody>
+{{- range $.Site.Data.abbreviations.listing -}}
+  <tr id="{{ .abbreviation | urlize }}"><td>{{ .abbreviation | markdownify }}</td><td>{{ .citation | markdownify }}</td></tr>
+{{ end }}
+  </tbody>
+</table>

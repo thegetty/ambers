@@ -14,7 +14,8 @@
     {{- if .Content -}}
       <div class="container">
         <div class="content">
-          {{ .Content }}
+          {{ .Content }}    
+          {{ partial "page-bibliography.html" . }}
         </div>
       </div>
     {{- end -}}
@@ -29,9 +30,6 @@
             {{ $scope := .Site.Pages }}
             {{- partial "contents-list.html" (dict "site" .Site "contentsScope" $scope "contentsType" .Site.Params.tocType "pdf" ".Params.pdf" "epub" ".Params.epub" "contentsLocation" ".Params.toc" "contentsPage" . ) -}}
           {{ end }}
-        </div>
-        <div class="content">
-          {{ partial "page-bibliography.html" . }}
         </div>
       </div>
       {{ partial "footer-buttons.html" . }}
