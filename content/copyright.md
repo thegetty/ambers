@@ -10,7 +10,7 @@ toc: false
 {{< q-class "backmatter" >}}
 This catalogue was first published in 2012 at http://museumcatalogues.getty.edu/amber. The present online version was migrated in 2019 to http://www.getty.edu/publications/ambers; it features zoomable high-resolution photography; free PDF, EPUB, and MOBI downloads; and JPG downloads of the catalogue images.
 
-© 2019 J. Paul Getty Trust
+© 2019, J. Paul Getty Trust
 
 ![cc-by](/img/cc-by--black.png)
 
@@ -38,8 +38,9 @@ Greg Albers, *Digital Manager*<br />
 Maribel Hidalgo Urbaneja, *Digital Assistant*<br />
 Suzanne Watson, *Production*<br />
 
-Distributed in the United States and Canada by the University of Chicago Press<br />
-Distributed outside the United States and Canada by Yale University Press, London<br />
+Distributed in the United States and Canada by the University of Chicago Press
+
+Distributed outside the United States and Canada by Yale University Press, London
 
 {{< q-class "cip-data" >}}
 

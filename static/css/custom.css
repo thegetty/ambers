@@ -437,3 +437,38 @@ em dashes */
     prince-text-replace: "—" "—\200B"
   }
 }
+
+/* Make the button font the same as the text around it */
+.quire-citation__button {
+  font-family: inherit;
+}
+
+/* 
+  In instances in the PDF where there is only a little bit of text on the last
+  page of chapter, the desired output is to have that text fill just one of the 
+  two columns and not break across it. This can be acheived by adding 
+  
+    class: pdf-single-column-last-page 
+  
+  to the page YAML of the specific pages where this is an issue 
+*/
+@media print {
+  .quire-essay.quire-page--pdf-single-column-last-page .quire-page__content,
+  .quire-entry.quire-page--pdf-single-column-last-page .quire-page__content {
+    column-fill: auto;
+  }
+}
+
+/* remove bottom padding to avoid creating new page in pdf when not needed */
+@media print {
+  .section.quire-page__content {
+    padding-bottom: 0;
+  }
+}
+
+/* Fix spacing above Notes header in PDF */
+@media print {
+  .quire-page__content .container .content .backmatter {
+    padding-top: 0;
+  }
+}
