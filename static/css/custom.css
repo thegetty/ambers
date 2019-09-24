@@ -472,3 +472,7 @@ em dashes */
     padding-top: 0;
   }
 }
+
+span.no-break {
+  white-space: nowrap;
+}
