@@ -150,7 +150,7 @@ revision_history:
   - date:
     summary:
 
-repository_url:
+repository_url: "https://github.com/thegetty/ambers/"
 
 # ------------------------------------------------------------------------------
 # Promo Image
