@@ -41,12 +41,13 @@ Spectral Light
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  line-height: 1.3;
+  line-height: 1;
 }
 .quire-cover__hero .title .title-large {
   display: block;
-  font-size: 4.5rem;
+  font-size: 5.25rem;
   font-weight: 300;
+  padding-top: 5px
 }
 .quire-cover__hero .contributor {
   font-family: 'Noto Sans', sans-serif; 
@@ -436,4 +437,43 @@ em dashes */
   body * {
     prince-text-replace: "—" "—\200B"
   }
+}
+
+/* Make the button font the same as the text around it */
+.quire-citation__button {
+  font-family: inherit;
+}
+
+/* 
+  In instances in the PDF where there is only a little bit of text on the last
+  page of chapter, the desired output is to have that text fill just one of the 
+  two columns and not break across it. This can be acheived by adding 
+  
+    class: pdf-single-column-last-page 
+  
+  to the page YAML of the specific pages where this is an issue 
+*/
+@media print {
+  .quire-essay.quire-page--pdf-single-column-last-page .quire-page__content,
+  .quire-entry.quire-page--pdf-single-column-last-page .quire-page__content {
+    column-fill: auto;
+  }
+}
+
+/* remove bottom padding to avoid creating new page in pdf when not needed */
+@media print {
+  .section.quire-page__content {
+    padding-bottom: 0;
+  }
+}
+
+/* Fix spacing above Notes header in PDF */
+@media print {
+  .quire-page__content .container .content .backmatter {
+    padding-top: 0;
+  }
+}
+
+span.no-break {
+  white-space: nowrap;
 }

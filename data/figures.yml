@@ -1,307 +1,307 @@
 figure_list:
   - id: "intro1"
-    src: "intro/fig01.jpg"
+    src: "figures/fig01.jpg"
     label: "Figure 1"
     caption: "*Head of Medusa*, Roman, 1st–2nd century A.D. Amber, H: 5.8 cm (2<sup>3</sup>⁄<sub>10</sub> in.), W: 5.8 cm (2<sup>3</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, [71.AO.355](http://www.getty.edu/art/collection/objects/6808)."
 
   - id: "intro2"
-    src: "intro/fig02.jpg"
+    src: "figures/fig02.jpg"
     label: "Figure 2"
     caption: "Ring dedicated to Hera, Greek, ca. 575 B.C. Gilded silver, Diam. (outer): 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.), Diam. (inner): 1.8 cm (<sup>11</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [85.AM.264](http://www.getty.edu/art/collection/objects/10993)."
 
   - id: "intro3"
-    src: "intro/fig03.jpg"
+    src: "figures/fig03.jpg"
     label: "Figure 3"
     caption: "Amber necklaces and gold ornaments from the young girl’s Tomb 102, Braida di Serra di Vaglio, Italy, ca. 500 B.C. The sphinx pendant, the largest amber pendant, has H: 4.6 cm (1<sup>3</sup>⁄<sub>4</sub> in.), L: 8.3 cm (3<sup>1</sup>⁄<sub>4</sub> in.), W: 1.5 cm (<sup>5</sup>⁄<sub>8</sub> in.). Approximate total length of strings of amber: 240 cm (94<sup>1</sup>⁄<sub>2</sub> in.). Potenza, Museo Archeologico Nazionale “Dinu Adamesteanu.”"
     credit: "By permission of il Ministero dei Beni e delle Attività Culturali—Direzione Regionale per i Beni Culturali e Paesaggistici della Basilicata—Soprintendenza per i Beni Archeologici della Basilicata / IKONA."
 
   - id: "intro4"
-    src: "intro/fig04.jpg"
+    src: "figures/fig04.jpg"
     label: "Figure 4"
     caption: "<em>Female Head in Profile</em> pendant, Italic, 500–480 B.C. Amber, H: 4.4 cm (1<sup>7</sup>⁄<sub>10</sub> in.), W: 3.8 cm (1<sup>1</sup>⁄<sub>2</sub> in.), D: 1.6 cm (<sup>3</sup>⁄<sub>5</sub> in). Los Angeles, J. Paul Getty Museum, 77.AO.81.30. Gift of Gordon McLendon. See [cat. no. 25](/ambers/objects/25)."
 
   - id: "intro5"
-    src: "intro/fig05.jpg"
+    src: "figures/fig05.jpg"
     label: "Figure 5"
     caption: "<em>Addorsed Females</em> pendant, Etruscan, 600–550 B.C. Amber, H: 4.0 cm (1<sup>3</sup>⁄<sub>5</sub> in.), W: 10.2 cm (4 in.), D: 1.3 cm (<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.81.1. Gift of Gordon McLendon. See [cat. no. 3](/ambers/objects/3)."
 
   - id: "intro6"
-    src: "intro/fig06.jpg"
+    src: "figures/fig06.jpg"
     label: "Figure 6"
     caption: "<em>Ship with Figures</em> pendant, Etruscan, 600–575 B.C. Amber, L: 12 cm (4<sup>7</sup>⁄<sub>10</sub> in.), W: 3.5 cm (1<sup>3</sup>⁄<sub>8</sub> in.), D: 1 cm (<sup>3</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.76. Gift of Gordon McLendon. See [cat. no. 7](/ambers/objects/7)."
 
   - id: "intro7"
-    src: "intro/fig07.jpg"
+    src: "figures/fig07.jpg"
     label: "Figure 7"
-    caption: "Engraved Scarab with Nike Crowning Herakles, Etruscan, 400–380 B.C. Banded agate, H: 1.8 cm (<sup>3</sup>⁄<sub>4</sub> in.), W: 1.4 cm (<sup>9</sup>⁄<sub>16</sub> in.), D: 0.9 cm (<sup>3</sup>⁄<sub>8</sub> in.). Los Angeles, J. Paul Getty Museum, [85.AN.123](http://www.getty.edu/art/collection/objects/10959)."
+    caption: "<em>Engraved Scarab with Nike Crowning Herakles</em>, Etruscan, 400–380 B.C. Banded agate, H: 1.8 cm (<sup>3</sup>⁄<sub>4</sub> in.), W: 1.4 cm (<sup>9</sup>⁄<sub>16</sub> in.), D: 0.9 cm (<sup>3</sup>⁄<sub>8</sub> in.). Los Angeles, J. Paul Getty Museum, [85.AN.123](http://www.getty.edu/art/collection/objects/10959)."
 
   - id: "intro8"
-    src: "intro/fig08.jpg"
+    src: "figures/fig08.jpg"
     label: "Figure 8"
     caption: "Sources of amber in the ancient world. Map by David Fuller."
 
   - id: "intro9"
-    src: "intro/fig09.jpg"
+    src: "figures/fig09.jpg"
     label: "Figure 9"
     caption: "Amber formed on trees. In <em>Tractatus De lapidus, Ortus sanitatis</em> (Mainz: Jacob Meydenbach, June 23, 1491), sequence 776. Folio: 30.2 x 20.6 cm (11<sup>7</sup>⁄<sub>8</sub> x 8<sup>1</sup>⁄<sub>8</sub> in.). Handcolored woodcut."
     credit: "Courtesy of the Boston Medical Library in the Francis A. Countway Library of Medicine."
 
   - id: "intro10"
-    src: "intro/fig10.jpg"
+    src: "figures/fig10.jpg"
     label: "Figure 10"
     caption: "Damselfly in Dominican amber, L: 4.6 cm (1<sup>4</sup>⁄<sub>5</sub> in.). Private collection."
     credit: "Photo: D. Grimaldi/American Museum of Natural History."
 
   - id: "intro11"
-    src: "intro/fig11.jpg"
+    src: "figures/fig11.jpg"
     label: "Figure 11"
     caption: "Cone in Baltic amber, L: 15.2 cm (6 in.). Private collection."
     credit: "Photo: D. Grimaldi/American Museum of Natural History."
 
   - id: "intro12"
-    src: "intro/fig12.jpg"
+    src: "figures/fig12.jpg"
     label: "Figure 12"
     caption: "Baltic amber, L: 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.). Private collection."
     credit: "Photograph © Lee B. Ewing."
 
   - id: "intro13"
-    src: "intro/fig13.jpg"
+    src: "figures/fig13.jpg"
     label: "Figure 13"
     caption: "Extinct termite, <em>Mastotermes electrodominicus</em>, in Dominican amber, L: 4.6 cm (1<sup>4</sup>⁄<sub>5</sub> in.)."
     credit: "Photo: D. Grimaldi/American Museum of Natural History."
 
   - id: "intro14"
-    src: "intro/fig14.jpg"
+    src: "figures/fig14.jpg"
     label: "Figure 14"
     caption: "Two typical pieces of Baltic amber. Pale yellow amber was preferred by the ancient Greeks and Etruscans. Opaque orange amber was especially fashionable in Imperial Rome. L (orange amber): 9 cm (3<sup>1</sup>⁄<sub>2</sub> in.). L (yellow amber): 5 cm (2 in.). Private collection."
     credit: "Photograph © Lee B. Ewing."
 
   - id: "intro15"
-    src: "intro/fig15.jpg"
+    src: "figures/fig15.jpg"
     label: "Figure 15"
     caption: "Female Head Pendants, from Tomb 740 B, Valle Pega, Spina, a tomb dating to the end of the 5th century B.C. Amber, H: 4.8 cm (1<sup>7</sup>⁄<sub>8</sub> in.), W: 2.8 cm (1<sup>1</sup>⁄<sub>8</sub> in.), D: 1.2 cm (<sup>1</sup>⁄<sub>2</sub> in.) and H: 4.5 cm (1<sup>3</sup>⁄<sub>4</sub> in.), W: 2.8 cm (1<sup>1</sup>⁄<sub>8</sub> in.), D: 1.4 cm (<sup>1</sup>⁄<sub>2</sub> in.). Ferrara, Museo Archeologico Nazionale, 44877 and 44878."
     credit: "Ferrara, Museo Archeologico Nazionale / IKONA."
 
   - id: "intro16"
-    src: "intro/fig16.jpg"
+    src: "figures/fig16.jpg"
     label: "Figure 16"
     caption: "Earrings, from Tomb 23, Podere Lippi, Verucchio. First half of the 7th century B.C. Amber and gold, Diam. (amber, max): 6 cm (2<sup>3</sup>⁄<sub>8</sub> in.). Verucchio, Museo Civico Archeologico, 8410-850."
     credit: "Verucchio, Museo Civico Archeologico / IKONA."
 
   - id: "intro17"
-    src: "intro/fig17.jpg"
+    src: "figures/fig17.jpg"
     label: "Figure 17"
     caption: "<em>Satyr and Maenad</em> pendant, Etruscan or Etrusco-Campanian, late 6th century B.C. Amber, H: 17.3 cm (6<sup>4</sup>⁄<sub>5</sub> in.), W: 9.5 cm (3<sup>3</sup>⁄<sub>4</sub> in.), D: 4.5 cm (1<sup>3</sup>⁄<sub>4</sub> in.). London, British Museum, 1865,0103.46."
     credit: "© The Trustees of the British Museum."
 
   - id: "intro18"
-    src: "intro/fig18.jpg"
+    src: "figures/fig18.jpg"
     label: "Figure 18"
     caption: "<em>Head of a Female Divinity or Sphinx</em> pendant, Etruscan, 550–525 B.C. Amber, H: 3.2 cm (1<sup>1</sup>⁄<sub>4</sub> in.), W: 2.6 cm (1 in.), D (face): 1.2 cm (<sup>2</sup>⁄<sub>5</sub> in.), D (back): 0.5 cm (<sup>1</sup>⁄<sub>5</sub> in.), D (joined): 1.7 cm (<sup>7</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.85.1 and 76.AO.86. Gift of Gordon McLendon. See [cat. no. 10](/ambers/objects/10)."
 
   - id: "intro19"
-    src: "intro/fig19.jpg"
+    src: "figures/fig19.jpg"
     label: "Figure 19"
     caption: "Necklace with a pendant scarab, Italic or Etruscan and Greek, 550–400 B.C. Amber, gold, and carnelian. L: 39.5 cm (15<sup>9</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [77.AO.77.1](http://www.getty.edu/art/collection/objects/12961). Gift of Gordon McLendon."
 
   - id: "intro20"
-    src: "intro/fig20.jpg"
+    src: "figures/fig20.jpg"
     label: "Figure 20"
     caption: "Lynx urine hardens into a stone. In <em>Bestiarius</em> GKS 1633 4º, 6r, English, 15th century. Parchment, H: 21 cm (8<sup>1</sup>⁄<sub>4</sub> in.), W: 13.5 cm (5<sup>3</sup>⁄<sub>10</sub> in.). Courtesy of The Royal Library of Denmark."
 
   - id: "intro21"
-    src: "intro/fig21.jpg"
+    src: "figures/fig21.jpg"
     label: "Figure 21"
     caption: "Hove tumulus cup, Wessex culture, Bronze Age. Amber, D: 8.9 cm (3<sup>1</sup>⁄<sub>2</sub> in.). Brighton & Hove, Royal Pavilion & Museums."
 
   - id: "intro22"
-    src: "intro/fig22.jpg"
+    src: "figures/fig22.jpg"
     label: "Figure 22"
     caption: "Baltic amber encrusted with barnacles. L: 8.6 cm (3<sup>3</sup>⁄<sub>8</sub> in.)."
     credit: "Photo: D. Grimaldi/American Museum of Natural History."
 
   - id: "intro23"
-    src: "intro/fig23.jpg"
+    src: "figures/fig23.jpg"
     label: "Figure 23"
     caption: "Fall of Phaethon, engraving by Thomas de Leu after a painting by Antoine Caron."
     credit: "From *Les images ou tableaux de platte peinture des deux Philostrates sophistes grecs, et Les statues de Callistrate* (Paris, 1615), p. 90. Courtesy of the National Gallery of Art Library, A. W. Mellon New Century Fund."
 
   - id: "intro24"
-    src: "intro/fig24.jpg"
+    src: "figures/fig24.jpg"
     label: "Figure 24"
     caption: "Bow of a Fibula (Safety Pin) with Reclining Figures, Attendant, and Bird, Etruscan, ca. 500 B.C. Amber, L: 14 cm (5<sup>1</sup>⁄<sub>2</sub> in.). New York, Metropolitan Museum of Art, 17.190.2067. Gift of J. Pierpont Morgan, 1917."
     credit: "© The Metropolitan Museum of Art / Art Resource, NY."
 
   - id: "intro25"
-    src: "intro/fig25.jpg"
+    src: "figures/fig25.jpg"
     label: "Figure 25"
     caption: "<em>Seated Divinity</em> statuette, modern. Amber, H: 28 cm (11 in.), W (of base): 13.5 cm (5<sup>3</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 82.AO.51. Gift of Vasek Polak. See [cat. no. 57](/ambers/objects/57)."
 
   - id: "intro26"
-    src: "intro/fig26.jpg"
+    src: "figures/fig26.jpg"
     label: "Figure 26"
     caption: "<em>Female Head in Profile</em> pendant, Etruscan, 525–480 B.C. Amber, H: 5.7 cm (2<sup>1</sup>⁄<sub>4</sub> in.), W: 5.6 cm (2<sup>1</sup>⁄<sub>5</sub> in.), D: 3 cm (1<sup>1</sup>⁄<sub>5</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.81.4. Gift of Gordon McLendon. See [cat. no. 14](/ambers/objects/14)."
 
   - id: "intro27"
-    src: "intro/fig27.jpg"
+    src: "figures/fig27.jpg"
     label: "Figure 27"
     caption: "<em>Lion with Bird</em> pendant, Etruscan, 600–550 B.C. Amber, H: 4.2 cm (1<sup>3</sup>⁄<sub>5</sub> in.), W: 6 cm (2<sup>3</sup>⁄<sub>8</sub> in.), D: 1.5 cm (<sup>3</sup>⁄<sub>5</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.81.2. Gift of Gordon McLendon. See [cat. no. 5](/ambers/objects/5)."
 
   - id: "intro28"
-    src: "intro/fig28.jpg"
+    src: "figures/fig28.jpg"
     label: "Figure 28"
     caption: "Piece of burning Baltic amber, producing its distinctive flame color and characteristic smoke. Length of amber before burning: 3 cm (1<sup>1</sup>⁄<sub>8</sub> in.). Private collection."
     credit: "Photograph © Lee B. Ewing."
 
   - id: "intro29"
-    src: "intro/fig29.jpg"
+    src: "figures/fig29.jpg"
     label: "Figure 29"
     caption: "<em>Ram’s Head</em> pendant, Italic, 500–400 B.C. Amber, L: 3.6 cm (1<sup>2</sup>⁄<sub>5</sub> in.), W: 1.9 cm (<sup>3</sup>⁄<sub>4</sub> in.), D: 1.5 cm (<sup>3</sup>⁄<sub>5</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.81.15. Gift of Gordon McLendon. See [cat. no. 45](/ambers/objects/45)."
 
   - id: "intro30"
-    src: "intro/fig30.jpg"
+    src: "figures/fig30.jpg"
     label: "Figure 30"
     caption: "<em>Addorsed Lions’ Heads with Boar in Relief</em> plaque, Etruscan, 500–480 B.C. Amber, H: 3.6 cm (1<sup>2</sup>⁄<sub>5</sub> in.), W: 8.2 cm (3<sup>1</sup>⁄<sub>5</sub> in.), D: 1.2 cm (<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.83. Gift of Gordon McLendon. See [cat. no. 38](/ambers/objects/38)."
 
   - id: "intro31"
-    src: "intro/fig31.jpg"
+    src: "figures/fig31.jpg"
     label: "Figure 31"
     caption: "Pendant inscribed with two Egyptianizing hieroglyphs, 7th century B.C. Amber, H: 3.8 cm (1<sup>1</sup>⁄<sub>2</sub> in.), W: 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.), D: 0.8 cm (<sup>3</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, [82.AO.161.285](http://www.getty.edu/art/collection/objects/22044)."
 
   - id: "intro32"
-    src: "intro/fig32.jpg"
+    src: "figures/fig32.jpg"
     label: "Figure 32"
     caption: "Red-figure crater attributed to the Argonaut Group (detail), Etruscan, early 4th century B.C. Florence, Museo Archeologico Nazionale, 4026."
     credit: "Photo: Nicolo Orsi Battaglini / IKONA."
 
   - id: "intro33"
-    src: "intro/fig33.jpg"
+    src: "figures/fig33.jpg"
     label: "Figure 33"
     caption: "Mirror with Peleus, Thetis, and Galene, Etruscan, Late Classical, ca. 350 B.C. Bronze, Diam.: 16.2 cm (6<sup>3</sup>⁄<sub>8</sub> in.). New York, The Metropolitan Museum of Art, Rogers Fund, 1909, 09.221.16."
     credit: "© The Metropolitan Museum of Art / Art Resource, NY."
 
   - id: "intro34"
-    src: "intro/fig34.jpg"
+    src: "figures/fig34.jpg"
     label: "Figure 34"
     caption: "Necklace, Italic or Etruscan, 550–475 B.C. Amber and gold, L (approx.): 39.5 cm (15<sup>9</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [77.AO.77.5](http://www.getty.edu/art/collection/objects/12965). Gift of Gordon McLendon."
 
   - id: "intro35"
-    src: "intro/fig35.jpg"
+    src: "figures/fig35.jpg"
     label: "Figure 35"
     caption: "<em>Female Holding a Child (Kourotrophos)</em>, Etruscan, 600-550 B.C. Amber, H: 13 cm (5<sup>1</sup>⁄<sub>8</sub> in.), W: 4.5 cm (1<sup>3</sup>⁄<sub>4</sub> in.), D: 1.8 cm (<sup>7</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.84. Gift of Gordon McLendon. See [cat. no. 1](/ambers/objects/1)."
 
   - id: "intro36"
-    src: "intro/fig36.jpg"
+    src: "figures/fig36.jpg"
     label: "Figure 36"
     caption: "<em>Dancing Figure or Head of Satyr</em>, Etruscan or Italic, early 5th century B.C. Amber, legacy dimension: 7.5 x 4.7 cm (2<sup>15</sup>⁄<sub>16</sub> x 1<sup>7</sup>⁄<sub>8</sub> in.). Museum of Fine Arts, Boston. Gift of Miss C. Wissmann, 02.253."
     credit: "Photograph © 2011, Museum of Fine Arts, Boston."
 
   - id: "intro37"
-    src: "intro/fig37.jpg"
+    src: "figures/fig37.jpg"
     label: "Figure 37"
     caption: "<em>Winged Female Head in Profile</em>, Etruscan, 525-480 B.C. Amber, H: 7.9 cm (3<sup>1</sup>⁄<sub>8</sub> in.), W: 4.9 cm (1<sup>9</sup>⁄<sub>10</sub> in.), D: 2.5 cm (1 in.). Los Angeles, J. Paul Getty Museum, 76.AO.85.2. Gift of Gordon McLendon. See [cat. no. 15](/ambers/objects/15)."
 
   - id: "intro38"
-    src: "intro/fig38.jpg"
+    src: "figures/fig38.jpg"
     label: "Figure 38"
     caption: "*Reclining Couple with an Attendant*, back wall of the Tomb of Hunting and Fishing, Tarquinia, Etruscan, ca. 510 B.C. Fresco."
     credit: "By permission of La Soprintendenza per i Beni Archeologici dell'Etruria Meridionale, Roma / IKONA."
 
   - id: "intro39"
-    src: "intro/fig39.jpg"
+    src: "figures/fig39.jpg"
     label: "Figure 39"
     caption: "*Ram’s Head* pendant, Etruscan, 525–480 B.C. Amber, L: 3.6 cm (1<sup>2</sup>⁄<sub>5</sub> in.), W: 2 cm (<sup>4</sup>⁄<sub>5</sub> in.), D: 1.8 cm (<sup>7</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.82. Gift of Gordon McLendon. See [cat. no. 39](/ambers/objects/39)."
 
   - id: "intro40"
-    src: "intro/fig40.jpg"
+    src: "figures/fig40.jpg"
     label: "Figure 40"
     caption: "Figured amulet necklaces in the antechamber of the Tomb of Hunting and Fishing, Tarquinia, Etruscan, ca. 510 B.C. Fresco. Details from nineteenth-century watercolor painting by G. Mariani."
     credit: "From [Steingräber 2006](/bibliography/#steingr%C3%A4ber-2006), p. 96."
 
   - id: "intro41"
-    src: "intro/fig41.jpg"
+    src: "figures/fig41.jpg"
     label: "Figure 41"
     caption: "*Lion’s Head* pendant, Etruscan, 550–500 B.C. Amber, H: 2.8 cm (1<sup>1</sup>⁄<sub>10</sub> in.), W: 2.2 cm (<sup>9</sup>⁄<sub>10</sub> in.), D: 3.8 cm (1<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.80. Gift of Gordon McLendon. See [cat. no. 33](/ambers/objects/33)."
 
   - id: "intro42"
-    src: "intro/fig42.jpg"
+    src: "figures/fig42.jpg"
     label: "Figure 42"
-    caption: "<em>a & b</em>. *Cowrie Shell / Hare* pendant, Italic or Etruscan, 600–500 B.C. Amber, H: 3.7 cm (1<sup>1</sup>⁄<sub>2</sub> in.), W: 2.6 cm (1 in.), D: 1.4 cm (<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, 79.AO.75.28. Gift of Stanley Silverman. a) front; b) back. See [cat. no. 30](/ambers/objects/30)."
+    caption: "a & b. *Cowrie Shell / Hare* pendant, Italic or Etruscan, 600–500 B.C. Amber, H: 3.7 cm (1<sup>1</sup>⁄<sub>2</sub> in.), W: 2.6 cm (1 in.), D: 1.4 cm (<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, 79.AO.75.28. Gift of Stanley Silverman. a) front; b) back. See [cat. no. 30](/ambers/objects/30)."
 
   - id: "intro43"
-    src: "intro/fig43.jpg"
+    src: "figures/fig43.jpg"
     label: "Figure 43"
     caption: "<em>Foreparts of a Recumbent Boar</em> pendant, Etruscan, 525–480 B.C. Amber, L: 5 cm (1<sup>9</sup>⁄<sub>10</sub> in.), D: 1.3 cm (<sup>1</sup>⁄<sub>2</sub> in.), H: 2.4 cm (<sup>9</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.84. Gift of Gordon McLendon. See [cat. no. 37](/ambers/objects/37)."
 
   - id: "intro44"
-    src: "intro/fig44.jpg"
+    src: "figures/fig44.jpg"
     label: "Figure 44"
     caption: "<em>Divinity Holding Hares</em> pendant, Etruscan, 600–550 B.C. Amber, H: 9.7 cm (3<sup>4</sup>⁄<sub>5</sub> in.), W: 6.4 cm (2<sup>1</sup>⁄<sub>2</sub> in.), D: 2.4 cm (<sup>9</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.82. Gift of Gordon McLendon. See [cat. no. 4](/ambers/objects/4)."
 
   - id: "intro45"
-    src: "intro/fig45.jpg"
+    src: "figures/fig45.jpg"
     label: "Figure 45"
     caption: "<em>Head of a Female Divinity or Sphinx</em> pendant, Etruscan, 550–520 B.C. Amber, H: 3.4 cm (1<sup>3</sup>⁄<sub>10</sub> in.), W: 2.4 cm (<sup>9</sup>⁄<sub>10</sub> in.), D: 1.6 cm (<sup>3</sup>⁄<sub>5</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.79. Gift of Gordon McLendon. See [cat. no. 11](/ambers/objects/11)."
 
   - id: "intro46"
-    src: "intro/fig46.jpg"
+    src: "figures/fig46.jpg"
     label: "Figure 46"
     caption: "<em>Standing Female Figure (Kore)</em> pendant, Etruscan, 525–500 B.C. Amber, H: 6.7 cm (2<sup>5</sup>⁄<sub>8</sub> in.), W: 2 cm (<sup>7</sup>⁄<sub>10</sub> in.), D: 0.9 cm (<sup>3</sup>⁄<sub>8</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.77. Gift of Gordon McLendon. See [cat. no. 8](/ambers/objects/8)."
 
   - id: "intro47"
-    src: "intro/fig47.jpg"
+    src: "figures/fig47.jpg"
     label: "Figure 47"
     caption: "<em>Female Head</em> pendant, Italic or Campanian, 500–480 B.C. Amber, H: 3 cm (1<sup>1</sup>⁄<sub>5</sub> in.), W: 2.6 cm (1 in.), D: 0.4 cm (<sup>1</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 83.AO.202.12. Gift of Vasek Polak. See [cat. no. 21](/ambers/objects/21)."
 
   - id: "intro48"
-    src: "intro/fig48.jpg"
+    src: "figures/fig48.jpg"
     label: "Figure 48"
-    caption: "<em>Head from the Statue of the Young Bacchus</em> (Dionysos), Roman, A.D. 1–50. Bronze with silver, H: 21.6 cm (8<sup>1</sup>⁄<sub>2</sub> in.), W: 18 cm (7<sup>1</sup>⁄<sub>16</sub> in.), D: 19 cm (7<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, [96.AB.52](http://www.getty.edu/art/collection/objects/29487)."
+    caption: "Head from the <em>Statue of the Young Bacchus</em> (Dionysos), Roman, A.D. 1–50. Bronze with silver, H: 21.6 cm (8<sup>1</sup>⁄<sub>2</sub> in.), W: 18 cm (7<sup>1</sup>⁄<sub>16</sub> in.), D: 19 cm (7<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, [96.AB.52](http://www.getty.edu/art/collection/objects/29487)."
 
   - id: "intro49"
-    src: "intro/fig49.jpg"
+    src: "figures/fig49.jpg"
     label: "Figure 49"
     caption: "<em>Satyr Head in Profile</em> pendant, Etruscan, 525–480 B.C. Amber, H: 6.5 cm (2<sup>1</sup>⁄<sub>2</sub> in.), W: 6.8 cm (2<sup>7</sup>⁄<sub>10</sub> in.), D: 3.5 cm (1<sup>3</sup>⁄<sub>8</sub> in.). Los Angeles, J. Paul Getty Museum, 83.AO.202.1. Gift of Vasek Polak. See [cat. no. 12](/ambers/objects/12)."
 
   - id: "intro50"
-    src: "intro/fig50.jpg"
+    src: "figures/fig50.jpg"
     label: "Figure 50"
     caption: "<em>Votive Statuette of Hercle</em>, Etruscan, 320–280 B.C. Bronze, H: 24.3 cm (9<sup>5</sup>⁄<sub>8</sub> in.), W: 7 cm (2<sup>3</sup>⁄<sub>4</sub> in.), D: 8.7 cm (3<sup>7</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [96.AB.36](http://www.getty.edu/art/collection/objects/29508)."
 
   - id: "intro51"
-    src: "intro/fig51.jpg"
+    src: "figures/fig51.jpg"
     label: "Figure 51"
-    caption: "<em>a & b</em>. <em>Silver Pin with Amber Satyr Head</em> pendant, Italic, 5th century B.C. Amber, H: 6.8 cm (2<sup>7</sup>⁄<sub>10</sub> in.), W: 4.9 cm (1<sup>9</sup>⁄<sub>10</sub> in.), D: 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.). Taranto, Museo Archeologico Nazionale, 138144. a) front; b) back."
+    caption: "a & b. <em>Silver Pin with Amber Satyr Head</em> pendant, Italic, 5th century B.C. Amber, H: 6.8 cm (2<sup>7</sup>⁄<sub>10</sub> in.), W: 4.9 cm (1<sup>9</sup>⁄<sub>10</sub> in.), D: 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.). Taranto, Museo Archeologico Nazionale, 138144. a) front; b) back."
     credit: "By permission of Il Ministero per i Beni e le Attività Culturali⁠—Direzione Regionale per i Beni Culturali e Paesaggistici della Puglia⁠—Soprintendenza per i Beni Archeologici della Puglia."
 
   - id: "intro52"
-    src: "intro/fig52.jpg"
+    src: "figures/fig52.jpg"
     label: "Figure 52"
     caption: "<em>Hippocamp</em> pendant, Etruscan, 575–550 B.C. Amber, L: 7 cm (2<sup>3</sup>⁄<sub>4</sub> in.), W: 4.3 cm (1<sup>7</sup>⁄<sub>10</sub> in.), D: 2.7 cm (1<sup>1</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 78.AO.286.1. Gift of Gordon McLendon. See [cat. no. 29](/ambers/objects/29)."
 
   - id: "intro53"
-    src: "intro/fig53.jpg"
+    src: "figures/fig53.jpg"
     label: "Figure 53"
     caption: "<em>Female Holding a Child (Kourotrophos) with Bird</em> pendant, Etruscan, 600–550 B.C. Amber, H: 8.3 cm (3<sup>1</sup>⁄<sub>4</sub> in.), W: 5 cm (1<sup>15</sup>⁄<sub>16</sub> in.), D: 5 cm (1<sup>15</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.85. Gift of Gordon McLendon. See [cat. no. 2](/ambers/objects/2)."
 
   - id: "intro54"
-    src: "intro/fig54.jpg"
-    label: "Figure 55"
-    caption: "<em>a & b</em>. <em>Lion</em> pendant, Etruscan or Campanian, 525–480 B.C. Amber, L (as preserved): 10.5 cm (4<sup>1</sup>⁄<sub>8</sub> in.), L (estimated original): 11.5 cm (4<sup>1</sup>⁄<sub>2</sub> in.), W: 4 cm (1<sup>1</sup>⁄<sub>2</sub> in), D (at chest): 1.8 cm (<sup>7</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.78. Gift of Gordon McLendon. a) front; b) back. See [cat. no. 31](/ambers/objects/31)."
+    src: "figures/fig54.jpg"
+    label: "Figure 54"
+    caption: "a & b. <em>Lion</em> pendant, Etruscan or Campanian, 525–480 B.C. Amber, L (as preserved): 10.5 cm (4<sup>1</sup>⁄<sub>8</sub> in.), L (estimated original): 11.5 cm (4<sup>1</sup>⁄<sub>2</sub> in.), W: 4 cm (1<sup>1</sup>⁄<sub>2</sub> in), D (at chest): 1.8 cm (<sup>7</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.78. Gift of Gordon McLendon. a) front; b) back. See [cat. no. 31](/ambers/objects/31)."
 
   - id: "intro55"
-    src: "intro/fig55.jpg"
-    label: "Figure 54"
+    src: "figures/fig55.jpg"
+    label: "Figure 55"
     caption: "<em>Dancing Figure</em>. Etruscan or Italic, early 5th century B.C. Amber, 7.2 x 3.7 cm (2<sup>13</sup>⁄<sub>16</sub> x 1<sup>7</sup>⁄<sub>16</sub> in.). Museum of Fine Arts, Boston. Gift of Miss C. Wissmann, 02.254."
     credit: "Photograph © 2011 Museum of Fine Arts, Boston."
 
   - id: "intro56"
-    src: "intro/fig56.jpg"
+    src: "figures/fig56.jpg"
     label: "Figure 56"
     caption: "<em>Asinine Head in Profile</em> pendant, Italic, 500–400 B.C. Amber, H: 4.8 cm (1<sup>7</sup>⁄<sub>8</sub> in.), W: 5.9 cm (2<sup>5</sup>⁄<sub>16</sub> in.), D: 1.9 cm (<sup>3</sup>⁄<sub>4</sub> in.). Los Angeles, J. Paul Getty Museum, 77.AO.81.24. Gift of Gordon McLendon. See [cat. no. 56](/ambers/objects/56)."
 
   - id: "intro57"
-    src: "intro/fig57.jpg"
+    src: "figures/fig57.jpg"
     label: "Figure 57"
     caption: "<em>Lion’s Head</em> spout or finial, Etruscan, 525–480 B.C. Amber, H: 1.9 cm (<sup>3</sup>⁄<sub>4</sub> in.), W: 1.7 cm (<sup>2</sup>⁄<sub>3</sub> in.), D: 2 cm (<sup>7</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, 76.AO.81. Gift of Gordon McLendon. See [cat. no. 34](/ambers/objects/34)."
 
@@ -1154,48 +1154,39 @@ figure_list:
     download: true
     accession_number: "82.AO.51"
     cat_no: 57
-    
+
   - id: "table-1"
     src: tables/table-1.html
     media_type: table
-    label: Table 1
 
   - id: "table-2"
     src: tables/table-2.html
     media_type: table
-    label: Table 2
-    
+
   - id: "table-3"
     src: tables/table-3.html
     media_type: table
-    label: Table 3
-    
+
   - id: "table-4"
     src: tables/table-4.html
     media_type: table
-    label: Table 4
 
   - id: "table-5"
     src: tables/table-5.html
     media_type: table
-    label: Table 5
 
   - id: "table-6"
     src: tables/table-6.html
     media_type: table
-    label: Table 6  
 
   - id: "table-7"
     src: tables/table-7.html
     media_type: table
-    label: Table 7
-  
+
   - id: "table-8"
     src: tables/table-8.html
     media_type: table
-    label: Table 8  
-    
+
   - id: "table-9"
     src: tables/table-9.html
     media_type: table
-    label: Table 9

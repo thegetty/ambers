@@ -81,7 +81,7 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/7917
     culture: Etruscan
     date: 600–550 B.C.
-    dimensions: "Height: 56 mm; width: 82 mm; depth: 20 mm; diameter of perforation holes: 2 mm; weight: 54.4 g"
+    dimensions: "Height: 56 mm; width: 82 mm; depth: 20 mm; Diameter of perforation holes: 2 mm; Weight: 54.4 g"
     dor_id: 7917
     provenance: "Gift of Gordon McLendon"
     subjects: Egypt; Lion
@@ -348,7 +348,7 @@ object_list:
     date: 700–600 B.C.
     dimensions: "Diameter: 44–50 mm; depth: 16 mm; Weight: 6 g"
     dor_id: 21762
-    subjects: Animals; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial);
+    subjects: Animals; Artemis; Dionysos, cult of (also Satyr); Funerary use of amber (also Burial)
     figure:
       - id: pl27-1
 
@@ -371,7 +371,7 @@ object_list:
     date: 575–550 B.C.
     dimensions: "Height (i.e., length along major axis): 70 mm; width: 43 mm; depth: 27 mm; Weight: 39.6 g"
     provenance: "Gift of Gordon McLendon"
-    subjects: Animals; Etruscan culture; Inclusions;
+    subjects: Animals; Etruscan culture; Inclusions
     dor_id: 8285
     figure:
       - id: pl29-1
@@ -418,7 +418,7 @@ object_list:
     date: 500–480 B.C.
     dimensions: "Length: 55 mm; width: 23 mm; height: 23 mm; Weight: 7.2 g"
     provenance: "Gift of Gordon McLendon"
-    subjects: Animals; Lion; Fertility; Inclusions;
+    subjects: Animals; Fertility; Inclusions; Lion
     dor_id: 7922
     figure:
       - id: pl32-1
@@ -688,7 +688,7 @@ object_list:
     date: 500–400 B.C.
     dimensions: "Length: 35 mm; width: 24 mm; depth: 13 mm; Weight: 5.8 g"
     provenance: "Gift of Gordon McLendon"
-    subjects: Animals; Amulets; Egypt;
+    subjects: Animals; Amulets; Egypt
     dor_id: 7934
     figure:
       - id: pl54-1
@@ -712,7 +712,7 @@ object_list:
     date: 500–400 B.C.
     dimensions: "Height: 48 mm; width: 59 mm; depth: 19 mm; Weight: 16.6 g"
     provenance: "Gift of Gordon McLendon"
-    subjects: Animals; Inclusions;
+    subjects: Animals; Inclusions
     dor_id: 7938
     figure:
       - id: pl56-1
