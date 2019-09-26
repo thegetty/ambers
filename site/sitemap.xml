@@ -1,389 +1,380 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://gettypubs.github.io/ambers/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gettypubs.github.io/ambers/copyright/</loc>
-  </url>
-  
   <url>
-    <loc>https://gettypubs.github.io/ambers/contents/</loc>
+    <loc>https://thegetty.github.io/ambers/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/</loc>
+    <loc>https://thegetty.github.io/ambers/contents/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/1/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/2/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/1/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/3/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/2/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/4/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/3/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/5/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/4/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/6/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/5/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/7/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/6/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/8/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/7/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/9/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/8/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/10/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/9/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/11/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/10/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/12/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/11/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/13/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/12/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/14/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/13/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/15/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/14/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/16/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/15/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/17/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/16/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/intro/18/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/17/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/catalogue/</loc>
+    <loc>https://thegetty.github.io/ambers/intro/18/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/1/</loc>
+    <loc>https://thegetty.github.io/ambers/catalogue/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/1/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/1/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/2/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/1/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/3/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/2/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/4/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/3/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/5/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/4/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/6/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/5/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/2/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/6/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/7/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/2/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/3/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/7/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/8/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/3/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/9/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/8/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/4/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/9/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/10/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/4/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/11/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/10/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/12/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/11/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/13/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/12/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/14/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/13/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/15/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/14/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/16/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/15/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/17/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/16/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/18/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/17/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/19/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/18/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/20/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/19/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/21/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/20/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/22/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/21/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/23/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/22/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/24/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/23/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/25/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/24/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/26/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/25/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/5/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/26/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/27/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/5/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/28/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/27/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/29/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/28/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/30/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/29/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/31/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/30/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/32/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/31/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/6/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/32/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/33/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/6/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/34/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/33/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/35/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/34/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/36/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/35/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/7/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/36/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/37/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/7/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/38/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/37/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/8/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/38/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/39/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/8/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/40/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/39/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/41/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/40/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/42/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/41/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/43/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/42/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/44/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/43/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/45/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/44/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/46/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/45/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/47/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/46/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/48/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/47/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/49/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/48/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/50/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/49/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/51/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/50/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/52/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/51/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/53/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/52/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/9/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/53/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/54/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/9/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/55/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/54/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/56/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/55/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/groups/10/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/56/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/objects/57/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/groups/10/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/techessay/</loc>
+    <loc>https://thegetty.github.io/ambers/objects/57/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/acknowledgments/</loc>
+    <loc>https://thegetty.github.io/ambers/techessay/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/bibliography/</loc>
+    <loc>https://thegetty.github.io/ambers/acknowledgments/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/authors/</loc>
+    <loc>https://thegetty.github.io/ambers/bibliography/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/about/</loc>
+    <loc>https://thegetty.github.io/ambers/authors/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/ambers/search.json</loc>
+    <loc>https://thegetty.github.io/ambers/about/</loc>
   </url>
   
 </urlset>
