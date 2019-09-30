@@ -216,7 +216,7 @@ figure_list:
     src: "figures/fig40.jpg"
     label: "Figure 40"
     caption: "Figured amulet necklaces in the antechamber of the Tomb of Hunting and Fishing, Tarquinia, Etruscan, ca. 510 B.C. Fresco. Details from nineteenth-century watercolor painting by G. Mariani."
-    credit: "From [Steingräber 2006](/bibliography/#steingr%C3%A4ber-2006), p. 96."
+    credit: "From [Steingräber 2006](#steingr%C3%A4ber-2006), p. 96."
 
   - id: "intro41"
     src: "figures/fig41.jpg"
