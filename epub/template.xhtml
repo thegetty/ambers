@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" $if(lang)$ xml:lang="$lang$" $endif$>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <title>$pagetitle$</title>
+    <style type="text/css">
+        $if(quotes)$ q {
+            quotes: "“" "”" "‘" "’";
+        }
+        $endif$
+        
+        section#copyright h1 {
+          color: transparent;
+        }
+        section#copyright img {
+          height: 30px;
+        }
+        section#copyright ul {
+          margin: 0 0 1em;
+          padding-left: 5%;
+          list-style-type: none;
+        }
+        section#copyright ul li {
+          text-indent: -5%;
+        }
+        section#foreword ul {
+          list-style-type: none;
+        }
+        .quire-contributor__name,
+        .quire-contributor__title,
+        .quire-contributor__affiliation {
+          display: block;
+        }
+        .quire-contributor__title,
+        .quire-contributor__affiliation {
+          font-style: italic;
+        }    
+        section.level1 h1:first-of-type,
+        section.level1 h1 + ul {
+          text-align: center;
+        } 
+        section.level1#contents h1 + ul,
+        section.level1#contributors h1 + ul,
+        section.level1#introduction h1 + ul,
+        section.level1#about-the-authors h1 + ul {
+          text-align: left;
+        }
+        section.level1#about-the-authors ul {
+          list-style-type: none;
+          padding-left: 0;
+        }
+        section.level1#about-the-authors ul li {        
+          margin-bottom: 1rem;
+        }
+        section.level1#about-the-authors ul li p {
+          margin-bottom: 0;
+        }
+        
+        hr + ol,
+        h2 + ul,
+        h2 + ol,
+        h2 + dl,
+        table {
+          font-size: .875em;
+        }
+        section:not(#about-the-authors) li p {
+          margin-bottom: 0;
+          text-indent: 1rem;
+        }
+        section:not(#about-the-authors) li p:first-child {
+          text-indent: 0;
+        }
+        #technical-essay table {
+          border: 0.0625em solid #c77405;
+          margin: 1.5rem 0;
+        }
+    
+    </style>
+    $if(highlighting-css)$
+    <style type="text/css">
+        $highlighting-css$
+    </style>
+    $endif$ $for(css)$
+    <link rel="stylesheet" type="text/css" href="$css$" /> $endfor$ $for(header-includes)$ $header-includes$ $endfor$
+</head>
+<body$if(coverpage)$ id="cover" $endif$>
+    
+    $if(titlepage)$
+    <section epub:type="titlepage">
+        $for(title)$ $if(title.type)$
+        <h1 class="$title.type$">$title.text$</h1>
+        $else$
+        <h1 class="title">$title$</h1>
+        $endif$ $endfor$ 
+        
+        <h2 class="contributor">Faya Causey</h2>
+        
+        <p class="publisher">The J. Paul Getty Museum, Los Angeles</p>
+        
+    </section>
+    $else$ 
+
+    $for(include-before)$ 
+    $include-before$ 
+    $endfor$ 
+    
+    $body$ 
+    
+    $for(include-after)$ 
+    $include-after$ 
+    $endfor$ 
+
+    $endif$
+    </body>
+
+</html>

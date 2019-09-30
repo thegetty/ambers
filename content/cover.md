@@ -3,6 +3,7 @@ title: Cover
 weight: 1
 menu: false
 toc: false
+epub: false
 type: cover
 slug: .
 image: cover-background.jpg
