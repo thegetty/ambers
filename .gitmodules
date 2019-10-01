@@ -1,3 +1,3 @@
 [submodule "static/img/figures"]
 	path = static/img/figures
-	url = https://github.com/thegetty/ambers-images
+	url = git@github.com:thegetty/ambers-images.git
