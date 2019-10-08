@@ -51,7 +51,7 @@ Any revisions or corrections made to this publication after the first edition da
 
 ## Copyright
 
-© 2019 J. Paul Getty Trust
+© 2012, 2019 J. Paul Getty Trust
 
 {{< q-class "cc-icon" >}}
 <svg class="quire-copyright__icon">
@@ -67,13 +67,13 @@ Any revisions or corrections made to this publication after the first edition da
 </svg>
 {{< /q-class >}}
 
-Except where otherwise noted, this work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Figs. 3, 9–17, 22–24, 28, 32, 33, 36, 38, 40, 51, and 54 are reproduced with the permission of the rights holders acknowledged in captions and are expressly excluded from the CC BY license covering the rest of this publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
+Except where otherwise noted, this work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Figures 3, 9–17, 22–24, 28, 32, 33, 36, 38, 40, 51, and 54 are reproduced with the permission of the rights holders acknowledged in captions and are expressly excluded from the CC BY license covering the rest of this publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
 
 **Published by the J. Paul Getty Museum, Los Angeles**<br />
 Getty Publications<br />
 1200 Getty Center Drive, Suite 500<br />
 Los Angeles, California 90040-1682<br />
-www.getty.edu/publications<br />
+[www.getty.edu/publications](http://www.getty.edu/publications)<br />
 
 First edition:<br />
 Marina Belozerskaya and Ruth Evans Lane, *Project Editors*<br />

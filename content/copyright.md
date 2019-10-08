@@ -10,11 +10,11 @@ toc: false
 {{< q-class "backmatter" >}}
 This catalogue was first published in 2012 at http://museumcatalogues.getty.edu/amber. The present online version was migrated in 2019 to http://www.getty.edu/publications/ambers; it features zoomable high-resolution photography; free PDF, EPUB, and MOBI downloads; and JPG downloads of the catalogue images.
 
-© 2019, J. Paul Getty Trust
+© 2012, 2019 J. Paul Getty Trust
 
 ![cc-by](/img/cc-by--black.png)
 
-Except where otherwise noted, this work is licensed under a Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/. Figs. 3, 9–17, 22–24, 28, 32, 33, 36, 38, 40, 51, and 54 are reproduced with the permission of the rights holders acknowledged in captions and are expressly excluded from the CC BY license covering the rest of this publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
+Except where otherwise noted, this work is licensed under a Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/. Figures 3, 9–17, 22–24, 28, 32, 33, 36, 38, 40, 51, and 54 are reproduced with the permission of the rights holders acknowledged in captions and are expressly excluded from the CC BY license covering the rest of this publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
 
 First edition 2012<br />
 Paperback and ebook editions 2019<br />

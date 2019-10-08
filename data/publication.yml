@@ -16,7 +16,7 @@ getty_catalogue_title: "Ancient Carved <span class=\"title-large\">Ambers</span>
 titlepage_contributor_as_it_appears: |
   Faya Causey
 
-  With technical analysis by Jeff Maish, Herant Khanjian, and Michael Schilling
+  With technical analysis by Jeff Maish, Herant Khanjian, and Michael R. Schilling
 
 # ------------------------------------------------------------------------------
 # Title & Description
@@ -99,7 +99,8 @@ license:
   abbreviation: CC BY
   url: http://creativecommons.org/licenses/by/4.0/
   scope: some-exceptions # full | text-only | some-exceptions
-
+  online_text: Except where otherwise noted, this work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Figures 3, 9–17, 22–24, 28, 32, 33, 36, 38, 40, 51, and 54 are reproduced with the permission of the rights holders acknowledged in captions and are expressly excluded from the CC BY license covering the rest of this publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
+  
 # ------------------------------------------------------------------------------
 # Formats, Resources & Links
 # ------------------------------------------------------------------------------
