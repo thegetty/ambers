@@ -50,13 +50,13 @@ figure_list:
     src: "figures/fig10.jpg"
     label: "Figure 10"
     caption: "Damselfly in Dominican amber, L: 4.6 cm (1<sup>4</sup>⁄<sub>5</sub> in.). Private collection."
-    credit: "Photo: D. Grimaldi/American Museum of Natural History."
+    credit: "Photo: D. Grimaldi / American Museum of Natural History."
 
   - id: "intro11"
     src: "figures/fig11.jpg"
     label: "Figure 11"
     caption: "Cone in Baltic amber, L: 15.2 cm (6 in.). Private collection."
-    credit: "Photo: D. Grimaldi/American Museum of Natural History."
+    credit: "Photo: D. Grimaldi / American Museum of Natural History."
 
   - id: "intro12"
     src: "figures/fig12.jpg"
@@ -68,7 +68,7 @@ figure_list:
     src: "figures/fig13.jpg"
     label: "Figure 13"
     caption: "Extinct termite, <em>Mastotermes electrodominicus</em>, in Dominican amber, L: 4.6 cm (1<sup>4</sup>⁄<sub>5</sub> in.)."
-    credit: "Photo: D. Grimaldi/American Museum of Natural History."
+    credit: "Photo: D. Grimaldi / American Museum of Natural History."
 
   - id: "intro14"
     src: "figures/fig14.jpg"
@@ -118,7 +118,7 @@ figure_list:
     src: "figures/fig22.jpg"
     label: "Figure 22"
     caption: "Baltic amber encrusted with barnacles. L: 8.6 cm (3<sup>3</sup>⁄<sub>8</sub> in.)."
-    credit: "Photo: D. Grimaldi/American Museum of Natural History."
+    credit: "Photo: D. Grimaldi / American Museum of Natural History."
 
   - id: "intro23"
     src: "figures/fig23.jpg"
@@ -318,7 +318,7 @@ figure_list:
   - id: "techfig3"
     src: "techessay/techfig3.jpg"
     label: "Figure 3"
-    caption: "THM-Py-GC/MS results for core sample from amber object [82.AO.161.285](http://www.getty.edu/art/collection/objects/22044/)."
+    caption: "THM-Py-GC/MS results for core sample from amber object <span class='no-break'>[82.AO.161.285](http://www.getty.edu/art/collection/objects/22044/)</span>."
 
   - id: "techfig4"
     src: "techessay/techfig4.jpg"

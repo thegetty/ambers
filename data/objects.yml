@@ -138,7 +138,7 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/13318/
     culture: Etruscan
     date: 550–525 B.C.
-    dimensions: "Height: 32 mm; width: 26 mm; depth: (face) 12 mm, (back) 5 mm, (joined) 17 mm; weight: 9 g"
+    dimensions: "Height: 32 mm; width: 26 mm; depth: (face) 12 mm, (back) 5 mm, (joined) 17 mm; Weight: 9 g"
     dor_id:
      - 13318
      - 7394
@@ -167,7 +167,7 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/16250
     culture: Etruscan
     date: 525–480 B.C.
-    dimensions: "Height: 65 mm; width: 68 mm; depth: 35 mm; weight: 53.4 g"
+    dimensions: "Height: 65 mm; width: 68 mm; depth: 35 mm; Weight: 53.4 g"
     dor_id: 16250
     provenance: "Gift of Vasek Polak"
     subjects: Dionysos, cult of (also Satyr); Inclusions
@@ -179,7 +179,7 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/21761
     culture: Etruscan
     date: 525–480 B.C.
-    dimensions: "Height: 53 mm; width: 48 mm; depth: 16 mm; weight: 11 g"
+    dimensions: "Height: 53 mm; width: 48 mm; depth: 16 mm; Weight: 11 g"
     dor_id: 21761
     subjects: Dionysos, cult of (also Satyr); Jewelry
     figure:
@@ -466,7 +466,7 @@ object_list:
     link: http://www.getty.edu/art/collection/objects/7924
     culture: Etruscan
     date: 500–480 B.C.
-    dimensions: "Height: 15 mm; width: 16 mm; depth: 26 mm; Diameter of suspension hole: 2 mm; Weight: 3.6 g"
+    dimensions: "Height: 15 mm; width: 16 mm; depth: 26 mm; Diameter of suspension hole: 2 mm; Weight: 3.6&#160;g"
     provenance: "Gift of Gordon McLendon"
     subjects: Etruscan culture; Jewelry; Lion
     dor_id: 7924
