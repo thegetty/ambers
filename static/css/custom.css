@@ -204,6 +204,12 @@ table caption {
 .quire-page__content .content a.footnote-return {
   color: #000;
 }
+@media print {
+  .quire-page__content .content a {
+      color: #000;
+      border-bottom-color: #000;
+  }
+}
 
 /* Customize footers on technical essay */
 @media print {
@@ -474,6 +480,21 @@ em dashes */
   }
 }
 
+/* Custom class to wrap around inline text that shouldn't break across lines */
 span.no-break {
   white-space: nowrap;
+}
+
+/* Custom class to make image full width in PDF */
+@media print {
+  .quire-figure.pdf-full-width {
+    column-span: all;
+  }
+}
+
+/* Break the Tables heading onto the page where the tables start */
+@media print {
+  #techessay h2#tables {
+    page-break-before: always;
+  }
 }
