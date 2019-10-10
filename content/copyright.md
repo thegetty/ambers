@@ -8,7 +8,8 @@ toc: false
 ---
 
 {{< q-class "backmatter" >}}
-This catalogue was first published in 2012 at http://museumcatalogues.getty.edu/amber. The present online version was migrated in 2019 to http://www.getty.edu/publications/ambers; it features zoomable high-resolution photography; free PDF, EPUB, and MOBI downloads; and JPG downloads of the catalogue images.
+This catalogue was first published in 2012 at http:	
+&#47;&#47;museumcatalogues.getty.edu/amber. The present online version was migrated in 2019 to http://www.getty.edu/publications/ambers; it features zoomable high-resolution photography; free PDF, EPUB, and MOBI downloads; and JPG downloads of the catalogue images.
 
 © 2012, 2019 J. Paul Getty Trust
 
