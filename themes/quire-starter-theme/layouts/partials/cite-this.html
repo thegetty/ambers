@@ -24,15 +24,22 @@
 */}}
 
 {{- if eq .type "chicago" -}}
-
-  {{/* ------------  CHICAGO ------------ */}}
-  {{ if .page.Params.contributor }}{{ template "page-contributors-chicago" .page }}. {{ end }}“{{ partial "page-title.html" .page }}.” In <em>{{ partial "site-title.html" .page }}</em>, by {{ partial "contributor-list.html" (dict "range" .site.Data.publication.contributor "contributorType" "primary" "listType" "string" "Site" .site) }}. {{ template "publishers-chicago" (dict "site" .site)}}{{ with .site.Data.publication.pub_date }}, {{ dateFormat "2006" . }}{{ end }}. {{ .page.Permalink }}.
-
+​
+{{/* ------------  CHICAGO ------------ */}}
+{{ if .page.Params.contributor }}{{ template "page-contributors-chicago" .page }}
+{{ end }}“{{ partial "page-title.html" .page }}.” <em>{{ partial "site-title.html" .page }}</em>.
+{{ template "publishers-chicago" (dict "site" .site)}}{{ with .site.Data.publication.pub_date }},
+{{ dateFormat "2006" . }}{{ end }}. <span class="set-url-chicago"></span>.
+​
 {{- else if eq .type "mla" -}}
-
-  {{/* ------------  MLA ------------ */}}
-  {{ if .page.Params.contributor }}{{ template "page-contributors-mla" .page }}. {{ end }}“{{ partial "page-title.html" .page }}.” <em>{{ partial "site-title.html" .page }}</em>, by {{ template "publication-contributors-mla" .page }}, {{ template "publishers-mla" (dict "site" .site)}}{{ with .site.Data.publication.pub_date }}, {{ dateFormat "2006" . }}{{ end }}. {{ .page.Permalink }}. Accessed <span class="cite-current-date">DD Mon. YYYY</span>.
-
+​
+{{/* ------------  MLA ------------ */}}
+{{ if .page.Params.contributor }}{{ template "page-contributors-mla" .page }}
+{{ end }}“{{ partial "page-title.html" .page }}.” <em>{{ partial "site-title.html" .page }}</em>,
+{{ template "publishers-mla" (dict "site" .site)}}{{ with .site.Data.publication.pub_date }},
+{{ dateFormat "2006" . }}{{ end }}. <span class="set-url-mla"></span>. Accessed <span class="cite-current-date">DD Mon.
+  YYYY</span>.
+​
 {{- end -}}
 
 
