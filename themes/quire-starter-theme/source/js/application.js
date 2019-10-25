@@ -480,11 +480,33 @@ function toggleCite() {
 }
 
 /**
+ *
+ * @description
+ * Set the date for the cite this partial
+ * https://github.com/gettypubs/quire/issues/153
+ * Quire books include a "Cite this Page" feature with page-level citations formatted in both Chicago and MLA style.
+ * For MLA, the citations need to include a date the page was accessed by the reader.
+ *
+ */
+function setUrl(selector) {
+  let protocol = window.location.protocol;
+  let hostname = window.location.hostname;
+  let pathname = window.location.pathname;
+  let chicago = `${protocol}//${hostname}${pathname}`;
+  let mla = `${protocol}//${hostname}${pathname}`;
+  document.querySelectorAll(selector).forEach(element => {
+    element.textContent = selector.indexOf("mla") !== -1 ? chicago : mla;
+  });
+}
+
+/**
  * pageSetup
  * @description This function is called after each smoothState reload.
  * Initialize any jquery plugins or set up page UI elements here.
  */
 function pageSetup() {
+  setUrl(".set-url-mla");
+  setUrl(".set-url-chicago");
   setDate();
   quickLinksSetup();
   activeMenuPage();
