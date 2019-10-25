@@ -492,7 +492,7 @@ function setUrl(selector) {
   let protocol = window.location.protocol;
   let hostname = window.location.hostname;
   let pathname = window.location.pathname;
-  let chicago = `${hostname}${pathname}`;
+  let chicago = `${protocol}//${hostname}${pathname}`;
   let mla = `${protocol}//${hostname}${pathname}`;
   document.querySelectorAll(selector).forEach(element => {
     element.textContent = selector.indexOf("mla") !== -1 ? chicago : mla;
