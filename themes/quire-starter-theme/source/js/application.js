@@ -441,14 +441,18 @@ function validateSize(map) {
 function toggleCite() {
   let expandables = document.querySelectorAll(".expandable [aria-expanded]");
   for (let i = 0; i < expandables.length; i++) {
-    expandables[i].addEventListener("click", function() {
-      var expanded = this.getAttribute("aria-expanded");
+    expandables[i].addEventListener("click", event => {
+      // Allow these links to bubble up
+      event.stopPropagation();
+      let expanded = event.target.getAttribute("aria-expanded");
       if (expanded === "false") {
-        this.setAttribute("aria-expanded", "true");
+        event.target.setAttribute("aria-expanded", "true");
       } else {
-        this.setAttribute("aria-expanded", "false");
+        event.target.setAttribute("aria-expanded", "false");
       }
-      var content = this.parentNode.querySelector(".quire-citation__content");
+      let content = event.target.parentNode.querySelector(
+        ".quire-citation__content"
+      );
       if (content) {
         content.getAttribute("hidden");
         if (typeof content.getAttribute("hidden") === "string") {
@@ -459,8 +463,9 @@ function toggleCite() {
       }
     });
   }
-  document.addEventListener("click", function(event) {
+  document.addEventListener("click", event => {
     let content = event.target.parentNode;
+    if (!content) return;
     if (
       content.classList.contains("quire-citation") ||
       content.classList.contains("quire-citation__content")

@@ -18,15 +18,15 @@ This open-access catalogue is available for free online and in multiple formats 
 
 ### Chicago
 
-Causey, Faya. *Ancient Carved Ambers in the J. Paul Getty Museum*. Los Angeles: J. Paul Getty Museum, 2012. http://www.getty.edu​/publications​/ambers/.
+Causey, Faya. *Ancient Carved Ambers in the J. Paul Getty Museum*. Los Angeles: J. Paul Getty Museum, 2012. https://www.getty.edu​/publications​/ambers/.
 
 ### MLA
 
-Causey, Faya. *Ancient Carved Ambers in the J. Paul Getty Museum*. J. Paul Getty Museum, 2012. http://www.getty.edu​/publications​/ambers/. Accessed <span class="cite-current-date">Aug. 26, 2019</span>.
+Causey, Faya. *Ancient Carved Ambers in the J. Paul Getty Museum*. J. Paul Getty Museum, 2012. https://www.getty.edu​/publications​/ambers/. Accessed <span class="cite-current-date">Aug. 26, 2019</span>.
 
 ### Permanent URL
 
-http://www.getty.edu/publications/ambers/
+https://www.getty.edu/publications/ambers/
 
 ## Revision History
 
@@ -73,7 +73,7 @@ Except where otherwise noted, this work is licensed under a [Creative Commons At
 Getty Publications<br />
 1200 Getty Center Drive, Suite 500<br />
 Los Angeles, California 90040-1682<br />
-[www.getty.edu/publications](http://www.getty.edu/publications)<br />
+[www.getty.edu/publications](https://www.getty.edu/publications)<br />
 
 First edition:<br />
 Marina Belozerskaya and Ruth Evans Lane, *Project Editors*<br />
@@ -113,8 +113,8 @@ URLs cited throughout this catalogue were accessed prior to first publication in
 
 Also from Getty Publications:
 
-- [*Ancient Lamps in the J. Paul Getty Museum*](http://www.getty.edu/publications/ancientlamps/),<br />Jean Bussière and Birgitta Lindros Wohl
-- [*Ancient Terracottas from South Italy and Sicily in the J. Paul Getty Museum*](http://www.getty.edu/publications/terracottas/),<br />Maria Lucia Ferruzza
-- [*Roman Mosaics in the J. Paul Getty Museum*](http://www.getty.edu/publications/romanmosaics/),<br />Alexis Belis
+- [*Ancient Lamps in the J. Paul Getty Museum*](https://www.getty.edu/publications/ancientlamps/),<br />Jean Bussière and Birgitta Lindros Wohl
+- [*Ancient Terracottas from South Italy and Sicily in the J. Paul Getty Museum*](https://www.getty.edu/publications/terracottas/),<br />Maria Lucia Ferruzza
+- [*Roman Mosaics in the J. Paul Getty Museum*](https://www.getty.edu/publications/romanmosaics/),<br />Alexis Belis
 
 {{< /q-class >}}

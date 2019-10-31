@@ -48,7 +48,7 @@ identifier:
 publisher:
   - name: The J. Paul Getty Museum
     location: Los Angeles
-    url: http://www.getty.edu
+    url: https://www.getty.edu
     logo: logo-getty.png
 
 # ------------------------------------------------------------------------------
@@ -128,11 +128,11 @@ resource_link:
   - type: footer-link
     name: Privacy Policy
     link_relation: privacy-policy
-    url: http://www.getty.edu/legal/privacy.html
+    url: https://www.getty.edu/legal/privacy.html
   - type: footer-link
     name: Terms of Use
     link_relation: terms-of-service
-    url: http://www.getty.edu/legal/copyright.html
+    url: https://www.getty.edu/legal/copyright.html
 
 # ------------------------------------------------------------------------------
 # Subjects

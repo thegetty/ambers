@@ -13,7 +13,7 @@ min_version = ""
 
 [author]
   name = "Getty Publications, J. Paul Getty Trust"
-  homepage = "http://www.getty.edu/publications/"
+  homepage = "https://www.getty.edu/publications/"
 
 # If porting an existing theme
 [original]
