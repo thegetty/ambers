@@ -2,12 +2,12 @@ figure_list:
   - id: "intro1"
     src: "figures/fig01.jpg"
     label: "Figure 1"
-    caption: "*Head of Medusa*, Roman, 1st–2nd century A.D. Amber, H: 5.8 cm (2<sup>3</sup>⁄<sub>10</sub> in.), W: 5.8 cm (2<sup>3</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, [71.AO.355](http://www.getty.edu/art/collection/objects/6808)."
+    caption: "*Head of Medusa*, Roman, 1st–2nd century A.D. Amber, H: 5.8 cm (2<sup>3</sup>⁄<sub>10</sub> in.), W: 5.8 cm (2<sup>3</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, [71.AO.355](https://www.getty.edu/art/collection/objects/6808)."
 
   - id: "intro2"
     src: "figures/fig02.jpg"
     label: "Figure 2"
-    caption: "Ring dedicated to Hera, Greek, ca. 575 B.C. Gilded silver, Diam. (outer): 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.), Diam. (inner): 1.8 cm (<sup>11</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [85.AM.264](http://www.getty.edu/art/collection/objects/10993)."
+    caption: "Ring dedicated to Hera, Greek, ca. 575 B.C. Gilded silver, Diam. (outer): 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.), Diam. (inner): 1.8 cm (<sup>11</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [85.AM.264](https://www.getty.edu/art/collection/objects/10993)."
 
   - id: "intro3"
     src: "figures/fig03.jpg"
@@ -33,7 +33,7 @@ figure_list:
   - id: "intro7"
     src: "figures/fig07.jpg"
     label: "Figure 7"
-    caption: "<em>Engraved Scarab with Nike Crowning Herakles</em>, Etruscan, 400–380 B.C. Banded agate, H: 1.8 cm (<sup>3</sup>⁄<sub>4</sub> in.), W: 1.4 cm (<sup>9</sup>⁄<sub>16</sub> in.), D: 0.9 cm (<sup>3</sup>⁄<sub>8</sub> in.). Los Angeles, J. Paul Getty Museum, [85.AN.123](http://www.getty.edu/art/collection/objects/10959)."
+    caption: "<em>Engraved Scarab with Nike Crowning Herakles</em>, Etruscan, 400–380 B.C. Banded agate, H: 1.8 cm (<sup>3</sup>⁄<sub>4</sub> in.), W: 1.4 cm (<sup>9</sup>⁄<sub>16</sub> in.), D: 0.9 cm (<sup>3</sup>⁄<sub>8</sub> in.). Los Angeles, J. Paul Getty Museum, [85.AN.123](https://www.getty.edu/art/collection/objects/10959)."
 
   - id: "intro8"
     src: "figures/fig08.jpg"
@@ -102,7 +102,7 @@ figure_list:
   - id: "intro19"
     src: "figures/fig19.jpg"
     label: "Figure 19"
-    caption: "Necklace with a pendant scarab, Italic or Etruscan and Greek, 550–400 B.C. Amber, gold, and carnelian. L: 39.5 cm (15<sup>9</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [77.AO.77.1](http://www.getty.edu/art/collection/objects/12961). Gift of Gordon McLendon."
+    caption: "Necklace with a pendant scarab, Italic or Etruscan and Greek, 550–400 B.C. Amber, gold, and carnelian. L: 39.5 cm (15<sup>9</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [77.AO.77.1](https://www.getty.edu/art/collection/objects/12961). Gift of Gordon McLendon."
 
   - id: "intro20"
     src: "figures/fig20.jpg"
@@ -166,7 +166,7 @@ figure_list:
   - id: "intro31"
     src: "figures/fig31.jpg"
     label: "Figure 31"
-    caption: "Pendant inscribed with two Egyptianizing hieroglyphs, 7th century B.C. Amber, H: 3.8 cm (1<sup>1</sup>⁄<sub>2</sub> in.), W: 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.), D: 0.8 cm (<sup>3</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, [82.AO.161.285](http://www.getty.edu/art/collection/objects/22044)."
+    caption: "Pendant inscribed with two Egyptianizing hieroglyphs, 7th century B.C. Amber, H: 3.8 cm (1<sup>1</sup>⁄<sub>2</sub> in.), W: 2.2 cm (<sup>7</sup>⁄<sub>8</sub> in.), D: 0.8 cm (<sup>3</sup>⁄<sub>10</sub> in.). Los Angeles, J. Paul Getty Museum, [82.AO.161.285](https://www.getty.edu/art/collection/objects/22044)."
 
   - id: "intro32"
     src: "figures/fig32.jpg"
@@ -183,7 +183,7 @@ figure_list:
   - id: "intro34"
     src: "figures/fig34.jpg"
     label: "Figure 34"
-    caption: "Necklace, Italic or Etruscan, 550–475 B.C. Amber and gold, L (approx.): 39.5 cm (15<sup>9</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [77.AO.77.5](http://www.getty.edu/art/collection/objects/12965). Gift of Gordon McLendon."
+    caption: "Necklace, Italic or Etruscan, 550–475 B.C. Amber and gold, L (approx.): 39.5 cm (15<sup>9</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [77.AO.77.5](https://www.getty.edu/art/collection/objects/12965). Gift of Gordon McLendon."
 
   - id: "intro35"
     src: "figures/fig35.jpg"
@@ -256,7 +256,7 @@ figure_list:
   - id: "intro48"
     src: "figures/fig48.jpg"
     label: "Figure 48"
-    caption: "Head from the <em>Statue of the Young Bacchus</em> (Dionysos), Roman, A.D. 1–50. Bronze with silver, H: 21.6 cm (8<sup>1</sup>⁄<sub>2</sub> in.), W: 18 cm (7<sup>1</sup>⁄<sub>16</sub> in.), D: 19 cm (7<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, [96.AB.52](http://www.getty.edu/art/collection/objects/29487)."
+    caption: "Head from the <em>Statue of the Young Bacchus</em> (Dionysos), Roman, A.D. 1–50. Bronze with silver, H: 21.6 cm (8<sup>1</sup>⁄<sub>2</sub> in.), W: 18 cm (7<sup>1</sup>⁄<sub>16</sub> in.), D: 19 cm (7<sup>1</sup>⁄<sub>2</sub> in.). Los Angeles, J. Paul Getty Museum, [96.AB.52](https://www.getty.edu/art/collection/objects/29487)."
 
   - id: "intro49"
     src: "figures/fig49.jpg"
@@ -266,7 +266,7 @@ figure_list:
   - id: "intro50"
     src: "figures/fig50.jpg"
     label: "Figure 50"
-    caption: "<em>Votive Statuette of Hercle</em>, Etruscan, 320–280 B.C. Bronze, H: 24.3 cm (9<sup>5</sup>⁄<sub>8</sub> in.), W: 7 cm (2<sup>3</sup>⁄<sub>4</sub> in.), D: 8.7 cm (3<sup>7</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [96.AB.36](http://www.getty.edu/art/collection/objects/29508)."
+    caption: "<em>Votive Statuette of Hercle</em>, Etruscan, 320–280 B.C. Bronze, H: 24.3 cm (9<sup>5</sup>⁄<sub>8</sub> in.), W: 7 cm (2<sup>3</sup>⁄<sub>4</sub> in.), D: 8.7 cm (3<sup>7</sup>⁄<sub>16</sub> in.). Los Angeles, J. Paul Getty Museum, [96.AB.36](https://www.getty.edu/art/collection/objects/29508)."
 
   - id: "intro51"
     src: "figures/fig51.jpg"
@@ -318,7 +318,7 @@ figure_list:
   - id: "techfig3"
     src: "techessay/techfig3.jpg"
     label: "Figure 3"
-    caption: "THM-Py-GC/MS results for core sample from amber object <span class='no-break'>[82.AO.161.285](http://www.getty.edu/art/collection/objects/22044/)</span>."
+    caption: "THM-Py-GC/MS results for core sample from amber object <span class='no-break'>[82.AO.161.285](https://www.getty.edu/art/collection/objects/22044/)</span>."
 
   - id: "techfig4"
     src: "techessay/techfig4.jpg"

@@ -8,7 +8,7 @@ object_list:
 
   - id: 1
     accession_number: 77.AO.84
-    link: http://www.getty.edu/art/collection/objects/7947
+    link: https://www.getty.edu/art/collection/objects/7947
     culture: Etruscan
     date: 600–550 B.C.
     dimensions: "Height: 130 mm; width: 45 mm; depth: 18 mm; Diameter of suspension holes: 2.5 mm; Weight: 55.2 g"
@@ -23,7 +23,7 @@ object_list:
 
   - id: 2
     accession_number: 77.AO.85
-    link: http://www.getty.edu/art/collection/objects/7948
+    link: https://www.getty.edu/art/collection/objects/7948
     culture: Etruscan
     date: 600–550 B.C.
     dimensions: "Height: 83 mm; width: 50 mm; depth: 50 mm; Diameter of suspension holes: 2 mm; Weight: 48 g"
@@ -38,7 +38,7 @@ object_list:
 
   - id: 3
     accession_number: 77.AO.81.1
-    link: http://www.getty.edu/art/collection/objects/7915
+    link: https://www.getty.edu/art/collection/objects/7915
     culture: Etruscan
     date: 600–550 B.C.
     dimensions: "Height: 100.4 mm; width: 39.9 mm; depth: 13 mm; Diameter of suspension holes: 2.5 mm; Weight: 39.3 g"
@@ -50,7 +50,7 @@ object_list:
 
   - id: 4
     accession_number: 77.AO.82
-    link: http://www.getty.edu/art/collection/objects/7945
+    link: https://www.getty.edu/art/collection/objects/7945
     culture: Etruscan
     date: 600–550 B.C.
     dimensions: "Height: 97 mm; width: 64 mm; depth: 24 mm; Diameter of suspension holes: 2.5 mm; Weight: 76 g"
@@ -65,7 +65,7 @@ object_list:
 
   - id: 5
     accession_number: 77.AO.81.2
-    link: http://www.getty.edu/art/collection/objects/7916
+    link: https://www.getty.edu/art/collection/objects/7916
     culture: Etruscan
     date: 600–550 B.C.
     dimensions: "Height: 42 mm; width: 60 mm; depth: 15 mm; Weight: 25.2 g"
@@ -78,7 +78,7 @@ object_list:
 
   - id: 6
     accession_number: 77.AO.81.3
-    link: http://www.getty.edu/art/collection/objects/7917
+    link: https://www.getty.edu/art/collection/objects/7917
     culture: Etruscan
     date: 600–550 B.C.
     dimensions: "Height: 56 mm; width: 82 mm; depth: 20 mm; Diameter of perforation holes: 2 mm; Weight: 54.4 g"
@@ -91,7 +91,7 @@ object_list:
 
   - id: 7
     accession_number: 76.AO.76
-    link: http://www.getty.edu/art/collection/objects/7384
+    link: https://www.getty.edu/art/collection/objects/7384
     culture: Etruscan
     date: 600–575 B.C.
     dimensions: "Length: 120 mm; width: 35 mm; depth: 10 mm; Weight: 66 g"
@@ -108,7 +108,7 @@ object_list:
 
   - id: 8
     accession_number: 76.AO.77
-    link: http://www.getty.edu/art/collection/objects/7385
+    link: https://www.getty.edu/art/collection/objects/7385
     culture: Etruscan
     date: 525–500 B.C.
     dimensions: "Height: 67 mm; width: 20 mm; depth: 9 mm; Diameter of suspension holes: 2 mm; length: 9 mm; Weight: 6 g"
@@ -124,7 +124,7 @@ object_list:
 
   - id: 9
     accession_number: 82.AO.161.6
-    link: http://www.getty.edu/art/collection/objects/21766
+    link: https://www.getty.edu/art/collection/objects/21766
     culture: Etruscan
     date: 525–500 B.C.
     dimensions: "Height: 31 mm; width: 20 mm; depth: 18 mm; Weight: 2 g"
@@ -135,7 +135,7 @@ object_list:
 
   - id: 10
     accession_number: 76.AO.85.1 and 76.AO.86
-    link: http://www.getty.edu/art/collection/objects/13318/
+    link: https://www.getty.edu/art/collection/objects/13318/
     culture: Etruscan
     date: 550–525 B.C.
     dimensions: "Height: 32 mm; width: 26 mm; depth: (face) 12 mm, (back) 5 mm, (joined) 17 mm; Weight: 9 g"
@@ -152,7 +152,7 @@ object_list:
 
   - id: 11
     accession_number: 76.AO.79
-    link: http://www.getty.edu/art/collection/objects/7387
+    link: https://www.getty.edu/art/collection/objects/7387
     culture: Etruscan
     date: 550–525 B.C.
     dimensions: "Height: 34.5 mm; width: 24 mm; depth: 16 mm; Weight: 7.7 g"
@@ -164,7 +164,7 @@ object_list:
 
   - id: 12
     accession_number: 83.AO.202.1
-    link: http://www.getty.edu/art/collection/objects/16250
+    link: https://www.getty.edu/art/collection/objects/16250
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Height: 65 mm; width: 68 mm; depth: 35 mm; Weight: 53.4 g"
@@ -176,7 +176,7 @@ object_list:
 
   - id: 13
     accession_number: 82.AO.161.1
-    link: http://www.getty.edu/art/collection/objects/21761
+    link: https://www.getty.edu/art/collection/objects/21761
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Height: 53 mm; width: 48 mm; depth: 16 mm; Weight: 11 g"
@@ -187,7 +187,7 @@ object_list:
 
   - id: 14
     accession_number: 77.AO.81.4
-    link: http://www.getty.edu/art/collection/objects/7918
+    link: https://www.getty.edu/art/collection/objects/7918
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Height: 57 mm; width: 56 mm; depth: 30 mm; Weight: 49.8 g"
@@ -200,7 +200,7 @@ object_list:
 
   - id: 15
     accession_number: 76.AO.85.2
-    link: http://www.getty.edu/art/collection/objects/13319
+    link: https://www.getty.edu/art/collection/objects/13319
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Height: 79 mm; width: 49 mm; depth: 25 mm; Weight: 51.3 g"
@@ -213,7 +213,7 @@ object_list:
 
   - id: 16
     accession_number: 77.AO.81.29
-    link: http://www.getty.edu/art/collection/objects/7943
+    link: https://www.getty.edu/art/collection/objects/7943
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Height: 40 mm; width: 20 mm; depth: 18 mm; Diameter of suspension hole: 6 mm; Weight: 8.7 g"
@@ -225,7 +225,7 @@ object_list:
 
   - id: 17
     accession_number: 82.AO.161.3
-    link: http://www.getty.edu/art/collection/objects/21763
+    link: https://www.getty.edu/art/collection/objects/21763
     culture: Italic
     date: 500–450 B.C.
     dimensions: "Height: 46 mm; width: 45 mm; depth: 11 mm; Weight: 3 g"
@@ -235,7 +235,7 @@ object_list:
 
   - id: 18
     accession_number: 83.AO.202.4
-    link: http://www.getty.edu/art/collection/objects/16253
+    link: https://www.getty.edu/art/collection/objects/16253
     culture: Italic
     date: 425–400 B.C.
     dimensions: "Height: 40 mm; width: 23 mm; depth: 16 mm; Diameter of suspension hole: 2 mm; Weight: 4 g"
@@ -248,7 +248,7 @@ object_list:
 
   - id: 19
     accession_number: 83.AO.202.5
-    link: http://www.getty.edu/art/collection/objects/16254
+    link: https://www.getty.edu/art/collection/objects/16254
     culture: Italic
     date: 425–400 B.C.
     dimensions: "Height: 29 mm; width: 38 mm; depth: 14 mm; Diameter of suspension hole: 2 mm; Weight: 10.5 g"
@@ -260,7 +260,7 @@ object_list:
 
   - id: 20
     accession_number: 83.AO.202.6
-    link: http://www.getty.edu/art/collection/objects/16255
+    link: https://www.getty.edu/art/collection/objects/16255
     culture: Italic
     date: 425–400 B.C.
     dimensions: "Height: 51 mm; width: 51 mm; depth: 15.5 mm; Weight: 23.3 g"
@@ -272,7 +272,7 @@ object_list:
 
   - id: 21
     accession_number: 83.AO.202.12
-    link: http://www.getty.edu/art/collection/objects/16261
+    link: https://www.getty.edu/art/collection/objects/16261
     culture: Italic or Campanian
     date: 500–480 B.C.
     dimensions: "Height: 30 mm; width: 26 mm; depth: 4 mm; Weight: 2.4 g"
@@ -285,7 +285,7 @@ object_list:
 
   - id: 22
     accession_number: 83.AO.202.18
-    link: http://www.getty.edu/art/collection/objects/16267
+    link: https://www.getty.edu/art/collection/objects/16267
     culture: Italic
     date: 480–450 B.C.
     dimensions: "Height: 30 mm; width: 21 mm; depth: 9 mm; Weight: 4.3 g"
@@ -297,7 +297,7 @@ object_list:
 
   - id: 23
     accession_number: 77.AO.81.5
-    link: http://www.getty.edu/art/collection/objects/7919
+    link: https://www.getty.edu/art/collection/objects/7919
     culture: Italic
     date: 500–480 B.C.
     dimensions: "Height: 42 mm; width: 23.5 mm; depth: 32 mm; Diameter of suspension hole: 2 mm; Weight: 11.9 g"
@@ -309,7 +309,7 @@ object_list:
 
   - id: 24
     accession_number: 82.AO.161.7
-    link: http://www.getty.edu/art/collection/objects/21767
+    link: https://www.getty.edu/art/collection/objects/21767
     culture: Italic
     date: 500–480 B.C.
     dimensions: "Height: 48 mm; width: 28 mm; depth: 12 mm; Weight: 5 g"
@@ -319,7 +319,7 @@ object_list:
 
   - id: 25
     accession_number: 77.AO.81.30
-    link: http://www.getty.edu/art/collection/objects/7944
+    link: https://www.getty.edu/art/collection/objects/7944
     culture: Italic
     date: 500–480 B.C.
     dimensions: "Height: 44 mm; width: 38 mm; depth: 16 mm; Diameter of suspension holes: 3.5 mm and 4 mm; Weight: 15.1 g"
@@ -331,7 +331,7 @@ object_list:
 
   - id: 26
     accession_number: 77.AO.81.25
-    link: http://www.getty.edu/art/collection/objects/7939
+    link: https://www.getty.edu/art/collection/objects/7939
     culture: Italic or Etruscan
     date: 500–480 B.C.
     dimensions: "Height: 42 mm; width (across face): 24 mm; depth: 29 mm; Diameter of suspension hole: 3.5 mm; Weight: 14.9 g"
@@ -343,7 +343,7 @@ object_list:
 
   - id: 27
     accession_number: 82.AO.161.2
-    link: http://www.getty.edu/art/collection/objects/21762
+    link: https://www.getty.edu/art/collection/objects/21762
     culture: Italic or Etruscan
     date: 700–600 B.C.
     dimensions: "Diameter: 44–50 mm; depth: 16 mm; Weight: 6 g"
@@ -354,7 +354,7 @@ object_list:
 
   - id: 28
     accession_number: 78.AO.286.2
-    link: http://www.getty.edu/art/collection/objects/8286
+    link: https://www.getty.edu/art/collection/objects/8286
     culture: Campanian
     date: 575–550 B.C.
     dimensions: "Height: 29 mm; width: 62 mm; depth: 15 mm; Weight: 16.7 g"
@@ -366,7 +366,7 @@ object_list:
 
   - id: 29
     accession_number: 78.AO.286.1
-    link: http://www.getty.edu/art/collection/objects/8285
+    link: https://www.getty.edu/art/collection/objects/8285
     culture: Etruscan
     date: 575–550 B.C.
     dimensions: "Height (i.e., length along major axis): 70 mm; width: 43 mm; depth: 27 mm; Weight: 39.6 g"
@@ -380,7 +380,7 @@ object_list:
 
   - id: 30
     accession_number: 79.AO.75.28
-    link: http://www.getty.edu/art/collection/objects/15075
+    link: https://www.getty.edu/art/collection/objects/15075
     culture: Italic or Etruscan
     date: 600–500 B.C.
     dimensions: "Height: 37 mm; width: 26 mm; depth: 14 mm; Weight: 3 g"
@@ -396,7 +396,7 @@ object_list:
 
   - id: 31
     accession_number: 76.AO.78
-    link: http://www.getty.edu/art/collection/objects/7386
+    link: https://www.getty.edu/art/collection/objects/7386
     culture: Etruscan or Campanian
     date: 525–480 B.C.
     dimensions: "Length: 105 mm (as preserved; estimated original length 115 mm); width: 40 mm; depth: 18 mm (at chest); Weight: 35.5 g"
@@ -413,7 +413,7 @@ object_list:
 
   - id: 32
     accession_number: 77.AO.81.8
-    link: http://www.getty.edu/art/collection/objects/7922
+    link: https://www.getty.edu/art/collection/objects/7922
     culture: Etruscan
     date: 500–480 B.C.
     dimensions: "Length: 55 mm; width: 23 mm; height: 23 mm; Weight: 7.2 g"
@@ -426,7 +426,7 @@ object_list:
 
   - id: 33
     accession_number: 76.AO.80
-    link: http://www.getty.edu/art/collection/objects/7388
+    link: https://www.getty.edu/art/collection/objects/7388
     culture: Etruscan
     date: 550–500 B.C.
     dimensions: "Height: 28 mm; width: 22 mm; depth: 38 mm; Weight: 13.6 g"
@@ -439,7 +439,7 @@ object_list:
 
   - id: 34
     accession_number: 76.AO.81
-    link: http://www.getty.edu/art/collection/objects/7389
+    link: https://www.getty.edu/art/collection/objects/7389
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Height: 19.5 mm; width: 17 mm; depth: 20 mm; Diameter of through-bore: 6.5 mm; Weight: 3.1 g"
@@ -451,7 +451,7 @@ object_list:
 
   - id: 35
     accession_number: 77.AO.81.9
-    link: http://www.getty.edu/art/collection/objects/7923
+    link: https://www.getty.edu/art/collection/objects/7923
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Height: 9 mm; width: 17 mm; depth: 9 mm; Weight: 1.3 g"
@@ -463,7 +463,7 @@ object_list:
 
   - id: 36
     accession_number: 77.AO.81.10
-    link: http://www.getty.edu/art/collection/objects/7924
+    link: https://www.getty.edu/art/collection/objects/7924
     culture: Etruscan
     date: 500–480 B.C.
     dimensions: "Height: 15 mm; width: 16 mm; depth: 26 mm; Diameter of suspension hole: 2 mm; Weight: 3.6&#160;g"
@@ -475,7 +475,7 @@ object_list:
 
   - id: 37
     accession_number: 76.AO.84
-    link: http://www.getty.edu/art/collection/objects/7392
+    link: https://www.getty.edu/art/collection/objects/7392
     culture: Etruscan
     date: "525–480 B.C."
     dimensions: "Length (rostrocaudal): 50 mm; depth: 13 mm; height: 24.5 mm; Weight: 9.3 g"
@@ -487,7 +487,7 @@ object_list:
 
   - id: 38
     accession_number: 77.AO.83
-    link: http://www.getty.edu/art/collection/objects/7946
+    link: https://www.getty.edu/art/collection/objects/7946
     culture: Etruscan
     date: 500–480 B.C.
     dimensions: "Height: 36 mm; width: 82 mm; depth: 12 mm; Length of boar: 46 mm; Height of left lion's head: 23 mm; Height of right lion's head: 26 mm; Weight: 19 g"
@@ -501,7 +501,7 @@ object_list:
 
   - id: 39
     accession_number: 76.AO.82
-    link: http://www.getty.edu/art/collection/objects/7390
+    link: https://www.getty.edu/art/collection/objects/7390
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Length: 36 mm; width: 20 mm; depth: 18 mm; Weight: 9 g"
@@ -515,7 +515,7 @@ object_list:
 
   - id: 40
     accession_number: 76.AO.83
-    link: http://www.getty.edu/art/collection/objects/7391
+    link: https://www.getty.edu/art/collection/objects/7391
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Length: 24 mm; width: 19.5 mm; depth: 15.5 mm; Weight: 4.0 g"
@@ -527,7 +527,7 @@ object_list:
 
   - id: 41
     accession_number: 77.AO.81.7
-    link: http://www.getty.edu/art/collection/objects/7921
+    link: https://www.getty.edu/art/collection/objects/7921
     culture: Etruscan
     date: 525–480 B.C.
     dimensions: "Length: 40 mm; width: 24 mm; depth: 22 mm; Weight: 10.8 g"
@@ -539,7 +539,7 @@ object_list:
 
   - id: 42
     accession_number: 77.AO.81.11
-    link: http://www.getty.edu/art/collection/objects/7925
+    link: https://www.getty.edu/art/collection/objects/7925
     culture: Italic or Etruscan
     date: 500–400 B.C.
     dimensions: "Length: 21 mm; width: 18 mm; depth: 15 mm; Weight: 33.3 g"
@@ -551,7 +551,7 @@ object_list:
 
   - id: 43
     accession_number: 77.AO.81.13
-    link: http://www.getty.edu/art/collection/objects/7927
+    link: https://www.getty.edu/art/collection/objects/7927
     culture: Italic or Etruscan
     date: 500–450 B.C.
     dimensions: "Length: 32.5 mm; width: 19 mm; depth: 15 mm; Weight: 5.3 g"
@@ -563,7 +563,7 @@ object_list:
 
   - id: 44
     accession_number: 77.AO.81.14
-    link: http://www.getty.edu/art/collection/objects/7928
+    link: https://www.getty.edu/art/collection/objects/7928
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 30 mm; width: 20 mm; depth: 19 mm; Weight: 6 g"
@@ -575,7 +575,7 @@ object_list:
 
   - id: 45
     accession_number: 77.AO.81.15
-    link: http://www.getty.edu/art/collection/objects/7929
+    link: https://www.getty.edu/art/collection/objects/7929
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 36 mm; width: 19 mm; depth: 15 mm; Weight: 5.8 g"
@@ -587,7 +587,7 @@ object_list:
 
   - id: 46
     accession_number: 77.AO.81.16
-    link: http://www.getty.edu/art/collection/objects/7930
+    link: https://www.getty.edu/art/collection/objects/7930
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 32 mm; width: 16 mm; depth: 13 mm; Weight: 3.5 g"
@@ -599,7 +599,7 @@ object_list:
 
   - id: 47
     accession_number: 77.AO.81.17
-    link: http://www.getty.edu/art/collection/objects/7931
+    link: https://www.getty.edu/art/collection/objects/7931
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 30.5 mm; width: 18.5 mm; depth: 13 mm; Weight: 3.9 g"
@@ -611,7 +611,7 @@ object_list:
 
   - id: 48
     accession_number: 77.AO.81.18
-    link: http://www.getty.edu/art/collection/objects/7932
+    link: https://www.getty.edu/art/collection/objects/7932
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 28 mm; width: 20.5 mm; depth: 15 mm; Weight: 4.4 g"
@@ -623,7 +623,7 @@ object_list:
 
   - id: 49
     accession_number: 77.AO.81.19
-    link: http://www.getty.edu/art/collection/objects/7933
+    link: https://www.getty.edu/art/collection/objects/7933
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 27.5 mm; width: 20.5 mm; depth: 12.5 mm; Weight: 3.6 g"
@@ -635,7 +635,7 @@ object_list:
 
   - id: 50
     accession_number: 77.AO.81.21
-    link: http://www.getty.edu/art/collection/objects/7935
+    link: https://www.getty.edu/art/collection/objects/7935
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 25.5 mm; width: 14 mm; depth: 17 mm; Weight: 3.0 g"
@@ -647,7 +647,7 @@ object_list:
 
   - id: 51
     accession_number: 77.AO.81.22
-    link: http://www.getty.edu/art/collection/objects/7936
+    link: https://www.getty.edu/art/collection/objects/7936
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 23 mm; width: 16 mm; depth: 12 mm; Weight: 2.2 g"
@@ -659,7 +659,7 @@ object_list:
 
   - id: 52
     accession_number: 77.AO.81.12
-    link: http://www.getty.edu/art/collection/objects/7926
+    link: https://www.getty.edu/art/collection/objects/7926
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 41 mm; width: 27 mm; depth: 29 mm;  Weight: 11.1 g"
@@ -671,7 +671,7 @@ object_list:
 
   - id: 53
     accession_number: 82.AO.161.4
-    link: http://www.getty.edu/art/collection/objects/21764
+    link: https://www.getty.edu/art/collection/objects/21764
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 26 mm; width: 17 mm; depth: 13 mm; Weight: 1.5 g"
@@ -683,7 +683,7 @@ object_list:
 
   - id: 54
     accession_number: 77.AO.81.20
-    link: http://www.getty.edu/art/collection/objects/7934
+    link: https://www.getty.edu/art/collection/objects/7934
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Length: 35 mm; width: 24 mm; depth: 13 mm; Weight: 5.8 g"
@@ -695,7 +695,7 @@ object_list:
 
   - id: 55
     accession_number: 77.AO.81.6
-    link: http://www.getty.edu/art/collection/objects/7920
+    link: https://www.getty.edu/art/collection/objects/7920
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Height: 37 mm; width: 36 mm; depth: 18.5 mm; Weight: 10.8 g"
@@ -707,7 +707,7 @@ object_list:
 
   - id: 56
     accession_number: 77.AO.81.24
-    link: http://www.getty.edu/art/collection/objects/7938
+    link: https://www.getty.edu/art/collection/objects/7938
     culture: Italic
     date: 500–400 B.C.
     dimensions: "Height: 48 mm; width: 59 mm; depth: 19 mm; Weight: 16.6 g"
@@ -720,7 +720,7 @@ object_list:
 
   - id: 57
     accession_number: 82.AO.51
-    link: http://www.getty.edu/art/collection/objects/10159
+    link: https://www.getty.edu/art/collection/objects/10159
     date: Modern
     dimensions: "Height: 280 mm; width of base: 135 mm; Weight: 434 g"
     provenance: "Gift of Vasek Polak"
