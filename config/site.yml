@@ -11,3 +11,4 @@
 
 baseURL: "https://www.getty.edu/publications/ambers/"
 canonifyURLs: true
+relativeURLs: true
