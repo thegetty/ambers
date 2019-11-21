@@ -110,17 +110,17 @@ resource_link:
     name: PDF
     media_type: application/pdf
     link_relation: alternate
-    url: downloads/output.pdf
+    url: downloads/Causey_AncientAmbers.pdf
   - type: other-format
     name: EPUB
     media_type: application/epub+zip
     link_relation: alternate
-    url: downloads/output.epub
+    url: downloads/Causey_AncientAmbers.epub
   - type: other-format
     name: MOBI
     media_type: application/mobi
     link_relation: alternate
-    url: downloads/output.mobi
+    url: downloads/Causey_AncientAmbers.mobi
   - type: footer-link
     name: About
     link_relation: about
@@ -140,17 +140,33 @@ resource_link:
 
 subject:
   - type: bisac
-    name:
-    identifer:
+    name: ART / History / Ancient & Classical
+    identifer: ART015060
+  - type: bisac
+    name: ART / Collections, Catalogs, Exhibitions / Permanent Collections
+    identifer: ART006020
+  - type: bisac
+    name: HISTORY / Ancient / General
+    identifer: HIS002000
+  - type: keyword
+    name: amber, ancient art, museum collection
 
 # ------------------------------------------------------------------------------
 # Revision History
 # ------------------------------------------------------------------------------
 
 revision_history:
-  - date:
+  - date: 2012-01-10
     summary:
-
+      - First edition
+  - date: 2019-11-26
+    summary:
+      - Minor text corrections
+      - Object provenance added
+      - Migration of digital edition to new platform
+      - Release of new paperback and ebook editions
+  
+      
 repository_url: "https://github.com/thegetty/ambers/"
 
 # ------------------------------------------------------------------------------
