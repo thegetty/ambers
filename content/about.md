@@ -36,7 +36,7 @@ Any revisions or corrections made to this publication after the first edition da
 
   - First edition
 
-### August 26, 2019
+### November 26, 2019
 
   - Minor text corrections
   - Object provenance added
