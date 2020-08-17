@@ -45,9 +45,9 @@ Any revisions or corrections made to this publication after the first edition da
 
 ## Other Formats
 
-  - [PDF (4.4 MB)](/downloads/output.pdf)
-  - [EPUB (38.2 MB)](/downloads/output.epub)
-  - [Kindle/MOBI (98 MB)](/downloads/output.mobi)
+  - [PDF (4.4 MB)](/downloads/Causey_AncientAmbers.pdf)
+  - [EPUB (38.2 MB)](/downloads/Causey_AncientAmbers.epub)
+  - [Kindle/MOBI (98 MB)](/downloads/Causey_AncientAmbers.mobi)
   - [Paperback](https://shop.getty.edu/products/ancient-carved-ambers-in-the-j-paul-getty-museum-978-1606066348)
 
 ## Copyright
