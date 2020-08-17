@@ -107,20 +107,25 @@ license:
 
 resource_link:
   - type: other-format
-    name: PDF
+    name: PDF (4.4 MB)
     media_type: application/pdf
     link_relation: alternate
     url: downloads/Causey_AncientAmbers.pdf
   - type: other-format
-    name: EPUB
+    name: EPUB (38.2 MB)
     media_type: application/epub+zip
     link_relation: alternate
     url: downloads/Causey_AncientAmbers.epub
   - type: other-format
-    name: MOBI
+    name: Kindle/MOBI (98 MB)
     media_type: application/mobi
     link_relation: alternate
     url: downloads/Causey_AncientAmbers.mobi
+  - type: other-format
+    name: Paperback
+    media_type: print
+    link_relation: alternate
+    url: https://shop.getty.edu/products/ancient-carved-ambers-in-the-j-paul-getty-museum-978-1606066348
   - type: footer-link
     name: About
     link_relation: about
