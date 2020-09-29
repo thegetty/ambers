@@ -1,172 +1,53 @@
-## Ancient Carved Ambers Catalogue Quire conversion
+This is the repository for “Ancient Carved Ambers in the J. Paul Getty Museum,” by Faya Causey. This digital book was first published January 10, 2012, by the J. Paul Getty Museum. On November 26, 2019, it was moved to a new publishing platform and new paperback and ebook editions were released. It is now available online at [http://www.getty.edu/publications/ambers/](http://www.getty.edu/publications/ambers/) and may be downloaded free of charge in multiple formats.
 
-Existing XML files from the current version of the catalogue (information copied from Roger Howard's Technical Overview):
+## About the Book
 
-- `bib.xml`  -  bibliographic entries and abbreviations in Docbook
-- `cat.xml`  -  catalogue entries (objects), including their essays and footnotes in Docbook
-- `essay.xml`  -  the conservation “technical essay” in a simple XML format, including footnotes and tables.
-- `groups.xml`  -  the catalogue entry groups, group-object mappings, and essays and footnotes where present in a simple XML format.
-- `images.xml`  -  all images/figures in the catalogue, mapped to the section(s) in which they are used, including captions and other details, in a simple XML format
-- `index.xml`  -  catalogue entry index terms in a simple XML format
-- `intro.xml`  -  the catalogue introduction in Docbook
-- `objs.xml`  - object-specific data
-- `tables.xml`  - technical essay tables
+This catalogue presents a group of remarkable amber carvings from the J. Paul Getty Museum’s collection—the second largest body of this material in the United States and one of the most important in the world. The fifty-six Etruscan, Greek, and Italic carved ambers date from around 650 to 300 B.C.
 
-Pandoc was used to convert the above files to Markdown, though the conversion was only partially effective with files with XML Docbook schema (relevant data, formatting, and tags were often missing) and did not work with `images.xml`, `groups.xml`, and `index.xml`. Conversion to YAML format was not possible through Pandoc.
+Offering a full description of each piece, including typology, style, chronology, provenance, condition, and iconography, the catalogue is preceded by a general introduction to ancient amber. Through exquisite visual examples and vivid excerpts from classical texts, this book examines the myths and legends woven around amber—its employment in magic and medicine, its transport and carving, and its incorporation into jewelry, amulets, and other objects of prestige.
 
-After the conversion, the contents from each file have been structured according to Quire's content model.
+## Using this Repository
 
-New files and folders have been renamed to be consistent with current catalogue url paths.
+This is one in series of multiformat publications using [Quire](http://www.getty.edu/publications/digital/platforms-tools.html), Getty’s new publishing framework. Quire is currently in private beta, with the goal of it being released as free and open source software in the future. In the meantime, users are encouraged to request access at http://bit.ly/quire-beta. This repository can also be run locally to build the online site (but not the PDF or ebook formats) with [Hugo](https://gohugo.io/), the [static site generator](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/) at the core of Quire.
 
-**"About" pages are not xml files** The contents of these pages were in html files at `srv/www/catalogues.getty.edu/catalogues/amber/templates/`
+We are dedicated to maintaining this publication for years to come at the permanent URL, [http://www.getty.edu/publications/amberss/](http://www.getty.edu/publications/ambers/), and in its various formats and incarnations. For any updates to the book, we will be following something between an app and traditional book publication model. Updates will only be made in regulated chunks as formal revisions and new editions and will always be thoroughly documented here in the repository, as well as in the revision history included with each of the book’s many formats.
 
-`amber_about.html`
+The primary content pieces of the book can be found in the `data` and `content` directories. The master branch represents the current, published edition at all times, and the revisions branch, when present, will show changes currently under consideration. We invite you to submit suggestions or corrections via pull request on the revisions branch, by posting an issue, or by emailing us at [pubsinfo@getty.edu](mailto:pubsinfo@getty.edu).
 
-`amber_about_authors.html`
+## Development Notes
 
-`amber_credits.html`
+This project was last built with the following software versions:
 
-`amber_rights.html`
+- Quire 0.18.0
+- Node 12.18.3 / npm 6.14.6
+- Hugo 0.72
+- PrinceXML 13.5
+- Pandoc 2.10.1
 
-`amber_rights_illustrations.html`
+While the core Quire Starter Theme was used, a number of customizations were made for this publication:
 
-Part of this information is now in `publication.yml`but additional markdown pages have been created.
+- Add a contents page type to show all object entries, even from other sections
+- Customize cover design to match other JPGM collection catalogues
+- Add shortcodes for pop-up abbreviations and abbreviations table
+- Add shortcodes for pop-up object images, which show thumbnail of image and provide a link to the entry page for that object
+- Use the `url` attribute in page yaml to match publication URLs of this version with that of the original 2012 version of the catalogue
 
-## Publication sections and elements
+Within the theme itself, changes were made to the `source/css/variables.scss` and `source/css/print.scss` files. Outside of the theme, customizations can be found in the project’s `layouts` directory, and in `static/css/custom.css`.
 
-### 1. Introduction
+### Images Submodule
 
-A single file, `intro.xml`, contained all sections of the introduction chapter.
-The 18 sections are now 18 different Markdown files inside the `intro` folder, files are named as numbers according to the introduction urls. Section essays are formatted in Markdown though footnotes are formatted in HTML in order to prevent Hugo from renumbering footnotes. Footnotes numbering is global to all introduction sections. Section titles have been added to the YAML block. Type of page is `essay`.
-In the intro folder the file `intro.md` is the section head of the introduction.  
+Many of figure images for *Mummy Portraits* are licensed from third parties for use exclusively in this publication. As such, they are kept in a separate, private repository, https://github.com/thegetty/ambers-images/, which is linked to this main publication repository as a submodule in `static/img/figures/`. When cloning this repo for further development, you’ll permissions for the private repository and will need to clone recursively in order to clone both the main repo and the submodule.
 
-### 2. Catalogue entries (Objects)
+```
+git clone --recursive https://github.com/thegetty/ambers.git
+```
 
-Similar to `intro.xml`, all 57 catalogue entries were grouped in a single file (`cat.xml`). The information contained in `objs.xml` was a duplicated of objects tombstone info in `cat.xml`.
+### Original 2012 Edition
 
-Created 57 Markdown files, one for each object inside the `objects` folder. Objects metadata is now contained in the YAML block, the essays have been converted to Markdown (bibliography shortcode used).
+The first, 2012 edition of this publication was built by the museum and hosted at http://museumcatalogues.getty.edu/amber/. When the 2019 edition was launched, the other was taken down and archived with Getty’s institutional archives. A version may also be through the Internet Archive at https://web.archive.org/web/20191001140216/http://museumcatalogues.getty.edu/amber/.
 
-Conversion of the objects metadata XML tags included in the YAML block:
+## License
 
-- Object title:
+© 2019 J. Paul Getty Trust
 
-XML tag example: `<title>Catalogue</title> <part id="p01"> <title>Pendant: <emphasis role="italic">Female Holding a Child (Kourotrophos)</emphasis></title>`
-
-YAML block values: `number`, `title` and `subtitle`
-
-- Group name:
-
-XML tag example: `<title><emphasis role="italic">Orientalizing Group</emphasis></title>`
-
-YAML block value: `group_name`
-
-Objects metadata is listed in `objects.yml` and it's retrieved on each page by using the object `id`.
-
-Quire doesn't require the following XML tags from catalogue entries:
-
-``<part id="">``
-
-``<chapter id="">``
-
-``<abstract id="">``
-
-``<section id="" role="">``
-
-### 3. Groups
-
-Once again, a single xml file (`groups.xml`) had all the contents of the groups. 10 group folders have been created to reorganize the content according to Quire structuring rules. Some groups have essays formatted in Markdown with links to objects and footnotes, but other groups have no essay. A folder has been set up for each group, it contains the objects files for each group and the `group.md` markdown file featuring the essay relative to the group (if that's the case) and the objects.
-
-Each YAML block contains:
-- Title of the group
-- The page `type` used is `contents`, and its `class` is `grid`. This type and class displays all objects contained in the group folder as a grid.
-- Instead of creating an `objects` folder, with `group` folders, and naming each group page with a number, some attributes (`slug` and `url`) have been used to replicate the original url and override the file name.
-
-### 4. Terms
-
-This file (originally `index.xml`) listed terms grouping objects according subjects and themes, offered an alternative navigation to the catalogue groups. These terms are displayed with *related objects* at the bottom page menu in each object page.
-
-The word "index" cannot be used to name files due to Hugo incompatibilities, instead the name given to the file containing the terms is `terms.yml`.
-
-For each term, the info available in `index.xml` is: `<index id=" " parent=" " artifacts=" " title=" " order=" "/>`
-From these, only `title` and `artifacts` are included in the YAML file.
-
-### 5. Technical essay
-
-The contents of the technical essay were split in two files `essay.xml` and `tables.xml`. Markdown formatted tables have been added to `essay.md`, so a single file has all contents.  
-Other than the title, subtitle, and page *type*, the YAML block includes the essay authors (originally didn't appear in the xml file).
-The essay is formatted in Markdown, it uses figures and footnotes shortcodes, tables callouts are anchor links.
-
-### 6. Figures
-
-The data from `images.xml` has been converted into YAML.
-
-XML tags converted to YAML:
-- `xmlid=""` to `id`
-- `src=""` to `src`
-- `<caption> </caption>` to `caption`
-
-Not translated/used XML tags/data:
-`<image spin=""`
-`type="entry/intro/techessay"`
-`version="1"`
-`order="4"`
-
-*To do's:*
-*- `alt text` to be added later*
-*- Images of the objects and image tiles*
-
-### 7. References
-
-Bibliographical data and abbreviations from `bib.xml` are structured according to the format of `references.yml`. At the moment, abbreviations are not included in `references.yml` and are being kept on a separate YAML file.
-
-Bibliography
-XML tags converted to YAML:
-- `biblioentry id` to `sort_as:`
-- `abbrev` to `short:`
-- `bibliosource` to `full:`
-
-In bibliographic entries of chapters of a book or volumes/issues of a journal the `bibliosource` field had link to the book/journal instead of the full reference. This link has been replaced with the full reference.
-
-Abbreviations
-XML tags converted to YAML:
-- `biblioentry id` to `sort_as:`
-- `abbrev` to `short:`
-- `titleabbrev` to `full:`
-
-### 8. Objects Metadata
-
-The file `objects.yml` contains the details of all catalogue objects. This YAML file includes:
-
-- Object id
-
-- Accession number:
-
-XML tag example: `<para>77.AO.84</para>`
-
-YAML value: `accession_number`
-
-- Origin:
-
-XML tag example: `<para>Etruscan</para>`
-
-YAML value: `origin`
-
-- Date:
-
-XML tag example: `<para>600-550 B.C.</para>`
-
-YAML value: `year`
-
-- Dimensions:
-
-XML tag example: `<para>Height: 130 mm; width: 45 mm; depth: 18 mm</para> <para>Diameter of suspension holes: 2.5 mm</para> <para>Weight: 55.2 g</para>`
-
-YAML value: `dimensions`
-
-- A link to the object in the museum collection catalogue is not available in the current version of the catalogue. An identification number, `dor_id`, has been added to facilitate the linking with the collection catalogue.
-
-- Provenance:
-
-XML tag example: `<para>Gift of Gordon McLendon</para>`
-
-YAML value: `provenance`
+Except where otherwise noted, this work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Figures 3, 9–17, 22–24, 28, 32, 33, 36, 38, 40, 51, and 54 are reproduced with the permission of the rights holders acknowledged in captions and are expressly excluded from the CC BY license covering the rest of this publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
