@@ -16,7 +16,7 @@ publishDir: site
 
 footnoteReturnLinkContents: "↩"
 metaDataFormat: "yaml"
-GoogleAnalytics: "UA-8087223-1"
+# GoogleAnalytics: "UA-8087223-1"
 
 pluralizeListTitles: true
 disableKinds:
@@ -50,3 +50,4 @@ params:
   figureModalIcons: true
   figureZoom: true
   citationPopupStyle: text # text | icon
+  GoogleAnalytics4: GTM-NRDC63K
